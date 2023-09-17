@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Spectra</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <script>
+    var global = global || window;
+    // var Buffer = Buffer || [];
+    // var process = process || {
+    //   env: { DEBUG: undefined },
+    //   version: []
+    // };
+  </script>
+  <script>
+    (function (apiKey) {
+      (function (p, e, n, d, o) {
+        var v, w, x, y, z;
+        o = p[d] = p[d] || {};
+        o._q = [];
+        v = ['initialize', 'identify', 'updateOptions', 'pageLoad'];
+        for (w = 0, x = v.length; w < x; ++w) (function (m) {
+          o[m] = o[m] || function () {
+            o._q[m === v[0] ? 'unshift' : 'push']([m].concat([].slice.call(arguments, 0)));
+          };
+        })(v[w]);
+        y = e.createElement(n);
+        y.async = !0;
+        y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+        z = e.getElementsByTagName(n)[0];
+        z.parentNode.insertBefore(y, z);
+      })(window, document, 'script', 'pendo');
+    })('c3c5895e-585b-4bd7-4e19-6f51bab34f7a');
+  </script>
+
+<link rel="stylesheet" href="styles.b2c1abe46e3aff2b0897.css"></head>
+<body>
+<script>
+
+  var isOldBrowser = false;
+  if ((
+      (navigator.userAgent.indexOf('Trident') !== -1) || (navigator.userAgent.indexOf('Edge') !== -1))
+    && sessionStorage.getItem('old_browser_allowed') !== 'yes') {
+
+    isOldBrowser = true;
+
+    var logo = document.createElement('img');
+    var warnDiv = document.createElement('div');
+    var continueButton = document.createElement('button')
+    continueButton.innerText = 'Continue (not recommended/supported)';
+    continueButton.style.height = 'auto';
+    continueButton.style.padding = '15px';
+
+    continueButton.addEventListener('click', function () {
+      sessionStorage.setItem('old_browser_allowed', 'yes');
+      window.location.reload();
+    })
+
+    continueButton.onmousemove = function () {
+      this.style.backgroundColor = "#BB3210";
+      this.style.color = "#FFFFFF";
+    };
+    continueButton.onmouseout = function () {
+      this.style.backgroundColor = "";
+      this.style.color = "";
+    };
+
+    logo.src = 'assets/images/invicti-Spectra-logo.svg';
+    logo.style.width = '150px';
+    if (navigator.userAgent.indexOf('Trident') !== -1) {
+      warnDiv.innerHTML = 'Internet Explorer is not supported. Please use a different browser.';
+    } else if (navigator.userAgent.indexOf('Edge') !== -1) {
+      warnDiv.innerHTML = 'This version of Microsoft Edge is not supported. Please use the latest (Chromium) version of Edge or a different browser.';
+    }
+
+    document.body.appendChild(logo);
+    document.body.appendChild(warnDiv);
+    document.body.appendChild(document.createElement('br'));
+    document.body.appendChild(continueButton);
+
+
+    document.body.style.background = "white";
+    document.body.style.paddingLeft = "50px";
+    document.body.style.paddingTop = "50px";
+  }
+</script>
+<acx-root id="app-root"></acx-root>
+<script>
+  if(isOldBrowser)
+  {
+    alert("مرورگر قدیمی هست لطفا از مرورگر دیگه ای استفاده کنید.");
+  }
+</script>
+
+
+<script src="runtime-es2015.2dcd2df4c4f84b40e6eb.js" type="module"></script>
+<script src="runtime-es5.2dcd2df4c4f84b40e6eb.js" nomodule defer></script>
+<script src="polyfills-es5.7d1fb168a1772528f55c.js" nomodule defer></script>
+<script src="polyfills-es2015.b5306e29a62534aed22d.js" type="module"></script>
+<script src="main-es2015.15d4d67e074ebe2982a1.js" type="module"></script>
+<script src="main-es5.15d4d67e074ebe2982a1.js" nomodule defer></script></body>
+
+
+</html>

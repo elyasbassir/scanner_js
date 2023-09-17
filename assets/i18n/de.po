@@ -1,0 +1,3179 @@
+msgid ""
+msgstr ""
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid ". Please contact your Spectra Representative."
+msgstr ""
+
+msgid "0ms Request Delay"
+msgstr ""
+
+msgid "1 Concurrent Request"
+msgstr ""
+
+msgid "10 Concurrent Requests"
+msgstr ""
+
+msgid "2 Concurrent Requests"
+msgstr ""
+
+msgid "250ms Request Delay"
+msgstr ""
+
+msgid "5 Concurrent Requests"
+msgstr ""
+
+msgid "<strong>Invalid</strong> CSV File."
+msgstr ""
+
+msgid "<strong>Invalid</strong> File."
+msgstr ""
+
+msgid "<strong>Invalid</strong> License Key"
+msgstr ""
+
+msgid "<strong>NOTE:</strong> Avoid using AcuSensor on production systems."
+msgstr ""
+
+msgid ""
+"<strong>Web Scans</strong> require that you upload a unique file to the "
+"root of your web site."
+msgstr ""
+
+msgid ""
+"A complete vendor solution is available. Either the vendor has issued an "
+"official patch, or an upgrade is available."
+msgstr ""
+
+msgid "A scan has been created to check the selected vulnerability"
+msgstr ""
+
+msgid ""
+"A successful attack depends on conditions beyond the attacker's control. "
+"That is, a successful attack cannot be accomplished at will, but requires "
+"the attacker to invest in some measurable amount of effort in preparation "
+"or execution against the vulnerable component before a successful attack "
+"can be expected. For example, a successful attack may require an attacker "
+"to: gather knowledge about the environment in which the vulnerable "
+"target/component exists; prepare the target environment to improve exploit "
+"reliability; or inject themselves into the logical network path between the "
+"target and the resource requested by the victim in order to read and/or "
+"modify network communications (e.g., a man in the middle attack)."
+msgstr ""
+
+msgid ""
+"A successful attack depends on conditions beyond the attacker’s control. "
+"That is, a successful attack cannot be accomplished at will, but requires "
+"the attacker to invest in some measurable amount of effort in preparation "
+"or execution against the vulnerable component before a successful attack "
+"can be expected. For example, a successful attack may require the attacker: "
+"to perform target-specific reconnaissance; to prepare the target "
+"environment to improve exploit reliability; or to inject herself into the "
+"logical network path between the target and the resource requested by the "
+"victim in order to read and/or modify network communications (e.g. a man in "
+"the middle attack)."
+msgstr ""
+
+msgid ""
+"A successful exploit of this vulnerability may result in catastrophic "
+"physical or property damage and loss. Or, there may be a catastrophic loss "
+"of revenue or productivity."
+msgstr ""
+
+msgid ""
+"A successful exploit of this vulnerability may result in moderate physical "
+"or property damage. Or, there may be a moderate loss of revenue or "
+"productivity to the organization."
+msgstr ""
+
+msgid ""
+"A successful exploit of this vulnerability may result in significant "
+"physical or property damage or loss. Or, there may be a significant loss of "
+"revenue or productivity."
+msgstr ""
+
+msgid ""
+"A successful exploit of this vulnerability may result in slight physical or "
+"property damage. Or, there may be a slight loss of revenue or productivity "
+"to the organization."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with adjacent network access means the "
+"vulnerable component is bound to the network stack, however the attack is "
+"limited to the same shared physical (e.g. Bluetooth, IEEE 802.11), or "
+"logical (e.g. local IP subnet) network, and cannot be performed across an "
+"OSI layer 3 boundary (e.g. a router)."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with adjacent network access requires the "
+"attacker to have access to either the broadcast or collision domain of the "
+"vulnerable software.  Examples of local networks include local IP subnet, "
+"Bluetooth, IEEE 802.11, and local Ethernet segment."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with local access means that the vulnerable "
+"component is not bound to the network stack, and the attacker’s path is via "
+"read/write/execute capabilities. In some cases, the attacker may be logged "
+"in locally in order to exploit the vulnerability, otherwise, she may rely "
+"on User Interaction to execute a malicious file."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with network access means the vulnerable "
+"component is bound to the network stack and the attacker’s path is through "
+"OSI layer 3 (the network layer). Such a vulnerability is often termed "
+"”remotely exploitable” and can be thought of as an attack being exploitable "
+"one or more network hops away."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with network access means the vulnerable "
+"software is bound to the network stack and the attacker does not require "
+"local network access or local access.  Such a vulnerability is often termed "
+"\"remotely exploitable\".  An example of a network attack is an RPC buffer "
+"overflow."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with only local access requires the attacker to "
+"have either physical access to the vulnerable system or a local (shell) "
+"account. Examples of locally exploitable vulnerabilities are peripheral "
+"attacks such as Firewire/USB DMA attacks, and local privilege escalations "
+"(e.g., sudo)."
+msgstr ""
+
+msgid ""
+"A vulnerability exploitable with physical access requires the attacker to "
+"physically touch or manipulate the vulnerable component. Physical "
+"interaction may be brief or persistent."
+msgstr ""
+
+msgid "API Key"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About Report Templates"
+msgstr ""
+
+msgid ""
+"Accepted formats include text file with a list of URLs (*.txt), Fiddler "
+"session archives (*.saz), Swagger files (*.json, *.yaml or *.yml), Web "
+"Services Definition Files (*.wsdl), BURP saved files (*.xml) and state "
+"files, Selenium (*.html, *.side), Web Application Description Language "
+"(*.wadl), ASP.NET Web Forms Project Files (*.csproj, *.vbproj), Paros log "
+"files (*.session.data), Postman Collections v2 (*.json) or HTTP archive "
+"files (*.har)"
+msgstr ""
+
+msgid "Access All Targets"
+msgstr ""
+
+msgid "Access Complexity"
+msgstr ""
+
+msgid "Access Vector"
+msgstr ""
+
+msgid "Account Locked"
+msgstr ""
+
+msgid "Account Settings"
+msgstr ""
+
+msgid "Account Verification"
+msgstr ""
+
+msgid "Account settings updated successfully"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Activate License"
+msgstr ""
+
+msgid "AcuMonitor Successfully Disabled"
+msgstr ""
+
+msgid "AcuMonitor Successfully Enabled"
+msgstr ""
+
+msgid "AcuSensor"
+msgstr ""
+
+msgid "AcuSensor Password was reset successfully"
+msgstr ""
+
+msgid ""
+"AcuSensor allows the scanner to gather more information from your PHP,.NET, "
+"or Java web applications, resulting in improved scan results and reduced "
+"false positives. Download and install AcuSensor for this Target before "
+"running the web scan."
+msgstr ""
+
+msgid "AcuSensor is automatically enabled on test websites"
+msgstr ""
+
+msgid "Spectra Ltd."
+msgstr ""
+
+msgid "Spectra Threat Level"
+msgstr ""
+
+msgid ""
+"Spectra can automatically detect the Technologies used by the web "
+"application. <br/>Use the following options to force Spectra to scan the "
+"site using settings for the selected technology."
+msgstr ""
+
+msgid "Add"
+msgstr ""
+
+msgid "Add Cookie URL"
+msgstr ""
+
+msgid "Add Cookie Value"
+msgstr ""
+
+msgid "Add Group"
+msgstr ""
+
+msgid "Add Host"
+msgstr ""
+
+msgid "Add Issue Tracker"
+msgstr ""
+
+msgid "Add New Group"
+msgstr ""
+
+msgid "Add New Issue Tracker"
+msgstr ""
+
+msgid "Add New Profile"
+msgstr ""
+
+msgid "Add Target"
+msgstr ""
+
+msgid "Add Targets"
+msgstr ""
+
+msgid "Add To Group"
+msgstr ""
+
+msgid "Add User"
+msgstr ""
+
+msgid "Add a RegEx"
+msgstr ""
+
+msgid "Add a new Target."
+msgstr ""
+
+msgid "Add another Target"
+msgstr ""
+
+msgid "Add to Group"
+msgstr ""
+
+msgid "Add user."
+msgstr ""
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Address is <strong>required</strong>"
+msgstr ""
+
+msgid "Address is <strong>required</strong> "
+msgstr ""
+
+msgid "Address, Description"
+msgstr ""
+
+msgid "Adjacent"
+msgstr ""
+
+msgid "Adjacent Network"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "All Vulnerabilities"
+msgstr ""
+
+msgid "All Vulnerabilities Report"
+msgstr ""
+
+msgid ""
+"All scans are done from <strong>scanners.Spectra.com</strong>. Please "
+"configure any firewalls / WAFs accordingly."
+msgstr ""
+
+msgid "Allowed Hosts"
+msgstr ""
+
+msgid ""
+"An exploited vulnerability can affect resources beyond the authorization "
+"privileges intended by the vulnerable component. In this case the "
+"vulnerable component and the impacted component are different."
+msgstr ""
+
+msgid ""
+"An exploited vulnerability can affect resources beyond the security scope "
+"managed by the security authority of the vulnerable component. In this "
+"case, the vulnerable component and the impacted component are different and "
+"managed by different security authorities."
+msgstr ""
+
+msgid ""
+"An exploited vulnerability can only affect resources managed by the same "
+"authority. In this case the vulnerable component and the impacted component "
+"are the same."
+msgstr ""
+
+msgid ""
+"An exploited vulnerability can only affect resources managed by the same "
+"security authority. In this case, the vulnerable component and the impacted "
+"component are either the same, or both are managed by the same security "
+"authority."
+msgstr ""
+
+msgid "Apply License"
+msgstr ""
+
+msgid "Are you sure you want to delete the selected items?"
+msgstr ""
+
+msgid "Are you sure you want to delete your account?"
+msgstr ""
+
+msgid ""
+"Are you sure you want to reset the AcuSensor password for this Target? "
+"AcuSensor will need to be re-installed on the Target."
+msgstr ""
+
+msgid "Are you sure you want to stop these scans?"
+msgstr ""
+
+msgid "Are you sure you want to stop this scan?"
+msgstr ""
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Environmental "
+"Score, i.e., it has the same effect on scoring as assigning Medium."
+msgstr ""
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning Confirmed."
+msgstr ""
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning High."
+msgstr ""
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning Unavailable."
+msgstr ""
+
+msgid "Assigning this value to the metric will not influence the score."
+msgstr ""
+
+msgid ""
+"Assigning this value to the metric will not influence the score. It is a "
+"signal to the equation to skip this metric."
+msgstr ""
+
+msgid "Attack Complexity"
+msgstr ""
+
+msgid "Attack Details"
+msgstr ""
+
+msgid "Attack Vector"
+msgstr ""
+
+msgid "Auditor"
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid "Authentication is not required to exploit the vulnerability."
+msgstr ""
+
+msgid "Authorization"
+msgstr ""
+
+msgid "Authorize"
+msgstr ""
+
+msgid "Authorize/Disable"
+msgstr ""
+
+msgid "Availability"
+msgstr ""
+
+msgid "Availability Impact"
+msgstr ""
+
+msgid "Availability Requirement"
+msgstr ""
+
+msgid "Average Days"
+msgstr ""
+
+msgid "Average Days To Remediate"
+msgstr ""
+
+msgid "Average Response Time"
+msgstr ""
+
+msgid "Average Vulnerabilities age"
+msgstr ""
+
+msgid "Average Vulnerabilities per Target"
+msgstr ""
+
+msgid "Average days to remediate"
+msgstr ""
+
+msgid "Back"
+msgstr ""
+
+msgid "Base Score:"
+msgstr ""
+
+msgid "Basic, Digest, NTLM and Kerberos (Windows only) are supported"
+msgstr ""
+
+msgid "Built In"
+msgstr ""
+
+msgid "Business Criticality"
+msgstr ""
+
+msgid "Business Criticality : Critical"
+msgstr ""
+
+msgid "Business Criticality : High"
+msgstr ""
+
+msgid "Business Criticality : Low"
+msgstr ""
+
+msgid "Business Criticality : Normal"
+msgstr ""
+
+msgid "CSV File"
+msgstr ""
+
+msgid "CSV File is <strong>required</strong>"
+msgstr ""
+
+msgid "Cancel"
+msgstr ""
+
+msgid "Case Sensitive Paths"
+msgstr ""
+
+msgid "Certificate deleted successfully "
+msgstr ""
+
+msgid "Certificate is <strong>required</strong>"
+msgstr ""
+
+msgid "Certificate uploaded"
+msgstr ""
+
+msgid "Change Email"
+msgstr ""
+
+msgid "Change Password"
+msgstr ""
+
+msgid "Changed"
+msgstr ""
+
+msgid "Check For Updates"
+msgstr ""
+
+msgid "Checking..."
+msgstr ""
+
+msgid "Choose File"
+msgstr ""
+
+msgid "Choose Scanning Options"
+msgstr ""
+
+msgid "Classification"
+msgstr ""
+
+msgid "Click here to purchase a full subscription."
+msgstr ""
+
+msgid "Click here to renew"
+msgstr ""
+
+msgid "Click here to renew."
+msgstr ""
+
+msgid "Client Certificate"
+msgstr ""
+
+msgid "Client Certificate URL"
+msgstr ""
+
+msgid "Client URL is <strong>required</strong>"
+msgstr ""
+
+msgid "Collateral Damage Potential"
+msgstr ""
+
+msgid "Company Name (required)"
+msgstr ""
+
+msgid "Company Website (required)"
+msgstr ""
+
+msgid "Company name is <strong>required</strong>"
+msgstr ""
+
+msgid "Company website is <strong>required</strong>"
+msgstr ""
+
+msgid "Compare Scans"
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "Compliance Reports"
+msgstr ""
+
+msgid "Confidence"
+msgstr ""
+
+msgid "Confidence %"
+msgstr ""
+
+msgid "Confidentiality"
+msgstr ""
+
+msgid "Confidentiality Impact"
+msgstr ""
+
+msgid "Confidentiality Requirement"
+msgstr ""
+
+msgid "Configure"
+msgstr ""
+
+msgid "Configure Issue Tracker"
+msgstr ""
+
+msgid "Configure New Issue Tracker"
+msgstr ""
+
+msgid "Configure Target Groups Access:"
+msgstr ""
+
+msgid "Confirmed"
+msgstr ""
+
+msgid "Connection is Successful"
+msgstr ""
+
+msgid "Consumer Key"
+msgstr ""
+
+msgid "Consumer Key is <strong>required</strong>"
+msgstr ""
+
+msgid ""
+"Contact your Spectra Sales Representative for more information and API "
+"documentation"
+msgstr ""
+
+msgid "Continuous Scanning"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Copy URL to Clipboard"
+msgstr ""
+
+msgid "Copy to Clipboard"
+msgstr ""
+
+msgid "Copyright"
+msgstr ""
+
+msgid "Country (required)"
+msgstr ""
+
+msgid "Country is <strong>required</strong>"
+msgstr ""
+
+msgid "Crawling"
+msgstr ""
+
+msgid "Create Scan"
+msgstr ""
+
+msgid "Create Scans"
+msgstr ""
+
+msgid "Create Target"
+msgstr ""
+
+msgid "Created"
+msgstr ""
+
+msgid "Created After"
+msgstr ""
+
+msgid "Created On"
+msgstr ""
+
+msgid "Critical"
+msgstr ""
+
+msgid "Custom"
+msgstr ""
+
+msgid "Custom Cookies"
+msgstr ""
+
+msgid "Custom Headers"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Dashboard"
+msgstr ""
+
+msgid "Days"
+msgstr ""
+
+msgid "Debug scans for this target"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "Delete Account"
+msgstr ""
+
+msgid "Delete Scans"
+msgstr ""
+
+msgid "Demo"
+msgstr ""
+
+msgid "Demo Targets"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Detailed Information"
+msgstr ""
+
+msgid ""
+"Detailed reports exist, or functional reproduction is possible (functional "
+"exploits may provide this). Source code is available to independently "
+"verify the assertions of the research, or the author or vendor of the "
+"affected code has confirmed the presence of the vulnerability."
+msgstr ""
+
+msgid "Disable"
+msgstr ""
+
+msgid "Disable AcuMonitor Service"
+msgstr ""
+
+msgid "Disable Two Factor Authentication"
+msgstr ""
+
+msgid "Discovered Hosts"
+msgstr ""
+
+msgid "Discovered by"
+msgstr ""
+
+msgid "Do not automatically check for updates [Not Recommended]"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download .NET AcuSensor"
+msgstr ""
+
+msgid "Download Java AcuSensor"
+msgstr ""
+
+msgid "Download Java AcuSensor Instructions"
+msgstr ""
+
+msgid "Download PHP AcuSensor"
+msgstr ""
+
+msgid "Download Verification File"
+msgstr ""
+
+msgid "Download and install updates automatically"
+msgstr ""
+
+msgid ""
+"During the Trial, you can also scan any website that you control with the "
+"following limitations:"
+msgstr ""
+
+msgid "Edit"
+msgstr ""
+
+msgid "Edit Engine"
+msgstr ""
+
+msgid "Edit Group"
+msgstr ""
+
+msgid "Edit Group Membership"
+msgstr ""
+
+msgid "Edit Schedule"
+msgstr ""
+
+msgid "Edit User"
+msgstr ""
+
+msgid "Edition"
+msgstr ""
+
+msgid ""
+"Either the vulnerability is exploitable by functional mobile autonomous "
+"code, or no exploit is required (manual trigger) and details are widely "
+"available. The code works in every situation, or is actively being "
+"delivered via a mobile autonomous agent (such as a worm or virus)."
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email Settings"
+msgstr ""
+
+msgid "Email is <strong>required</strong>"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Enable AcuMonitor Service"
+msgstr ""
+
+msgid "Enable Two Factor Authentication"
+msgstr ""
+
+msgid "Enable Two-factor Authentication for all users"
+msgstr ""
+
+msgid "Endpoint"
+msgstr ""
+
+msgid "Engine deleted successfully"
+msgstr ""
+
+msgid "Engine updated successfully"
+msgstr ""
+
+msgid "Engines"
+msgstr ""
+
+msgid "Enter a new License Key"
+msgstr ""
+
+msgid "Error Aborting Scan"
+msgstr ""
+
+msgid "Error Creating Target Group"
+msgstr ""
+
+msgid "Error Deleteing account"
+msgstr ""
+
+msgid "Error Disabling Notifications"
+msgstr ""
+
+msgid "Error Loading License"
+msgstr ""
+
+msgid "Error Pausing Scan"
+msgstr ""
+
+msgid "Error Resuming Scan"
+msgstr ""
+
+msgid "Error Retrieving Issue Types"
+msgstr ""
+
+msgid "Error Retrieving Projects"
+msgstr ""
+
+msgid "Error Saving Nofication Settings"
+msgstr ""
+
+msgid "Error Updating Profile"
+msgstr ""
+
+msgid "Error aborting scans"
+msgstr ""
+
+msgid "Error adding host"
+msgstr ""
+
+msgid "Error authorizing engine"
+msgstr ""
+
+msgid "Error checking for updates"
+msgstr ""
+
+msgid "Error creating Issue Tracker"
+msgstr ""
+
+msgid "Error creating Profile"
+msgstr ""
+
+msgid "Error creating Scan Profile"
+msgstr ""
+
+msgid "Error creating user"
+msgstr ""
+
+msgid "Error deleting API key"
+msgstr ""
+
+msgid "Error deleting Certificate"
+msgstr ""
+
+msgid "Error deleting Excluding Hours profiles"
+msgstr ""
+
+msgid "Error deleting File"
+msgstr ""
+
+msgid "Error deleting Issue Tracker"
+msgstr ""
+
+msgid "Error deleting Network Scanner settings"
+msgstr ""
+
+msgid "Error deleting engine"
+msgstr ""
+
+msgid "Error deleting login sequence"
+msgstr ""
+
+msgid "Error deleting report"
+msgstr ""
+
+msgid "Error deleting reports"
+msgstr ""
+
+msgid "Error deleting scan profiles"
+msgstr ""
+
+msgid "Error deleting scans"
+msgstr ""
+
+msgid "Error deleting target"
+msgstr ""
+
+msgid "Error deleting target group"
+msgstr ""
+
+msgid "Error deleting target groups"
+msgstr ""
+
+msgid "Error deleting targets"
+msgstr ""
+
+msgid "Error deleting user"
+msgstr ""
+
+msgid "Error deleting users"
+msgstr ""
+
+msgid "Error disabling AcuMonitor"
+msgstr ""
+
+msgid "Error disabling engine"
+msgstr ""
+
+msgid "Error disabling users"
+msgstr ""
+
+msgid "Error downloading report"
+msgstr ""
+
+msgid "Error enabling AcuMonitor"
+msgstr ""
+
+msgid "Error enabling users"
+msgstr ""
+
+msgid "Error fetching reports"
+msgstr ""
+
+msgid "Error generating Report"
+msgstr ""
+
+msgid "Error generating new API key"
+msgstr ""
+
+msgid "Error in Connection"
+msgstr ""
+
+msgid "Error in Dashboard!"
+msgstr ""
+
+msgid "Error in Scan!"
+msgstr ""
+
+msgid "Error in Verifying Target"
+msgstr ""
+
+msgid "Error in adding targets to groups"
+msgstr ""
+
+msgid "Error in exporting report!"
+msgstr ""
+
+msgid "Error in reset password"
+msgstr ""
+
+msgid "Error in retesting the selected vulnerability!"
+msgstr ""
+
+msgid "Error in updating password"
+msgstr ""
+
+msgid "Error in verifying code"
+msgstr ""
+
+msgid "Error resetting AcuSensor Password "
+msgstr ""
+
+msgid "Error retrieving API key"
+msgstr ""
+
+msgid "Error retrieving Engines"
+msgstr ""
+
+msgid "Error retrieving Excluded Hours Profiles"
+msgstr ""
+
+msgid "Error retrieving Issue Trackers"
+msgstr ""
+
+msgid "Error retrieving Network Scanner settings"
+msgstr ""
+
+msgid "Error retrieving Scan Events"
+msgstr ""
+
+msgid "Error retrieving Scan Profiles"
+msgstr ""
+
+msgid "Error retrieving Scans"
+msgstr ""
+
+msgid "Error retrieving Target Groups"
+msgstr ""
+
+msgid "Error retrieving Targets"
+msgstr ""
+
+msgid "Error retrieving Users"
+msgstr ""
+
+msgid "Error retrieving vulnerabilities"
+msgstr ""
+
+msgid "Error saving account settings"
+msgstr ""
+
+msgid "Error updating"
+msgstr ""
+
+msgid "Error updating Engine"
+msgstr ""
+
+msgid "Error updating Issue Tracker"
+msgstr ""
+
+msgid "Error updating Scan Profile"
+msgstr ""
+
+msgid "Error updating Scan Schedule"
+msgstr ""
+
+msgid "Error updating Status"
+msgstr ""
+
+msgid "Error updating Update Policy"
+msgstr ""
+
+msgid "Error updating default excluded hours profile"
+msgstr ""
+
+msgid "Error updating user"
+msgstr ""
+
+msgid "Error uploading Certificate"
+msgstr ""
+
+msgid "Error uploading file"
+msgstr ""
+
+msgid "Error uploading login sequence"
+msgstr ""
+
+msgid "Evaluation"
+msgstr ""
+
+msgid "Event"
+msgstr ""
+
+msgid "Events"
+msgstr ""
+
+msgid "Every"
+msgstr ""
+
+msgid "Excluded Hours"
+msgstr ""
+
+msgid "Excluded Hours Profile Name"
+msgstr ""
+
+msgid "Excluded Hours Profile Name is <strong>required</strong>"
+msgstr ""
+
+msgid "Excluded Hours Profiles Deleted"
+msgstr ""
+
+msgid "Excluded Paths"
+msgstr ""
+
+msgid "Excluded hours default profile updated"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Expired on"
+msgstr ""
+
+msgid "Exploit Code Maturity"
+msgstr ""
+
+msgid "Exploitability"
+msgstr ""
+
+msgid ""
+"Exploiting the vulnerability requires that the attacker authenticate two or "
+"more times, even if the same credentials are used each time. An example is "
+"an attacker authenticating to an operating system in addition to providing "
+"credentials to access an application hosted on that system."
+msgstr ""
+
+msgid "Export Failed"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "False Positive"
+msgstr ""
+
+msgid "Fast"
+msgstr ""
+
+msgid "File deleted successfully "
+msgstr ""
+
+msgid "File uploaded"
+msgstr ""
+
+msgid "Files to be imported by crawler at start."
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "First Name"
+msgstr ""
+
+msgid "First Name (required)"
+msgstr ""
+
+msgid "First Name is <strong>required</strong>"
+msgstr ""
+
+msgid "First page"
+msgstr ""
+
+msgid "Fixed"
+msgstr ""
+
+msgid ""
+"For more information on how to buy Spectra Web Vulnerability Scanner, "
+"please visit:"
+msgstr ""
+
+msgid "Free Mode"
+msgstr ""
+
+msgid "Free Scan Target (Network Scans Only)"
+msgstr ""
+
+msgid "Frequency"
+msgstr ""
+
+msgid "Friday"
+msgstr ""
+
+msgid "From Email Address"
+msgstr ""
+
+msgid "Functional"
+msgstr ""
+
+msgid ""
+"Functional autonomous code exists, or no exploit is required (manual "
+"trigger) and details are widely available. Exploit code works in every "
+"situation, or is actively being delivered via an autonomous agent (such as "
+"a worm or virus). Network-connected systems are likely to encounter "
+"scanning or exploitation attempts. Exploit development has reached the "
+"level of reliable, widely-available, easy-to-use automated tools."
+msgstr ""
+
+msgid ""
+"Functional exploit code is available. The code works in most situations "
+"where the vulnerability exists."
+msgstr ""
+
+msgid "Future Scan"
+msgstr ""
+
+msgid "Generate New Api Key"
+msgstr ""
+
+msgid "Generate Report"
+msgstr ""
+
+msgid "Generate Report - applies only for scanned targets"
+msgstr ""
+
+msgid "Group Members"
+msgstr ""
+
+msgid "Group Membership"
+msgstr ""
+
+msgid "Group Name"
+msgstr ""
+
+msgid "Group Reports"
+msgstr ""
+
+msgid "Group membership updated successfully"
+msgstr ""
+
+msgid "HTTP Authentication"
+msgstr ""
+
+msgid "HTTP Request"
+msgstr ""
+
+msgid "HTTP Response"
+msgstr ""
+
+msgid "Help"
+msgstr ""
+
+msgid "Hidden for security reasons"
+msgstr ""
+
+msgid "Hide"
+msgstr ""
+
+msgid "Hide Trends"
+msgstr ""
+
+msgid "High"
+msgstr ""
+
+msgid "High Severity Vulnerabilities"
+msgstr ""
+
+msgid "High Vulnerabilities"
+msgstr ""
+
+msgid "High Vulnerabilities Fixed"
+msgstr ""
+
+msgid "How to fix this vulnerability"
+msgstr ""
+
+msgid "I confirm that I am fully authorised to scan the selected target"
+msgstr ""
+
+msgid "Identified Technologies"
+msgstr ""
+
+msgid ""
+"If your website requires forms authentication, you need to record the steps "
+"required to login on the website. This will be saved as a login sequence "
+"file and can be used later. You can also specify a section of the website "
+"which you do not want to be crawled (for example links that will log you "
+"out from the website)."
+msgstr ""
+
+msgid "Ignored"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Import CSV"
+msgstr ""
+
+msgid "Import Files"
+msgstr ""
+
+msgid "Import From Selenium"
+msgstr ""
+
+msgid "Import Targets"
+msgstr ""
+
+msgid "Importer Failed"
+msgstr ""
+
+msgid "Include report as attachment"
+msgstr ""
+
+msgid "Incremental"
+msgstr ""
+
+msgid "Informational"
+msgstr ""
+
+msgid "Initial Request"
+msgstr ""
+
+msgid "Instant"
+msgstr ""
+
+msgid "Integrity"
+msgstr ""
+
+msgid "Integrity Impact"
+msgstr ""
+
+msgid "Integrity Requirement"
+msgstr ""
+
+msgid "Invalid License Key"
+msgstr ""
+
+msgid "Invalid login Credentials"
+msgstr ""
+
+msgid "Invalid Network Scanner settings"
+msgstr ""
+
+msgid "Invalid Password"
+msgstr ""
+
+msgid "Invalid سیستم پروکسی"
+msgstr ""
+
+msgid "Invalid Two Factor Authentication Codes"
+msgstr ""
+
+msgid "Issue Tracker"
+msgstr ""
+
+msgid "Issue Tracker Platform and Authentication"
+msgstr ""
+
+msgid "Issue Tracker created successfully"
+msgstr ""
+
+msgid "Issue Tracker updated successfully"
+msgstr ""
+
+msgid "Issue Trackers"
+msgstr ""
+
+msgid "Issue Type"
+msgstr ""
+
+msgid "Items per page:"
+msgstr ""
+
+msgid "مرا به خاطر بسپار"
+msgstr ""
+
+msgid "LSR/Autologin not configured"
+msgstr ""
+
+msgid "Language (required)"
+msgstr ""
+
+msgid "Language is <strong>required</strong>"
+msgstr ""
+
+msgid "Last Continuous Scan on"
+msgstr ""
+
+msgid "Last Name"
+msgstr ""
+
+msgid "Last Name (required)"
+msgstr ""
+
+msgid "Last Name is <strong>required</strong>"
+msgstr ""
+
+msgid "Last Scan Status"
+msgstr ""
+
+msgid "Last Scanned Before"
+msgstr ""
+
+msgid "Last Scanned on"
+msgstr ""
+
+msgid "Last Seen"
+msgstr ""
+
+msgid "Last page"
+msgstr ""
+
+msgid "Last run on"
+msgstr ""
+
+msgid "Latest Alerts"
+msgstr ""
+
+msgid "License"
+msgstr ""
+
+msgid "License Activated Successfully"
+msgstr ""
+
+msgid "License Expired"
+msgstr ""
+
+msgid "License Key"
+msgstr ""
+
+msgid "License Key (required)"
+msgstr ""
+
+msgid "License Key Updated Successfully"
+msgstr ""
+
+msgid "License Key is <strong>required</strong>"
+msgstr ""
+
+msgid "Licensed Targets"
+msgstr ""
+
+msgid "Licensed Users"
+msgstr ""
+
+msgid "Limit Crawling to address and sub-directories only"
+msgstr ""
+
+msgid "Local"
+msgstr ""
+
+msgid "Locations"
+msgstr ""
+
+msgid "Locked out accounts can login again after time specified. 0 to disable"
+msgstr ""
+
+msgid "Lockout time (minutes)"
+msgstr ""
+
+msgid "login"
+msgstr ""
+
+msgid "login Sequence deleted successfully "
+msgstr ""
+
+msgid "Logout"
+msgstr ""
+
+msgid ""
+"Loss of Availability is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of Availability is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of Confidentiality is likely to have a catastrophic adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of Confidentiality is likely to have only a limited adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of Integrity is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of Integrity is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of availability is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of availability is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of availability is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of confidentiality is likely to have a catastrophic adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of confidentiality is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of confidentiality is likely to have only a limited adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of integrity is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of integrity is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid ""
+"Loss of integrity is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+
+msgid "Low"
+msgstr ""
+
+msgid "Low Severity Vulnerabilities"
+msgstr ""
+
+msgid "Low-Medium"
+msgstr ""
+
+msgid "Mark All Notifications as Read"
+msgstr ""
+
+msgid "Mark as"
+msgstr ""
+
+msgid "Mark as Read"
+msgstr ""
+
+msgid "Maximum Consecutive login Failures"
+msgstr ""
+
+msgid "Maximum Scanning Engines"
+msgstr ""
+
+msgid "Medium"
+msgstr ""
+
+msgid "Medium Severity Vulnerabilities"
+msgstr ""
+
+msgid "Medium Vulnerabilities"
+msgstr ""
+
+msgid "Medium Vulnerabilities Fixed"
+msgstr ""
+
+msgid "Medium-High"
+msgstr ""
+
+msgid "Moderate"
+msgstr ""
+
+msgid ""
+"Modification of data is possible, but the attacker does not have control "
+"over the consequence of a modification, or the amount of modification is "
+"constrained. The data modification does not have a direct, serious impact "
+"on the impacted component."
+msgstr ""
+
+msgid ""
+"Modification of data is possible, but the attacker does not have control "
+"over the consequence of a modification, or the amount of modification is "
+"limited. The data modification does not have a direct, serious impact on "
+"the impacted component."
+msgstr ""
+
+msgid ""
+"Modification of some system files or information is possible, but the "
+"attacker does not have control over what can be modified, or the scope of "
+"what the attacker can affect is limited. For example, system or application "
+"files may be overwritten or modified, but either the attacker has no "
+"control over which files are affected or the attacker can modify files "
+"within only a limited context or scope."
+msgstr ""
+
+msgid "Modified Attack Complexity"
+msgstr ""
+
+msgid "Modified Attack Vector"
+msgstr ""
+
+msgid "Modified Availability"
+msgstr ""
+
+msgid "Modified Confidentiality"
+msgstr ""
+
+msgid "Modified Integrity"
+msgstr ""
+
+msgid "Modified Privileges Required"
+msgstr ""
+
+msgid "Modified Scope"
+msgstr ""
+
+msgid "Modified User Interaction"
+msgstr ""
+
+msgid "Monday"
+msgstr ""
+
+msgid "Monthly"
+msgstr ""
+
+msgid "Monthly status update"
+msgstr ""
+
+msgid "Months"
+msgstr ""
+
+msgid "Most Vulnerable Targets"
+msgstr ""
+
+msgid "Multiple"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name is <strong>required</strong>"
+msgstr ""
+
+msgid "Navigation"
+msgstr ""
+
+msgid "Network"
+msgstr ""
+
+msgid "Network Only"
+msgstr ""
+
+msgid "Network Scan Verification "
+msgstr ""
+
+msgid "Network Scanner"
+msgstr ""
+
+msgid "Network Scanner Settings"
+msgstr ""
+
+msgid "Network Scanner configured successfully"
+msgstr ""
+
+msgid "Network Scanner is not configured"
+msgstr ""
+
+msgid "Network Scanner settings deleted successfully"
+msgstr ""
+
+msgid "Network Scans"
+msgstr ""
+
+msgid "Network Scans only"
+msgstr ""
+
+msgid "Network Targets"
+msgstr ""
+
+msgid "Never"
+msgstr ""
+
+msgid "Never Scanned"
+msgstr ""
+
+msgid "New"
+msgstr ""
+
+msgid "New Report"
+msgstr ""
+
+msgid "New Scan"
+msgstr ""
+
+msgid "New build available."
+msgstr ""
+
+msgid "Next page"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Hosts Discovered"
+msgstr ""
+
+msgid "No Issue Trackers configured."
+msgstr ""
+
+msgid "No Issue Types available for this project"
+msgstr ""
+
+msgid "هدف پیدا نشد!"
+msgstr ""
+
+msgid "No Users Found."
+msgstr ""
+
+msgid "No exploit code is available, or an exploit is entirely theoretical."
+msgstr ""
+
+msgid "No exploit code is available, or an exploit is theoretical."
+msgstr ""
+
+msgid ""
+"No target systems exist, or targets are so highly specialized that they "
+"only exist in a laboratory setting. Effectively 0% of the environment is at "
+"risk."
+msgstr ""
+
+msgid "No vulnerabilities have been discovered by the scanner."
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Normal"
+msgstr ""
+
+msgid "Not Defined"
+msgstr ""
+
+msgid "Not Excluded Hours"
+msgstr ""
+
+msgid "Not Open"
+msgstr ""
+
+msgid "Not Scanned"
+msgstr ""
+
+msgid "Not Verified"
+msgstr ""
+
+msgid "Notification Settings Updated"
+msgstr ""
+
+msgid "Notifications"
+msgstr ""
+
+msgid "Notify me of new product updates"
+msgstr ""
+
+msgid "Number of consecutive login failures before account locks out. 0 to disable"
+msgstr ""
+
+msgid ""
+"Number of days that a password can be used before the user is requested to "
+"change it. 0 to disable"
+msgstr ""
+
+msgid ""
+"Number of unique new passwords before an old password can be reused. 0 to "
+"disable"
+msgstr ""
+
+msgid "Official Fix"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid ""
+"One or more high-severity type vulnerabilities have been discovered by the "
+"scanner. A malicious user can exploit these vulnerabilities and compromise "
+"the backend database and/or deface your website."
+msgstr ""
+
+msgid ""
+"One or more low-severity type vulnerabilities have been discovered by the "
+"scanner."
+msgstr ""
+
+msgid ""
+"One or more medium-severity type vulnerabilities have been discovered by "
+"the scanner. You should investigate each of these vulnerabilities to ensure "
+"they will not escalate to more severe problems."
+msgstr ""
+
+msgid "Open"
+msgstr ""
+
+msgid "Open Vulnerabilities"
+msgstr ""
+
+msgid "Open Vulnerabilities for the past 12 months"
+msgstr ""
+
+msgid "Operating System"
+msgstr ""
+
+msgid "Parameter"
+msgstr ""
+
+msgid "Partial"
+msgstr ""
+
+msgid "Password"
+msgstr ""
+
+msgid "Password Expired. Please change Password"
+msgstr ""
+
+msgid "Password Max age (days)"
+msgstr ""
+
+msgid "Password Settings"
+msgstr ""
+
+msgid "Password history"
+msgstr ""
+
+msgid "Password is <strong>required</strong>"
+msgstr ""
+
+msgid ""
+"Password requires minimum 8 characters, containing at least 3 of the "
+"following - 1 number, 1 small letter, 1 capital letter and 1 special "
+"character e.g. !@#$% etc."
+msgstr ""
+
+msgid "Passwords must <strong>match</strong>"
+msgstr ""
+
+msgid "Pause Scan"
+msgstr ""
+
+msgid "Pending"
+msgstr ""
+
+msgid ""
+"Performance is reduced or there are interruptions in resource availability. "
+"Even if repeated exploitation of the vulnerability is possible, the "
+"attacker does not have the ability to completely deny service to legitimate "
+"users. The resources in the impacted component are either partially "
+"available all of the time, or fully available only some of the time, but "
+"overall there is no direct, serious consequence to the impacted component."
+msgstr ""
+
+msgid "Phone (required)"
+msgstr ""
+
+msgid "Phone is <strong>required</strong>"
+msgstr ""
+
+msgid "Physical"
+msgstr ""
+
+msgid "Platform"
+msgstr ""
+
+msgid "Please check that the verification file is accessible at:"
+msgstr ""
+
+msgid "Please enter a valid <strong>URL</strong>"
+msgstr ""
+
+msgid "Please enter a valid <strong>URL</strong>  (e.g. http://example.com)"
+msgstr ""
+
+msgid "Please enter a valid <strong>URL</strong> (e.g. http://example.com)"
+msgstr ""
+
+msgid "Please enter a valid <strong>URL</strong> (https protocol required)"
+msgstr ""
+
+msgid "Please enter a valid <strong>phone number</strong> (e.g. +19165556666)"
+msgstr ""
+
+msgid "Please enter a valid email address"
+msgstr ""
+
+msgid "Please enter a valid future <strong>Date</strong>"
+msgstr ""
+
+msgid ""
+"Please note that exclude paths should be <strong>regular "
+"expressions</strong>"
+msgstr ""
+
+msgid "Port"
+msgstr ""
+
+msgid "Port is <strong>required</strong>"
+msgstr ""
+
+msgid "Previous page"
+msgstr ""
+
+msgid "Private Key is <strong>required</strong>"
+msgstr ""
+
+msgid "Privileges Required"
+msgstr ""
+
+msgid "Product Status"
+msgstr ""
+
+msgid "Product updates"
+msgstr ""
+
+msgid "Profile"
+msgstr ""
+
+msgid "Profile Created"
+msgstr ""
+
+msgid "Profile Updated Successfully"
+msgstr ""
+
+msgid "Profiles"
+msgstr ""
+
+msgid "Project"
+msgstr ""
+
+msgid "Project and Issue Type"
+msgstr ""
+
+msgid "Proof of Concept License Expired"
+msgstr ""
+
+msgid "Proof-of-Concept"
+msgstr ""
+
+msgid ""
+"Proof-of-concept exploit code is available, or an attack demonstration is "
+"not practical for most systems. The code or technique is not functional in "
+"all situations and may require substantial modification by a skilled "
+"attacker."
+msgstr ""
+
+msgid ""
+"Proof-of-concept exploit code or an attack demonstration that is not "
+"practical for most systems is available. The code or technique is not "
+"functional in all situations and may require substantial modification by a "
+"skilled attacker."
+msgstr ""
+
+msgid "Protocol"
+msgstr ""
+
+msgid "Protocol is <strong>required</strong>"
+msgstr ""
+
+msgid "Proxy Server"
+msgstr ""
+
+msgid "سیستم پروکسی"
+msgstr ""
+
+msgid "سیستم پروکسی Updated"
+msgstr ""
+
+msgid "Quarterly"
+msgstr ""
+
+msgid "Reasonable"
+msgstr ""
+
+msgid "Recurrent Scan"
+msgstr ""
+
+msgid "Rediscovered"
+msgstr ""
+
+msgid "Refresh Projects"
+msgstr ""
+
+msgid "Register"
+msgstr ""
+
+msgid "Register with AcuMonitor Service"
+msgstr ""
+
+msgid "Remediation Level"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Remove From Group"
+msgstr ""
+
+msgid "Remove Host"
+msgstr ""
+
+msgid "Repeat Interval is <strong>required</strong>"
+msgstr ""
+
+msgid "Report"
+msgstr ""
+
+msgid "Report Confidence"
+msgstr ""
+
+msgid "Report Created"
+msgstr ""
+
+msgid "Report Failed"
+msgstr ""
+
+msgid "Report Template"
+msgstr ""
+
+msgid "Report Type"
+msgstr ""
+
+msgid "Report is being generated"
+msgstr ""
+
+msgid "Report notifications"
+msgstr ""
+
+msgid "Reports"
+msgstr ""
+
+msgid "Reports deleted successfully"
+msgstr ""
+
+msgid "Requests"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Reset"
+msgstr ""
+
+msgid "Reset AcuSensor Password"
+msgstr ""
+
+msgid "Reset Password"
+msgstr ""
+
+msgid "Responsive"
+msgstr ""
+
+msgid "Resume Scan"
+msgstr ""
+
+msgid "Retest"
+msgstr ""
+
+msgid "Retype Password"
+msgstr ""
+
+msgid "Retype SSH Key Pass Phrase"
+msgstr ""
+
+msgid "Role"
+msgstr ""
+
+msgid "SMTP Server"
+msgstr ""
+
+msgid "SSH Credentials"
+msgstr ""
+
+msgid "SSH Key Pass Phrase"
+msgstr ""
+
+msgid "SSH Private Key"
+msgstr ""
+
+msgid "Saturday"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Scan"
+msgstr ""
+
+msgid "Scan Aborted"
+msgstr ""
+
+msgid "Scan Aborted By Scanner"
+msgstr ""
+
+msgid "Scan AcuSensor Found"
+msgstr ""
+
+msgid "Scan AcuSensor Not Found"
+msgstr ""
+
+msgid "Scan Automatic login Failed"
+msgstr ""
+
+msgid "Scan Crawler Memory Limited Reached"
+msgstr ""
+
+msgid "Scan Crawling"
+msgstr ""
+
+msgid "Scan Deepscan"
+msgstr ""
+
+msgid "Scan Deleted"
+msgstr ""
+
+msgid "Scan Done"
+msgstr ""
+
+msgid "Scan Duration"
+msgstr ""
+
+msgid "Scan Failed"
+msgstr ""
+
+msgid "Scan Finished"
+msgstr ""
+
+msgid "Scan Information"
+msgstr ""
+
+msgid "Scan Invalid HTTP loginDto"
+msgstr ""
+
+msgid "Scan Job Aborted"
+msgstr ""
+
+msgid "Scan Job Completed"
+msgstr ""
+
+msgid "Scan Job Failed"
+msgstr ""
+
+msgid "Scan Job Starting"
+msgstr ""
+
+msgid "Scan login Sequence Required"
+msgstr ""
+
+msgid "Scan Manual Intervention"
+msgstr ""
+
+msgid "Scan Modified"
+msgstr ""
+
+msgid "Scan Paused"
+msgstr ""
+
+msgid "Scan Profile Created"
+msgstr ""
+
+msgid "Scan Profile Name"
+msgstr ""
+
+msgid "Scan Profile Name is <strong>required</strong>"
+msgstr ""
+
+msgid "Scan Profile updated"
+msgstr ""
+
+msgid "Scan Profiles Deleted"
+msgstr ""
+
+msgid "Scan Recurrence Suspended"
+msgstr ""
+
+msgid "Scan Report"
+msgstr ""
+
+msgid "Scan Resumed"
+msgstr ""
+
+msgid "Scan Scanner Event"
+msgstr ""
+
+msgid "Scan Schedule Updated"
+msgstr ""
+
+msgid "Scan Scheduled"
+msgstr ""
+
+msgid "Scan Speed"
+msgstr ""
+
+msgid "Scan Started"
+msgstr ""
+
+msgid "Scan Type"
+msgstr ""
+
+msgid "Scan Types"
+msgstr ""
+
+msgid "Scan User Aborted"
+msgstr ""
+
+msgid "Scan not found!"
+msgstr ""
+
+msgid "Scan notifications"
+msgstr ""
+
+msgid "Scanning Engine"
+msgstr ""
+
+msgid "Scans"
+msgstr ""
+
+msgid "Scans Running"
+msgstr ""
+
+msgid "Scans Waiting"
+msgstr ""
+
+msgid "Scans aborted successfully"
+msgstr ""
+
+msgid "Scans deleted successfully"
+msgstr ""
+
+msgid "Schedule"
+msgstr ""
+
+msgid "Scope"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Search Hosts"
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Select Repeat Pattern"
+msgstr ""
+
+msgid "Select an option"
+msgstr ""
+
+msgid "Select targets to Scan"
+msgstr ""
+
+msgid "Selected vulnerabilities sent to Issue Tracker"
+msgstr ""
+
+msgid "Send Email Notifications For :"
+msgstr ""
+
+msgid "Send To Issue Tracker"
+msgstr ""
+
+msgid "Server"
+msgstr ""
+
+msgid "Session Timeout (minutes)"
+msgstr ""
+
+msgid "Session and Lockout Settings"
+msgstr ""
+
+msgid "Set as Default"
+msgstr ""
+
+msgid "Severity"
+msgstr ""
+
+msgid "Show"
+msgstr ""
+
+msgid "Show Trends"
+msgstr ""
+
+msgid "خوش آمدید"
+msgstr ""
+
+msgid ""
+"Significant details are published, but researchers either do not have full "
+"confidence in the root cause, or do not have access to source code to fully "
+"confirm all of the interactions that may lead to the result. Reasonable "
+"confidence exists, however, that the bug is reproducible and at least one "
+"impact is able to be verified (Proof-of-concept exploits may provide this). "
+"An example is a detailed write-up of research into a vulnerability with an "
+"explanation (possibly obfuscated or 'left as an exercise to the reader') "
+"that gives assurances on how to reproduce the results."
+msgstr ""
+
+msgid ""
+"Significant details are published, but researchers either do not have full "
+"confidence in the root cause, or do not have access to source code to fully "
+"confirm all of the interactions that may lead to the result. Reasonable "
+"confidence exists, however, that the bug is reproducible and at least one "
+"impact is able to be verified (Proof-of-concept exploits may provide this). "
+"An example is a detailed write-up of research into a vulnerability with an "
+"explanation (possibly obfuscated or ’left as an exercise to the reader’) "
+"that gives assurances on how to reproduce the results."
+msgstr ""
+
+msgid "Single"
+msgstr ""
+
+msgid "Site login"
+msgstr ""
+
+msgid "Site Structure"
+msgstr ""
+
+msgid "Slow"
+msgstr ""
+
+msgid "Slower"
+msgstr ""
+
+msgid ""
+"Some web applications span multiple domains. Insert any other domains that "
+"should be scanned when scanning this Target. Additional Hosts need to be "
+"created as Targets first."
+msgstr ""
+
+msgid ""
+"Specialized access conditions exist. For example:\n"
+" •In most configurations, the attacking party must already have elevated "
+"privileges or spoof additional systems in addition to the attacking system "
+"(e.g., DNS hijacking).\n"
+" •The attack depends on social engineering methods that would be easily "
+"detected by knowledgeable people. For example, the victim must perform "
+"several suspicious or atypical actions.\n"
+" •The vulnerable configuration is seen very rarely in practice.\n"
+" •If a race condition exists, the window is very narrow."
+msgstr ""
+
+msgid ""
+"Specialized access conditions or extenuating circumstances do not exist. An "
+"attacker can expect repeatable success against the vulnerable component."
+msgstr ""
+
+msgid ""
+"Specialized access conditions or extenuating circumstances do not exist. "
+"The following are examples:\n"
+" •The affected product typically requires access to a wide range of systems "
+"and users, possibly anonymous and untrusted (e.g., Internet-facing web or "
+"mail server).\n"
+" •The affected configuration is default or ubiquitous.\n"
+" •The attack can be performed manually and requires little skill or "
+"additional information gathering.\n"
+" •The race condition is a lazy one (i.e., it is technically a race but "
+"easily winnable)."
+msgstr ""
+
+msgid "Standard Reports"
+msgstr ""
+
+msgid "Standard Targets"
+msgstr ""
+
+msgid "Start Date"
+msgstr ""
+
+msgid "Start Time"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Status Changed"
+msgstr ""
+
+msgid "Stop Scan"
+msgstr ""
+
+msgid "Stop Scans"
+msgstr ""
+
+msgid "Subscribe to monthly status email"
+msgstr ""
+
+msgid ""
+"Successful exploitation of this vulnerability requires a user to take some "
+"action before the vulnerability can be exploited."
+msgstr ""
+
+msgid "Sunday"
+msgstr ""
+
+msgid "Target"
+msgstr ""
+
+msgid "Target Continuous Mode Disabled"
+msgstr ""
+
+msgid "Target Count"
+msgstr ""
+
+msgid "Target Distribution"
+msgstr ""
+
+msgid "Target Group"
+msgstr ""
+
+msgid "Target Group Assignment"
+msgstr ""
+
+msgid "Target Group Assignment:"
+msgstr ""
+
+msgid "Target Group created successfully"
+msgstr ""
+
+msgid "Target Group updated successfully"
+msgstr ""
+
+msgid "Target Groups"
+msgstr ""
+
+msgid "Target Groups deleted successfully"
+msgstr ""
+
+msgid "Target Information"
+msgstr ""
+
+msgid "Target Report"
+msgstr ""
+
+msgid "Target Verification Failed"
+msgstr ""
+
+msgid "Target created successfully"
+msgstr ""
+
+msgid "Target group deleted successfully"
+msgstr ""
+
+msgid "Target not Responsive"
+msgstr ""
+
+msgid "Target notifications"
+msgstr ""
+
+msgid "Targets"
+msgstr ""
+
+msgid "Targets created successfully"
+msgstr ""
+
+msgid "Targets deleted successfully"
+msgstr ""
+
+msgid ""
+"Targets exist inside the environment on a considerable scale. Between 76% - "
+"100% of the total environment is considered at risk."
+msgstr ""
+
+msgid ""
+"Targets exist inside the environment, but on a medium scale. Between 26% - "
+"75% of the total environment is at risk."
+msgstr ""
+
+msgid ""
+"Targets exist inside the environment, but on a small scale. Between 1% - "
+"25% of the total environment is at risk."
+msgstr ""
+
+msgid "Technical Administrator"
+msgstr ""
+
+msgid "Technologies"
+msgstr ""
+
+msgid "Temporary Fix"
+msgstr ""
+
+msgid "Test Connection"
+msgstr ""
+
+msgid "Tester"
+msgstr ""
+
+msgid ""
+"The Spectra Web Vulnerability Scanner <strong>Trial Edition</strong> "
+"allows you to scan the following Spectra test websites, which provide "
+"access to all the vulnerability information detected:"
+msgstr ""
+
+msgid ""
+"The Ownership of each Scan Target needs to be verified before scans can be "
+"launched against the Scan Target."
+msgstr ""
+
+msgid ""
+"The access conditions are somewhat specialized; the following are examples:\n"
+" •The attacking party is limited to a group of systems or users at some "
+"level of authorization, possibly untrusted.\n"
+" •Some information must be gathered before a successful attack can be "
+"launched.\n"
+" •The affected configuration is non-default, and is not commonly configured "
+"(e.g., a vulnerability present when a server performs user account "
+"authentication via a specific scheme, but not present for another "
+"authentication scheme).\n"
+" •The attack requires a small amount of social engineering that might "
+"occasionally fool cautious users (e.g., phishing attacks that modify a web "
+"browsers status bar to show a false link, having to be on someones buddy "
+"list before sending an IM exploit)."
+msgstr ""
+
+msgid ""
+"The attack requires the attacker to physically touch or manipulate the "
+"vulnerable component. Physical interaction may be brief or persistent."
+msgstr ""
+
+msgid ""
+"The attacker is authorized with (i.e. requires) privileges that provide "
+"basic user capabilities that could normally affect only settings and files "
+"owned by a user. Alternatively, an attacker with Low privileges may have "
+"the ability to cause an impact only to non-sensitive resources."
+msgstr ""
+
+msgid ""
+"The attacker is authorized with (i.e. requires) privileges that provide "
+"significant (e.g. administrative) control over the vulnerable component "
+"that could affect component-wide settings and files."
+msgstr ""
+
+msgid ""
+"The attacker is authorized with (i.e., requires) privileges that provide "
+"basic user capabilities that could normally affect only settings and files "
+"owned by a user. Alternatively, an attacker with Low privileges may have "
+"the ability to cause an impact only to non-sensitive resources."
+msgstr ""
+
+msgid ""
+"The attacker is authorized with (i.e., requires) privileges that provide "
+"significant (e.g., administrative) control over the vulnerable component "
+"that could affect component-wide settings and files."
+msgstr ""
+
+msgid ""
+"The attacker is unauthorized prior to attack, and therefore does not "
+"require any access to settings or files to carry out an attack."
+msgstr ""
+
+msgid "The details of the vulnerabilities discovered cannot be accessed."
+msgstr ""
+
+msgid "The following errors were generated during target verification:"
+msgstr ""
+
+msgid "The impact of this vulnerability"
+msgstr ""
+
+msgid "The link has expired or is not valid"
+msgstr ""
+
+msgid "The value assigned to the corresponding Base metric is used."
+msgstr ""
+
+msgid "The vulnerability affects"
+msgstr ""
+
+msgid ""
+"The vulnerability has been acknowledged by the vendor or author of the "
+"affected technology. The vulnerability may also be Confirmed when its "
+"existence is confirmed from an external event such as publication of "
+"functional or proof-of-concept exploit code or widespread exploitation."
+msgstr ""
+
+msgid ""
+"The vulnerability requires an attacker to be logged into the system (such "
+"as at a command line or via a desktop session or web interface)."
+msgstr ""
+
+msgid ""
+"The vulnerable component is bound to the network stack and the set of "
+"possible attackers extends beyond the other options listed, up to and "
+"including the entire Internet. Such a vulnerability is often termed "
+"'remotely exploitable' and can be thought of as an attack being exploitable "
+"at the protocol level one or more network hops away (e.g., across one or "
+"more routers)."
+msgstr ""
+
+msgid ""
+"The vulnerable component is bound to the network stack and the set of "
+"possible attackers extends beyond the other options listed, up to and "
+"including the entire Internet. Such a vulnerability is often termed "
+"'remotely exploitable' and can be thought of as an attack being exploitable "
+"at the protocol level one or more network hops away."
+msgstr ""
+
+msgid ""
+"The vulnerable component is bound to the network stack, but the attack is "
+"limited at the protocol level to a logically adjacent topology. This can "
+"mean an attack must be launched from the same shared physical (e.g., "
+"Bluetooth or IEEE 802.11) or logical (e.g., local IP subnet) network, or "
+"from within a secure or otherwise limited administrative domain (e.g., "
+"MPLS, secure VPN to an administrative network zone)."
+msgstr ""
+
+msgid ""
+"The vulnerable component is bound to the network stack, but the attack is "
+"limited at the protocol level to a logically adjacent topology. This can "
+"mean an attack must be launched from the same shared physical (e.g., "
+"Bluetooth or IEEE 802.11) or logical (e.g., local IP subnet) network, or "
+"from within a secure or otherwise limited administrative domain (e.g., "
+"MPLS, secure VPN)."
+msgstr ""
+
+msgid ""
+"The vulnerable component is not bound to the network stack and the "
+"attacker’s path is via read/write/execute capabilities. Either: the "
+"attacker exploits the vulnerability by accessing the target system locally "
+"(e.g., keyboard, console), or remotely (e.g., SSH); or the attacker relies "
+"on User Interaction by another person to perform actions required to "
+"exploit the vulnerability (e.g., tricking a legitimate user into opening a "
+"malicious document)."
+msgstr ""
+
+msgid ""
+"The vulnerable system can be exploited without any interaction from any "
+"user."
+msgstr ""
+
+msgid ""
+"There are multiple non-official sources, possibly including independent "
+"security companies or research organizations. At this point there may be "
+"conflicting technical details or some other lingering ambiguity."
+msgstr ""
+
+msgid ""
+"There are reports of impacts that indicate a vulnerability is present. The "
+"reports indicate that the cause of the vulnerability is unknown, or reports "
+"may differ on the cause or impacts of the vulnerability. Reporters are "
+"uncertain of the true nature of the vulnerability, and there is little "
+"confidence in the validity of the reports or whether a static Base score "
+"can be applied given the differences described. An example is a bug report "
+"which notes that an intermittent but non-reproducible crash occurs, with "
+"evidence of memory corruption suggesting that denial of service, or "
+"possible more serious impacts, may result."
+msgstr ""
+
+msgid ""
+"There is a single unconfirmed source or possibly multiple conflicting "
+"reports. There is little confidence in the validity of the reports. An "
+"example is a rumor that surfaces from the hacker underground."
+msgstr ""
+
+msgid ""
+"There is a total compromise of system integrity. There is a complete loss "
+"of system protection, resulting in the entire system being compromised. The "
+"attacker is able to modify any files on the target system."
+msgstr ""
+
+msgid ""
+"There is a total loss of integrity, or a complete loss of protection. For "
+"example, the attacker is able to modify any/all files protected by the "
+"impacted component. Alternatively, only some files can be modified, but "
+"malicious modification would present a direct, serious consequence to the "
+"impacted component."
+msgstr ""
+
+msgid ""
+"There is a total shutdown of the affected resource. The attacker can render "
+"the resource completely unavailable."
+msgstr ""
+
+msgid ""
+"There is an official but temporary fix available. This includes instances "
+"where the vendor issues a temporary hotfix, tool, or workaround."
+msgstr ""
+
+msgid ""
+"There is an unofficial, non-vendor solution available. In some cases, users "
+"of the affected technology will create a patch of their own or provide "
+"steps to work around or otherwise mitigate the vulnerability."
+msgstr ""
+
+msgid ""
+"There is considerable informational disclosure. Access to some system files "
+"is possible, but the attacker does not have control over what is obtained, "
+"or the scope of the loss is constrained. An example is a vulnerability that "
+"divulges only certain tables in a database."
+msgstr ""
+
+msgid "There is either no solution available or it is impossible to apply."
+msgstr ""
+
+msgid "There is no impact to availability within the impacted component."
+msgstr ""
+
+msgid "There is no impact to the availability of the system."
+msgstr ""
+
+msgid "There is no impact to the confidentiality of the system."
+msgstr ""
+
+msgid "There is no impact to the integrity of the system."
+msgstr ""
+
+msgid "There is no loss of confidentiality within the impacted component."
+msgstr ""
+
+msgid "There is no loss of integrity within the impacted component."
+msgstr ""
+
+msgid ""
+"There is no potential for loss of life, physical assets, productivity or "
+"revenue."
+msgstr ""
+
+msgid ""
+"There is reduced performance or interruptions in resource availability. An "
+"example is a network-based flood attack that permits a limited number of "
+"successful connections to an Internet service."
+msgstr ""
+
+msgid ""
+"There is reduced performance or interruptions in resource availability. "
+"Even if repeated exploitation of the vulnerability is possible, the "
+"attacker does not have the ability to completely deny service to legitimate "
+"users. The resources in the impacted component are either partially "
+"available all of the time, or fully available only some of the time, but "
+"overall there is no direct, serious consequence to the impacted component."
+msgstr ""
+
+msgid ""
+"There is some loss of confidentiality. Access to some restricted "
+"information is obtained, but the attacker does not have control over what "
+"information is obtained, or the amount or kind of loss is constrained. The "
+"information disclosure does not cause a direct, serious loss to the "
+"impacted component."
+msgstr ""
+
+msgid ""
+"There is some loss of confidentiality. Access to some restricted "
+"information is obtained, but the attacker does not have control over what "
+"information is obtained, or the amount or kind of loss is limited. The "
+"information disclosure does not cause a direct, serious loss to the "
+"impacted component."
+msgstr ""
+
+msgid ""
+"There is total information disclosure, resulting in all system files being "
+"revealed. The attacker is able to read all of the system's data (memory, "
+"files, etc.)"
+msgstr ""
+
+msgid ""
+"There is total loss of availability, resulting in the attacker being able "
+"to fully deny access to resources in the impacted component; this loss is "
+"either sustained (while the attacker continues to deliver the attack) or "
+"persistent (the condition persists even after the attack has completed). "
+"Alternatively, the attacker has the ability to deny some availability, but "
+"the loss of availability presents a direct, serious consequence to the "
+"impacted component (e.g., the attacker cannot disrupt existing connections, "
+"but can prevent new connections; the attacker can repeatedly exploit a "
+"vulnerability that, in each instance of a successful attack, leaks a only "
+"small amount of memory, but after repeated exploitation causes a service to "
+"become completely unavailable)."
+msgstr ""
+
+msgid ""
+"There is total loss of confidentiality, resulting in all resources within "
+"the impacted component being divulged to the attacker. Alternatively, "
+"access to only some restricted information is obtained, but the disclosed "
+"information presents a direct, serious impact."
+msgstr ""
+
+msgid "This is <strong>required</strong>"
+msgstr ""
+
+msgid "This mail server requires authentication"
+msgstr ""
+
+msgid "This proxy server requires authentication"
+msgstr ""
+
+msgid "This target cannot be verified. Please contact "
+msgstr ""
+
+msgid "This target is not verified"
+msgstr ""
+
+msgid "Threat"
+msgstr ""
+
+msgid "Threat level could not be determined because the scan failed."
+msgstr ""
+
+msgid "Threat level could not be determined because the scan was aborted."
+msgstr ""
+
+msgid "Threat level could not be determined because the target was not responsive."
+msgstr ""
+
+msgid "Threat level is not available yet."
+msgstr ""
+
+msgid "Thursday"
+msgstr ""
+
+msgid "Time Sensitive"
+msgstr ""
+
+msgid ""
+"Time in which the login failures have to happen for account lockout to "
+"happen. 0 to disable"
+msgstr ""
+
+msgid "Time window (minutes)"
+msgstr ""
+
+msgid "Token"
+msgstr ""
+
+msgid "Too many requests"
+msgstr ""
+
+msgid "Top Vulnerabilities"
+msgstr ""
+
+msgid "Total Scans Conducted"
+msgstr ""
+
+msgid "Total Targets"
+msgstr ""
+
+msgid "Try to auto-login into the site"
+msgstr ""
+
+msgid "Tuesday"
+msgstr ""
+
+msgid "Two Factor Authentication"
+msgstr ""
+
+msgid "Two-Factor Authentication"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "UNLICENSED"
+msgstr ""
+
+msgid "URL"
+msgstr ""
+
+msgid "URL is <strong>required</strong>"
+msgstr ""
+
+msgid "Unavailable"
+msgstr ""
+
+msgid "Unchanged"
+msgstr ""
+
+msgid "Unconfirmed"
+msgstr ""
+
+msgid "Uncorroborated"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unproven"
+msgstr ""
+
+msgid "Unsaved Changes"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Update License"
+msgstr ""
+
+msgid "Update Policy"
+msgstr ""
+
+msgid "Update Policy updated"
+msgstr ""
+
+msgid "Updating..."
+msgstr ""
+
+msgid "Use a custom password"
+msgstr ""
+
+msgid "Use default excluded hours profile"
+msgstr ""
+
+msgid "Use pre-recorded login sequence"
+msgstr ""
+
+msgid "Use the value assigned to the corresponding Base Score metric."
+msgstr ""
+
+msgid "User Agent"
+msgstr ""
+
+msgid "User Disabled"
+msgstr ""
+
+msgid "User Enabled"
+msgstr ""
+
+msgid "User Interaction"
+msgstr ""
+
+msgid "User Name"
+msgstr ""
+
+msgid "User created successfully"
+msgstr ""
+
+msgid "User deleted successfully"
+msgstr ""
+
+msgid "User name is <strong>required</strong>"
+msgstr ""
+
+msgid ""
+"User session will expire and will be asked to login after time specified. 0 "
+"to disable"
+msgstr ""
+
+msgid "User updated successfully"
+msgstr ""
+
+msgid "Username"
+msgstr ""
+
+msgid "Username is <strong>required</strong>"
+msgstr ""
+
+msgid "Username or Email"
+msgstr ""
+
+msgid "Username or Email is <strong>required</strong>"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Users deleted successfully"
+msgstr ""
+
+msgid "Users disabled successfully"
+msgstr ""
+
+msgid "Users enabled successfully"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Value must be greater than or equal to <strong>0</strong>"
+msgstr ""
+
+msgid "Value must be less than or equal to 65535"
+msgstr ""
+
+msgid "Value must be less than or equal to 99"
+msgstr ""
+
+msgid "Value must be less than or equal to <strong>10</strong>"
+msgstr ""
+
+msgid "Value must be less than or equal to <strong>1440</strong>"
+msgstr ""
+
+msgid "Value must be less than or equal to <strong>43200</strong>"
+msgstr ""
+
+msgid "Value must be less than or equal to <strong>50</strong>"
+msgstr ""
+
+msgid "Value must be less than or equal to <strong>60</strong>"
+msgstr ""
+
+msgid "Verification file URL:"
+msgstr ""
+
+msgid "Verified"
+msgstr ""
+
+msgid "Verify"
+msgstr ""
+
+msgid "Version"
+msgstr ""
+
+msgid "Version:"
+msgstr ""
+
+msgid "Vulnerabilities"
+msgstr ""
+
+msgid "Vulnerabilities found in the last 12 months"
+msgstr ""
+
+msgid "Vulnerability"
+msgstr ""
+
+msgid "Vulnerability Description"
+msgstr ""
+
+msgid "Vulnerability Type"
+msgstr ""
+
+msgid "Vulnerability discovered by AcuMonitor"
+msgstr ""
+
+msgid "Vulnerability sent to Issue Tracker"
+msgstr ""
+
+msgid "WAF Export"
+msgstr ""
+
+msgid "WAF Export - applies only for scanned targets"
+msgstr ""
+
+msgid "Web References"
+msgstr ""
+
+msgid "Web/Network"
+msgstr ""
+
+msgid ""
+"Website's forms authentication in some cases can be identified "
+"automatically. The automatic detection will try to identify the steps "
+"necessary to log in, the restricted links which should not be clicked in "
+"order to keep the session and the pattern by which a valid session can be "
+"identified. Please enter your credentials below."
+msgstr ""
+
+msgid "Wednesday"
+msgstr ""
+
+msgid "Weekly)"
+msgstr ""
+
+msgid "Weeks"
+msgstr ""
+
+msgid "Workaround"
+msgstr ""
+
+msgid "Yearly"
+msgstr ""
+
+msgid "Years"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "You are using the Latest Version"
+msgstr ""
+
+msgid "You don't have an API key set."
+msgstr ""
+
+msgid "You have unsaved changes. Are you sure you want to proceed with scan?"
+msgstr ""
+
+msgid ""
+"Your Spectra Proof of Concept license has expired. Please contact your "
+"Spectra Representative."
+msgstr ""
+
+msgid "Your Spectra Proof of Concept license will expire on"
+msgstr ""
+
+msgid "Your Evaluation Expired, and you are running in FREE mode. "
+msgstr ""
+
+msgid "Your download will start in a few moments"
+msgstr ""
+
+msgid "Your evaluation expires on"
+msgstr ""
+
+msgid "Your evaluation has expired. "
+msgstr ""
+
+msgid "Your license expired on"
+msgstr ""
+
+msgid "Your license expires on"
+msgstr ""
+
+msgid "Your license has expired. "
+msgstr ""
+
+msgid "Your license renewal is due on"
+msgstr ""
+
+msgid "Your license renewal was due on"
+msgstr ""
+
+msgid "aborted"
+msgstr ""
+
+msgid "aborting"
+msgstr ""
+
+msgid "completed"
+msgstr ""
+
+msgid "expires on"
+msgstr ""
+
+msgid "failed"
+msgstr ""
+
+msgid "file uploaded"
+msgstr ""
+
+msgid "in progress"
+msgstr ""
+
+msgid "is <strong>required</strong>"
+msgstr ""
+
+msgid "of"
+msgstr ""
+
+msgid "paused"
+msgstr ""
+
+msgid "pausing"
+msgstr ""
+
+msgid "processing"
+msgstr ""
+
+msgid "queued"
+msgstr ""
+
+msgid "require that we confirm your contact details"
+msgstr ""
+
+msgid "scans will be created"
+msgstr ""
+
+msgid "scheduled"
+msgstr ""
+
+msgid "starting"
+msgstr ""
+
+msgid "support"
+msgstr ""
+
+msgid "used"
+msgstr ""

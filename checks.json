@@ -1,0 +1,4293 @@
+{
+  "checks": [
+    {
+      "checks": [
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests for hidden, obsolete and backup copies of files that developers may have forgotten, which may expose sensitive information",
+              "key": "Backup_File.script",
+              "title": "Hidden, obsolete and backup copies of files"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Bash remote code execution (ShellShock)",
+              "key": "Bash_RCE.script",
+              "title": "Bash remote code execution (ShellShock)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTML forms in redirect pages",
+              "key": "HTML_Form_In_Redirect_Page.script",
+              "title": "HTML form in redirect page"
+            },
+            {
+              "checks": null,
+              "description": "Searches for AJAX Hashbang (#!) URLs",
+              "key": "Hashbang_Ajax_Crawling.script",
+              "title": "AJAX hashbang search"
+            },
+            {
+              "checks": null,
+              "description": "no description",
+              "key": "Javascript_AST_Parse.script",
+              "title": "JavaScript Abstract Syntax Tree parser"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in a variety of JavaScript libraries",
+              "key": "Javascript_Libraries_Audit.script",
+              "title": "JavaScript libraries audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests the register_globals setting in PHP's configuration file (php.ini) for vulnerabilities",
+              "key": "PHP_SuperGlobals_Overwrite.script",
+              "title": "PHP SuperGlobals Overwrite"
+            },
+            {
+              "checks": null,
+              "description": "Tests discovered RESTful web services for various vulnerabilities",
+              "key": "REST_Discovery_And_Audit_File.script",
+              "title": "RESTful web service discovery and audit (per file)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-site Scripting (XSS) vulnerabilities in file URIs",
+              "key": "XSS_in_URI_File.script",
+              "title": "XSS in file URI"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML External Entity (XXE) in file URIs",
+              "key": "XXE_File.script",
+              "title": "XXE in file URI"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Apache Tomcat Information Disclosure (CVE-2017-12616)",
+              "key": "Apache_Tomcat_Information_Disclosure_CVE-2017-12616.script",
+              "title": "Apache Tomcat Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Spring Data REST Remote Code Execution (CVE-2017-8046)",
+              "key": "Spring_Data_REST_RCE_CVE-2017-8046.script",
+              "title": "Spring Data REST Remote Code Execution"
+            }
+          ],
+          "description": "Tests run on each fetched location",
+          "key": "PerFile",
+          "title": "File tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests for Alternative PHP Cache (APC) apc.php script, which may expose sensitive information",
+              "key": "APC.script",
+              "title": "PHP APC audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the ASP.NET application trace is enabled, which may expose sensitive information",
+              "key": "ASP-NET_Application_Trace.script",
+              "title": "ASP.NET application trace"
+            },
+            {
+              "checks": null,
+              "description": "Tests if ASP.NET debugging is enabled, which may expose sensitive information",
+              "key": "ASP-NET_Debugging_Enabled.script",
+              "title": "ASP.NET debugging enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests if an ASP.NET diagnostic page is present on a web application, which may expose sensitive information",
+              "key": "ASP-NET_Diagnostic_Page.script",
+              "title": "ASP.NET diagnostic page"
+            },
+            {
+              "checks": null,
+              "description": "Searches for Microsoft Access databases in directories",
+              "key": "Access_Database_Found.script",
+              "title": "Access Database Search"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Apache Solr",
+              "key": "Apache_Solr.script",
+              "title": "Apache Solr audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for hidden, obsolete and backup copies of directories that developers may have forgotten, which may expose sensitive information",
+              "key": "Backup_Folder.script",
+              "title": "Hidden, obsolete and backup copies of directories"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTTP Basic Authentication used over HTTP",
+              "key": "Basic_Auth_Over_HTTP.script",
+              "title": "HTTP Basic Authentication over HTTP"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a directory contains a Bazaar repository, which may expose sensitive information",
+              "key": "Bazaar_Repository.script",
+              "title": "Bazaar repository"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a directory contains a CVS repository, which may expose sensitive information",
+              "key": "CVS_Repository.script",
+              "title": "CVS repository"
+            },
+            {
+              "checks": null,
+              "description": "Searches for core dump (memory dump) files",
+              "key": "Core_Dump_Files.script",
+              "title": "Core dump (memory dump) search"
+            },
+            {
+              "checks": null,
+              "description": "Searches for source code, configuration, or other information used during the development",
+              "key": "Development_Files.script",
+              "title": "Development files"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a web server is configured to display the list of files contained in a directory",
+              "key": "Directory_Listing.script",
+              "title": "Directory listing"
+            },
+            {
+              "checks": null,
+              "description": "Tests for scripts created by Adobe Dreamweaver that disclose sensitive information and allow arbitrary SQL query execution",
+              "key": "Dreamweaver_Scripts.script",
+              "title": "Dreamweaver scripts"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a directory contains a Git repository, which may expose sensitive information",
+              "key": "GIT_Repository.script",
+              "title": "Git repository"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Grails development environment database console",
+              "key": "Grails_Database_Console.script",
+              "title": "Grails database console"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTML forms in redirect directories",
+              "key": "HTML_Form_In_Redirect_Page_Dir.script",
+              "title": "HTML form in redirect directory"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTTP Verb Tampering vulnerabilities",
+              "key": "Http_Verb_Tampering.script",
+              "title": "HTTP verb tampering"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Directory Authentication bypass in Microsoft IIS",
+              "key": "IIS51_Directory_Auth_Bypass.script",
+              "title": "Microsoft IIS Directory Authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for JetBrains .idea project directories which may contain sensitive configuration information",
+              "key": "JetBrains_Idea_Project_Directory.script",
+              "title": "JetBrains .idea project directory"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a directory contains a Mercurial repository, which may expose sensitive information",
+              "key": "Mercurial_Repository.script",
+              "title": "Mercurial repository"
+            },
+            {
+              "checks": null,
+              "description": "Searches for phpinfo() pages in a web application",
+              "key": "PHPInfo.script",
+              "title": "Exposed phpinfo()"
+            },
+            {
+              "checks": null,
+              "description": "Tests for the existence of common sensitive resources like backup directories, database dumps, administration pages and temporary directories",
+              "key": "Possible_Sensitive_Directories.script",
+              "title": "Possible sensitive directories"
+            },
+            {
+              "checks": null,
+              "description": "Tests for the existence of common sensitive resources such as password files, configuration files, log files, include files, statistics data and database dumps",
+              "key": "Possible_Sensitive_Files.script",
+              "title": "Possible sensitive files"
+            },
+            {
+              "checks": null,
+              "description": "Tests discovered RESTful web services for various vulnerabilities",
+              "key": "REST_Discovery_And_Audit_Folder.script",
+              "title": "RESTful web service discovery and audit (per directory)"
+            },
+            {
+              "checks": null,
+              "description": "Searches for README files",
+              "key": "Readme_Files.script",
+              "title": "README Files"
+            },
+            {
+              "checks": null,
+              "description": "Searches for exposed Secure File Transfer Protocol (SFTP) credentials",
+              "key": "SFTP_Credentials_Exposure.script",
+              "title": "SFTP credentials exposure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities in Basic Authentication",
+              "key": "SQL_Injection_In_Basic_Auth.script",
+              "title": "SQL Injection in HTTP Basic Authentication"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities in URIs",
+              "key": "SQL_Injection_In_URI.script",
+              "title": "SQL Injection in URI"
+            },
+            {
+              "checks": null,
+              "description": "Searches for SQLite database files in a directory",
+              "key": "SQLite_Database_Found.script",
+              "title": "SQLite database search"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a directory contains an SVN repository, which may expose sensitive information",
+              "key": "SVN_Repository.script",
+              "title": "SVN repository"
+            },
+            {
+              "checks": null,
+              "description": "Searches for common web-shells",
+              "key": "Trojan_Scripts.script",
+              "title": "Web-shell search"
+            },
+            {
+              "checks": null,
+              "description": "Searches for a WS_FTP.LOG files in a web application, which may expose sensitive file upload information",
+              "key": "WS_FTP_log_file.script",
+              "title": "WS_FTP.LOG Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for weak passwords in HTTP Basic Authentication",
+              "key": "Weak_Password_Basic_Auth.script",
+              "title": "Weak HTTP Basic authentication password"
+            },
+            {
+              "checks": null,
+              "description": "Searches for webadmin.php on the web server",
+              "key": "Webadmin_script.script",
+              "title": "Webadmin search"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-site Scripting (XSS) vulnerabilities in directory URIs",
+              "key": "XSS_in_URI_Folder.script",
+              "title": "XSS in directory URI"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML External Entity (XXE) in directory URIs",
+              "key": "XXE_Folder.script",
+              "title": "XXE in directory URI"
+            },
+            {
+              "checks": null,
+              "description": "Searches for readable .htaccess files in each directory",
+              "key": "htaccess_File_Readable.script",
+              "title": ".htaccess file readable"
+            },
+            {
+              "checks": null,
+              "description": "Searches for joe editor DEADJOE file in each directory",
+              "key": "Deadjoe_file.script",
+              "title": "DEADJOE file"
+            },
+            {
+              "checks": null,
+              "description": "Searches for Symfony configuration file databases.yml in each directory",
+              "key": "Symfony_Databases_YML.script",
+              "title": "Symfony databases.yml"
+            },
+            {
+              "checks": null,
+              "description": "Searches for Dotenv (.env and variants) files in each directory",
+              "key": "dotenv_File.script",
+              "title": "Dotenv file"
+            },
+            {
+              "checks": null,
+              "description": "Tests for version 2 of Spring Boot Actuator (a sub-project of Spring Boot)",
+              "key": "Spring_Boot_Actuator_v2.script",
+              "title": "Spring Boot Actuator version 2"
+            },
+            {
+              "checks": null,
+              "description": "Tests for RCE via Spring Boot WhiteLabel Error Page Spring Expression Language (SpEL)",
+              "key": "Spring_Boot_WhiteLabel_Error_Page_SPEL.script",
+              "title": "Spring Boot WhiteLabel Error Page SpEL"
+            },
+            {
+              "checks": null,
+              "description": "Tests for misconfigured Nginx aliases that can lead to a path traversal vulnerability",
+              "key": "Nginx_Path_Traversal_Misconfigured_Alias.script",
+              "title": "Nginx Path Traversal via misconfigured alias"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Spring Security Authentication Bypass Vulnerability (CVE-2016-5007)",
+              "key": "Spring_Security_Auth_Bypass_CVE-2016-5007.script",
+              "title": "Spring Security Authentication Bypass"
+            }
+          ],
+          "description": "Tests run on each directory",
+          "key": "PerFolder",
+          "title": "Directory tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to ASP code injection",
+              "key": "ASP_Code_Injection.script",
+              "title": "ASP code injection"
+            },
+            {
+              "checks": null,
+              "description": "Test PHP deserialization gadgets trying to execute code",
+              "key": "PHP_Deserialization_Gadgets.script",
+              "title": "PHP code injection test through deserialization"
+            },
+            {
+              "checks": null,
+              "description": "Tests for arbitrary file creation vulnerabilities",
+              "key": "Arbitrary_File_Creation.script",
+              "title": "Arbitrary file creation"
+            },
+            {
+              "checks": null,
+              "description": "Tests for arbitrary file deletion vulnerabilities",
+              "key": "Arbitrary_File_Deletion.script",
+              "title": "Arbitrary file deletion"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Blind Cross-site Scripting (BXSS) vulnerabilities",
+              "key": "Blind_XSS.script",
+              "title": "Blind XSS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for CRLF injection (HTTP response splitting) vulnerabilities",
+              "key": "CRLF_Injection.script",
+              "title": "CRLF injection (HTTP response splitting)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution vulnerabilities",
+              "key": "Code_Execution.script",
+              "title": "Remote Code Execution"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Directory Traversal vulnerabilities in input schemes",
+              "key": "Directory_Traversal.script",
+              "title": "Directory Traversal On Inputs"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Email Header Injection vulnerabilities",
+              "key": "Email_Header_Injection.script",
+              "title": "Email Header Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Email (SMTP) Injection vulnerabilities",
+              "key": "Email_Injection.script",
+              "title": "Email (SMTP) Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for errors disclosing sensitive information triggered by unexpected or malformed input",
+              "key": "Error_Message.script",
+              "title": "Unexpected and malformed input error messages"
+            },
+            {
+              "checks": null,
+              "description": "Tests for scripts that are vulnerable to Expression Language (EL) injection",
+              "key": "Expression_Language_Injection.script",
+              "title": "Expression Language (EL) injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for File Inclusion vulnerabilities",
+              "key": "File_Inclusion.script",
+              "title": "File inclusion"
+            },
+            {
+              "checks": null,
+              "description": "Tests for File Tampering vulnerabilities",
+              "key": "File_Tampering.script",
+              "title": "File Tampering"
+            },
+            {
+              "checks": null,
+              "description": "Tests File Upload vulnerabilities",
+              "key": "File_Upload.script",
+              "title": "File Upload"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Padding Oracle vulnerabilities",
+              "key": "Generic_Oracle_Padding.script",
+              "title": "Padding Oracle"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTTP Parameter Pollution (HPP) vulnerabilities",
+              "key": "HTTP_Parameter_Pollution.script",
+              "title": "HTTP Parameter Pollution"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Password Reset Poisoning vulnerabilities",
+              "key": "Host_Based_Attack_Reset_Password.script",
+              "title": "Password Reset Poisoning"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Lightweight Directory Access Protocol (LDAP) Injection vulnerabilities",
+              "key": "LDAP_Injection.script",
+              "title": "LDAP Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for denial of service (DoS) vulnerabilities resulting from very long passwords (thousands of characters long) being processed by the web application",
+              "key": "Long_Password_Denial_of_Service.script",
+              "title": "Long password DoS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for MongoDB Injection vulnerabilities",
+              "key": "MongoDB_Injection.script",
+              "title": "MongoDB injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Server Side JavaScript Injection vulnerabilities",
+              "key": "NodeJs_Injection.script",
+              "title": "Server Side JavaScript Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests PHP code injection vulnerabilities",
+              "key": "PHP_Code_Injection.script",
+              "title": "PHP Code Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests Ruby on Rails code injection vulnerabilities",
+              "key": "RubyOnRails_Code_Injection.script",
+              "title": "Ruby on Rails Code Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests Perl code injection vulnerabilities",
+              "key": "Perl_Code_Injection.script",
+              "title": "Perl Code Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for user controlled vulnerabilities in PHP",
+              "key": "PHP_User_Controlled_Vulns.script",
+              "title": "User Controlled PHP vulnerabilities"
+            },
+            {
+              "checks": null,
+              "description": "Tests for insecure Mass-Assignment in Ruby on Rails (RoR) applications",
+              "key": "Rails_Mass_Assignment.script",
+              "title": "Ruby on Rails (RoR) insecure Mass-Assignment"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities exploiting the WHERE clause in Ruby on Rails web applications using Active Record",
+              "key": "Rails_Where_SQL_Injection.script",
+              "title": "Ruby on Rails (RoR) Active Record WHERE-clause SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution (RCE) in the 'render' method in Ruby on Rails (RoR) web applications",
+              "key": "Rails_render_inline_RCE.script",
+              "title": "Ruby on Rails (RoR) render inline RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote File Inclusion Cross-site Scripting (XSS) vulnerabilities",
+              "key": "Remote_File_Inclusion_XSS.script",
+              "title": "Remote File Inclusion XSS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for source code disclosure vulnerabilities",
+              "key": "Script_Source_Code_Disclosure.script",
+              "title": "Source code disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Server-side Request Forgery (SSRF) vulnerabilities",
+              "key": "Server_Side_Request_Forgery.script",
+              "title": "Server-side Request Forgery"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities",
+              "key": "Sql_Injection.script",
+              "title": "SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Remote Code Execution vulnerability in Apache Struts2 REST plugin",
+              "key": "Struts_RCE_S2-053_CVE-2017-12611.script",
+              "title": "Apache Struts2 Remote Command Execution (S2-053)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for various Remote Code Execution (RCE) vulnerabilities in Apache Struts 2.0.29",
+              "key": "Struts_RCE_S2_029.script",
+              "title": "Apache Struts 2.0.29 RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests use of the PHP function preg_replace() on unvalidated user input",
+              "key": "Unsafe_preg_replace.script",
+              "title": "Unsafe preg_replace()"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-frame Scripting (XFS) and URL redirection vulnerabilities, often times used in phishing attacks",
+              "key": "XFS_and_Redir.script",
+              "title": "XFS and Redir"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML External Entity (XXE) and XML Injection attacks on input schemes",
+              "key": "XML_External_Entity_Injection.script",
+              "title": "XML External Entity Injection (XXE)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XPath Injection vulnerabilities",
+              "key": "XPath_Injection.script",
+              "title": "XPath Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-site Scripting vulnerabilities",
+              "key": "XSS.script",
+              "title": "Cross-site Scripting (XSS)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Edge Side Include Injection vulnerabilities",
+              "key": "ESI_Injection.script",
+              "title": "Edge Side Include Injection (ESI Injection)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Java Object Deserialization vulnerabilities",
+              "key": "Java_Deserialization.script",
+              "title": "Java Object Deserialization"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to Python pickle deserialization of user-input",
+              "key": "Pickle_Serialization.script",
+              "title": "Python pickle serialization"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to Python code injection",
+              "key": "Python_Code_Injection.script",
+              "title": "Python code injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to Argument Injection",
+              "key": "Argument_Injection.script",
+              "title": "Argument Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for .NET BinaryFormatter Object Deserialization vulnerabilities",
+              "key": "DotNet_BinaryFormatter_Deserialization.script",
+              "title": ".NET BinaryFormatter Deserialization"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Apache Solr Parameter Injection",
+              "key": "Apache_Solr_Parameter_Injection.script",
+              "title": "Apache Solr Parameter Injection"
+            },
+            {
+              "checks": null,
+              "description": "Test for command/argument confusion with path traversal in cmd.exe",
+              "key": "Cmd_Hijack_Windows.script",
+              "title": "Cmd Hijack vulnerability"
+            },
+            {
+              "checks": null,
+              "description": "Tests for common misconfigurations related to JWT",
+              "key": "JWT_Param_Audit.script",
+              "title": "JWT audit (in params)"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to Apache Log4j RCE",
+              "key": "Apache_Log4j_RCE.script",
+              "title": "Apache Log4j RCE"
+            }
+          ],
+          "description": "Tests run on input schemes",
+          "key": "PerScheme",
+          "title": "Input scheme tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Apache Tomcat AJP protocol",
+              "key": "AJP_Audit.script",
+              "title": "Apache Tomcat AJP protocol audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for ASP.NET error messages by requesting a specially crafted URL that can generate an ASP.NET error message",
+              "key": "ASP_NET_Error_Message.script",
+              "title": "ASP.NET error message"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Microsoft ASP.NET Forms Authentication bypass vulnerabilities",
+              "key": "ASP_NET_Forms_Authentication_Bypass.script",
+              "title": "ASP.NET Forms Authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Apache Axis2",
+              "key": "Apache_Axis2_Audit.script",
+              "title": "Apache Axis2 audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for default credentials of Apache Geronimo administration console",
+              "key": "Apache_Geronimo_Default_Administrative_Credentials.script",
+              "title": "Apache Geronimo default credentials audit"
+            },
+            {
+              "checks": null,
+              "description": "Checks if the HTTP CONNECT method is enabled on an Apache HTTP Server",
+              "key": "Apache_Proxy_CONNECT_Enabled.script",
+              "title": "Apache HTTP Server CONNECT method enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Apache Roller",
+              "key": "Apache_Roller_Audit.script",
+              "title": "Apache Roller audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests if Apache HTTP Server is running as an open proxy",
+              "key": "Apache_Running_As_Proxy.script",
+              "title": "Apache HTTP Server running as a proxy"
+            },
+            {
+              "checks": null,
+              "description": "Tests if mod_info is enabled on Apache HTTP Server, which may expose sensitive information",
+              "key": "Apache_Server_Information.script",
+              "title": "Apache HTTP Server mod_info audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Apache Solr service administration page is accessible, which may expose sensitive information",
+              "key": "Apache_Solr_Exposed.script",
+              "title": "Apache Solr administration accessible"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known unfiltered header injection in Apache HTTP Server, allowing a an attacker to inject HTML through the \"Expect\" header",
+              "key": "Apache_Unfiltered_Expect_Header_Injection.script",
+              "title": "Apache HTTP Server unfiltered expect header injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-site Scripting via malformed HTTP requests on Apache HTTP Server",
+              "key": "Apache_XSS_via_Malformed_Method.script",
+              "title": "Apache HTTP Server XSS via malformed HTTP requests"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HttpOnly cookie disclosure in Apache HTTP Server",
+              "key": "Apache_httpOnly_Cookie_Disclosure.script",
+              "title": "Apache HTTP Server HttpOnly cookie disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Apache HTTP Server mod_negotiation module is vulnerable to filename bruteforcing, which may expose sensitive information",
+              "key": "Apache_mod_negotiation_Filename_Bruteforcing.script",
+              "title": "Apache mod_negotiation filename bruteforcing"
+            },
+            {
+              "checks": null,
+              "description": "Tests for arbitrary file disclosure in Action Pack in Ruby on Rails",
+              "key": "Arbitrary_file_existence_disclosure_in_Action_Pack.script",
+              "title": "Ruby on Rails Action Pack arbitrary file disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for multiple Barracuda products which are vulnerable to directory traversal attacks",
+              "key": "Barracuda_locale_Directory_Traversal.script",
+              "title": "Barracuda multiple product 'locale' directory traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Bash remote code execution (Shellshock) on the remote host",
+              "key": "Bash_RCE_Server_Audit.script",
+              "title": "Bash remote code execution (ShellShock) server audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for CRLF injection (HTTP response splitting) vulnerabilities on the remote host",
+              "key": "CRLF_Injection_PerServer.script",
+              "title": "CRLF injection (HTTP response splitting) server audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Adobe ColdFusion",
+              "key": "ColdFusion_Audit.script",
+              "title": "Adobe ColdFusion audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for user-agent Cross-site Scripting (XSS) vulnerabilities in Adobe ColdFusion",
+              "key": "ColdFusion_User_Agent_XSS.script",
+              "title": "ColdFusion user agent XSS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for file upload vulnerabilities in ColdFusion FCKEditor",
+              "key": "ColdFusion_v8_File_Upload.script",
+              "title": "Adobe ColdFusion FCKEditor file upload"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Information Disclosure vulnerabilities in the ColdFusion Solr service",
+              "key": "ColdFusion_v9_Solr_Exposed.script",
+              "title": "Adobe ColdFusion Solr Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Searches for core dump (memory dump) files on the remote host",
+              "key": "CoreDumpCheck.script",
+              "title": "Core dump (memory dump) search server audit"
+            },
+            {
+              "checks": null,
+              "description": "Searches for database backups on the remote host",
+              "key": "Database_Backup.script",
+              "title": "Database backup"
+            },
+            {
+              "checks": null,
+              "description": "Tests for weak passwords in Django applications",
+              "key": "Django_Admin_Weak_Password.script",
+              "title": "Django admin weak password audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for error page path disclosure by requesting nonexistent pages",
+              "key": "Error_Page_Path_Disclosure.script",
+              "title": "Error page path disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a Flask application is in debug mode",
+              "key": "Flask_Debug_Mode.script",
+              "title": "Flask debug mode enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Microsoft FrontPage Server Extensions are enabled",
+              "key": "Frontpage_Extensions_Enabled.script",
+              "title": "Microsoft FrontPage Server Extensions enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Microsoft FrontPage configuration information in a webpage",
+              "key": "Frontpage_Information.script",
+              "title": "Microsoft FrontPage information"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Microsoft FrontPage \"authors.pwd\" file is available",
+              "key": "Frontpage_authors_pwd.script",
+              "title": "Microsoft FrontPage authors.pwd"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Directory Traversal in Oracle GlassFish Server",
+              "key": "GlassFish_41_Directory_Traversal.script",
+              "title": "Oracle GlassFish Server Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Oracle GlassFish Server",
+              "key": "GlassFish_Audit.script",
+              "title": "Oracle GlassFish Server audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for an exposed Hadoop cluster web interface",
+              "key": "Hadoop_Cluster_Web_Interface.script",
+              "title": "Hadoop cluster web interface"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Horde IMP Webmail",
+              "key": "Horde_IMP_Webmail_Exploit.script",
+              "title": "Horde IMP Webmail audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XPath Injection vulnerabilities in IBM Web Content Manager",
+              "key": "IBM_WCM_XPath_Injection.script",
+              "title": "IBM Web Content Manager XPath Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in IBM WebSphere",
+              "key": "IBM_WebSphere_Audit.script",
+              "title": "IBM WebSphere audit"
+            },
+            {
+              "checks": null,
+              "description": "Searches for backups of ASP Global.asa",
+              "key": "IIS_Global_Asa.script",
+              "title": "ASP Global.asa"
+            },
+            {
+              "checks": null,
+              "description": "Tests for an IP address returned in the Content-location HTTP response header by Microsoft IIS for static resources",
+              "key": "IIS_Internal_IP_Address.script",
+              "title": "IIS internal IP address"
+            },
+            {
+              "checks": null,
+              "description": "Tests for extended Unicode Directory Traversal in Microsoft IIS",
+              "key": "IIS_Unicode_Directory_Traversal.script",
+              "title": "Microsoft IIS Unicode Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Searches for an exposed Microsoft IIS service configuration",
+              "key": "IIS_service_cnf.script",
+              "title": "Microsoft IIS service configuration exposed"
+            },
+            {
+              "checks": null,
+              "description": "Tests for NTLM and HTTP Basic Authentication bypass in Microsoft IIS",
+              "key": "IIS_v5_NTML_Basic_Auth_Bypass.script",
+              "title": "Microsoft IIS NTLM and HTTP Basic Authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Ironcube Loader Wizard",
+              "key": "Ioncube_Loader_Wizard.script",
+              "title": "Ioncube Loader Wizard"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Red Hat JBoss",
+              "key": "JBoss_Audit.script",
+              "title": "Red Hat JBoss audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for sensitive information leakage vulnerabilities in JBoss Status Servlet",
+              "key": "JBoss_Status_Servlet_Information_Leak.script",
+              "title": "JBoss Status Servlet information leak"
+            },
+            {
+              "checks": null,
+              "description": "Tests for an exposed JBoss web service console",
+              "key": "JBoss_Web_Service_Console.script",
+              "title": "JBoss Web Service Console"
+            },
+            {
+              "checks": null,
+              "description": "Checks if Java Management Extensions (JMX) and Java Remote Method Invocation (Java RMI) services are running",
+              "key": "JMX_RMI_service.script",
+              "title": "JMX and RMI service audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for common files and directories in Java-based web servers to be added to crawler for indexing if found",
+              "key": "Java_Application_Servers_Fuzz.script",
+              "title": "Java application server fuzzing"
+            },
+            {
+              "checks": null,
+              "description": "Tests for the existence of the Java Debug Wire Protocol (JDWP)",
+              "key": "Java_Debug_Wire_Protocol_Audit.script",
+              "title": "Java Debug Wire Protocol (JDWP) audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Jetty",
+              "key": "Jetty_Audit.script",
+              "title": "Jetty audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in IBM Domino Web Server",
+              "key": "Lotus_Domino_crlf_xss.script",
+              "title": "IBM Domino audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for the Misfortune Cookie vulnerability which allows remote Internet router takeover",
+              "key": "Misfortune_Cookie.script",
+              "title": "Misfortune Cookie"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a MongoDB web interface open on an external network interface on the remote host",
+              "key": "MongoDB_Audit.script",
+              "title": "MongoDB audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution vulnerabilities in Movable Type",
+              "key": "Movable_Type_4_RCE.script",
+              "title": "Movable Type RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Nginx PHP FastCGI Remote Code Execution (RCE) via file upload",
+              "key": "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script",
+              "title": "Nginx PHP FastCGI RCE via file upload"
+            },
+            {
+              "checks": null,
+              "description": "Searches for publicly accessible Oracle SQL*Net and Oracle Net Listener log files",
+              "key": "Oracle_Application_Logs.script",
+              "title": "Oracle application logs"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Oracle Reports",
+              "key": "Oracle_Reports_Audit.script",
+              "title": "Oracle reports audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for PHP-CGI Remote Code Execution via forced redirection when PHP is used in a CGI-based setup (such as Apache HTTP Server's mod_cgid)",
+              "key": "PHP_CGI_RCE_Force_Redirect.script",
+              "title": "PHP CGI RCE force redirect"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Hash Collision Denial of Service (DoS) vulnerabilities in PHP",
+              "key": "PHP_Hash_Collision_Denial_Of_Service.script",
+              "title": "PHP Hash Collision Denial of Service"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Plesk",
+              "key": "Parallels_Plesk_Audit.script",
+              "title": "Plesk audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection in Plesk",
+              "key": "Plesk_Agent_SQL_Injection.script",
+              "title": "Plesk Agent SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML External Entity (XXE) vulnerabilities in Plesk",
+              "key": "Plesk_SSO_XXE.script",
+              "title": "Plesk Single-Sign-On SO XXE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution in Plone when running on Zope",
+              "key": "Plone&Zope_Remote_Command_Execution.script",
+              "title": "Plone Remote Code Execution"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a Pyramid application is in debug mode",
+              "key": "Pyramid_Debug_Mode.script",
+              "title": "Pyramid debug mode enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Ralio ColdFusion markup language (CFML) engine",
+              "key": "Railo_Audit.script",
+              "title": "Railo audit"
+            },
+            {
+              "checks": null,
+              "description": "Runs various heuristic tests looking for user registration pages and passes them to the crawler",
+              "key": "Registration_Page.script",
+              "title": "Registration page"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Reverse Proxy Bypass vulnerabilities in Apache HTTP Server's mod_proxy module",
+              "key": "Reverse_Proxy_Bypass.script",
+              "title": "Reverse Proxy Bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Ruby on Rails database file which could expose sensitive information. This vulnerability could lead to Information Disclosure",
+              "key": "RubyOnRails_Database_File.script",
+              "title": "Ruby on Rails (RoR) database file"
+            },
+            {
+              "checks": null,
+              "description": "Tests for common TLS/SSL vulnerabilities and misconfigurations",
+              "key": "SSL_Audit.script",
+              "title": "TLS/SSL audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a common DNS misconfiguration which can lead to same-site scripting",
+              "key": "Same_Site_Scripting.script",
+              "title": "Same-site Scripting"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a Snoop servlet is running, which may expose debug information",
+              "key": "Snoop_Servlet.script",
+              "title": "Snoop servlet"
+            },
+            {
+              "checks": null,
+              "description": "Tests if builtin Spring Boot Actuator endpoints expose application health information",
+              "key": "Spring_Boot_Actuator.script",
+              "title": "Spring Boot Actuator audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for subdomains pointing to external services that are cancelled or expired, which an attacker may claim to takeover the subdomain",
+              "key": "Subdomain_Takeover.script",
+              "title": "Hostile subdomain takeover"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Apache Tomcat",
+              "key": "Tomcat_Audit.script",
+              "title": "Apache Tomcat audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Apache Tomcat insecure default administrative credentials",
+              "key": "Tomcat_Default_Credentials.script",
+              "title": "Apache Tomcat default credentials"
+            },
+            {
+              "checks": null,
+              "description": "Searches for Apache Tomcat example applications",
+              "key": "Tomcat_Examples.script",
+              "title": "Apache Tomcat examples"
+            },
+            {
+              "checks": null,
+              "description": "Tests for various Cross-site Scripting (XSS) vulnerabilities in Apache Tomcat's \"Hello.jsp\" file that is installed as part of the documentation",
+              "key": "Tomcat_Hello_JSP_XSS.script",
+              "title": "Apache Tomcat Hello.jsp XSS"
+            },
+            {
+              "checks": null,
+              "description": "Searches for an Apache Tomcat status page, which exposes information about the current server state including memory status, thread information and a list of the recent requests",
+              "key": "Tomcat_Status_Page.script",
+              "title": "Apache Tomcat status page"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a Tornado application is in debug mode",
+              "key": "Tornado_Debug_Mode.script",
+              "title": "Tornado debug mode enabled"
+            },
+            {
+              "checks": null,
+              "description": "Checks if the HTTP TRACK and TRACE methods are enabled on a web server",
+              "key": "Track_Trace_Server_Methods.script",
+              "title": "TRACK and TRACE methods enabled"
+            },
+            {
+              "checks": null,
+              "description": "Searches for an exposed phpMyAdmin interface",
+              "key": "Unprotected_phpMyAdmin_Interface.script",
+              "title": "Exposed phpMyAdmin interface"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Directory Traversal and Privilege Escalation vulnerabilities in multiple VMWare products",
+              "key": "VMWare_Directory_Traversal.script",
+              "title": "VMWare (multiple products) Directory Traversal Privilege Escalation"
+            },
+            {
+              "checks": null,
+              "description": "Tests a variety of web servers for known vulnerabilities",
+              "key": "Version_Check.script",
+              "title": "Known web server vulnerabilities"
+            },
+            {
+              "checks": null,
+              "description": "Tests for internal VirtualHosts",
+              "key": "VirtualHost_Audit.script",
+              "title": "VirtualHost audit"
+            },
+            {
+              "checks": null,
+              "description": "Detects Web Application Firewalls (WAFs) running on the server",
+              "key": "WAF_Detection.script",
+              "title": "WAF detection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for WEBrick 1.3 Directory Traversal vulnerability",
+              "key": "WEBrick_Directory_Traversal.script",
+              "title": "WEBrick Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for backup or temporary configuration files of /WEB-INF/web.xml on Apache Tomcat",
+              "key": "WebInfWebXML_Audit.script",
+              "title": "Apache Tomcat /WEB-INF/web.xml audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Oracle WebLogic Server",
+              "key": "WebLogic_Audit.script",
+              "title": "Oracle WebLogic Server audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a web server default welcome page. Such pages may divulge sensitive information and lead to Information Disclosure",
+              "key": "Web_Server_Default_Welcome_Page.script",
+              "title": "Web Server Default Welcome Page"
+            },
+            {
+              "checks": null,
+              "description": "Searches for exposed web statistics scripts such as AWStats on the web server",
+              "key": "Web_Statistics.script",
+              "title": "Web statistics search"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML External Entity (XXE) and XML Injection vulnerabilities in multiple Adobe products",
+              "key": "XML_External_Entity_Injection_Server.script",
+              "title": "Adobe (multiple products) XXE"
+            },
+            {
+              "checks": null,
+              "description": "Searches for exposed Zend Framework configuration files",
+              "key": "Zend_Framework_Config_File.script",
+              "title": "Zend Framework configuration file exposed"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in ElasticSearch",
+              "key": "elasticsearch_Audit.script",
+              "title": "ElasticSearch audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for elmah.axd Information Disclosure in ASP.NET ELMAH (Error Logging Modules and Handlers) library",
+              "key": "elmah_Information_Disclosure.script",
+              "title": "ASP.NET ELMAH library Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known SQL Injection vulnerabilities in Lighttpd",
+              "key": "lighttpd_v1434_Sql_Injection.script",
+              "title": "Lighttpd SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cross-site Scripting vulnerabilities in Microsoft SharePoint",
+              "key": "ms12-050.script",
+              "title": "Microsoft SharePoint XSS"
+            },
+            {
+              "checks": null,
+              "description": "Tests phpMoAdmin for Remote Code Execution (RCE) vulnerabilities",
+              "key": "phpMoAdmin_Remote_Code_Execution.script",
+              "title": "phpMoAdmin RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Oracle Weblogic WLS-WSAT Component Deserialization RCE vulnerability",
+              "key": "Weblogic_wls-wsat_RCE.script",
+              "title": "Oracle Weblogic WLS-WSAT Component Deserialization RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for PHPUnit RCE (CVE-2017-9841) vulnerability",
+              "key": "phpunit_RCE_CVE-2017-9841.script",
+              "title": "PHPUnit RCE (CVE-2017-9841)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a SSRF(Server Side Request Forgery) vulnerability that affects multiple Atlassian products",
+              "key": "Atlassian_OAuth_Plugin_IconUriServlet_SSRF.script",
+              "title": "Atlassian OAuth Plugin IconUriServlet SSRF"
+            },
+            {
+              "checks": null,
+              "description": "Tests for PHP-FPM (FastCGI Process Manager) Status Page",
+              "key": "PHP_FPM_Status_Page.script",
+              "title": "PHP-FPM Status Page"
+            },
+            {
+              "checks": null,
+              "description": "Looks for common test CGI scripts that are leaking environment variables",
+              "key": "Test_CGI_Script.script",
+              "title": "Test CGI scripts"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Cisco ASA Path Traversal (CVE-2018-0296)",
+              "key": "Cisco_ASA_Path_Traversal_CVE-2018-0296.script",
+              "title": "Tests for Cisco ASA Path Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for JBoss Remote Code Execution (CVE-2015-7501)",
+              "key": "JBoss_RCE_CVE-2015-7501.script",
+              "title": "JBoss Remote Code Execution (CVE-2015-7501)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for JBoss Remote Code Execution (CVE-2017-7504)",
+              "key": "JBoss_RCE_CVE-2017-7504.script",
+              "title": "JBoss Remote Code Execution (CVE-2017-7504)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for WebSphere Remote Code Execution (CVE-2015-7450)",
+              "key": "WebSphere_RCE_CVE-2015-7450.script",
+              "title": "WebSphere Remote Code Execution (CVE-2015-7450)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Liferay TunnelServlet Deserialization Remote Code Execution",
+              "key": "Liferay_RCE_tra-2017-01.script",
+              "title": "Liferay TunnelServlet Deserialization RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Liferay XMLRPC Blind Server Side Request Forgery",
+              "key": "Liferay_Xmlrpc_SSRF.script",
+              "title": "Liferay XMLRPC Blind SSRF"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution (RCE) in Spring Security OAuth (CVE-2016-4977)",
+              "key": "Spring_RCE_CVE-2016-4977.script",
+              "title": "Spring Security OAuth RCE"
+            }
+          ],
+          "description": "Tests run at the beginning of a scan",
+          "key": "PerServer",
+          "title": "Server tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Apache Flex",
+              "key": "Adobe_Flex_Audit.script",
+              "title": "Apache Flex audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a public Amazon S3 Bucket used by the web application has directory listing enabled, which may expose sensitive information",
+              "key": "Amazon_S3_Buckets_Audit.script",
+              "title": "Amazon S3 Buckets audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests the abuse of the Apache HTTP Server Content Negotiation (Multiviews) functionality to discover new files on an Apache HTTP Server, which may expose sensitive information",
+              "key": "Apache_CN_Discover_New_Files.script",
+              "title": "Apache HTTP Server Content Negotiation file discovery"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a public Microsoft Azure Blob used by the web application has directory listing enabled, which may expose sensitive information",
+              "key": "Azure_Blobs_Audit.script",
+              "title": "Microsoft Azure Blobs audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in CKEditor",
+              "key": "CKEditor_Audit.script",
+              "title": "CKEditor Audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in CakePHP",
+              "key": "CakePHP_Audit.script",
+              "title": "CakePHP audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Information Disclosure in configuration files on the remote host",
+              "key": "Config_File_Disclosure.script",
+              "title": "Configuration file disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Ext JS's examples",
+              "key": "ExtJS_Examples_Arbitrary_File_Read.script",
+              "title": "Ext JS examples arbitrary file read"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in FCKeditor",
+              "key": "FCKEditor_Audit.script",
+              "title": "FCKEditor audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Google Web Toolkit",
+              "key": "GWT_Audit.script",
+              "title": "Google Web Toolkit (GWT) audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Genericons webfont",
+              "key": "Genericons_Audit.script",
+              "title": "Genericons audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Host Header Attack vulnerabilities",
+              "key": "Host_Header_Attack.script",
+              "title": "Host Header Attack"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Tilde Directory Enumeration in Microsoft IIS",
+              "key": "IIS_Tilde_Dir_Enumeration.script",
+              "title": "Microsoft IIS Tilde Directory Enumeration"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Java EE",
+              "key": "J2EE_Audit.script",
+              "title": "Java EE audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for authentication bypass vulnerabilities in Java Authentication and Authorization Service (JAAS)",
+              "key": "JAAS_Authentication_Bypass.script",
+              "title": "JAAS authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in JBoss Seam",
+              "key": "JBoss_Seam_Remoting.script",
+              "title": "JBoss Seam Framework Remoting"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution vulnerabilities in the JBoss Seam Framework",
+              "key": "JBoss_Seam_actionOutcome.script",
+              "title": "JBoss Seam Framework"
+            },
+            {
+              "checks": null,
+              "description": "Tests for HTTP Basic Authentication bypass vulnerabilities on JSP pages",
+              "key": "JSP_Authentication_Bypass.script",
+              "title": "JSP authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Microsoft Windows HTTP.sys Remote Code Execution (RCE) vulnerability (MS15-034)",
+              "key": "MS15-034.script",
+              "title": "Microsoft Windows HTTP.sys RCE (MS15-034)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Minify, a PHP JavaScript and CSS minification server",
+              "key": "Minify_Audit.script",
+              "title": "Minify audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for unrestricted file upload vulnerabilities in Open Flash Chart",
+              "key": "OFC_Upload_Image_Audit.script",
+              "title": "Open Flash Charts unrestricted file upload"
+            },
+            {
+              "checks": null,
+              "description": "Tests for directory traversal vulnerabilities in Oracle's Java Server Faces 2 implementation",
+              "key": "Oracle_JSF2_Path_Traversal.script",
+              "title": "Oracle Java Server Faces 2 Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for PHP-CGI Remote Code Execution when PHP is used in a CGI-based setup (such as Apache HTTP Server's mod_cgid)",
+              "key": "PHP_CGI_RCE.script",
+              "title": "PHP CGI RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Expression Language (EL) Injection in PrimeFaces",
+              "key": "PrimeFaces5_EL_Injection.script",
+              "title": "PrimeFaces EL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Ruby on Rails (RoR)",
+              "key": "Rails_Audit.script",
+              "title": "Ruby on Rails (RoR) audit"
+            },
+            {
+              "checks": null,
+              "description": "Searches for routes commonly found in Ruby on Rails (RoR) web applications, including routes containing hidden actions",
+              "key": "Rails_Audit_Routes.script",
+              "title": "Ruby on Rails (RoR) routes audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for arbitrary password reset vulnerabilities and weak passwords in Ruby on Rails (RoR) Devise authentication framework",
+              "key": "Rails_Devise_Authentication_Password_Reset.script",
+              "title": "Ruby on Rails (RoR) Devise authentication password reset"
+            },
+            {
+              "checks": null,
+              "description": "Tests for weak/known secret tokens that are used to sign cookies that the application sets in Ruby on Rails (RoR) web applications",
+              "key": "Rails_Weak_secret_token.script",
+              "title": "Ruby on Rails (RoR) Rails weak secret token"
+            },
+            {
+              "checks": null,
+              "description": "Checks if a web server is configured to display the list of files contained in a directory",
+              "key": "Server_Directory_Listing.script",
+              "title": "Server directory listing"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Directory Traversal vulnerabilities within the crawl structure",
+              "key": "Server_Directory_Traversal.script",
+              "title": "Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for source code disclosure vulnerabilities",
+              "key": "Server_Source_Code_Disclosure.script",
+              "title": "Server source code disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Session Fixation vulnerabilities",
+              "key": "Session_Fixation.script",
+              "title": "Session Fixation"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Microsoft SharePoint",
+              "key": "SharePoint_Audit.script",
+              "title": "SharePoint audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Denial of Service (DoS) vulnerabilities in the default upload mechanism of Apache Struts2 (S2-020)",
+              "key": "Struts2_ClassLoader_Manipulation.script",
+              "title": "Apache Struts2 ClassLoader manipulation DoS (S2-020)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Denial of Service (DoS) vulnerabilities in the default upload mechanism of Apache Struts2 (S2-021)",
+              "key": "Struts2_ClassLoader_Manipulation2.script",
+              "title": "Apache Struts2 ClassLoader manipulation DoS (S2-021)"
+            },
+            {
+              "checks": null,
+              "description": "Tests if Apache Struts2 development mode is enabled",
+              "key": "Struts2_Development_Mode.script",
+              "title": "Apache Struts2 development mode"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Object Graph Navigation Language (OGNL) expression injection vulnerabilities in Apache Struts2, which could lead to Remote Code Execution (RCE)",
+              "key": "Struts2_Remote_Code_Execution.script",
+              "title": "Apache Struts2 OGNL Injection RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for various Remote Code Execution (RCE) vulnerabilities in Apache Struts 2.0.14",
+              "key": "Struts2_Remote_Code_Execution_S2014.script",
+              "title": "Apache Struts 2.0.14 RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Remote Command Execution vulnerability in Apache Struts2",
+              "key": "Struts2_Remote_Code_Execution_S2045.script",
+              "title": "Apache Struts2 remote command execution (S2-045)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Remote Code Execution vulnerability in Apache Struts2 Showcase",
+              "key": "Struts2_Remote_Code_Execution_S2048.script",
+              "title": "Apache Struts2 Remote Code Execution (S2-048)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a Remote Code Execution vulnerability in Apache Struts2 REST plugin",
+              "key": "Struts_RCE_S2-052_CVE-2017-9805.script",
+              "title": "Apache Struts2 Remote Command Execution (S2-052)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution in TimThumb, a widely used PHP script for image manipulation",
+              "key": "Timthumb_Audit.script",
+              "title": "Timthumb audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the TineMCE library",
+              "key": "Tiny_MCE_Audit.script",
+              "title": "Tiny MCE audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Uploadify jQuery plugin",
+              "key": "Uploadify_Audit.script",
+              "title": "Uploadify jQuery plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Searches for WADL files used to describe RESTful web services, and tests any discovered inputs for vulnerabilities",
+              "key": "WADL_Files.script",
+              "title": "WADL files"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a running WebDAV service and related vulnerabilities such as XXE via the WebDAV PROPFIND method",
+              "key": "WebDAV_Audit.script",
+              "title": "WebDAV audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for XML Quadratic Blowup Denial of Service (DoS) vulnerabilities",
+              "key": "XML_Quadratic_Blowup_Attack.script",
+              "title": "XML Quadratic Blowup DoS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for access to the administrative interfaces using various internal X-Forwarded-For headers to bypass authentication",
+              "key": "X_Forwarded_For.script",
+              "title": "X-Forwarded-For header authentication bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Local File Inclusion (LFI) via XML External Entity (XXE) in the Zend Framework",
+              "key": "Zend_Framework_LFI_via_XXE.script",
+              "title": "Zend Framework LFI via XXE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for an Nginx misconfiguration leading to header injection",
+              "key": "nginx-redir-headerinjection.script",
+              "title": "Nginx Redirect Header Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for default phpLiteAdmin credentials",
+              "key": "phpLiteAdmin_Audit.script",
+              "title": "phpLiteAdmin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known phpThumb() vulnerabilities",
+              "key": "phpThumb_Audit.script",
+              "title": "phpThumb() audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the TCPDF PHP class for generating PDF documents",
+              "key": "tcpdf_Audit.script",
+              "title": "TCPDF audit"
+            }
+          ],
+          "description": "Tests run at the end of a crawl session",
+          "key": "PostCrawl",
+          "title": "Structure tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "Tests for webmail applications using a weak password on the remote host",
+              "key": "10-Webmail_Audit.script",
+              "title": "Webmail password audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored Cross-site Scripting (XSS) vulnerabilities",
+              "key": "2-Stored_XSS.script",
+              "title": "Stored XSS"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored SQL Injection vulnerabilities",
+              "key": "3-Stored_SQL_Injection.script",
+              "title": "Stored SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored File Inclusion vulnerabilities",
+              "key": "4-Stored_File_Inclusion.script",
+              "title": "Stored File Inclusion"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored Directory Traversal vulnerabilities",
+              "key": "5-Stored_Directory_Traversal.script",
+              "title": "Stored Directory Traversal"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored code execution vulnerabilities",
+              "key": "6-Stored_Code_Execution.script",
+              "title": "Stored code execution"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored File Tampering vulnerabilities",
+              "key": "7-Stored_File_Tampering.script",
+              "title": "Stored File Tampering"
+            },
+            {
+              "checks": null,
+              "description": "Tests for stored PHP Code Execution vulnerabilities",
+              "key": "8-Stored_PHP_Code_Execution.script",
+              "title": "Stored PHP Code Execution"
+            },
+            {
+              "checks": null,
+              "description": "Tests for multiple web servers running on the remote host",
+              "key": "9-Multiple_Web_Servers.script",
+              "title": "Multiple web servers"
+            }
+          ],
+          "description": "Tests run after the scan is completed",
+          "key": "PostScan",
+          "title": "Post-scan tests"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "no description",
+              "key": "CMSMS.script",
+              "title": "CMS Made Simple audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in CodeIgniter Web Framework",
+              "key": "codeigniter.script",
+              "title": "CodeIgniter Web Framework audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Atlassian Confluence",
+              "key": "confluence.script",
+              "title": "Atlassian Confluence audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in DNN (DotNetNuke)",
+              "key": "dotnetnuke.script",
+              "title": "DNN (DotNetNuke) audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Drupal",
+              "key": "drupal.script",
+              "title": "Drupal audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for PHP Remote Code Execution (RCE) and information disclosure vulnerabilities in Drupal",
+              "key": "drupal_1.script",
+              "title": "Drupal RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Information Disclosure vulnerabilities in the Drupal Views module",
+              "key": "drupal_2.script",
+              "title": "Drupal Views module Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities in Drupal",
+              "key": "drupal_3.script",
+              "title": "Drupal SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for RCE (SA-CORE-2018-002) vulnerabilities in Drupal",
+              "key": "drupal_4.script",
+              "title": "Drupal RCE SA-CORE-2018-002"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Ektron CMS",
+              "key": "ektroncms.script",
+              "title": "Ektron CMS audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Gallery",
+              "key": "gallery.script",
+              "title": "Gallery audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Horde",
+              "key": "horde.script",
+              "title": "Horde audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Invision Power Board",
+              "key": "ipb.script",
+              "title": "Invision Power Board audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Atlassian JIRA",
+              "key": "jira.script",
+              "title": "Atlassian JIRA audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Joomla!",
+              "key": "joomla.script",
+              "title": "Joomla! audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for weak credentials in Joomla!",
+              "key": "joomla_1.script",
+              "title": "Joomla! weak credentials"
+            },
+            {
+              "checks": null,
+              "description": "Test for SQL Injection vulnerabilities in Joomla! (3.2 to 3.4.4)",
+              "key": "joomla_10.script",
+              "title": "Joomla! SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Test for Remote Code Execution (RCE) vulnerabilities in Joomla!",
+              "key": "joomla_11.script",
+              "title": "Joomla! RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests if J!Dump is enabled as it leads to information disclosure",
+              "key": "joomla_12.script",
+              "title": "Joomla J!Dump extension enabled"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Arbitrary File Upload vulnerabilities in the Joomla! JCE extension",
+              "key": "joomla_2.script",
+              "title": "Joomla! JCE Arbitrary File Upload"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remoe Code Execution (RCE) vulnerabilities in the Joomla! JomSocial extension",
+              "key": "joomla_3.script",
+              "title": "Joomla! JomSocial RCE"
+            },
+            {
+              "checks": null,
+              "description": "Test for SQL Injection vulnerabilities in Joomla! (3.2.1)",
+              "key": "joomla_4.script",
+              "title": "Joomla! SQL Injection 3.2.1"
+            },
+            {
+              "checks": null,
+              "description": "Test for SQL Injection vulnerabilities in Joomla! (3.2.2)",
+              "key": "joomla_5.script",
+              "title": "Joomla! SQL Injection 3.2.2"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities in the Joomla! Kunena Forum extension",
+              "key": "joomla_6.script",
+              "title": "Joomla! Kunena Forum SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Access Control Bypass vulnerabilities in the Joomla! Akeeba Backup extension",
+              "key": "joomla_7.script",
+              "title": "Joomla! Akeeba Backup Access Control Bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote File Inclusion (RFI) vulnerabilities in Joomla!",
+              "key": "joomla_8.script",
+              "title": "Joomla! RFI"
+            },
+            {
+              "checks": null,
+              "description": "Test for Access Control Bypass vulnerabilities in the Joomla! VirtueMart extension",
+              "key": "joomla_9.script",
+              "title": "Joomla! VirtueMart Access Control Bypass"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Kayako Fusion",
+              "key": "kayakofusion.script",
+              "title": "Kayako Fusion audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Liferay",
+              "key": "liferay.script",
+              "title": "Liferay audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Magento",
+              "key": "magento.script",
+              "title": "Magento audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in MantisBT",
+              "key": "mantisbt.script",
+              "title": "MantisBT audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in MediaWiki",
+              "key": "mediawiki.script",
+              "title": "MediaWiki audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in MoinMoinWiki",
+              "key": "moinmoin.script",
+              "title": "MoinMoinWiki audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Movable Type",
+              "key": "movabletype.script",
+              "title": "Movable Type audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Nagios",
+              "key": "nagios.script",
+              "title": "Nagios audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in OpenX",
+              "key": "openx.script",
+              "title": "OpenX audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in phpMyAdmin",
+              "key": "phpmyadmin.script",
+              "title": "phpMyAdmin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in PmWiki",
+              "key": "pmwiki.script",
+              "title": "PmWiki audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Roundcube",
+              "key": "roundcube.script",
+              "title": "Roundcube audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Microsoft Sharepoint",
+              "key": "sharepoint.script",
+              "title": "Microsoft SharePoint audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Symfony framework",
+              "key": "symfony.script",
+              "title": "Symfony audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for vulnerabilities in Symphony XSLT CMS",
+              "key": "symphony.script",
+              "title": "Symphony audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Tiki Wiki CMS",
+              "key": "TikiWiki.script",
+              "title": "Tiki Wiki CMS audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Typo3",
+              "key": "typo3.script",
+              "title": "Typo3"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in Umbraco",
+              "key": "umbraco.script",
+              "title": "Umbraco audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Local File Inclusion (LFI) in Umbraco",
+              "key": "umbraco_1.script",
+              "title": "Umbraco LFI"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in vBulletin",
+              "key": "vbulletin.script",
+              "title": "vBulletin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for SQL Injection vulnerabilities in vBulletin",
+              "key": "vbulletin_1.script",
+              "title": "vBulletin SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Remote Code Execution (RCE) vulnerabilities in vBulletin",
+              "key": "vbulletin_2.script",
+              "title": "vBulletin RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the TimThumb WordPress plugin",
+              "key": "wordpress.script",
+              "title": "TimThumb WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Enumerates WordPress plugins and themes, then passes them on to other vulnerability tests.",
+              "key": "wordpress_1.script",
+              "title": "WordPress plugins and theme enumeration"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in various WordPress caching plugins",
+              "key": "wordpress_10.script",
+              "title": "WordPress caching plugins audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the OptimizePress WordPress plugins",
+              "key": "wordpress_11.script",
+              "title": "OptimizePress WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Jetpack WordPress plugin",
+              "key": "wordpress_12.script",
+              "title": "Jetpack WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the All in One SEO Pack WordPress plugin",
+              "key": "wordpress_13.script",
+              "title": "All in One SEO Pack WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the MailPoet Newsletters WordPress plugin",
+              "key": "wordpress_14.script",
+              "title": "MailPoet Newsletters WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the WPtouch WordPress plugin",
+              "key": "wordpress_15.script",
+              "title": "WPtouch WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the Revolution Slider WordPress plugin",
+              "key": "wordpress_16.script",
+              "title": "Revolution Slider WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests if a WordPress is in debug mode",
+              "key": "wordpress_17.script",
+              "title": "WordPress debug mode enabled"
+            },
+            {
+              "checks": null,
+              "description": "Checks if the WordPress /wp-admin directory is accessible without HTTP authentication",
+              "key": "wordpress_18.script",
+              "title": "WordPress /wp-admin accessible without HTTP authentication"
+            },
+            {
+              "checks": null,
+              "description": "Tests for various WordPress Path Disclosure vulnerabilities",
+              "key": "wordpress_19.script",
+              "title": "WordPress Path Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Searches for WordPress wp-config.php configuration file backups",
+              "key": "wordpress_2.script",
+              "title": "WordPress wp-config.php backup file search"
+            },
+            {
+              "checks": null,
+              "description": "Tests if WordPress open registration is permitted",
+              "key": "wordpress_20.script",
+              "title": "WordPress open registration"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in the WooFramework WordPress plugin",
+              "key": "wordpress_3.script",
+              "title": "WooFramework WordPress plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for WordPress ToolsPack malware",
+              "key": "wordpress_4.script",
+              "title": "WordPress ToolsPack malware"
+            },
+            {
+              "checks": null,
+              "description": "Tests for WordPress XML-RPC authentication brute force vulnerabilities",
+              "key": "wordpress_5.script",
+              "title": "WordPress XML-RPC authentication brute force"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in WordPress W3 Total Cache plugin",
+              "key": "wordpress_6.script",
+              "title": "WordPress W3 Total Cache plugin audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for various vulnerabilities in WordPress core",
+              "key": "wordpress_7.script",
+              "title": "WordPress core audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for weak credentials of WordPress users",
+              "key": "wordpress_8.script",
+              "title": "WordPress weak credentials audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests installed WordPress plugins and themes for known vulnerabilities",
+              "key": "wordpress_9.script",
+              "title": "WordPress plugin and theme audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for known vulnerabilities in X-Cart",
+              "key": "xcart.script",
+              "title": "X-Cart audit"
+            },
+            {
+              "checks": null,
+              "description": "Tests for publicly accessible backup directory in Drupal Backup Migrate",
+              "key": "drupal_5.script",
+              "title": "Drupal Backup Migrate"
+            },
+            {
+              "checks": null,
+              "description": "Tests for information disclosure in Atlassian Jira ManageFilters page",
+              "key": "jira_1.script",
+              "title": "Atlassian Jira ManageFilters Information Disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for a SSRF(Server Side Request Forgery) vulnerability that affects multiple Atlassian products",
+              "key": "jira_2.script",
+              "title": "Atlassian Jira OAuth Plugin IconUriServlet SSRF"
+            },
+            {
+              "checks": null,
+              "description": "Checks if WordPress user enumeration is possible using various WordPress REST API endpoints",
+              "key": "wordpress_21.script",
+              "title": "WordPress REST API User Enumeration"
+            },
+            {
+              "checks": null,
+              "description": "Tests if Atlassian Jira REST interface is configured with weak/insecure permissions",
+              "key": "jira_3.script",
+              "title": "Atlassian Jira Insecure REST Permissions"
+            },
+            {
+              "checks": null,
+              "description": "Tests for older versions of Liferay",
+              "key": "liferay_2.script",
+              "title": "Liferay older versions"
+            },
+            {
+              "checks": null,
+              "description": "Tests for an Open Redirect Vulnerability that affects Drupal Core",
+              "key": "drupal_6.script",
+              "title": "Drupal Core Open Redirect"
+            },
+            {
+              "checks": null,
+              "description": "Checks for WPEngine _wpeprivate/config.json information disclosure.",
+              "key": "wordpress_22.script",
+              "title": "WPEngine _wpeprivate/config.json information disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Test for Remote Code Execution vulnerability in WordPress Duplicator.",
+              "key": "wordpress_23.script",
+              "title": "Remote Code Execution vulnerability in WordPress Duplicator"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Ektron CMS authentication bypass (CVE-2018-12596)",
+              "key": "ektroncms_1.script",
+              "title": "Ektron CMS authentication bypass (CVE-2018-12596)"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Unauthenticated Stored XSS in WordPress Plugin WPML (CVE-2018-18069)",
+              "key": "wordpress_24.script",
+              "title": "Unauthenticated Stored XSS in WordPress Plugin WPML"
+            },
+            {
+              "checks": null,
+              "description": "Tests for vBulletin 5 routestring Local File Inclusion Vulnerability.",
+              "key": "vbulletin_3.script",
+              "title": "vBulletin 5 routestring LFI"
+            },
+            {
+              "checks": null,
+              "description": "Look for common files and directories present in SAP NetWeaver",
+              "key": "SAPNetWeaver.script",
+              "title": "SAP common files and folders"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Netweaver version information leaks",
+              "key": "SAPNetWeaver_1.script",
+              "title": "SAP Netweaver version information leaks"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Netweaver bcbadmSystemInfo.jsp information leak",
+              "key": "SAPNetWeaver_2.script",
+              "title": "SAP Netweaver bcbadmSystemInfo.jsp information leak"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Netweaver ipcpricing SSRF (Server-Side Request Forgery)",
+              "key": "SAPNetWeaver_3.script",
+              "title": "SAP Netweaver ipcpricing SSRF"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP ICF /sap/public/info sensitive information disclosure",
+              "key": "SAPNetWeaver_4.script",
+              "title": "SAP ICF /sap/public/info information disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP weak/predictable user credentials",
+              "key": "SAPNetWeaver_5.script",
+              "title": "SAP weak/predictable user credentials"
+            },
+            {
+              "checks": null,
+              "description": "Another test for SAP weak/predictable user credentials",
+              "key": "SAPNetWeaver_6.script",
+              "title": "SAP weak/predictable user credentials (variant)"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP NetWeaver ConfigServlet remote command execution",
+              "key": "SAPNetWeaver_7.script",
+              "title": "SAP NetWeaver ConfigServlet remote command execution"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Management Console list logfiles",
+              "key": "SAPNetWeaver_8.script",
+              "title": "SAP Management Console list logfiles"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Management Console get user list",
+              "key": "SAPNetWeaver_9.script",
+              "title": "SAP Management Console get user list"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Knowledge Management and Collaboration (KMC) incorrect permissions",
+              "key": "SAPNetWeaver_10.script",
+              "title": "SAP KMC incorrect permissions"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Portal directory traversal vulnerability",
+              "key": "SAPNetWeaver_11.script",
+              "title": "SAP Portal directory traversal vulnerability"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP NetWeaver Java AS WD_CHAT information disclosure vulnerability",
+              "key": "SAPNetWeaver_12.script",
+              "title": "SAP NetWeaver Java AS WD_CHAT information disclosure"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Drupal REST Remote Code Execution",
+              "key": "drupal_7.script",
+              "title": "Drupal REST Remote Code Execution"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Magento Unauthenticated SQL Injection",
+              "key": "magento_2.script",
+              "title": "Magento Unauthenticated SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Jira unauthorized SSRF via REST API (CVE-2019-8451)",
+              "key": "jira_4.script",
+              "title": "Jira Unauthorized SSRF via REST API"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web appliction is vulnerable to vBulletin 5.x 0day pre-auth RCE",
+              "key": "vbulletin_4.script",
+              "title": "vBulletin 5.x 0day pre-auth RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests for the Super Socialat backdoor plugin.",
+              "key": "wordpress_25.script",
+              "title": "Super Socialat backdoor plugin"
+            },
+            {
+              "checks": null,
+              "description": "Tests for vBulletin 5.6.1 nodeId SQL Injection.",
+              "key": "vbulletin_5.script",
+              "title": "vBulletin 5.6.1 nodeId SQL Injection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for WordPress Duplicator plugin Unauthenticated Arbitrary File Download.",
+              "key": "wordpress_26.script",
+              "title": "WordPress Duplicator plugin Unauthenticated Arbitrary File Download"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP Netweaver RECON auth bypass vulnerability (CVE-2020-6287)",
+              "key": "SAPNetWeaver_13.script",
+              "title": "SAP Netweaver RECON vulnerability"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the website is vulnerable to vBulletin Pre-Auth RCE Vulnerability",
+              "key": "vbulletin_6.script",
+              "title": "vBulletin Pre-Auth RCE Vulnerability"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP IGS XXE vulnerability (CVE-2018-2392, CVE-2018-2393)",
+              "key": "SAPNetWeaver_14.script",
+              "title": "SAP IGS XMLCHART XXE"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP ICF URL redirection",
+              "key": "SAPNetWeaver_15.script",
+              "title": "SAP ICF URL redirection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Jira Unauthorized User Enumeration vulnerability (CVE-2020-14181)",
+              "key": "jira_5.script",
+              "title": "Jira Unauthorized User Enumeration (CVE-2020-14181)"
+            },
+            {
+              "checks": null,
+              "description": "Tests if user enumeration via UserPickerBrowser is allowed for anonymous user",
+              "key": "jira_6.script",
+              "title": "Jira Unauthorized User Enumeration via UserPickerBrowser"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Jira projects are accessible anonymously",
+              "key": "jira_7.script",
+              "title": "Jira Projects accessible anonymously"
+            }
+          ],
+          "description": "Tests run on directories in which known web application were found",
+          "key": "WebApps",
+          "title": "Known web application tests"
+        }
+      ],
+      "description": "Tests run during a scan",
+      "key": "Scripts",
+      "title": "Scanning tests"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for the insecure transition from HTTP (HTTPS) to HTTPS (HTTP) in form POST requests.",
+          "key": "InsecureTransition.js",
+          "title": "Insecure transition from HTTP (HTTPS) to HTTPS (HTTP)"
+        },
+        {
+          "checks": null,
+          "description": "Searches for SQL statements in comments",
+          "key": "SQL_Statement_In_Comment.js",
+          "title": "SQL statement in comment"
+        },
+        {
+          "checks": null,
+          "description": "Checks if the Content-type header is not specified",
+          "key": "Content_Type_Missing.js",
+          "title": "Content-type not specified"
+        },
+        {
+          "checks": null,
+          "description": "Searches for a session token in a URL",
+          "key": "Session_Token_In_Url.js",
+          "title": "Session token in URL"
+        },
+        {
+          "checks": null,
+          "description": "Checks if a password is submitted via the GET method instead of the POST method",
+          "key": "Password_In_Get.js",
+          "title": "Password sent via GET method"
+        },
+        {
+          "checks": null,
+          "description": "Checks if a cookie is scoped to the parent domain rather than the subdomain where it was issued",
+          "key": "Cookie_On_Parent_Domain.js",
+          "title": "Cookie scoped to parent domain"
+        },
+        {
+          "checks": null,
+          "description": "Checks if the HttpOnly flag is set on a session cookie",
+          "key": "Cookie_Without_HttpOnly.js",
+          "title": "Session cookie without HttpOnly flag set"
+        },
+        {
+          "checks": null,
+          "description": "Checks if the Secure flag is set on a session cookie",
+          "key": "Cookie_Without_Secure.js",
+          "title": "Session Cookie without Secure flag set"
+        },
+        {
+          "checks": null,
+          "description": "Checks if a page containing sensitive information is missing directives for preventing page caching",
+          "key": "Cacheable_Sensitive_Page.js",
+          "title": "Cacheable sensitive page"
+        },
+        {
+          "checks": null,
+          "description": "Checks if the ASP.NET View State (__VIEWSTATE) is not encrypted",
+          "key": "Unencrypted_VIEWSTATE.js",
+          "title": "Unencrypted ASP.NET View State parameter"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Subresource Integrity (SRI) is not implemented.",
+          "key": "SRI_Not_Implemented.js",
+          "title": "Subresource Integrity (SRI) not implemented"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the connection to the target is secured through HTTPS",
+          "key": "no_https.js",
+          "title": "Secured connection"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Mojolicious_Cookie_Weak_Secret.js",
+          "title": "Mojolicious weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Yii2_Cookie_Weak_Secret.js",
+          "title": "Yii2 weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the PeopleSoft SSO cookie is signed with a weak/dictionary secret (TokenChpoken attack)",
+          "key": "PS_Cookie_Weak_Secret.js",
+          "title": "Oracle PeopleSoft SSO weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Web2py_Cookie_Weak_Secret.js",
+          "title": "Web2py weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Express_Cookie_Session_Weak_Secret.js",
+          "title": "Express cookie-session weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Express_Express_Session_Weak_Secret.js",
+          "title": "Express express-session weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Flask_Cookie_Weak_Secret.js",
+          "title": "Flask weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Universal_Cookie_Weak_Secret.js",
+          "title": "Cookie signed with weak secret key (universal)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Django_Cookie_Weak_Secret.js",
+          "title": "Django weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "BottlePy_Cookie_Weak_Secret.js",
+          "title": "BottlePy weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Tornado_Cookie_Weak_Secret.js",
+          "title": "Tornado weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Ruby_Cookie_Weak_Secret.js",
+          "title": "Ruby framework weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Tests for common misconfigurations related to JWT",
+          "key": "JWT_Cookie_Audit.js",
+          "title": "JWT audit (in cookies)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Play_Cookie_Weak_Secret.js",
+          "title": "Play framework weak secret key"
+        },
+        {
+          "checks": null,
+          "description": "Issues warnings about cookies with missing, inconsistent, or contradictory properties.",
+          "key": "Cookie_Validator.js",
+          "title": "Detect misconfigured cookies"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Pyramid_Cookie_Weak_Secret.js",
+          "title": "Pyramid weak secret key"
+        }
+      ],
+      "description": "Passive tests run on the responses received by the crawler",
+      "key": "RPA",
+      "title": "Runtime passive analysis"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Issues a notification upon the discovery of forms indicating that the target may accept file uploads.",
+          "key": "12-Crawler_File_Upload.js",
+          "title": "File Upload Form"
+        },
+        {
+          "checks": null,
+          "description": "Issues a warning if a SSL/TLS connection uses a key with a length short enough to be considered weak.",
+          "key": "12-Crawler_HTTPS_weak_key_length.js",
+          "title": "HTTPS Weak Key length"
+        },
+        {
+          "checks": null,
+          "description": "Issues an alert if the TLS connection negotiated by Spectra uses an outdated TLS version.",
+          "key": "HTTPS_insecure_maxTLS.js",
+          "title": "Best Supported TLS Version Outdated"
+        },
+        {
+          "checks": null,
+          "description": "Checks whether potentially sensitive data is being submitted over an unencrypted connection.",
+          "key": "12-Crawler_User_Credentials_Plain_Text.js",
+          "title": "User Credentials as Plain Text"
+        }
+      ],
+      "description": "Passive tests run on the responses received by the crawler",
+      "key": "Crawler",
+      "title": "Crawler analysis"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Zabbix",
+          "key": "zabbix/zabbix_audit.js",
+          "title": "Zabbix audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Tomcat path traversal via reverse proxy mapping",
+          "key": "reverse_proxy_path_traversal.js",
+          "title": "Tomcat path traversal via reverse proxy mapping"
+        },
+        {
+          "checks": null,
+          "description": "Active tests for security issues related to CORS (Cross-Origin Resource Sharing), such as insufficient origin validation",
+          "key": "cors_origin_validation.js",
+          "title": "CORS configuration assessment (active)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Yii2's Gii module is enabled",
+          "key": "yii2/yii2_gii.js",
+          "title": "Enabled Yii2 Framework Gii module"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Node.js web application source code disclosure",
+          "key": "nodejs_source_code_disclosure.js",
+          "title": "Node.js web application source code disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests for npm log file publicly accessible (npm-debug.log)",
+          "key": "npm_debug_log.js",
+          "title": "npm log file publicly accessible (npm-debug.log)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for PHP-CS-Fixer cache file publicly accessible (.php_cs.cache)",
+          "key": "php_cs_cache.js",
+          "title": "PHP-CS-Fixer cache file publicly accessible (.php_cs.cache)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Laravel log viewer by rap2hpoutre LFD (Local File Download)",
+          "key": "laravel_log_viewer_lfd.js",
+          "title": "Laravel log viewer LFD (Local File Download)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for LFI (Local File Inclusion) in SAP B2B/B2C CRM",
+          "key": "sap_b2b_lfi.js",
+          "title": "SAP B2B/B2C CRM LFI (Local File Inclusion)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Node.js path validation vulnerability (CVE-2017-14849)",
+          "key": "nodejs_path_traversal_CVE-2017-14849.js",
+          "title": "Node.js path validation vulnerability (CVE-2017-14849)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for jQuery File Upload unauthenticated arbitrary file upload",
+          "key": "jquery_file_upload_rce.js",
+          "title": "jQuery File Upload unauthenticated arbitrary file upload"
+        },
+        {
+          "checks": null,
+          "description": "Tests for GoAhead web server remote code execution",
+          "key": "goahead_web_server_rce.js",
+          "title": "GoAhead web server remote code execution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for File creation via HTTP method PUT",
+          "key": "file_upload_via_put_method.js",
+          "title": "File creation via HTTP method PUT"
+        },
+        {
+          "checks": null,
+          "description": "Tests if ColdFusion RDS is enabled",
+          "key": "coldfusion/coldfusion_rds_login.js",
+          "title": "ColdFusion RDS enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Request Debugging is enabled",
+          "key": "coldfusion/coldfusion_request_debugging.js",
+          "title": "ColdFusion Request Debugging information disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Robust Exception is enabled",
+          "key": "coldfusion/coldfusion_robust_exception.js",
+          "title": "ColdFusion Robust Exception information disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Adds ColdFusion-specific paths potentially vulnerable to XSS",
+          "key": "coldfusion/coldfusion_add_paths.js",
+          "title": "ColdFusion-specific paths"
+        },
+        {
+          "checks": null,
+          "description": "Tests for the AMF deserialization RCE (CVE-2017-3066) in ColdFusion Flash Remoting",
+          "key": "coldfusion/coldfusion_amf_deser.js",
+          "title": "ColdFusion AMF Deserialization RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests ColdFusion for JNDI injection RCE vulnerability (CVE-2018-15957)",
+          "key": "coldfusion/coldfusion_jndi_inj_rce.js",
+          "title": "ColdFusion JNDI injection RCE (CVE-2018-15957)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if ColdFusion has the unauthenticated arbitrary file upload vulnerability (CVE-2018-15961)",
+          "key": "coldfusion/coldfusion_file_uploading_CVE-2018-15961.js",
+          "title": "ColdFusion Arbitrary File Upload RCE (CVE-2018-15961)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Python web application source code disclosure",
+          "key": "python_source_code_disclosure.js",
+          "title": "Python web application source code disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Ruby web application source code disclosure",
+          "key": "ruby_source_code_disclosure.js",
+          "title": "Ruby web application source code disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Widget Connector addon of Confluence is vulnerable to path traversal and server side template injection (CVE-2019-3396).",
+          "key": "confluence/confluence_widget_SSTI_CVE-2019-3396.js",
+          "title": "Confluence Widget Connector RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for an Apache Shiro Deserialization issue leading to remote code execution",
+          "key": "shiro/apache-shiro-deserialization-rce.js",
+          "title": "Apache Shiro Deserialization RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for FlashGateway Deserialization RCE vulnerability (CVE-2019-7091)",
+          "key": "coldfusion/coldfusion_flashgateway_deser_CVE-2019-7091.js",
+          "title": "ColdFusion FlashGateway Deserialization RCE (CVE-2019-7091)"
+        },
+        {
+          "checks": null,
+          "description": "Test if Convert servlet of Oracle Business Intelligence has an XML External Entity (XXE) processing vulnerability (CVE-2019-2767)",
+          "key": "oraclebi/oracle_biee_convert_xxe_CVE-2019-2767.js",
+          "title": "Oracle Business Intelligence Convert XXE (CVE-2019-2767)"
+        },
+        {
+          "checks": null,
+          "description": "Test if Adfresource servlet of Oracle Business Intelligence has a path traversal vulnerability (CVE-2019-2588)",
+          "key": "oraclebi/oracle_biee_adfresource_dirtraversal_CVE-2019-2588.js",
+          "title": "Oracle Business Intelligence Adfresource Path traversal (CVE-2019-2588)"
+        },
+        {
+          "checks": null,
+          "description": "Test if Oracle Business Intelligence has the authentication bypass vulnerability (CVE-2019-2768)",
+          "key": "oraclebi/oracle_biee_authbypass_CVE-2019-2768.js",
+          "title": "Oracle Business Intelligence AuthBypass CVE-2019-2768"
+        },
+        {
+          "checks": null,
+          "description": "Test if ReportTemplateService servlet of Oracle Business Intelligence has an XML External Entity (XXE) processing vulnerability (CVE-2019-2616)",
+          "key": "oraclebi/oracle_biee_ReportTemplateService_xxe_CVE-2019-2616.js",
+          "title": "Oracle Business Intelligence ReportTemplateService XXE (CVE-2019-2616)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Oracle Business Intelligence default administrative credentials",
+          "key": "oraclebi/oracle_biee_default_creds.js",
+          "title": "Oracle Business Intelligence default administrative credentials"
+        },
+        {
+          "checks": null,
+          "description": "Discover hidden GET parameters by checking if common parameter names are reflected in the response",
+          "key": "hidden_parameters.js",
+          "title": "Discover hidden GET parameters"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cross site scripting (XSS) vulnerabilities in ASP.NET via ResolveUrl.",
+          "key": "asp_net_resolveurl_xss.js",
+          "title": "XSS in ASP.NET via ResolveUrl"
+        },
+        {
+          "checks": null,
+          "description": "Tests for the AMF deserialization RCE in Oracle Business Intelligence (CVE-2020-2950)",
+          "key": "oraclebi/oracle_biee_amf_deser_rce_CVE-2020-2950.js",
+          "title": "Oracle Business Intelligence AMF Deserialization RCE (CVE-2020-2950)"
+        },
+        {
+          "checks": null,
+          "description": "Looks for installed.json (file created by Composer)",
+          "key": "composer_installed_json.js",
+          "title": "Composer installed.json publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Typo3 CMS",
+          "key": "typo3/typo3_audit.js",
+          "title": "Typo3 CMS audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unprotected JSON files (like config.json, secrets.json) containing secrets",
+          "key": "config_json_files_secrets_leakage.js",
+          "title": "Unprotected JSON file containing secrets"
+        },
+        {
+          "checks": null,
+          "description": "Automatically import Swagger files found in common locations such as v1/swagger.yaml",
+          "key": "import_swager_files_from_common_locations.js",
+          "title": "Import Swagger files from common locations"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Forgerock AM / OpenAM Deserialization RCE (CVE-2021-35464)",
+          "key": "forgerock/forgerock_openam_deser_rce_CVE-2021-35464.js",
+          "title": "ForgeRock AM / OpenAM Deserialization RCE (CVE-2021-35464)"
+        },
+        {
+          "checks": null,
+          "description": "Tests javascript files for various Web Cache Poisoning DoS vulnerabilities (CPDoS)",
+          "key": "web_cache_poisoning_dos_for_js.js",
+          "title": "Web Cache Poisoning DoS"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Forgerock OpenAM LDAP injection (CVE-2021-29156)",
+          "key": "forgerock/forgerock_openam_ldap_inj_CVE-2021-29156.js",
+          "title": "ForgeRock OpenAM LDAP injection (CVE-2021-29156)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Ghost CMS Theme Preview XSS vulnerability (CVE-2021-29484)",
+          "key": "ghost/Ghost_Theme_Preview_XSS_CVE-2021-29484.js",
+          "title": "Ghost CMS Theme Preview XSS (CVE-2021-29484)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for qdPM Information Disclosure",
+          "key": "qdpm/qdPM_Inf_Disclosure.js",
+          "title": "qdPM Information Disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache HTTP Server discloses source code of a web application",
+          "key": "apache_source_code_disclosure.js",
+          "title": "Apache HTTP Server Source Code Disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if ReportTemplateService servlet of Oracle Business Intelligence has an XML External Entity (XXE) processing vulnerability (CVE-2021-2400)",
+          "key": "oraclebi/oracle_biee_ReportTemplateService_xxe_CVE-2021-2400.js",
+          "title": "Oracle Business Intelligence ReportTemplateService XXE (CVE-2021-2400)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Log4j RCE on each root path/folder by sending common headers with JNDI payloads",
+          "key": "Apache_Log4j_RCE_folder.js",
+          "title": "Apache Log4j RCE per folder"
+        }
+      ],
+      "description": "Tests executed on each unique location",
+      "key": "location",
+      "title": "Location tests"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities in ASP.NET AJAX Control Toolkit",
+          "key": "AjaxControlToolkit_Audit.js",
+          "title": "ASP.NET AJAX Control Toolkit audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for URLs linking to external sites known to host malware or that are known to be used for phishing attacks.",
+          "key": "12-Malware.js",
+          "title": "Known malicious links"
+        },
+        {
+          "checks": null,
+          "description": "Identifies hidden Amazon S3 buckets and checks if these buckets are publicly writable",
+          "key": "audit_s3_buckets.js",
+          "title": "Publicly writable Amazon S3 Buckets"
+        },
+        {
+          "checks": null,
+          "description": "Attempts to coax web cache into serving authenticated response for non-authenticating request.",
+          "key": "cache-vary.js",
+          "title": "Header-Based Authentication Bypass"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Shiro Deserialization Remote Code Execution",
+          "key": "detect_apache_shiro.js",
+          "title": "Detect Apache Shiro"
+        },
+        {
+          "checks": null,
+          "description": "Tests for RichFaces Expression Language Injection resulting in Remote Code Execution",
+          "key": "richfaces_el_injection_rce.js",
+          "title": "RichFaces EL Injection RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Spring JSONP enabled by default in MappingJackson2JsonView",
+          "key": "spring_jsonp_enabled.js",
+          "title": "Spring JSONP enabled by default in MappingJackson2JsonView"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Spring Webflow Spring Expression Language (SpEL) Remote Code Execution",
+          "key": "spring_web_flow_rce.js",
+          "title": "Spring Webflow SPEL RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for various issues related to Telerik Web UI",
+          "key": "telerik_web_ui_cryptographic_weakness.js",
+          "title": "Telerik Web UI Audit"
+        },
+        {
+          "checks": null,
+          "description": "Universal deserialization test for various Java JSON libraries",
+          "key": "Java_JSON_Deserialization.js",
+          "title": "Java JSON deserialization"
+        },
+        {
+          "checks": null,
+          "description": "Analyzes HTTP request parameter values and searches for interesting patterns such as file and directory names to be added to the crawl for indexing or insecure serialization patterns",
+          "key": "analyze_parameter_values.js",
+          "title": "Analyze HTTP request parameter values"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Struts Remote Code Execution (S2-057)",
+          "key": "apache_struts_rce_S2-057.js",
+          "title": "Apache Struts Remote Code Execution (S2-057)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for URL rewrite vulnerability (via X-Original-URL and/or X-Rewrite-URL)",
+          "key": "request_url_override.js",
+          "title": "URL rewrite vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Passive tests for security issues related to CORS (Cross-Origin Resource Sharing)",
+          "key": "cors_acao.js",
+          "title": "CORS configuration assessment (passive)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Yii2's debug toolkit is enabled",
+          "key": "yii2_debug.js",
+          "title": "Enabled Yii2 Framework debug toolkit"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Content Security Policy (CSP) is not implemented.",
+          "key": "CSP_not_implemented.js",
+          "title": "Content Security Policy (CSP) is not implemented"
+        },
+        {
+          "checks": null,
+          "description": "Tests for many Adobe Experience Manager security issues",
+          "key": "adobe_experience_manager.js",
+          "title": "Adobe Experience Manager security issues"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Httpoxy vulnerability",
+          "key": "httpoxy.js",
+          "title": "Httpoxy vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Firebase database accessible without authentication",
+          "key": "firebase_db_dev_mode.js",
+          "title": "Firebase database accessible without authentication"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a server uses a version of Flex BlazeDS vulnerable to AMF deserialization RCE (CVE-2017-5641)",
+          "key": "blazeds_amf_deserialization.js",
+          "title": "Flex BlazeDS AMF Deserialization RCE (CVE-2017-5641)"
+        },
+        {
+          "checks": null,
+          "description": "Look for various Information Disclosure issues in the page response (error messages, stack traces, ...)",
+          "key": "text_search.js",
+          "title": "Information Disclosure text search"
+        },
+        {
+          "checks": null,
+          "description": "Tests for CVE-2019-5418 - File Content Disclosure on Rails.",
+          "key": "rails_accept_file_content_disclosure.js",
+          "title": "Rails File Content Disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests for CVE-2019-11580 - Atlassian Crowd Remote Code Execution",
+          "key": "atlassian-crowd-CVE-2019-11580.js",
+          "title": "Atlassian Crowd Remote Code Execution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for common misconfigurations related to JWT",
+          "key": "JWT_Header_Audit.js",
+          "title": "JWT audit (in headers)"
+        },
+        {
+          "checks": null,
+          "description": "Looks for OpenSearch data in the root HTML and parses it to discover new target paths",
+          "key": "opensearch-httpdata.js",
+          "title": "Search and process OpenSearch data from HTML"
+        },
+        {
+          "checks": null,
+          "description": "Look for Content Security Policy (CSP) report-uri and test the report-uri implementation.",
+          "key": "csp_report_uri.js",
+          "title": "Test CSP report-uri handler"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Tcl code injection into F5 Networks BigIP load balancer iRules",
+          "key": "BigIP_iRule_Tcl_code_injection.js",
+          "title": "BigIP iRule Tcl code injection"
+        },
+        {
+          "checks": null,
+          "description": "Scans HTTP responses for potentially insecurely stored passwords",
+          "key": "password_cleartext_storage.js",
+          "title": "Detect potentially insecurely stored passwords"
+        },
+        {
+          "checks": null,
+          "description": "Test for default credentials in known web applications",
+          "key": "web_applications_default_credentials.js",
+          "title": "Web applications default credentials"
+        },
+        {
+          "checks": null,
+          "description": "Alerts if HTTP Strict Transport Security (HSTS) is not implemented.",
+          "key": "HSTS_not_implemented.js",
+          "title": "HSTS not implemented"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Laravel.",
+          "key": "laravel_audit.js",
+          "title": "Laravel framework audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Whoops is enabled as it may lead to information disclosure",
+          "key": "whoops_debug.js",
+          "title": "Whoops error handler component enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests for weak passwords in HTML authentication forms",
+          "key": "html_auth_weak_creds.js",
+          "title": "HTML authentication audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Clockwork PHP dev tool is enabled as it leads to information disclosure",
+          "key": "clockwork_debug.js",
+          "title": "Clockwork PHP dev tool enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests if PHP Debug Bar is enabled as it leads to information disclosure",
+          "key": "php_debug_bar.js",
+          "title": "PHP Debug Bar enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests if PHP Console is enabled as it may lead to information disclosure",
+          "key": "php_console_addon.js",
+          "title": "PHP Console addon enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Tracy is enabled as it leads to information disclosure",
+          "key": "tracy_debugging_tool.js",
+          "title": "Tracy debugging tool enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests if IIS discloses full paths of a web applicaiton",
+          "key": "IIS_path_disclosure.js",
+          "title": "IIS Path disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Extract missing GET params from error pages",
+          "key": "missing_parameters.js",
+          "title": "Look for missing parameters"
+        },
+        {
+          "checks": null,
+          "description": "Looks for scripts/frames/iframes loaded from non-resolving domains.",
+          "key": "broken_link_hijacking.js",
+          "title": "Broken Link Hijacking"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Symfony.",
+          "key": "symfony_audit.js",
+          "title": "Symfony framework audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Atlassian JIRA Servicedesk misconfiguration.",
+          "key": "jira_servicedesk_misconfiguration.js",
+          "title": "Atlassian JIRA Servicedesk misconfiguration"
+        },
+        {
+          "checks": null,
+          "description": "Assesses the configuration of inline frames (iframes)",
+          "key": "iframe_sandbox.js",
+          "title": "Inline Frame (iframe) Security Configuration"
+        },
+        {
+          "checks": null,
+          "description": "Discovers new target paths from headers",
+          "key": "search_paths_in_headers.js",
+          "title": "Search for paths in headers"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Envoy discloses sensitive information in x-envoy-peer-metadata header",
+          "key": "envoy_metadata_disclosure.js",
+          "title": "Envoy Metadata disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Checks headers for insecure Referrer Policy configuration",
+          "key": "insecure_referrer_policy.js",
+          "title": "Insecure Referrer Policy"
+        },
+        {
+          "checks": null,
+          "description": "Checks for Web Cache Poisoning via Host header",
+          "key": "web_cache_poisoning_via_host.js",
+          "title": "Web Cache Poisoning via Host header"
+        },
+        {
+          "checks": null,
+          "description": "Detects source maps for javascript files",
+          "key": "sourcemap_detection.js",
+          "title": "Source Map detection"
+        },
+        {
+          "checks": null,
+          "description": "This script is looking for links inside HATEOAS responses and adds them to the crawler",
+          "key": "parse_hateoas.js",
+          "title": "Parse HATEOAS responses links"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Typo3 debug mode is enabled as it may lead to information disclosure",
+          "key": "typo3_debug.js",
+          "title": "Typo3 debug enabled"
+        },
+        {
+          "checks": null,
+          "description": "Look for cached responses and try to find hidden HTTP headers that might be reflected in the response and cached",
+          "key": "header_reflected_in_cached_response.js",
+          "title": "HTTP header reflected in cached response"
+        },
+        {
+          "checks": null,
+          "description": "Alerts if X-Frame-Options is not implemented.",
+          "key": "X_Frame_Options_not_implemented.js",
+          "title": "X-Frame-Options not implemented"
+        },
+        {
+          "checks": null,
+          "description": "Identify pages which return HTTP status code 405 (Method Not Allowed) and test them for various vulns such as XXE, XXE-SSRF, XStream bugs, JSON deser bugs",
+          "key": "405_method_not_allowed.js",
+          "title": "Test pages with 405 Method Not Allowed"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities in a variety of JavaScript libraries, hosted on CDNs",
+          "key": "javascript_library_audit_external.js",
+          "title": "JavaScript Library Audit (External)"
+        },
+        {
+          "checks": null,
+          "description": "Test for middleware misconfigurations that result in HTTP response splitting (CRLF injection) vulnerabilities with cloud storage.",
+          "key": "http_splitting_cloud_storage.js",
+          "title": "HTTP response splitting with cloud storage"
+        },
+        {
+          "checks": null,
+          "description": "Test for an authentication bypass vulnerability that affects Apache Shiro before 1.7.1 (CVE-2020-17523)",
+          "key": "apache_shiro_auth_bypass_CVE-2020-17523.js",
+          "title": "Apache Shiro authentication bypass"
+        },
+        {
+          "checks": null,
+          "description": "Look and report vulnerable package dependencies using Spectra SCA service (sca.Spectra.com)",
+          "key": "acusensor-packages.js",
+          "title": "AcuSensor vulnerable package dependencies"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Joomla Debug Console is enabled as it leads to information disclosure",
+          "key": "joomla_debug_console.js",
+          "title": "Joomla! Debug Console enabled"
+        },
+        {
+          "checks": null,
+          "description": "Test for a SSRF vulnerability that affects MITREid Connect (CVE-2021-26715)",
+          "key": "mitreid_connect_ssrf_CVE-2021-26715.js",
+          "title": "SSRF via logo_uri in MITREid Connect"
+        },
+        {
+          "checks": null,
+          "description": "Detects a SAML consumer service and tests for various vulnerabilities",
+          "key": "saml_endpoint_audit.js",
+          "title": "SAML consumer service audit"
+        },
+        {
+          "checks": null,
+          "description": "Process packages files (composer.lock, installed.json, ...) and report vulnerable package dependencies using Spectra SCA service (sca.Spectra.com)",
+          "key": "sca_analyze_package_files.js",
+          "title": "Process package files and look for vulnerable packages using Spectra SCA"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Pyramid DebugToolbar is enabled as it leads to information disclosure",
+          "key": "pyramid_debugtoolbar.js",
+          "title": "Pyramid DebugToolbar enabled"
+        },
+        {
+          "checks": null,
+          "description": "Test for Adminer Server Side Request Forgery (SSRF) (CVE-2021-21311)",
+          "key": "adminer_ssrf_CVE-2021-21311.js",
+          "title": "Adminer Server Side Request Forgery (SSRF)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Apache Tapestry",
+          "key": "Tapestry_audit.js",
+          "title": "Apache Tapestry audit"
+        }
+      ],
+      "description": "Tests executed on each HTTP pair",
+      "key": "httpdata",
+      "title": "HTTP Data tests"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for Rails Sprockets Path Traversal Vulnerability",
+          "key": "rails_sprockets_path_traversal.js",
+          "title": "Rails Sprockets Path Traversal Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Web Cache Poisoning vulnerabilities",
+          "key": "web_cache_poisoning.js",
+          "title": "Web Cache Poisoning"
+        },
+        {
+          "checks": null,
+          "description": "Test if auxiliary systems or web application send requests to arbitrary hosts from an HTTP request headers",
+          "key": "aux_systems_ssrf.js",
+          "title": "Auxiliary systems SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Test if reverse proxy or web application use values of an HTTP request to route the request",
+          "key": "proxy_misrouting_ssrf.js",
+          "title": "Reverse proxy misrouting SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cross site scripting in HTTP-01 ACME challenge implementation",
+          "key": "http_01_ACME_challenge_xss.js",
+          "title": "Cross site scripting in HTTP-01 ACME challenge implementation"
+        },
+        {
+          "checks": null,
+          "description": "Tests if JavaMelody is publicly accessible and/or vulnerable to an XML External Entity (XXE) processing vulnerability",
+          "key": "java_melody_detection_plus_xxe.js",
+          "title": "JavaMelody detection and security issues"
+        },
+        {
+          "checks": null,
+          "description": "Tests for uWSGI Path Traversal vulnerability",
+          "key": "uwsgi_path_traversal.js",
+          "title": "uWSGI Path Traversal vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for WebLogic RCE (CVE-2018-3245)",
+          "key": "weblogic_rce_CVE-2018-3245.js",
+          "title": "WebLogic RCE (CVE-2018-3245)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Xdebug remote code execution via xdebug.remote_connect_back",
+          "key": "php_xdebug_rce.js",
+          "title": "XDebug RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for NGINX range filter integer overflow (CVE-2017-7529)",
+          "key": "nginx_integer_overflow_CVE-2017-7529.js",
+          "title": "NGINX range filter integer overflow"
+        },
+        {
+          "checks": null,
+          "description": "Tests is the Jupyter Notebook is publicly accessible",
+          "key": "jupyter_notebook_rce.js",
+          "title": "Jupyter Notebook publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests is the Hadoop YARN ResourceManager is publicly accessible",
+          "key": "hadoop_yarn_resourcemanager.js",
+          "title": "Hadoop YARN ResourceManager publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests is the CouchDB REST API is publicly accessible",
+          "key": "couchdb_rest_api.js",
+          "title": "CouchDB REST API publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Log4j socket receiver deserialization vulnerability",
+          "key": "apache_log4j_deser_rce.js",
+          "title": "Apache Log4j socket receiver deserialization vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache ActiveMQ default administrative credentials",
+          "key": "activemq_default_credentials.js",
+          "title": "Apache ActiveMQ default administrative credentials"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache mod_jk access control bypass (CVE-2018-11759)",
+          "key": "apache_mod_jk_access_control_bypass.js",
+          "title": "Apache mod_jk access control bypass"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ACME mini_httpd (web server) arbitrary file read (CVE-2018-18778)",
+          "key": "mini_httpd_file_read_CVE-2018-18778.js",
+          "title": "ACME mini_httpd (web server) arbitrary file read"
+        },
+        {
+          "checks": null,
+          "description": "Tests for OSGi Management Console Default Credentials",
+          "key": "osgi_management_console_default_creds.js",
+          "title": "OSGi Management Console Default Credentials"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Docker Engine API publicly exposed",
+          "key": "docker_engine_API_exposed.js",
+          "title": "Docker Engine API publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Docker Registry API publicly exposed",
+          "key": "docker_registry_API_exposed.js",
+          "title": "Docker Registry API publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jenkins user enumeration, weak credentials and known vulns",
+          "key": "jenkins_audit.js",
+          "title": "Jenkins security audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ThinkPHP v5.0.22/5.1.29 Remote Code Execution Vulnerability.",
+          "key": "thinkphp_5_0_22_rce.js",
+          "title": "ThinkPHP v5.0.22/5.1.29 RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for uWSGI Unauthorized Access Vulnerability.",
+          "key": "uwsgi_unauth.js",
+          "title": "uWSGI Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for FastGI Unauthorized Access Vulnerability.",
+          "key": "fastcgi_unauth.js",
+          "title": "FastGI Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the Apache balancer-manager application is publicly accessible.",
+          "key": "apache_balancer_manager.js",
+          "title": "Apache balancer-manager application"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cisco ISE Unauthenticated XSS to Privileged RCE (CVE-2018-15440).",
+          "key": "cisco_ise_stored_xss.js",
+          "title": "Cisco ISE Unauthenticated XSS to Privileged RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for an Horde Imp Unauthenticated Remote Command Execution.",
+          "key": "horde_imp_rce.js",
+          "title": "Horde Imp Unauthenticated Remote Command Execution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Nagios XI Magpie_debug.php Unauthenticated RCE via Command Argument Injection.",
+          "key": "nagiosxi_556_rce.js",
+          "title": "Nagios XI Magpie_debug.php Unauthenticated RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for an Arbitrary File Read in Next.js < 2.4.1.",
+          "key": "next_js_arbitrary_file_read.js",
+          "title": "Arbitrary File Read in Next.js < 2.4.1"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the PHP opcache-status page is publicly accessible.",
+          "key": "php_opcache_status.js",
+          "title": "PHP opcache-status page publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Solr in OpenCms is vulnerable to an XML External Entity (XXE) processing vulnerability",
+          "key": "opencms_solr_xxe.js",
+          "title": "OpenCms Solr XXE"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Redis service is exposed",
+          "key": "redis_open.js",
+          "title": "Redis Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Memcached service is exposed",
+          "key": "memcached_open.js",
+          "title": "Memcached Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Oracle Weblogic Async Component Deserialization RCE vulnerability",
+          "key": "Weblogic_async_rce_CVE-2019-2725.js",
+          "title": "Oracle Weblogic Async Component Deserialization RCE (CVE-2019-2725)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Oracle Weblogic T3 XXE vulnerability",
+          "key": "Weblogic_T3_XXE_CVE-2019-2647.js",
+          "title": "Oracle Weblogic T3 XXE (CVE-2019-2647)"
+        },
+        {
+          "checks": null,
+          "description": "Detects reverse proxies, load balancers, CDNs used by a target",
+          "key": "RevProxy_Detection.js",
+          "title": "Reverse proxy detection"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Cassandra service is exposed",
+          "key": "cassandra_open.js",
+          "title": "Apache Cassandra Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Nagios XI Unauthenticated SQL injection in helpedit.php CVE-2018-8734",
+          "key": "nagiosxi_sqli_CVE-2018-8734.js",
+          "title": "Nagios XI Unauthenticated SQLi CVE-2018-8734"
+        },
+        {
+          "checks": null,
+          "description": "Tests for remote code execution in bootstrap-sass",
+          "key": "backdoor_bootstrap_sass.js",
+          "title": "Remote code execution in bootstrap-sass"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache Spark is publicy accessible, test for some known vulnerabilities",
+          "key": "apache_spark_audit.js",
+          "title": "Apache Spark Audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Fortigate SSL VPN Arbitrary File reading (CVE-2018-13379)",
+          "key": "fortigate_file_reading.js",
+          "title": "Fortigate SSL VPN Arbitrary File reading (CVE-2018-13379)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Pulse Secure SSL VPN Arbitrary File reading (CVE-2019-11510)",
+          "key": "pulse_sslvpn_file_reading.js",
+          "title": "Pulse Secure SSL VPN Arbitrary File reading (CVE-2019-11510)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SAP Hybris Commerce Cloud Deserialization RCE vulnerability (CVE-2019-0344)",
+          "key": "SAP_Hybris_virtualjdbc_RCE_CVE-2019-0344.js",
+          "title": "SAP Hybris Deserialization RCE (CVE-2019-0344)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Webmin Unauhenticated Remote Command Execution (CVE-2019-15107)",
+          "key": "webmin_rce_1_920_CVE-2019-15107.js",
+          "title": "Webmin v1.920 RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Oracle Weblogic T3 XXE vulnerability (CVE-2019-2888)",
+          "key": "Weblogic_T3_XXE_CVE-2019-2888.js",
+          "title": "Oracle Weblogic T3 XXE (CVE-2019-2888)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unauthenticated Remote Code Execution Vulnerability in Citrix ADCs and Gateways",
+          "key": "citrix_netscaler_CVE-2019-19781.js",
+          "title": "Citrix NetScaler Unauthenticated Remote Code Execution (CVE-2019-19781)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the .NET Remoting over HTTP is publicly accessible",
+          "key": "DotNet_HTTP_Remoting.js",
+          "title": ".NET HTTP Remoting publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Looks for /opensearch.xml in the site root and parses it to discover new target paths",
+          "key": "opensearch-target.js",
+          "title": "Search and process OpenSearch data from opensearch.xml"
+        },
+        {
+          "checks": null,
+          "description": "Test for Adminer versions < 4.6.2 that are vulnerable to a file disclosure vulnerability.",
+          "key": "adminer-4.6.2-file-disclosure-vulnerability.js",
+          "title": "Adminer 4.6.2 file disclosure vuln"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache mod_rewrite open redirect (CVE-2019-10098).",
+          "key": "apache_mod_rewrite_open_redirect_CVE-2019-10098.js",
+          "title": "Apache mod_rewrite open redirect"
+        },
+        {
+          "checks": null,
+          "description": "Looks for .well-known/apple-app-site-association in the site root and parses it to discover new target paths",
+          "key": "default_apple-app-site-association.js",
+          "title": "Process /.well-known/apple-app-site-association"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Golang runtime profiling data.",
+          "key": "golang-debug-pprof.js",
+          "title": "Golang runtime profiling data"
+        },
+        {
+          "checks": null,
+          "description": "Look for /.well-known/openid-configuration (OpenID Connect Discovery file) parse this file and add endpoints plus GET/POST params",
+          "key": "openid_connect_discovery.js",
+          "title": "Look for /.well-known/openid-configuration"
+        },
+        {
+          "checks": null,
+          "description": "Tests for NGINX+ unprotected status interface.",
+          "key": "nginx-plus-unprotected-status.js",
+          "title": "NGINX+ unprotected status interface"
+        },
+        {
+          "checks": null,
+          "description": "Test for NGINX+ unprotected API interface",
+          "key": "nginx-plus-unprotected-api.js",
+          "title": "NGINX+ unprotected API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for NGINX+ unprotected Dashboard.",
+          "key": "nginx-plus-unprotected-Dashboard.js",
+          "title": "NGINX+ unprotected Dashboard"
+        },
+        {
+          "checks": null,
+          "description": "Tests for NGINX+ unprotected Upstream HTTP interface.",
+          "key": "nginx-plus-unprotected-upstream.js",
+          "title": "NGINX+ unprotected Upstream HTTP interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for some known vulnerabilities and misconfigurations in Kentico CMS.",
+          "key": "Kentico_CMS_Audit.js",
+          "title": "Kentico CMS audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Ruby on Rails DoubleTap Development Mode RCE vulnerability (CVE-2019-5420)",
+          "key": "Rails_DoubleTap_RCE_CVE-2019-5418.js",
+          "title": "Ruby on Rails DoubleTap RCE (CVE-2019-5420)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities in Oracle E-Business Suite.",
+          "key": "Oracle_EBS_Audit.js",
+          "title": "Oracle E-Business Suite audit"
+        },
+        {
+          "checks": null,
+          "description": "Test for RCE in SQL Server Reporting Services (CVE-2020-0618).",
+          "key": "rce_sql_server_reporting_services.js",
+          "title": "RCE in SQL Server Reporting Services"
+        },
+        {
+          "checks": null,
+          "description": "Test for Unauthenticated Remote Code Execution via JSONWS (LPS-97029/CVE-2020-7961 for 7.2 and LPS-88051 for 6.1.x)",
+          "key": "liferay_portal_jsonws_rce.js",
+          "title": "Remote Code Execution via JSONWS in Liferay"
+        },
+        {
+          "checks": null,
+          "description": "Tests if PHP opcache-gui is publicly accessible",
+          "key": "php_opcache_gui.js",
+          "title": "PHP opcache-gui publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests if AcuMonitor is accessible",
+          "key": "check_acumonitor.js",
+          "title": "AcuMonitor check"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Directory Traversal with spring-cloud-config-server (CVE-2020-5410).",
+          "key": "spring_cloud_config_server_CVE-2020-5410.js",
+          "title": "Directory Traversal with spring-cloud-config-server"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a RCE in F5 BIG-IP Traffic Management User Interface (TMUI) (CVE-2020-5902).",
+          "key": "f5_big_ip_tmui_rce_CVE-2020-5902.js",
+          "title": "F5 BIG-IP TMUI RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for misconfigured rack-mini-profiler instance that leads to information disclosure.",
+          "key": "rack_mini_profiler_information_disclosure.js",
+          "title": "rack-mini-profiler environment variables disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Grafana avatar SSRF resulting in RCE (CVE-2020-13379).",
+          "key": "grafana_ssrf_rce_CVE-2020-13379.js",
+          "title": "Grafana avatar SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the H2 console is publicly accessible.",
+          "key": "h2-console.js",
+          "title": "H2 console publicly accessible"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jolokia XXE (XML External Entity) vulnerability.",
+          "key": "jolokia_xxe.js",
+          "title": "Jolokia XXE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Remote code execution of user-provided local names in Rails (CVE-2020-8163).",
+          "key": "rails_rce_locals_CVE-2020-8163.js",
+          "title": "Remote code execution of user-provided local names in Rails"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unauthenticated path traversal in Cisco ASA (CVE-2020-3452)",
+          "key": "Cisco_ASA_Path_Traversal_CVE-2020-3452.js",
+          "title": "Cisco ASA Path Traversal (CVE-2020-3452)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for DNN Cookie Deserialization RCE vulnerability (CVE-2017-9822)",
+          "key": "DNN_Deser_Cookie_CVE-2017-9822.js",
+          "title": "DNN (DotNetNuke) CMS Cookie Deserialization RCE (CVE-2017-9822)"
+        },
+        {
+          "checks": null,
+          "description": "Searches invalid pages for various Information Disclosure vulnerabilities in the contents of a web page's source code including error messages, email addresses, IP addresses and credit card numbers",
+          "key": "404_text_search.js",
+          "title": "Invalid page text search"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Directory Traversal Vulnerability in Total.js < 3.2.4 (CVE-2019-8903)",
+          "key": "totaljs_dir_traversal_CVE-2019-8903.js",
+          "title": "Total.js Directory Traversal (CVE-2019-8903)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache OFBiz XMLRPC Deserialization RCE (CVE-2020-9496)",
+          "key": "OFBiz_xmlrpc_deser_rce_CVE-2020-9496.js",
+          "title": "Apache OFBiz XMLRPC Deserialization RCE (CVE-2020-9496)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the server on HTTP port redirects to HTTPS",
+          "key": "http_redirections.js",
+          "title": "HTTP Redirections"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache Zookeeper service is exposed",
+          "key": "apache_zookeeper_open.js",
+          "title": "Apache Zookeeper Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache Kafka service is exposed",
+          "key": "apache_kafka_open.js",
+          "title": "Apache Kafka Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unauthenticated PHP code injection in Nette framework (CVE-2020-15227)",
+          "key": "nette_framework_rce_CVE-2020-15227.js",
+          "title": "Nette framework PHP code injection via callback"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unauthenticated Arbitrary File Read vulnerability in VMware vCenter",
+          "key": "vmware_vcenter_unauth_file_read.js",
+          "title": "Unauthenticated Arbitrary File Read vulnerability in VMware vCenter"
+        },
+        {
+          "checks": null,
+          "description": "Tests for MobileIron Remote Code Execution via LogService (CVE-2020-15505)",
+          "key": "mobile_iron_rce_CVE-2020-15505.js",
+          "title": "MobileIron Remote Code Execution via LogService"
+        },
+        {
+          "checks": null,
+          "description": "Tests for various Web Cache Poisoning DoS vulnerabilities (CPDoS) on the root endpoint",
+          "key": "web_cache_poisoning_dos.js",
+          "title": "Web Cache Poisoning DoS via root endpoint"
+        },
+        {
+          "checks": null,
+          "description": "Test for server-side prototype pollution vulnerabilities on the root endpoint",
+          "key": "prototype_pollution_target.js",
+          "title": "Prototype Pollution via root endpoint"
+        },
+        {
+          "checks": null,
+          "description": "Tests Openfire Admin Console SSRF (CVE-2019-18394)",
+          "key": "openfire_admin_console_ssrf_CVE-2019-18394.js",
+          "title": "Openfire Admin Console SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unauthenticated Oracle WebLogic Server Remote Code Execution (CVE-2020-14882)",
+          "key": "weblogic_rce_CVE-2020-14882.js",
+          "title": "Oracle WebLogic Server RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Oracle Weblogic IIOP unauthenticated deserialization RCE vulnerability (CVE-2020-2551)",
+          "key": "Weblogic_IIOP_RCE_CVE-2020-2551.js",
+          "title": "Oracle Weblogic IIOP deserialization RCE"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities(CVE-2019-14322) and misconfigurations in Odoo",
+          "key": "Odoo_audit.js",
+          "title": "Odoo audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Citrix XenMobile Server Path Traversal (CVE-2020-8209)",
+          "key": "citrix_xenmobile_arbitrary_file_read_CVE-2020-8209.js",
+          "title": "Citrix XenMobile Server Path Traversal"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SonarQube default credentials",
+          "key": "sonarqube_default_credentials.js",
+          "title": "SonarQube default credentials"
+        },
+        {
+          "checks": null,
+          "description": "Look for common API endpoints such as /api, /v1/api and pass them to crawler",
+          "key": "common_api_endpoints.js",
+          "title": "Common API endpoints"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Unomi MVEL expression RCE (CVE-2020-13942)",
+          "key": "Unomi_MVEL_RCE_CVE-2020-13942.js",
+          "title": "Apache Unomi MVEL RCE (CVE-2020-13942)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Symfony weak/predictable APP_SECRET value that results in RCE",
+          "key": "symfony_weak_secret_rce.js",
+          "title": "Symfony RCE via weak/predictable APP_SECRET"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Lucee RCE (Remote Code Execution) via Arbitrary File Creation combined with a Path Traversal issue",
+          "key": "lucee_arbitrary_file_write.js",
+          "title": "Lucee Arbitrary File Creation"
+        },
+        {
+          "checks": null,
+          "description": "Test Dynamic Rendering Engines (Rendertron and Prerenderer), looking for SSRF issues",
+          "key": "dynamic_rendering_engines.js",
+          "title": "Test Dynamic Rendering Engines"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to Prometheus and its metrics",
+          "key": "open_prometheus.js",
+          "title": "Open Prometheus monitoring"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to various monitoring and status pages",
+          "key": "open_monitoring.js",
+          "title": "Unauthorized Access to Monitoring endpoint"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Flink jobmanager/logs Path Traversal (CVE-2020-17519)",
+          "key": "apache_flink_path_traversal_CVE-2020-17519.js",
+          "title": "Apache Flink jobmanager/logs Path Traversal"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to ImageResizer Diagnotics plugin",
+          "key": "imageresizer_debug.js",
+          "title": "Unauthorized Access to ImageResizer Diagnotics plugin"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unprotected Apache NiFi API interface",
+          "key": "unprotected_apache_nifi.js",
+          "title": "Unprotected Apache NiFi API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unprotected Kong Gateway Admin API interface",
+          "key": "unprotected_kong_gateway_adminapi_interface.js",
+          "title": "Unprotected Kong Gateway Admin API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for missing authentication check in SAP Solution Manager (CVE-2020-6207)",
+          "key": "sap_solution_manager_rce_CVE-2020-6207.js",
+          "title": "Missing Authentication Check in SAP Solution Manager"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SonicWall SSL-VPN RCE via ShellShock exploit",
+          "key": "sonicwall_ssl_vpn_rce_jarrewrite.js",
+          "title": "SonicWall SSL-VPN RCE via ShellShock"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Node.js Inspector or Debugger ports are publicly accessible",
+          "key": "nodejs_debugger_open.js",
+          "title": "Node.js Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for VMware vCenter Server Unauthorized RCE (CVE-2021-21972)",
+          "key": "vmware_vcenter_server_unauth_rce_CVE-2021-21972.js",
+          "title": "VMware vCenter Server Unauthorized Remote Code Execution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a reflected cross-site scripting (XSS) vulnerability that exists in the PAN-OS management web interface (CVE-2020-2036)",
+          "key": "paloalto-pan-os-xss-CVE-2020-2036.js",
+          "title": "Reflected Cross-Site Scripting (XSS) vulnerability in PAN-OS management web interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Delve Debugger port is publicly accessible",
+          "key": "golang_delve_debugger_open.js",
+          "title": "Delve Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Microsoft Exchange Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2021-26855)",
+          "key": "microsoft_exchange-server-ssrf-CVE-2021-26855.js",
+          "title": "Microsoft Exchange Server Server-Side Request Forgery (SSRF) vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Python debugpy/ptvsd debugger port is publicly accessible",
+          "key": "python_debugpy_debugger_open.js",
+          "title": "Python Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for AppWeb Authentication Bypass vulnerability (CVE-2018-8715)",
+          "key": "AppWeb_auth_bypass_CVE-2018-8715.js",
+          "title": "AppWeb Authentication Bypass (CVE-2018-8715)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache OFBiz SOAPService Deserialization RCE (CVE-2021-26295)",
+          "key": "OFBiz_SOAPService_deser_rce_CVE-2021-26295.js",
+          "title": "Apache OFBiz SOAPService Deserialization RCE (CVE-2021-26295)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for virtual host locations misconfiguration leading to source code disclosure",
+          "key": "vhost_files_locs_misconfig.js",
+          "title": "Virtual Host locations misconfiguration"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Agentejo Cockpit CMS requestreset NoSQLi (CVE-2020-35847)",
+          "key": "cockpit_nosqli_CVE-2020-35847.js",
+          "title": "Agentejo Cockpit CMS resetpassword NoSQLi (CVE-2020-35847)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for F5 iControl REST unauthenticated remote command execution vulnerability (CVE-2021-22986)",
+          "key": "f5_iControl_REST_RCE_CVE-2021-22986.js",
+          "title": "F5 iControl REST unauthenticated remote command execution vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cisco RV Series Authentication Bypass vulnerability (CVE-2021-1472)",
+          "key": "Cisco_RV_auth_bypass_CVE-2021-1472.js",
+          "title": "Cisco RV Series Authentication Bypass (CVE-2021-1472)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to installers of various web applications",
+          "key": "web_installer_exposed.js",
+          "title": "Unauthorized Access to a web app installer"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ntopng Authentication Bypass vulnerability (CVE-2021-28073)",
+          "key": "ntopng_auth_bypass_CVE-2021-28073.js",
+          "title": "ntopng Authentication Bypass (CVE-2021-28073)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for HTTP Request Smuggling as presented in the paper \"HTTP Desync Attacks: Request Smuggling Reborn\"",
+          "key": "request_smuggling.js",
+          "title": "HTTP Request Smuggling"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the Hashicorp Consul API is publicly accessible",
+          "key": "Hashicorp_Consul_exposed.js",
+          "title": "Hashicorp Consul API publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the Django Debug Toolbar is used in a production website",
+          "key": "django_debug_toolbar.js",
+          "title": "Django Debug Toolbar"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Server Side Request Forgery vulnerability in VMware vRealize Operations (CVE-2021-21975)",
+          "key": "VMware_vRealize_SSRF_CVE-2021-21975.js",
+          "title": "VMware vRealize Operations SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Grav CMS Unauthenticated RCE vulnerability (CVE-2021-21425)",
+          "key": "GravCMS_unauth_RCE_CVE-2021-21425.js",
+          "title": "Grav CMS Unauthenticated RCE (CVE-2021-21425)"
+        },
+        {
+          "checks": null,
+          "description": "Test for Caddy unprotected API interface",
+          "key": "caddy_unprotected_api.js",
+          "title": "Caddy unprotected API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Arbitrary File Read/Write vulnerability in Dragonfly gem in Refinery CMS (CVE-2021-33564)",
+          "key": "dragonfly_arbitrary_file_read_CVE-2021-33564.js",
+          "title": "Dragonfly Arbitrary File Read/Write (CVE-2021-33564)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Bitrix",
+          "key": "bitrix_audit.js",
+          "title": "Bitrix audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Open Redirect vulnerabilities",
+          "key": "open_redirect.js",
+          "title": "Open Redirect"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Gitlab",
+          "key": "gitlab_audit.js",
+          "title": "Gitlab audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Nacos authentication bypass vulnerability (CVE-2021-29441)",
+          "key": "nacos_auth_bypass_CVE-2021-29441.js",
+          "title": "Alibaba Nacos Authentication Bypass (CVE-2021-29441)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SSRF vulnerability in SAP BO BIP  (CVE-2020-6308)",
+          "key": "sap_bo_bip_ssrf_CVE-2020-6308.js",
+          "title": "SAP BO BIP SSRF (CVE-2020-6308)"
+        },
+        {
+          "checks": null,
+          "description": "Detects Apache Shiro based on the rememberMe cookie for the root location.",
+          "key": "detect_apache_shiro_server.js",
+          "title": "Detect Apache Shiro (server)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jetty ConcatServlet Information Disclosure vulnerability (CVE-2021-28164)",
+          "key": "jetty_concat_inf_disc_CVE-2021-28164.js",
+          "title": "Jetty ConcatServlet Information Disclosure (CVE-2021-28164)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the RethinkDB administrative interface is publicly exposed",
+          "key": "RethinkDB_open.js",
+          "title": "RethinkDB administrative interface publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Path Traversal Vulnerability in spring-boot-actuator-logview <=0.2.12 (CVE-2021-21234)",
+          "key": "spring_boot_actuator_logview_path_trav_CVE-2021-21234.js",
+          "title": "spring-boot-actuator-logview Path Traversal"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to WebPageTest",
+          "key": "open_webpagetest.js",
+          "title": "Open WebPageTest"
+        },
+        {
+          "checks": null,
+          "description": "Tests for BuddyPress REST API Privilege Escalation (CVE-2021-21389)",
+          "key": "buddypress_rest_api_privesc_CVE-2021-21389.js",
+          "title": "BuddyPress REST API Privilege Escalation"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Hasura GraphQL API is publicly accessible as it leads to SSRF",
+          "key": "Hasura_GraphQL_SSRF.js",
+          "title": "Hasura GraphQL API SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Grandnode Path Traversal vulnerability (CVE-2019-12276)",
+          "key": "grandnode_path_traversal_CVE-2019-12276.js",
+          "title": "Grandnode Path Traversal (CVE-2019-12276)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SearchBlox Local File Inclusion vulnerability (CVE-2020-35580)",
+          "key": "SearchBlox_File_Inclusion_CVE-2020-35580.js",
+          "title": "SearchBlox Local File Inclusion (CVE-2020-35580)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SSRF vulnerability in Zimbra Collaboration Suite (CVE-2020-7796)",
+          "key": "Zimbra_SSRF_CVE-2020-7796.js",
+          "title": "Zimbra SSRF (CVE-2020-7796)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jetty Information Disclosure vulnerability (CVE-2021-34429)",
+          "key": "jetty_inf_disc_CVE-2021-34429.js",
+          "title": "Jetty Information Disclosure (CVE-2021-34429)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cisco ASA XSS vulnerability (CVE-2020-3580)",
+          "key": "Cisco_ASA_XSS_CVE-2020-3580.js",
+          "title": "Cisco ASA XSS (CVE-2020-3580)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unprotected Haproxy Data Plane API",
+          "key": "haproxy_unprotected_api.js",
+          "title": "Haproxy unprotected Data Plane API"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Kong Gateway unprotected API",
+          "key": "kong_unprotected_api.js",
+          "title": "Kong Gateway unprotected API"
+        },
+        {
+          "checks": null,
+          "description": "Tests is the OData feeds are accessible anonymously",
+          "key": "OData_feed_accessible_anonymously.js",
+          "title": "OData feed accessible anonymously"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unauthenticated OGNL injection vulnerability in Confluence Server and Data Center (CVE-2021-26084)",
+          "key": "Confluence_OGNL_Injection_CVE-2021-26084.js",
+          "title": "Unauthenticated OGNL injection in Confluence Server and Data Center"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Microsoft Exchange Server Pre-auth Path Confusion vulnerability (CVE-2021-34473)",
+          "key": "microsoft_exchange_preauth_path_confusion_CVE-2021-34473.js",
+          "title": "Microsoft Exchange Server Pre-auth Path Confusion vulnerability (CVE-2021-34473)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Limited Remote File Read/Include in Jira Software Server and Data Center (CVE-2021-26086)",
+          "key": "Atlassian_Jira_File_Read_CVE-2021-26086.js",
+          "title": "Limited Remote File Read/Include in Jira Software Server"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ManageEngine ADSelfService Plus Authentication Bypass (CVE-2021-40539)",
+          "key": "ManageEngine_ADSelfService_Plus_auth_bypass_CVE-2021-40539.js",
+          "title": "ManageEngine ADSelfService Plus Authentication Bypass (CVE-2021-40539)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Django Debug mode is enabled",
+          "key": "Django_Debug_Mode.js",
+          "title": "Django Debug Mode enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Payara Micro Limited File Read vulnerability (CVE-2021-41381)",
+          "key": "Payara_Micro_File_Read_CVE-2021-41381.js",
+          "title": "Payara Micro Limited File Read (CVE-2021-41381)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Keycloak 'request_uri' Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2020-10770)",
+          "key": "keycloak_request_uri_SSRF_CVE-2020-10770.js",
+          "title": "Keycloak request_uri SSRF (CVE-2020-10770)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache HTTP Server mod_proxy Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2021-40438)",
+          "key": "apache_mod_proxy_SSRF_CVE-2021-40438.js",
+          "title": "Apache HTTP Server mod_proxy SSRF (CVE-2021-40438)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache HTTP Server incorrectly normalizes the path that leads to path traversal or RCE vulnerabilities (CVE-2021-41773, CVE-2021-42013)",
+          "key": "apache_insecure_path_norm_CVE-2021-41773_CVE-2021-42013.js",
+          "title": "Apache HTTP Server Insecure Path Normalization (CVE-2021-41773, CVE-2021-42013)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Gitlab is vulnerable to RCE due to a vulnerability in ExifTool (CVE-2021-22205)",
+          "key": "gitlab_exiftool_rce_CVE-2021-22205.js",
+          "title": "Gitlab ExifTool RCE (CVE-2021-22205)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for incorrect handling of the pseudo-headers on HTTP2 enabled sites that lead to an SSRF vulnerability",
+          "key": "http2/http2_pseudo_header_ssrf.js",
+          "title": "SSRF through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Sitecore XP is vulnerable to deserialization RCE (CVE-2021-42237)",
+          "key": "Sitecore_XP_RCE_CVE-2021-42237.js",
+          "title": "Sitecore XP Deserialization RCE (CVE-2021-42237)"
+        },
+        {
+          "checks": null,
+          "description": "Test if a web application is vulnerable to SSRF due to incorrect handling of the HTTP/2 pseudo-headers and insecure configuration of a back end server",
+          "key": "http2/http2_misrouting_ssrf.js",
+          "title": "Misrouting through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Test if a web application is vulnerable to web cache poisoning due to unkeyed HTTP/2 pseudo-headers",
+          "key": "http2/http2_web_cache_poisoning.js",
+          "title": "Web Cache Poisoning through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Tests for various Web Cache Poisoning DoS vulnerabilities (CPDoS) through HTTP/2 headers",
+          "key": "http2/http2_web_cache_poisoning_dos.js",
+          "title": "Web Cache Poisoning DoS through HTTP/2 headers"
+        },
+        {
+          "checks": null,
+          "description": "Test for Apache Log4j RCE via the 404 page",
+          "key": "Apache_Log4j_RCE_404.js",
+          "title": "Apache Log4j RCE 404 page"
+        }
+      ],
+      "description": "Tests executed once per target",
+      "key": "target",
+      "title": "Target tests"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Test for server-side prototype pollution vulnerabilities via JSON",
+          "key": "json/prototype_pollution_json.js",
+          "title": "Prototype Pollution via json"
+        },
+        {
+          "checks": null,
+          "description": "Test for server-side prototype pollution vulnerabilities via query string",
+          "key": "query/prototype_pollution_query.js",
+          "title": "Prototype Pollution via query string"
+        },
+        {
+          "checks": null,
+          "description": "Test for a Local File Read vulnerability in ExpressJS via the layout parameter",
+          "key": "json/expressjs_layout_lfr_json.js",
+          "title": "ExpressJS Layout Local File Read via JSON"
+        },
+        {
+          "checks": null,
+          "description": "Test for a Local File Read vulnerability in ExpressJS via the layout parameter",
+          "key": "query/expressjs_layout_lfr_query.js",
+          "title": "ExpressJS Layout Local File Read via query string"
+        }
+      ],
+      "description": "Checks targeting input parsing problems in the web application",
+      "key": "input_group",
+      "title": "Input parsing tests"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for Client Side Prototype Pollution using Spectra DeepScan",
+          "key": "prototype_pollution",
+          "title": "Client Side Prototype Pollution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Client Side Template Injection using Spectra DeepScan",
+          "key": "client_side_template_injection.js",
+          "title": "Client Side Template Injection"
+        },
+        {
+          "checks": null,
+          "description": "Tests for DOM-based Cross-site Scripting (XSS) using Spectra DeepScan",
+          "key": "dom_xss",
+          "title": "DOM-based XSS tests"
+        }
+      ],
+      "description": "Checks using Deepscan for detecting client side vulnerabilities",
+      "key": "deepscan",
+      "title": "Client side checks"
+    },
+    {
+      "checks": null,
+      "description": "Scripts added by the user",
+      "key": "custom-scripts",
+      "title": "Custom Scripts"
+    },
+    {
+      "checks": null,
+      "description": "Scans the pages returned by the web applications for malware",
+      "key": "MalwareScanner",
+      "title": "Malware Scanner"
+    }
+  ],
+  "key": "",
+  "title": "All checks"
+}

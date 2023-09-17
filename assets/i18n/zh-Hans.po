@@ -1,0 +1,4524 @@
+msgid ""
+msgstr ""
+"mime-version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " to continue using Spectra"
+msgstr "以继续使用 Spectra"
+
+msgid ", used for the detection of OOB vulnerabilities, and"
+msgstr "，用于检测 OOB 漏洞，以及"
+
+msgid ". Contact your Spectra Representative to continue using Spectra."
+msgstr ". 联系您的 Spectra 代表以继续使用 Spectra。"
+
+msgid "0ms Request Delay"
+msgstr "0 毫秒请求延迟"
+
+msgid "1 Concurrent Request"
+msgstr "1 个并发请求"
+
+msgid "10 Concurrent Requests"
+msgstr "10 个并发请求"
+
+msgid "2 Concurrent Requests"
+msgstr "2 个并发请求"
+
+msgid "250ms Request Delay"
+msgstr "250 毫秒请求延迟"
+
+msgid "3-Legged Sequence"
+msgstr "三足序列"
+
+msgid ""
+"3-legged Sequence is only available for Authorization Code and Implicit "
+"grant types. Please save before proceeding with 3-legged Sequence."
+msgstr ""
+"三足序列仅适用于授权代码和隐式授权类型。请先保存，然后再继续使用三足序列。"
+
+msgid "5 Concurrent Requests"
+msgstr "5 个并发请求"
+
+msgid "<strong>Invalid</strong> CSV File."
+msgstr "CSV 档案<strong>无效</strong>。"
+
+msgid "<strong>Invalid</strong> File."
+msgstr "档案<strong>无效</strong>。"
+
+msgid "<strong>Invalid</strong> License Key"
+msgstr "许可证密钥<strong>无效</strong>"
+
+msgid "<strong>NOTE:</strong> Avoid using AcuSensor on production systems."
+msgstr "<strong>注意：</strong>避免在生产系统中使用 AcuSensor。"
+
+msgid ""
+"<strong>Web Scans</strong> require that you upload a unique file to the "
+"root of your web site."
+msgstr ""
+"<strong>Web 扫描</strong>需要您上传一个独立文件至网站的根目录。"
+
+msgid "A Proxy error occurred"
+msgstr "发生代理错误"
+
+msgid ""
+"A complete vendor solution is available. Either the vendor has issued an "
+"official patch, or an upgrade is available."
+msgstr ""
+"提供完整的原厂解决方案。可能是原厂已发布官方补丁，或者升级可供使用。"
+
+msgid "A connection error occurred"
+msgstr "发生连接错误"
+
+msgid "A scan has been created to check the selected vulnerability"
+msgstr "可以创建扫描以检查所选漏洞"
+
+msgid ""
+"A successful attack depends on conditions beyond the attacker's control. "
+"That is, a successful attack cannot be accomplished at will, but requires "
+"the attacker to invest in some measurable amount of effort in preparation "
+"or execution against the vulnerable component before a successful attack "
+"can be expected. For example, a successful attack may require an attacker "
+"to: gather knowledge about the environment in which the vulnerable "
+"target/component exists; prepare the target environment to improve exploit "
+"reliability; or inject themselves into the logical network path between the "
+"target and the resource requested by the victim in order to read and/or "
+"modify network communications (e.g., a man in the middle attack)."
+msgstr ""
+"成功的攻击取决于攻击者无法控制的条件。即，成功的攻击并非有此意愿就能实现，而是要求攻击者在可预期的成功攻击之前投入一定量的精力来准备或执行针对易受攻击组件的操作。例如，成功的攻击可能要求攻击者执行以下操作：收集有关易受攻击的目标/组件所处环境的知识；准备目标环境以提高利用漏洞的可靠性；或将其自身注入目标与受害者所请求资源之间的逻辑网络路径中，以读取和/或修改网络通信（例如，中间人攻击）。"
+
+msgid ""
+"A successful attack depends on conditions beyond the attacker’s control. "
+"That is, a successful attack cannot be accomplished at will, but requires "
+"the attacker to invest in some measurable amount of effort in preparation "
+"or execution against the vulnerable component before a successful attack "
+"can be expected. For example, a successful attack may require the attacker: "
+"to perform target-specific reconnaissance; to prepare the target "
+"environment to improve exploit reliability; or to inject herself into the "
+"logical network path between the target and the resource requested by the "
+"victim in order to read and/or modify network communications (e.g. a man in "
+"the middle attack)."
+msgstr ""
+"成功的攻击取决于攻击者无法控制的条件。即，成功的攻击并非有此意愿就能实现，而是要求攻击者在可预期的成功攻击之前投入一定量的精力来准备或执行针对易受攻击组件的操作。例如，成功的攻击可能要求攻击者执行以下操作：执行特定于目标的侦查；准备目标环境以提高利用漏洞的可靠性；或将其自身注入目标与受害者所请求资源之间的逻辑网络路径中，以读取和/或修改网络通信（例如，中间人攻击）。"
+
+msgid ""
+"A successful exploit of this vulnerability may result in catastrophic "
+"physical or property damage and loss. Or, there may be a catastrophic loss "
+"of revenue or productivity."
+msgstr ""
+"成功利用此漏洞可能导致灾难性的物理或财产损害。或可能对收入或生产效率造成灾难性的损失。"
+
+msgid ""
+"A successful exploit of this vulnerability may result in moderate physical "
+"or property damage. Or, there may be a moderate loss of revenue or "
+"productivity to the organization."
+msgstr ""
+"成功利用此漏洞可能导致中等程度的物理或财产损害。或可能对组织的收入或生产效率造成中等程度的损失。"
+
+msgid ""
+"A successful exploit of this vulnerability may result in significant "
+"physical or property damage or loss. Or, there may be a significant loss of "
+"revenue or productivity."
+msgstr ""
+"成功利用此漏洞可能导致重大的物质或财产损害或损失。或可能对收入或生产效率造成重大的损失。"
+
+msgid ""
+"A successful exploit of this vulnerability may result in slight physical or "
+"property damage. Or, there may be a slight loss of revenue or productivity "
+"to the organization."
+msgstr ""
+"成功利用此漏洞可能导致轻微的物理或财产损害。或可能对组织的收入或生产效率造成轻微的损失。"
+
+msgid "A valid URL is required to make a request"
+msgstr "发出请求需要有效的 URL"
+
+msgid ""
+"A vulnerability exploitable with adjacent network access means the "
+"vulnerable component is bound to the network stack, however the attack is "
+"limited to the same shared physical (e.g. Bluetooth, IEEE 802.11), or "
+"logical (e.g. local IP subnet) network, and cannot be performed across an "
+"OSI layer 3 boundary (e.g. a router)."
+msgstr ""
+"可通过相邻网络访问利用的漏洞意味着易受攻击的组件已绑定到网络堆栈，但是攻击仅限于相同的共享物理网络（如，蓝牙、IEEE 802.11）或逻辑网络（如，本地 IP 子网），且无法跨 OSI 第 3 层边界（如路由器）执行。"
+
+msgid ""
+"A vulnerability exploitable with adjacent network access requires the "
+"attacker to have access to either the broadcast or collision domain of the "
+"vulnerable software.  Examples of local networks include local IP subnet, "
+"Bluetooth, IEEE 802.11, and local Ethernet segment."
+msgstr ""
+"可通过相邻网络访问利用的漏洞需要攻击者能够访问易受攻击软件的广播或冲突域。本地网络包括本地 IP 子网路、蓝牙、IEEE 802.11 和本地以太网段等。"
+
+msgid ""
+"A vulnerability exploitable with local access means that the vulnerable "
+"component is not bound to the network stack, and the attacker’s path is via "
+"read/write/execute capabilities. In some cases, the attacker may be logged "
+"in locally in order to exploit the vulnerability, otherwise, she may rely "
+"on User Interaction to execute a malicious file."
+msgstr ""
+"可通过本地访问利用的漏洞意味着易受攻击的组件未绑定到网络堆栈，攻击者的路径通过读取/写入/执行功能。在某些情况下，攻击者可能会本地登录以利用此漏洞，在其他情况下，她可能依赖于用户交互来执行恶意文件。"
+
+msgid ""
+"A vulnerability exploitable with network access means the vulnerable "
+"component is bound to the network stack and the attacker’s path is through "
+"OSI layer 3 (the network layer). Such a vulnerability is often termed "
+"”remotely exploitable” and can be thought of as an attack being exploitable "
+"one or more network hops away."
+msgstr ""
+"可通过网络访问利用的漏洞意味着易受攻击的组件已绑定到网络堆栈，且攻击者的路径通过 OSI 第 3 层（网络层）。此类漏洞通常被称为“可远程利用”，且可被认为是可在一个或多个网络跃点利用的攻击。"
+
+msgid ""
+"A vulnerability exploitable with network access means the vulnerable "
+"software is bound to the network stack and the attacker does not require "
+"local network access or local access.  Such a vulnerability is often termed "
+"\"remotely exploitable\".  An example of a network attack is an RPC buffer "
+"overflow."
+msgstr ""
+"可通过网络访问利用的漏洞意味着易受攻击的软件已绑定到网络堆栈，且攻击者不需要本地网络访问或本地访问权限。这种漏洞通常被称为“可远程利用”。网络攻击的示例包括 RPC 缓冲区溢出。"
+
+msgid ""
+"A vulnerability exploitable with only local access requires the attacker to "
+"have either physical access to the vulnerable system or a local (shell) "
+"account. Examples of locally exploitable vulnerabilities are peripheral "
+"attacks such as Firewire/USB DMA attacks, and local privilege escalations "
+"(e.g., sudo)."
+msgstr ""
+"仅通过本地访问才能利用的漏洞要求攻击者具有对易受攻击的系统或本地 (shell) 帐户的物理访问权。本地可利用漏洞包括外围攻击（如 Firewire/USB DMA 攻击）和本地特权升级（如 sudo）等。"
+
+msgid ""
+"A vulnerability exploitable with physical access requires the attacker to "
+"physically touch or manipulate the vulnerable component. Physical "
+"interaction may be brief or persistent."
+msgstr ""
+"可通过物理访问利用的漏洞要求攻击者能够实际接触或操纵易受攻击的组件。物理交互可能是短暂的，也可能是持久的。"
+
+msgid "API Key"
+msgstr "API 密钥"
+
+msgid "API key disabled"
+msgstr "API 密钥已禁用"
+
+msgid "About"
+msgstr "关于"
+
+msgid "About Report Templates"
+msgstr "关于报告模板"
+
+msgid "About WAF Export"
+msgstr "关于 WAF 导出"
+
+msgid ""
+"Accepted formats include text file with a list of URLs (.txt), Fiddler "
+"session archives (.saz), Swagger files (.json, .yaml or .yml), Web Services "
+"Definition Files (.wsdl), BURP saved files (.xml) and state files, Selenium "
+"(.html, .side), Web Application Description Language (.wadl), ASP.NET Web "
+"Forms Project Files (.csproj, .vbproj), Paros log files (.session.data), "
+"Postman Collections v2 (.json), GraphQL files (.graphql, .json) or HTTP "
+"archive files (.har)"
+msgstr ""
+"可接受的格式包括包含一列 URL 的文本文件 (.txt)、Fiddler 会话存档 (.saz)、Swagger 文件（.json、.yaml 或 .yml）、Web 服务定义文件 (.wsdl)、BURP 保存的文件 (.xml) 和状态文件 Selenium（.html、.side）、Web 应用程序描述语言 (.wadl)、ASP.NET Web 窗体项目文件（.csproj、.vbproj）、Paros 日志文件 (.session.data)、Postman Collections v2 (.json)、GraphQL 文件 (.graphql、.json) 或 HTTP 存档文件 (.har)"
+
+msgid "Access All Targets"
+msgstr "访问所有目标"
+
+msgid "Access Complexity"
+msgstr "访问复杂性"
+
+msgid "Access Vector"
+msgstr "访问矢量"
+
+msgid "Access denied. Not enough rights to update issues"
+msgstr "拒绝访问。权限不足，无法更新问题"
+
+msgid "Access is denied due to invalid credentials"
+msgstr "证书无效，拒绝访问"
+
+msgid "Access token URL"
+msgstr "访问令牌 URL"
+
+msgid "Access token URL URL is <strong>required</strong>"
+msgstr "访问令牌 URL URL <strong>必填</strong>"
+
+msgid "Account Locked"
+msgstr "帐户已锁定"
+
+msgid "Account Settings"
+msgstr "帐户设置"
+
+msgid "Account Verification"
+msgstr "帐户验证"
+
+msgid "Account rejected"
+msgstr "帐户被拒绝"
+
+msgid "Account settings updated successfully"
+msgstr "帐户设置已成功更新"
+
+msgid "Actions"
+msgstr "操作"
+
+msgid "Activate License"
+msgstr "激活许可证"
+
+msgid "Activation error"
+msgstr "激活错误"
+
+msgid "Activation error, please try again later"
+msgstr "激活错误，请稍后再试"
+
+msgid "Activity"
+msgstr "活动"
+
+msgid "AcuMonitor Successfully Disabled"
+msgstr "AcuMonitor 已成功禁用"
+
+msgid "AcuMonitor Successfully Enabled"
+msgstr "AcuMonitor 已成功启用"
+
+msgid "AcuSensor"
+msgstr "AcuSensor"
+
+msgid "AcuSensor Agent"
+msgstr "AcuSensor 代理"
+
+msgid "AcuSensor Password was reset successfully"
+msgstr "AcuSensor 密码已成功重置"
+
+msgid ""
+"AcuSensor allows the scanner to gather more information from your PHP,.NET, "
+"or Java web applications, resulting in improved scan results and reduced "
+"false positives. Download and install AcuSensor for this Target before "
+"running the web scan."
+msgstr ""
+"AcuSensor 允许扫描程序从您的 PHP、.NET 或 Java web 应用程序收集更多信息，用于改善扫描结果，并减少误报。请于运行 Web 扫描前，下载并安装与目标对应的 AcuSensor。"
+
+msgid "AcuSensor is automatically enabled on test websites"
+msgstr "AcuSensor 已在测试网站上自动启用"
+
+msgid "Spectra API Documentation"
+msgstr "Spectra API 文档"
+
+msgid "Spectra Ltd."
+msgstr "Spectra Ltd."
+
+msgid "Spectra Online Services include"
+msgstr "Spectra 在线服务包括"
+
+msgid "Spectra Threat Level"
+msgstr "Spectra 威胁等级"
+
+msgid ""
+"Spectra can automatically detect the Technologies used by the web "
+"application. <br/>Use the following options to force Spectra to scan the "
+"site using settings for the selected technology."
+msgstr ""
+"Spectra 可以自动检测 Web 应用程序使用的技术。<br/>使用以下选项以强制 Spectra 使用为所选技术进行的设置来扫描站点。"
+
+msgid "Spectra license required. Contact your sales representative or "
+msgstr "需要 Spectra 许可证。请联系您的销售代表或"
+
+msgid "Add"
+msgstr "添加"
+
+msgid "Add Cookie URL"
+msgstr "添加 Cookie URL"
+
+msgid "Add Cookie Value"
+msgstr "添加 Cookie 值"
+
+msgid "Add Group"
+msgstr "添加组"
+
+msgid "Add Host"
+msgstr "添加主机"
+
+msgid "Add Issue Tracker"
+msgstr "添加问题跟踪程序"
+
+msgid "Add Multiple Targets"
+msgstr "添加多个目标"
+
+msgid "Add New Group"
+msgstr "添加新组"
+
+msgid "Add New Issue Tracker"
+msgstr "添加新问题跟踪程序"
+
+msgid "Add New Profile"
+msgstr "添加新配置文件"
+
+msgid "Add Target"
+msgstr "单个目标"
+
+msgid "Add Target Group"
+msgstr "添加目标组"
+
+msgid "Add Target Groups"
+msgstr "添加目标组"
+
+msgid "Add Targets"
+msgstr "多个目标"
+
+msgid "Add To Group"
+msgstr "添加至组"
+
+msgid "Add User"
+msgstr "添加用户"
+
+msgid "Add a RegEx"
+msgstr "添加 RegEx"
+
+msgid "Add a new Target Group."
+msgstr "添加新目标组。"
+
+msgid "Add a new Target."
+msgstr "添加新目标。"
+
+msgid "Add another Target"
+msgstr "添加另一目标"
+
+msgid "Add to Group"
+msgstr "添加至组"
+
+msgid "Add user."
+msgstr "添加用户。"
+
+msgid "Additional Information"
+msgstr "额外信息"
+
+msgid "Address"
+msgstr "地址"
+
+msgid "Address is <strong>required</strong>"
+msgstr "地址<strong>必填</strong>"
+
+msgid "Address is <strong>required</strong> "
+msgstr "地址<strong>必填</strong>"
+
+msgid "Address not allowed"
+msgstr "地址不允许"
+
+msgid "Address, Description"
+msgstr "地址，描述"
+
+msgid "Address/Description"
+msgstr "地址/描述"
+
+msgid "Adjacent"
+msgstr "相邻"
+
+msgid "Adjacent Network"
+msgstr "相邻网络"
+
+msgid "Advanced"
+msgstr "高级"
+
+msgid "Affected Items"
+msgstr "受影响项目"
+
+msgid "All (Current and Archived)"
+msgstr "全部（当前和存档）"
+
+msgid "All Vulnerabilities"
+msgstr "所有漏洞"
+
+msgid "All Vulnerabilities Report"
+msgstr "所有漏洞报告"
+
+msgid ""
+"All scans are done from <strong>scanners.Spectra.com</strong>. Please "
+"configure any firewalls / WAFs accordingly."
+msgstr ""
+"所有扫描都从<strong>scanners.Spectra.com</strong>完成。请配置相应的防火墙/WAF。"
+
+msgid "Allow creation of Targets"
+msgstr "允许创建目标"
+
+msgid "Allowed Hosts"
+msgstr "允许的主机"
+
+msgid "An HTTP error occurred"
+msgstr "发生 HTTP 错误"
+
+msgid "An email has been sent to"
+msgstr "电子邮件已发送至"
+
+msgid "An error occured during the login Sequence Recording session."
+msgstr "登录序列脚本录制会话期间发生错误。"
+
+msgid "An error occured during the Manual Intervention session."
+msgstr "手动干预会话期间发生错误。"
+
+msgid ""
+"An exploited vulnerability can affect resources beyond the authorization "
+"privileges intended by the vulnerable component. In this case the "
+"vulnerable component and the impacted component are different."
+msgstr ""
+"被利用的漏洞可能会影响易受攻击的组件本没有授权权限的资源。在这种情况下，易受攻击的组件和受影响的组件是不同的。"
+
+msgid ""
+"An exploited vulnerability can affect resources beyond the security scope "
+"managed by the security authority of the vulnerable component. In this "
+"case, the vulnerable component and the impacted component are different and "
+"managed by different security authorities."
+msgstr ""
+"被利用的漏洞可能会影响易受攻击组件的安全机构管理的安全范围之外的资源。在这种情况下，易受攻击的组件和受影响的组件是不同的，且由不同的安全机构管理。"
+
+msgid ""
+"An exploited vulnerability can only affect resources managed by the same "
+"authority. In this case the vulnerable component and the impacted component "
+"are the same."
+msgstr ""
+"被利用的漏洞可能仅影响同一机构管理的资源。在这种情况下，易受攻击的组件和受影响的组件是相同的。"
+
+msgid ""
+"An exploited vulnerability can only affect resources managed by the same "
+"security authority. In this case, the vulnerable component and the impacted "
+"component are either the same, or both are managed by the same security "
+"authority."
+msgstr ""
+"被利用的漏洞可能仅影响同一安全机构管理的资源。在这种情况下，易受攻击的组件和受影响的组件可能相同，也可能两者都由同一安全机构管理。"
+
+msgid "Apply Changes"
+msgstr "应用更改"
+
+msgid "Apply License"
+msgstr "应用许可证"
+
+msgid "Archive Status"
+msgstr "存档状态"
+
+msgid "Archived"
+msgstr "已存档"
+
+msgid ""
+"Archived Scans which are older than the specified number of days will be "
+"deleted from Spectra."
+msgstr ""
+"将从 Spectra 中删除指定天数之前的已存档扫描。"
+
+msgid "Are you sure you want to delete the selected item?"
+msgstr "是否确定要删除所选项目？"
+
+msgid "Are you sure you want to delete the selected items?"
+msgstr "是否确定要删除所选项目？"
+
+msgid "Are you sure you want to delete your account?"
+msgstr "是否确定要删除您的帐户？"
+
+msgid ""
+"Are you sure you want to reset the AcuSensor password for this Target? "
+"AcuSensor will need to be re-installed on the Target."
+msgstr ""
+"是否确定要为此目标重置 AcuSensor 密码？将需要在目标上重新安装 AcuSensor。"
+
+msgid "Are you sure you want to stop these scans?"
+msgstr "是否确定要停止这些扫描？"
+
+msgid "Are you sure you want to stop this scan?"
+msgstr "是否确定要停止此扫描？"
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Environmental "
+"Score, i.e., it has the same effect on scoring as assigning Medium."
+msgstr ""
+"分配此值表示没有足够的信息来选择其他值之一，且对总体环境得分没有影响，即，它对得分的影响与分配“中等”相同。"
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning Confirmed."
+msgstr ""
+"分配此值表示没有足够的信息来选择其他值之一，且对总体时间得分没有影响，即，它对得分的影响与分配“确认”相同。"
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning High."
+msgstr ""
+"分配此值表示没有足够的信息来选择其他值之一，且对总体时间得分没有影响，即，它对得分的影响与分配“高”相同。"
+
+msgid ""
+"Assigning this value indicates there is insufficient information to choose "
+"one of the other values, and has no impact on the overall Temporal Score, "
+"i.e., it has the same effect on scoring as assigning Unavailable."
+msgstr ""
+"分配此值表示没有足够的信息来选择其他值之一，且对总体时间得分没有影响，即，它对得分的影响与分配“不可用”相同。"
+
+msgid "Assigning this value to the metric will not influence the score."
+msgstr "向指标分配此值将不会影响得分。"
+
+msgid ""
+"Assigning this value to the metric will not influence the score. It is a "
+"signal to the equation to skip this metric."
+msgstr ""
+"向指标分配此值将不会影响得分。它用于向方程式发出信号以跳过此指标。"
+
+msgid "Attack Complexity"
+msgstr "攻击复杂性"
+
+msgid "Attack Details"
+msgstr "攻击详细信息"
+
+msgid "Attack Vector"
+msgstr "攻击矢量"
+
+msgid "Auditor"
+msgstr "审计员"
+
+msgid "Authentication"
+msgstr "身份验证"
+
+msgid "Authentication is not required to exploit the vulnerability."
+msgstr "无需身份验证即可利用此漏洞。"
+
+msgid "Authorization"
+msgstr "授权"
+
+msgid "Authorization Code"
+msgstr "授权代码"
+
+msgid "Authorization URL"
+msgstr "授权 URL"
+
+msgid "Authorize"
+msgstr "授权"
+
+msgid "Authorize/Disable"
+msgstr "授权/禁用"
+
+msgid "Availability"
+msgstr "可用性"
+
+msgid "Availability Impact"
+msgstr "可用性影响"
+
+msgid "Availability Requirement"
+msgstr "可用性要求"
+
+msgid "Average Days"
+msgstr "平均天数"
+
+msgid "Average Days To Remediate"
+msgstr "平均修复天数"
+
+msgid "Average Response Time"
+msgstr "平均响应时间"
+
+msgid "Average Vulnerabilities age"
+msgstr "平均漏洞存在时间"
+
+msgid "Average Vulnerabilities per Target"
+msgstr "每个目标平均漏洞数"
+
+msgid "Average days to remediate"
+msgstr "平均修复天数"
+
+msgid "Back"
+msgstr "返回"
+
+msgid "Back to login"
+msgstr "返回登录"
+
+msgid "Bad Gateway"
+msgstr "错误网关"
+
+msgid "Bad Request"
+msgstr "错误请求"
+
+msgid "Base Score:"
+msgstr "基础评分"
+
+msgid "Base URL for request is not set"
+msgstr "未设置请求的基本 URL"
+
+msgid "Basic, Digest, NTLM and Kerberos (Windows only) are supported"
+msgstr "支持 Basic、Digest、NTLM 和 Kerberos（仅 Windows）"
+
+msgid "Built In"
+msgstr "内建"
+
+msgid "Business Criticality"
+msgstr "业务关键性"
+
+msgid "Business Criticality : Critical"
+msgstr "业务关键性：极关键"
+
+msgid "Business Criticality : High"
+msgstr "业务关键性：高"
+
+msgid "Business Criticality : Low"
+msgstr "业务关键性：低"
+
+msgid "Business Criticality : Normal"
+msgstr "业务关键性：一般"
+
+msgid "Business Logic"
+msgstr "业务逻辑"
+
+msgid "Business Logic Recorder"
+msgstr "业务逻辑记录器"
+
+msgid ""
+"Business Logic Recorder is disabled because Manual Intervention is set on "
+"this target."
+msgstr ""
+"已在此目标上设置手动干预，因此已禁用业务逻辑记录器。"
+
+msgid "CSV File"
+msgstr "CSV 文件"
+
+msgid "CSV File is <strong>required</strong>"
+msgstr "CSV 文件<strong>必填</strong>"
+
+msgid "CSV Format:"
+msgstr "CSV 格式："
+
+msgid "CWE 2011"
+msgstr "CWE 2011"
+
+msgid "Can't change scan start date"
+msgstr "无法更改扫描开始日期"
+
+msgid "Can't change test site sensor secret."
+msgstr "无法更改测试站点传感器密钥。"
+
+msgid "Can't pause scans with manual intervention"
+msgstr "手动干预下无法暂停扫描"
+
+msgid "Can't swap license"
+msgstr "无法切换许可证"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Case Sensitive Paths"
+msgstr "区分大小写的路径"
+
+msgid "Certificate deleted successfully "
+msgstr "证书已成功删除"
+
+msgid "Certificate is <strong>required</strong>"
+msgstr "证书<strong>必填</strong>"
+
+msgid "Certificate uploaded"
+msgstr "证书已上传"
+
+msgid "Change Email"
+msgstr "更改电子邮件"
+
+msgid "Change Password"
+msgstr "更改密码"
+
+msgid "Changed"
+msgstr "已更改"
+
+msgid "Changing target type is not allowed"
+msgstr "不允许更改目标类型"
+
+msgid "Check Description:"
+msgstr "检查描述："
+
+msgid "Check For Updates"
+msgstr "检查更新"
+
+msgid "Check Path:"
+msgstr "检查路径："
+
+msgid "Check Settings"
+msgstr "检查设置"
+
+msgid "Checking..."
+msgstr "正在检查..."
+
+msgid "Choose File"
+msgstr "选择文件"
+
+msgid "Choose Scanning Options"
+msgstr "选择扫描选项"
+
+msgid "Classification"
+msgstr "分类"
+
+msgid "Client Certificate"
+msgstr "客户端证书"
+
+msgid "Client Certificate URL"
+msgstr "客户端证书 URL"
+
+msgid "Client Credentials"
+msgstr "客户端证书"
+
+msgid "Client ID"
+msgstr "客户端 ID"
+
+msgid "Client ID is <strong>required</strong>"
+msgstr "客户端 ID <strong>必填</strong>"
+
+msgid "Client Secret"
+msgstr "客户端密钥"
+
+msgid "Client URL is <strong>required</strong>"
+msgstr "客户端 URL <strong>必填</strong>"
+
+msgid "Collateral Damage Potential"
+msgstr "并行潜在破坏性"
+
+msgid "Collection"
+msgstr "集合"
+
+msgid "Company Name (required)"
+msgstr "公司名称（必填）"
+
+msgid "Company Website (required)"
+msgstr "公司网站（必填）"
+
+msgid "Company name is <strong>required</strong>"
+msgstr "公司名称<strong>必填</strong>"
+
+msgid "Company website is <strong>required</strong>"
+msgstr "公司网站<strong>必填</strong>"
+
+msgid "Compare Scans"
+msgstr "比较扫描"
+
+msgid "Complete"
+msgstr "完成"
+
+msgid "Completed"
+msgstr "已完成"
+
+msgid "Compliance Reports"
+msgstr "合规报告"
+
+msgid "Comprehensive (new)"
+msgstr "综合（新）"
+
+msgid "Confidence"
+msgstr "信心"
+
+msgid "Confidence %"
+msgstr "信心 %"
+
+msgid "Confidentiality"
+msgstr "机密性"
+
+msgid "Confidentiality Impact"
+msgstr "机密性影响"
+
+msgid "Confidentiality Requirement"
+msgstr "机密性要求"
+
+msgid "Configure"
+msgstr "配置"
+
+msgid "Configure Issue Tracker"
+msgstr "配置问题跟踪程序"
+
+msgid "Configure New Issue Tracker"
+msgstr "配置新问题跟踪程序"
+
+msgid "Configure Target Groups Access:"
+msgstr "配置目标组访问："
+
+msgid "Confirm Password"
+msgstr "确认密码"
+
+msgid "Confirm Password Reset"
+msgstr "确认重置密码"
+
+msgid "Confirmed"
+msgstr "确认"
+
+msgid "Conflict"
+msgstr "冲突"
+
+msgid "Conflicting resource"
+msgstr "冲突资源"
+
+msgid "Connection Successful"
+msgstr "连接成功"
+
+msgid "Connection error"
+msgstr "连接错误"
+
+msgid "Connection is Successful"
+msgstr "连接成功"
+
+msgid "Connection timeout"
+msgstr "连接超时"
+
+msgid "Consumer Key"
+msgstr "用户密钥"
+
+msgid "Consumer Key is <strong>required</strong>"
+msgstr "用户密钥<strong>必填</strong>"
+
+msgid "Contact your customer success manager to renew."
+msgstr "联系您的客户成功经理以续订。"
+
+msgid "Continue to login page"
+msgstr "前往登录页面"
+
+msgid "Continuous Scanning"
+msgstr "连续扫描"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Copy URL to Clipboard"
+msgstr "将 URL 复制到剪贴板"
+
+msgid "Copy to Clipboard"
+msgstr "复制到剪贴板"
+
+msgid "Copyright"
+msgstr "版权"
+
+msgid "Could not connect to the Main Installation"
+msgstr "无法连接至主安装"
+
+msgid "Could not connect to the Scanning Engine"
+msgstr "无法连接至扫描引擎"
+
+msgid "Count"
+msgstr "计数"
+
+msgid "Country (required)"
+msgstr "国家/地区（必填）"
+
+msgid "Country is <strong>required</strong>"
+msgstr "国家/地区<strong>必填</strong>"
+
+msgid "Crawling"
+msgstr "爬取"
+
+msgid "Create Scan"
+msgstr "创建扫描"
+
+msgid "Create Scans"
+msgstr "创建扫描"
+
+msgid "Create Target"
+msgstr "创建目标"
+
+msgid "Created"
+msgstr "已创建"
+
+msgid "Created After"
+msgstr "创建晚于"
+
+msgid "Created Before"
+msgstr "创建早于"
+
+msgid "Created On"
+msgstr "创建于"
+
+msgid "Critical"
+msgstr "严重"
+
+msgid "Current Password"
+msgstr "当前密码"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Custom Cookies"
+msgstr "自定义 Cookie"
+
+msgid "Custom Headers"
+msgstr "自定义报头"
+
+msgid "Daily"
+msgstr "每天"
+
+msgid "Dashboard"
+msgstr "仪表盘"
+
+msgid "Days"
+msgstr "天"
+
+msgid "Debug scans for this target"
+msgstr "为此目标生成调试日志"
+
+msgid "Default Scan Profile"
+msgstr "默认扫描配置文件"
+
+msgid "Delete"
+msgstr "删除"
+
+msgid "Delete Account"
+msgstr "删除帐户"
+
+msgid "Delete Scans"
+msgstr "删除扫描"
+
+msgid "Delete knowledge base"
+msgstr "删除知识库"
+
+msgid "Delete scans from the Archive which are older than (days)"
+msgstr "从存档中删除此天数之前的扫描"
+
+msgid "Deleted targets can be replaced after"
+msgstr "可在此之后替换已删除的目标"
+
+msgid "Demo"
+msgstr "演示"
+
+msgid "Demo Targets"
+msgstr "演示目标"
+
+msgid "Demo target not supported"
+msgstr "不支持演示目标"
+
+msgid "Description"
+msgstr "描述"
+
+msgid "Detached"
+msgstr "已断开"
+
+msgid "Detailed Information"
+msgstr "详细信息"
+
+msgid ""
+"Detailed reports exist, or functional reproduction is possible (functional "
+"exploits may provide this). Source code is available to independently "
+"verify the assertions of the research, or the author or vendor of the "
+"affected code has confirmed the presence of the vulnerability."
+msgstr ""
+"存在详细的报告，或者可能进行功能复制（功能漏洞利用可能提供此功能）。存在源代码以用于独立验证研究的断言，或者受影响代码的作者或原厂已确认存在此漏洞。"
+
+msgid "Developer"
+msgstr "开发人员"
+
+msgid "Disable"
+msgstr "禁用"
+
+msgid "Disable Spectra Online Services"
+msgstr "禁用 Spectra 在线服务"
+
+msgid "Disable Two Factor Authentication"
+msgstr "禁用双重身份验证"
+
+msgid "Discovered Hosts"
+msgstr "发现的主机"
+
+msgid "Discovered by"
+msgstr "发现者"
+
+msgid "Do not automatically check for updates [Not Recommended]"
+msgstr "不要自动检查更新[不建议]"
+
+msgid "Do you want to continue?"
+msgstr "是否要继续？"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Download .NET AcuSensor"
+msgstr "下载 .NET AcuSensor"
+
+msgid "Download Java AcuSensor"
+msgstr "下载 Java AcuSensor"
+
+msgid "Download NodeJS AcuSensor"
+msgstr "下载 NodeJS AcuSensor"
+
+msgid "Download PHP AcuSensor"
+msgstr "下载 PHP AcuSensor"
+
+msgid "Download Verification File"
+msgstr "下载验证文件"
+
+msgid "Download and install updates automatically"
+msgstr "自动下载并安装更新"
+
+msgid "Duplicate profile name"
+msgstr "复制配置文件名称"
+
+msgid "Duplicate scanning app"
+msgstr "复制扫描应用程序"
+
+msgid ""
+"During the Trial, you can also scan any website that you control with the "
+"following limitations:"
+msgstr ""
+"试用期间，您还可以扫描由您控制但具有以下限制的任何网站："
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Edit Engine"
+msgstr "编辑引擎"
+
+msgid "Edit Group"
+msgstr "编辑组"
+
+msgid "Edit Group Membership"
+msgstr "编辑组成员"
+
+msgid "Edit Schedule"
+msgstr "编辑计划"
+
+msgid "Edit Target Group"
+msgstr "编辑目标组"
+
+msgid "Edit User"
+msgstr "编辑用户"
+
+msgid "Edition"
+msgstr "版本"
+
+msgid ""
+"Either the vulnerability is exploitable by functional mobile autonomous "
+"code, or no exploit is required (manual trigger) and details are widely "
+"available. The code works in every situation, or is actively being "
+"delivered via a mobile autonomous agent (such as a worm or virus)."
+msgstr ""
+"该漏洞可以通过功能性移动自主代码来利用，或无需利用（手动触发），且详细信息广泛可用。该代码在任何情况下都可运作，或通过移动自主代理（例如蠕虫或病毒）主动传递。"
+
+msgid "Email"
+msgstr "电子邮件"
+
+msgid "Email Settings"
+msgstr "电子邮件设置"
+
+msgid "Email already exists"
+msgstr "电子邮件已存在"
+
+msgid "Email is <strong>required</strong>"
+msgstr "电子邮件<strong>必填</strong>"
+
+msgid "Email provider not allowed"
+msgstr "电子邮件提供商不允许"
+
+msgid "Enable"
+msgstr "启用"
+
+msgid "Enable Spectra Online Services"
+msgstr "启用 Spectra 在线服务"
+
+msgid "Enable Two Factor Authentication"
+msgstr "启用双重身份验证"
+
+msgid "Enable Two-factor Authentication for all users"
+msgstr "为所有用户启用双重身份验证"
+
+msgid "Endpoint"
+msgstr "端点"
+
+msgid "Endpoint already exists"
+msgstr "端点已存在"
+
+msgid "Engine deleted successfully"
+msgstr "引擎已成功删除"
+
+msgid "Engine updated successfully"
+msgstr "引擎已成功更新"
+
+msgid "Engines"
+msgstr "引擎"
+
+msgid "Enter a new License Key"
+msgstr "输入新许可证密钥"
+
+msgid "Entity could not be processed"
+msgstr "实体无法处理"
+
+msgid "Error Aborting Scan"
+msgstr "终止扫描时出错"
+
+msgid "Error Creating Target Group"
+msgstr "创建目标组时出错"
+
+msgid "Error Deleteing account"
+msgstr "删除帐户时出错"
+
+msgid "Error Disabling Notifications"
+msgstr "禁用通知时出错"
+
+msgid "Error Loading License"
+msgstr "加载许可证时出错"
+
+msgid "Error Pausing Scan"
+msgstr "暂停扫描时出错"
+
+msgid "Error Resuming Scan"
+msgstr "恢复扫描时出错"
+
+msgid "Error Retrieving Issue Types"
+msgstr "检索问题类型时出错"
+
+msgid "Error Retrieving Projects"
+msgstr "检索项目时出错"
+
+msgid "Error Saving Nofication Settings"
+msgstr "保存通知设置时出错"
+
+msgid "Error Updating Profile"
+msgstr "更新配置文件时出错"
+
+msgid "Error aborting scans"
+msgstr "终止扫描时出错"
+
+msgid "Error adding host"
+msgstr "添加主机时出错"
+
+msgid "Error authorizing engine"
+msgstr "授权引擎时出错"
+
+msgid "Error checking for updates"
+msgstr "检查更新时出错"
+
+msgid "Error creating Issue Tracker"
+msgstr "创建问题跟踪程序时出错"
+
+msgid "Error creating Profile"
+msgstr "创建配置文件时出错"
+
+msgid "Error creating Scan Profile"
+msgstr "创建扫描配置文件时出错"
+
+msgid "Error creating user"
+msgstr "创建用户时出错"
+
+msgid "Error deleting API key"
+msgstr "删除 API 密钥时出错"
+
+msgid "Error deleting Certificate"
+msgstr "删除证书时出错"
+
+msgid "Error deleting Excluding Hours profiles"
+msgstr "删除“排除时间”配置文件时出错"
+
+msgid "Error deleting File"
+msgstr "删除文件时出错"
+
+msgid "Error deleting Issue Tracker"
+msgstr "删除问题跟踪程序时出错"
+
+msgid "Error deleting Knowledge Base"
+msgstr "删除知识库时出错"
+
+msgid "Error deleting Network Scanner settings"
+msgstr "删除网络扫描程序设置时出错"
+
+msgid "Error deleting engine"
+msgstr "删除引擎时出错"
+
+msgid "Error deleting login sequence"
+msgstr "删除登录序列时出错"
+
+msgid "Error deleting report"
+msgstr "删除报告时出错"
+
+msgid "Error deleting reports"
+msgstr "删除报告时出错"
+
+msgid "Error deleting scan profiles"
+msgstr "删除扫描配置文件时出错"
+
+msgid "Error deleting scans"
+msgstr "删除扫描时出错"
+
+msgid "Error deleting target"
+msgstr "删除目标时出错"
+
+msgid "Error deleting target group"
+msgstr "删除目标组时出错"
+
+msgid "Error deleting target groups"
+msgstr "删除目标组时出错"
+
+msgid "Error deleting targets"
+msgstr "删除目标时出错"
+
+msgid "Error deleting user"
+msgstr "删除用户时出错"
+
+msgid "Error deleting users"
+msgstr "删除用户时出错"
+
+msgid "Error disabling AcuMonitor"
+msgstr "禁用 AcuMonitor 时出错"
+
+msgid "Error disabling engine"
+msgstr "禁用引擎时出错"
+
+msgid "Error disabling users"
+msgstr "禁用用户时出错"
+
+msgid "Error downloading report"
+msgstr "下载报告时出错"
+
+msgid "Error enabling AcuMonitor"
+msgstr "启用 AcuMonitor 时出错"
+
+msgid "Error enabling users"
+msgstr "启用用户时出错"
+
+msgid "Error fetching reports"
+msgstr "提取报告时出错"
+
+msgid "Error generating Report"
+msgstr "生成报告时出错"
+
+msgid "Error generating new API key"
+msgstr "生成新 API 密钥时出错"
+
+msgid "Error in Connection"
+msgstr "连接出错"
+
+msgid "Error in Dashboard"
+msgstr "仪表盘出错"
+
+msgid "Error in Scan"
+msgstr "扫描出错"
+
+msgid "Error in Verifying Target"
+msgstr "验证目标时出错"
+
+msgid "Error in adding targets to groups"
+msgstr "添加目标至组时出错"
+
+msgid "Error in exporting report"
+msgstr "导出报告时出错"
+
+msgid "Error in reset password"
+msgstr "重置密码时出错"
+
+msgid "Error in retesting the selected vulnerability"
+msgstr "重新测试所选漏洞时出错！"
+
+msgid "Error in updating password"
+msgstr "更新密码时出错"
+
+msgid "Error in verifying code"
+msgstr "验证代码时出错"
+
+msgid "Error resetting AcuSensor Password "
+msgstr "重置 AcuSensor 密码时出错"
+
+msgid "Error retrieving API key"
+msgstr "检索 API 密钥时出错"
+
+msgid "Error retrieving Engines"
+msgstr "检索引擎时出错"
+
+msgid "Error retrieving Excluded Hours Profiles"
+msgstr "检索“排除时间”配置文件时出错"
+
+msgid "Error retrieving Issue Trackers"
+msgstr "检索问题跟踪程序时出错"
+
+msgid "Error retrieving Network Scanner settings"
+msgstr "检索网络扫描程序设置时出错"
+
+msgid "Error retrieving Scan Events"
+msgstr "检索扫描事件时出错"
+
+msgid "Error retrieving Scan Profiles"
+msgstr "检索扫描配置文件时出错"
+
+msgid "Error retrieving Scans"
+msgstr "检索扫描时出错"
+
+msgid "Error retrieving Target Groups"
+msgstr "检索目标组时出错"
+
+msgid "Error retrieving Targets"
+msgstr "检索目标时出错"
+
+msgid "Error retrieving Users"
+msgstr "检索用户时出错"
+
+msgid "Error retrieving Vulnerability types"
+msgstr "检索漏洞类型时出错"
+
+msgid "Error retrieving vulnerabilities"
+msgstr "检索漏洞时出错"
+
+msgid "Error retrieving vulnerabilities groups"
+msgstr "检索漏洞组时出错"
+
+msgid "Error saving account settings"
+msgstr "保存帐户设置时出错"
+
+msgid "Error starting scan on some targets"
+msgstr "对某些目标启动扫描时出错"
+
+msgid "Error updating"
+msgstr "更新时出错"
+
+msgid "Error updating Engine"
+msgstr "更新引擎时出错"
+
+msgid "Error updating Issue Tracker"
+msgstr "更新问题跟踪程序时出错"
+
+msgid "Error updating Scan Profile"
+msgstr "更新扫描配置文件时出错"
+
+msgid "Error updating Scan Schedule"
+msgstr "更新扫描计划时出错"
+
+msgid "Error updating Status"
+msgstr "更新状态时出错"
+
+msgid "Error updating Update Policy"
+msgstr "更新“更新策略”时出错"
+
+msgid "Error updating default excluded hours profile"
+msgstr "更新默认排除时间配置文件时出错"
+
+msgid "Error updating settings"
+msgstr "更新设置时出错"
+
+msgid "Error updating user"
+msgstr "更新用户时出错"
+
+msgid "Error uploading Business Logic"
+msgstr "上传业务逻辑时出错"
+
+msgid "Error uploading Certificate"
+msgstr "上传证书时出错"
+
+msgid "Error uploading file"
+msgstr "上传文件时出错"
+
+msgid "Error uploading login sequence"
+msgstr "上传登录序列时出错"
+
+msgid "Evaluation"
+msgstr "评估"
+
+msgid "Event"
+msgstr "事件"
+
+msgid "Events"
+msgstr "事件"
+
+msgid "Every"
+msgstr "每"
+
+msgid "Excluded Hours"
+msgstr "排除时间"
+
+msgid "Excluded Hours Profile Name"
+msgstr "排除时间配置文件名称"
+
+msgid "Excluded Hours Profile Name is <strong>required</strong>"
+msgstr "排除时间配置文件名称<strong>必填</strong>"
+
+msgid "Excluded Hours Profiles Deleted"
+msgstr "排除时间配置文件已删除"
+
+msgid "Excluded Paths"
+msgstr "排除路径"
+
+msgid "Excluded hours default profile updated"
+msgstr "排除时间默认配置文件已更新"
+
+msgid "Executive Summary"
+msgstr "执行摘要"
+
+msgid "Expired"
+msgstr "已过期"
+
+msgid "Expired on"
+msgstr "到期时间"
+
+msgid "Exploit Code Maturity"
+msgstr "利用代码成熟度"
+
+msgid "Exploitability"
+msgstr "可利用性"
+
+msgid ""
+"Exploiting the vulnerability requires that the attacker authenticate two or "
+"more times, even if the same credentials are used each time. An example is "
+"an attacker authenticating to an operating system in addition to providing "
+"credentials to access an application hosted on that system."
+msgstr ""
+"利用此漏洞要求攻击者进行两次或两次以上的身份验证，即使每次都使用相同的凭证也是如此。例如，攻击者除了提供访问该系统上托管的应用程序的凭证之外，还需要向操作系统进行身份验证。"
+
+msgid "Export CSV"
+msgstr "导出 CSV"
+
+msgid "Export Failed"
+msgstr "导出失败"
+
+msgid "FQDN"
+msgstr "FQDN"
+
+msgid "Failed"
+msgstr "失败"
+
+msgid "False Positive"
+msgstr "误报"
+
+msgid "Fast"
+msgstr "快速"
+
+msgid "Faulty"
+msgstr "错误"
+
+msgid "Feature not allowed"
+msgstr "功能不允许"
+
+msgid "Feature not allowed: account expired."
+msgstr "功能不允许：帐户已过期。"
+
+msgid "Feature not allowed: account locked."
+msgstr "功能不允许：帐户已锁定。"
+
+msgid "Feature not allowed: invalid license."
+msgstr "功能不允许：许可证无效。"
+
+msgid "Feature not allowed: license expired."
+msgstr "功能不允许：许可证已过期。"
+
+msgid "Feature not allowed: license has limited access."
+msgstr "功能不允许：许可证的访问权限有限。"
+
+msgid "Feature not allowed: license not activated."
+msgstr "功能不允许：许可证未激活。"
+
+msgid "Feature not allowed: void license."
+msgstr "功能不允许：许可证无效。"
+
+msgid "File deleted successfully "
+msgstr "文件已成功删除"
+
+msgid "File too large"
+msgstr "文件太大"
+
+msgid "File uploaded"
+msgstr "文件已上传"
+
+msgid "Files to be imported by crawler at start."
+msgstr "开始扫描工作前，可导入的文件"
+
+msgid "Filter"
+msgstr "筛选器"
+
+msgid "First Code"
+msgstr "第一个验证码"
+
+msgid "First Code is <strong>required</strong>"
+msgstr "第一个验证码<strong>必填</strong>"
+
+msgid "First Name"
+msgstr "名字"
+
+msgid "First Name (required)"
+msgstr "名字（必填）"
+
+msgid "First Name is <strong>required</strong>"
+msgstr "名字<strong>必填</strong>"
+
+msgid "First page"
+msgstr "第一页"
+
+msgid "Fixed"
+msgstr "已固定"
+
+msgid ""
+"For each Target, keep the specified number of scans in the main view and "
+"archive the rest. Archived scans and their vulnerabilities can be accessed "
+"using the Archived filter."
+msgstr ""
+"对于每个目标，请在主视图中保留指定数量的扫描并将剩余扫描存档。存档的扫描及其检测到的漏洞可通过“已存档”筛选器访问。"
+
+msgid ""
+"For more information on how to buy Spectra Web Vulnerability Scanner, "
+"please visit:"
+msgstr ""
+"如需有关购买 Spectra Web Vulnerability Scanner 的更多信息，请访问："
+
+msgid "Forbidden"
+msgstr "禁止"
+
+msgid "Free Mode"
+msgstr "免费模式"
+
+msgid "Free Scan Target (Network Scans Only)"
+msgstr "免费扫描目标（仅网络扫描）"
+
+msgid "Frequency"
+msgstr "频率"
+
+msgid "Friday"
+msgstr "星期五"
+
+msgid "From Email Address"
+msgstr "寄件人电子邮件地址"
+
+msgid "Functional"
+msgstr "功能性"
+
+msgid ""
+"Functional autonomous code exists, or no exploit is required (manual "
+"trigger) and details are widely available. Exploit code works in every "
+"situation, or is actively being delivered via an autonomous agent (such as "
+"a worm or virus). Network-connected systems are likely to encounter "
+"scanning or exploitation attempts. Exploit development has reached the "
+"level of reliable, widely-available, easy-to-use automated tools."
+msgstr ""
+"已存在功能自主代码，或者无需利用（手动触发），且详细信息广泛可用。漏洞利用代码可在任何情况下运作，或通过自主代理（例如蠕虫或病毒）主动传递。网络连接的系统很可能会遇到扫描或利用尝试。漏洞利用开发已达到可靠、广泛可用、易于使用的自动化工具的水平。"
+
+msgid ""
+"Functional exploit code is available. The code works in most situations "
+"where the vulnerability exists."
+msgstr ""
+"存在功能性漏洞利用代码。该代码可在大多数存在漏洞的情况下运作。"
+
+msgid "Future Scan"
+msgstr "未来扫描"
+
+msgid "General Settings"
+msgstr "常规设置"
+
+msgid "Generate New Api Key"
+msgstr "生成新 API 密钥"
+
+msgid "Generate Report"
+msgstr "生成报告"
+
+msgid "Generate Report - applies only for scanned targets"
+msgstr "生成报告 - 仅适用于已扫描的目标"
+
+msgid "Grant Type"
+msgstr "授权类型"
+
+msgid "Grant Type is <strong>required</strong>"
+msgstr "授权类型<strong>必填</strong>"
+
+msgid "Group Members"
+msgstr "组成员"
+
+msgid "Group Membership"
+msgstr "组成员资格"
+
+msgid "Group Name"
+msgstr "组名称"
+
+msgid "Group Reports"
+msgstr "组报告"
+
+msgid "Group membership updated successfully"
+msgstr "组成员资格已成功更新"
+
+msgid "Group name should be unique"
+msgstr "组名称应是唯一值"
+
+msgid "HIPAA"
+msgstr "HIPAA"
+
+msgid "HTTP Authentication"
+msgstr "HTTP 身份验证"
+
+msgid "HTTP Request"
+msgstr "HTTP 请求"
+
+msgid "HTTP Response"
+msgstr "HTTP 响应"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Help installing AcuSensor"
+msgstr "帮助安装 AcuSensor"
+
+msgid "Hidden for security reasons"
+msgstr "出于安全原因隐藏"
+
+msgid "Hide"
+msgstr "隐藏"
+
+msgid "Hide Trends"
+msgstr "隐藏趋势"
+
+msgid "High"
+msgstr "高"
+
+msgid "High Severity Vulnerabilities"
+msgstr "高危漏洞"
+
+msgid "High Vulnerabilities"
+msgstr "高危漏洞"
+
+msgid "High Vulnerabilities Fixed"
+msgstr "高危漏洞已修复"
+
+msgid "Hostname"
+msgstr "主机名称"
+
+msgid "How to fix this vulnerability"
+msgstr "如何修复此漏洞"
+
+msgid "I confirm that I am fully authorised to scan the selected target"
+msgstr "我确认我已获得完整授权以扫描所选目标"
+
+msgid "ISO 27001"
+msgstr "ISO 27001"
+
+msgid "Identified Technologies"
+msgstr "已识别技术"
+
+msgid ""
+"If your website requires forms authentication, you need to record the steps "
+"required to login on the website. This will be saved as a login sequence "
+"file and can be used later. You can also specify a section of the website "
+"which you do not want to be crawled (for example links that will log you "
+"out from the website)."
+msgstr ""
+"如果您的网站需要表单身份验证，您需要记录登录网站所需的步骤。这将另存为登录序列文件，可在将来使用。您还可以指定不想被爬网的网站部分（例如，将使您退出网站的链接）。"
+
+msgid "Ignored"
+msgstr "已忽略"
+
+msgid "Implicit"
+msgstr "隐式"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Import BLR"
+msgstr "导入 BLR"
+
+msgid "Import CSV"
+msgstr "导入 CSV"
+
+msgid "Import Files"
+msgstr "导入文件"
+
+msgid "Import From Selenium"
+msgstr "从 Selenium 导入"
+
+msgid "Import Targets"
+msgstr "导入目标"
+
+msgid "Importer Failed"
+msgstr "导入程序失败"
+
+msgid "Include report as attachment"
+msgstr "将报告作为附件包含"
+
+msgid "Incomplete user data"
+msgstr "用户数据不完整"
+
+msgid "Incorrect Http verb"
+msgstr "Http 谓词不正确"
+
+msgid "Incremental"
+msgstr "增量式"
+
+msgid "Informational"
+msgstr "信息性"
+
+msgid "Initial Request"
+msgstr "初始请求"
+
+msgid "Instant"
+msgstr "立即"
+
+msgid "Integrity"
+msgstr "完整性"
+
+msgid "Integrity Impact"
+msgstr "完整性影响"
+
+msgid "Integrity Requirement"
+msgstr "完整性要求"
+
+msgid "Internal Server Error"
+msgstr "内部服务器错误"
+
+msgid "Internal error"
+msgstr "内部错误"
+
+msgid "Invalid Consumer or token"
+msgstr "用户或令牌无效"
+
+msgid "Invalid License Key"
+msgstr "许可证密钥无效"
+
+msgid "Invalid login Credentials"
+msgstr "登录凭证无效"
+
+msgid "Invalid Network Scanner settings"
+msgstr "网络扫描程序设置无效"
+
+msgid "Invalid OTP"
+msgstr "OTP 无效"
+
+msgid "Invalid OTP (not consecutive)"
+msgstr "OTP 无效（不连续）"
+
+msgid "Invalid OpenVAS credentials"
+msgstr "OpenVAS 凭证无效"
+
+msgid "Invalid OpenVAS server configuration"
+msgstr "OpenVAS 服务器配置无效"
+
+msgid "Invalid Password"
+msgstr "密码无效"
+
+msgid "Invalid سیستم پروکسی"
+msgstr "代理设置无效"
+
+msgid "Invalid Scanning Engine license"
+msgstr "扫描引擎许可证无效"
+
+msgid "Invalid Scanning Engine response"
+msgstr "扫描引擎响应无效"
+
+msgid "Invalid Scanning Engine response (404)"
+msgstr "扫描引擎响应无效 (404)"
+
+msgid "Invalid Scanning Engine response (500)"
+msgstr "扫描引擎响应无效 (500)"
+
+msgid "Invalid Scanning Engine state"
+msgstr "扫描引擎响应状态无效"
+
+msgid "Invalid Scanning Engine status"
+msgstr "扫描引擎状态无效"
+
+msgid "Invalid Two Factor Authentication Codes"
+msgstr "双重身份验证码无效"
+
+msgid "Invalid authentication method"
+msgstr "验证方法无效"
+
+msgid "Invalid call"
+msgstr "调用无效"
+
+msgid "Invalid checks"
+msgstr "检查无效"
+
+msgid "Invalid consumer key"
+msgstr "用户密钥无效"
+
+msgid "Invalid current password"
+msgstr "当前密码无效"
+
+msgid "Invalid email address"
+msgstr "电子邮件地址无效"
+
+msgid "Invalid license"
+msgstr "许可证无效"
+
+msgid "Invalid license key"
+msgstr "许可证密钥无效"
+
+msgid "Invalid login credentials"
+msgstr "登录凭证无效"
+
+msgid "Invalid login credentials, API Token is invalid"
+msgstr "登录凭证无效，API 令牌无效"
+
+msgid "Invalid login credentials, no Personal Access Token"
+msgstr "登录凭证无效，无个人访问令牌"
+
+msgid "Invalid login credentials, no private key or consumer key"
+msgstr "登录凭证无效，无私钥或用户密钥"
+
+msgid "Invalid login credentials, no token"
+msgstr "登录凭证无效，无令牌"
+
+msgid "Invalid login credentials, no user name or API token"
+msgstr "登录凭证无效，无用户名称或 API 令牌"
+
+msgid "Invalid login credentials, no user name or password"
+msgstr "登录凭证无效，无用户名称或密码"
+
+msgid "Invalid oauth response when requesting access token: "
+msgstr "请求访问令牌时 oauth 响应无效："
+
+msgid "Invalid oauth response when requesting temporally access token"
+msgstr "请求临时访问令牌时 oauth 响应无效"
+
+msgid "Invalid profile_id"
+msgstr "profile_id 无效"
+
+msgid "Invalid project"
+msgstr "项目无效"
+
+msgid "Invalid report source"
+msgstr "报告来源无效"
+
+msgid "Invalid report template"
+msgstr "报告模板无效"
+
+msgid "Invalid request: "
+msgstr "请求无效："
+
+msgid "Invalid rrule"
+msgstr "规则无效"
+
+msgid "Invalid scan status"
+msgstr "扫描状态无效"
+
+msgid "Invalid status code returned. Unable to add issue successfully"
+msgstr "返回的状态代码无效。无法成功添加问题"
+
+msgid "Invalid target type"
+msgstr "目标类型无效"
+
+msgid "Invalid target type for operation."
+msgstr "操作目标类型无效。"
+
+msgid "Invalid url"
+msgstr "url 无效"
+
+msgid "Invalid user credentials"
+msgstr "用户凭证无效"
+
+msgid "Invalid user profile data"
+msgstr "用户配置文件数据无效"
+
+msgid "Invalid user state"
+msgstr "用户状态无效"
+
+msgid "Invalid validation code provided"
+msgstr "提供的验证码无效"
+
+msgid "Invalid worker state"
+msgstr "工作程序状态无效"
+
+msgid "Invalid worker status"
+msgstr "工作程序状态无效"
+
+msgid "Issue"
+msgstr "问题"
+
+msgid "Issue Tracker"
+msgstr "问题跟踪程序"
+
+msgid "Issue Tracker Platform and Authentication"
+msgstr "问题跟踪程序平台和身份验证"
+
+msgid "Issue Tracker created successfully"
+msgstr "问题跟踪程序已成功创建"
+
+msgid "Issue Tracker updated successfully"
+msgstr "问题跟踪程序已成功更新"
+
+msgid "Issue Trackers"
+msgstr "问题跟踪程序"
+
+msgid "Issue Type"
+msgstr "问题类型"
+
+msgid "Issue tracker is used"
+msgstr "问题跟踪程序已使用"
+
+msgid "Issue tracker: Error"
+msgstr "问题跟踪程序：错误"
+
+msgid "Items per page:"
+msgstr "每页项目数："
+
+msgid "مرا به خاطر بسپار"
+msgstr "让我保持登录状态"
+
+msgid "Knowledge Base"
+msgstr "知识库"
+
+msgid "Knowledge Base successfully Deleted"
+msgstr "知识库已成功删除"
+
+msgid "LSR/Autologin not configured"
+msgstr "LSR/自动登录未配置"
+
+msgid "Language (required)"
+msgstr "语言（必填）"
+
+msgid "Language is <strong>required</strong>"
+msgstr "语言<strong>必填</strong>"
+
+msgid "Last Continuous Scan on"
+msgstr "上次连续扫描日期"
+
+msgid "Last Name"
+msgstr "姓氏"
+
+msgid "Last Name (required)"
+msgstr "姓氏（必填）"
+
+msgid "Last Name is <strong>required</strong>"
+msgstr "姓氏<strong>必填</strong>"
+
+msgid "Last Scan Status"
+msgstr "上次扫描状态"
+
+msgid "Last Scanned Before"
+msgstr "上次扫描早于"
+
+msgid "Last Scanned on"
+msgstr "上次扫描日期"
+
+msgid "Last Seen"
+msgstr "最后上线"
+
+msgid "Last page"
+msgstr "最后一页"
+
+msgid "Last run on"
+msgstr "上次运行日期"
+
+msgid "Latest Alerts"
+msgstr "最新警报"
+
+msgid "License"
+msgstr "许可证"
+
+msgid "License Activated Successfully"
+msgstr "许可证已成功激活"
+
+msgid "License Expired"
+msgstr "许可证已过期"
+
+msgid "License Key"
+msgstr "许可证密钥"
+
+msgid "License Key (required)"
+msgstr "许可证密钥（必填）"
+
+msgid "License Key Updated Successfully"
+msgstr "许可证密钥已成功更新"
+
+msgid "License Key is <strong>required</strong>"
+msgstr "许可证密钥<strong>必填</strong>"
+
+msgid "License Problems"
+msgstr "许可证问题"
+
+msgid "License error"
+msgstr "许可证错误"
+
+msgid "License not activated"
+msgstr "许可证未激活"
+
+msgid "License problem"
+msgstr "许可证问题"
+
+msgid ""
+"Licensed Target limit reached. Contact Spectra Sales <sales@Spectra.com> "
+"to upgrade your license"
+msgstr ""
+"已达到授权目标限制。请联系 Spectra 销售 <sales@Spectra.com> 升级您的许可证"
+
+msgid "Licensed Targets"
+msgstr "获得许可的目标"
+
+msgid "Licensed Targets Used"
+msgstr "已使用的获得许可的目标"
+
+msgid "Licensed Users"
+msgstr "获得许可的用户"
+
+msgid "Limit Crawling to address and sub-directories only"
+msgstr "仅抓取目标及目标包含的子目录"
+
+msgid "Local"
+msgstr "本地"
+
+msgid "Local Scanning Engine operations are not allowed"
+msgstr "不允许本地扫描引擎操作"
+
+msgid "Local worker operations not allowed"
+msgstr "不允许本地工作程序操作"
+
+msgid "Locked out accounts can login again after time specified. 0 to disable"
+msgstr "已锁定帐户在指定的时间后可再次登录。0 表示禁用"
+
+msgid "Lockout time (minutes)"
+msgstr "锁定时间（分钟）"
+
+msgid "login"
+msgstr "登录"
+
+msgid "login Sequence"
+msgstr "登录序列"
+
+msgid "login Sequence deleted successfully "
+msgstr "登录序列已成功删除"
+
+msgid "login sequence not found"
+msgstr "未找到登录序列"
+
+msgid "Logout"
+msgstr "退出"
+
+msgid "Logout From Other Session"
+msgstr "从其他会话中退出"
+
+msgid ""
+"Loss of Availability is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"可用性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of Availability is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"可用性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid ""
+"Loss of Confidentiality is likely to have a catastrophic adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"机密性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of Confidentiality is likely to have only a limited adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"机密性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid ""
+"Loss of Integrity is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"完整性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of Integrity is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"完整性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid ""
+"Loss of availability is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"可用性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of availability is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"可用性丧失可能会对组织或与组织关联的个人（如员工、客户）造成严重的不利影响。"
+
+msgid ""
+"Loss of availability is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"可用性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid ""
+"Loss of confidentiality is likely to have a catastrophic adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"机密性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of confidentiality is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"机密性丧失可能会对组织或与组织关联的个人（如员工、客户）造成严重的不利影响。"
+
+msgid ""
+"Loss of confidentiality is likely to have only a limited adverse effect on "
+"the organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"机密性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid ""
+"Loss of integrity is likely to have a catastrophic adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"完整性丧失可能会对组织或与组织关联的个人（如员工、客户）造成灾难性的不利影响。"
+
+msgid ""
+"Loss of integrity is likely to have a serious adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"完整性丧失可能会对组织或与组织关联的个人（如员工、客户）造成严重的不利影响。"
+
+msgid ""
+"Loss of integrity is likely to have only a limited adverse effect on the "
+"organization or individuals associated with the organization (e.g., "
+"employees, customers)."
+msgstr ""
+"完整性丧失可能仅会对组织或与组织关联的个人（如员工、客户）造成有限的不利影响。"
+
+msgid "Low"
+msgstr "低"
+
+msgid "Low Severity Vulnerabilities"
+msgstr "低危漏洞"
+
+msgid "Low-Medium"
+msgstr "中低"
+
+msgid "Main Installation response error"
+msgstr "主安装响应错误"
+
+msgid "Malicious Link Detection"
+msgstr "恶意链接检测"
+
+msgid "Manual Intervention"
+msgstr "手动干预"
+
+msgid "Manual intervention required for :"
+msgstr "需要手动干预进行："
+
+msgid "Mark All Notifications as Read"
+msgstr "将所有通知标记为“已读”"
+
+msgid "Mark as"
+msgstr "标记为"
+
+msgid "Mark as Read"
+msgstr "标记为“已读”"
+
+msgid "Max network demo scans count reached"
+msgstr "已达到最大网络演示扫描次数"
+
+msgid "Max user count reached"
+msgstr "已达到最大用户数"
+
+msgid "Max web scans count reached"
+msgstr "已达到最大 Web 扫描次数"
+
+msgid "Maximum Consecutive login Failures"
+msgstr "最大的连续登录失败次数"
+
+msgid "Maximum Scanning Engines"
+msgstr "最大扫描引擎数"
+
+msgid "Medium"
+msgstr "中等"
+
+msgid "Medium Severity Vulnerabilities"
+msgstr "中危漏洞"
+
+msgid "Medium Vulnerabilities"
+msgstr "中危漏洞"
+
+msgid "Medium Vulnerabilities Fixed"
+msgstr "中危漏洞已修复"
+
+msgid "Medium-High"
+msgstr "中高"
+
+msgid "Method not allowed"
+msgstr "方法不允许"
+
+msgid "Missing data in request"
+msgstr "请求中缺少数据"
+
+msgid "Missing or invalid fields"
+msgstr "字段缺少或无效"
+
+msgid "Moderate"
+msgstr "适度"
+
+msgid ""
+"Modification of data is possible, but the attacker does not have control "
+"over the consequence of a modification, or the amount of modification is "
+"constrained. The data modification does not have a direct, serious impact "
+"on the impacted component."
+msgstr ""
+"可以修改数据，但是攻击者无法控制修改的结果，或者修改的数量受到约束。数据修改不会对受影响的组件产生直接、严重的影响。"
+
+msgid ""
+"Modification of data is possible, but the attacker does not have control "
+"over the consequence of a modification, or the amount of modification is "
+"limited. The data modification does not have a direct, serious impact on "
+"the impacted component."
+msgstr ""
+"可以修改数据，但是攻击者无法控制修改的结果，或者修改的数量受到限制。数据修改不会对受影响的组件产生直接、严重的影响。"
+
+msgid ""
+"Modification of some system files or information is possible, but the "
+"attacker does not have control over what can be modified, or the scope of "
+"what the attacker can affect is limited. For example, system or application "
+"files may be overwritten or modified, but either the attacker has no "
+"control over which files are affected or the attacker can modify files "
+"within only a limited context or scope."
+msgstr ""
+"可以修改某些系统文件或信息，但是攻击者无法控制可以修改的内容，或者攻击者可以影响的范围受限。例如，可以覆盖或修改系统或应用程序文件，但是攻击者无法控制受影响的文件，或者攻击者只能在有限的上下文或范围内修改文件。"
+
+msgid "Modified Attack Complexity"
+msgstr "已修改攻击复杂性"
+
+msgid "Modified Attack Vector"
+msgstr "已修改攻击矢量"
+
+msgid "Modified Availability"
+msgstr "已修改可用性"
+
+msgid "Modified Confidentiality"
+msgstr "已修改机密性"
+
+msgid "Modified Integrity"
+msgstr "已修改完整性"
+
+msgid "Modified Privileges Required"
+msgstr "已修改所需权限"
+
+msgid "Modified Scope"
+msgstr "已修改范围"
+
+msgid "Modified User Interaction"
+msgstr "已修改用户交互"
+
+msgid "Monday"
+msgstr "星期一"
+
+msgid "Monthly"
+msgstr "每月"
+
+msgid "Monthly status update"
+msgstr "每月状态更新"
+
+msgid "Months"
+msgstr "月份"
+
+msgid "Most Vulnerable Targets"
+msgstr "最易受攻击的目标"
+
+msgid "Multiple"
+msgstr "多个"
+
+msgid "NIST SP800 53"
+msgstr "NIST SP800 53"
+
+msgid "Name"
+msgstr "名称"
+
+msgid "Name is <strong>required</strong>"
+msgstr "名称<strong>必填</strong>"
+
+msgid "Navigation"
+msgstr "导航"
+
+msgid "Network"
+msgstr "网络"
+
+msgid "Network Only"
+msgstr "仅网络"
+
+msgid "Network Scan Verification "
+msgstr "网络扫描验证"
+
+msgid "Network Scanner"
+msgstr "网络扫描程序"
+
+msgid "Network Scanner Settings"
+msgstr "网络扫描程序设置"
+
+msgid "Network Scanner configured successfully"
+msgstr "网络扫描程序已成功配置"
+
+msgid "Network Scanner is not configured"
+msgstr "网络扫描程序未配置"
+
+msgid ""
+"Network Scanner is not configured. Kindly configure network scanner before "
+"running a network scan."
+msgstr ""
+"网络扫描程序未配置。请在运行网络扫描之前配置网络扫描程序。"
+
+msgid "Network Scanner settings deleted successfully"
+msgstr "网络扫描程序设置已成功删除"
+
+msgid "Network Scans"
+msgstr "网络扫描"
+
+msgid "Network Scans only"
+msgstr "仅网络扫描"
+
+msgid "Network Targets"
+msgstr "网络目标"
+
+msgid ""
+"Network error while activating license. Check your internet connection or "
+"سیستم پروکسی."
+msgstr ""
+"激活许可证时发生网络错误。请检查您的互联网连接或代理设置。"
+
+msgid "Network only target not supported"
+msgstr "不支持仅针对网络的目标"
+
+msgid "Network scans in progress"
+msgstr "网络扫描进行中"
+
+msgid "Never"
+msgstr "绝不"
+
+msgid "Never Scanned"
+msgstr "从未扫描过"
+
+msgid "New"
+msgstr "新建"
+
+msgid "New BLR"
+msgstr "新建 BLR"
+
+msgid "New Password"
+msgstr "新密码"
+
+msgid "New Password is <strong>required</strong>"
+msgstr "新密码<strong>必填</strong>"
+
+msgid "New Report"
+msgstr "新建报告"
+
+msgid "New Scan"
+msgstr "新建扫描"
+
+msgid "New build available."
+msgstr "新版本可用。"
+
+msgid "Next page"
+msgstr "下一页"
+
+msgid "No"
+msgstr "无"
+
+msgid "No Hosts Discovered"
+msgstr "未发现主机"
+
+msgid "No Issue Trackers configured."
+msgstr "未配置问题跟踪程序"
+
+msgid "No Issue Types available for this project"
+msgstr "此项目没有可用的问题类型"
+
+msgid "No Target Groups Found"
+msgstr "未找到目标组"
+
+msgid "هدف پیدا نشد"
+msgstr "未找到目标"
+
+msgid "No Users Found."
+msgstr "未找到用户。"
+
+msgid "No Vulnerabilities Found."
+msgstr "未找到漏洞。"
+
+msgid "No exploit code is available, or an exploit is entirely theoretical."
+msgstr "没有可用的漏洞利用代码，或漏洞利用完全只是理论。"
+
+msgid "No exploit code is available, or an exploit is theoretical."
+msgstr "没有可用的漏洞利用代码，或漏洞利用只是理论。"
+
+msgid "No lsr handler set"
+msgstr "未设置 lsr 处理程序"
+
+msgid "No password set for user"
+msgstr "未设置用户密码"
+
+msgid "No project selected"
+msgstr "未选择项目"
+
+msgid "No projects are available for this user"
+msgstr "没有适用于此用户的项目"
+
+msgid ""
+"No target systems exist, or targets are so highly specialized that they "
+"only exist in a laboratory setting. Effectively 0% of the environment is at "
+"risk."
+msgstr ""
+"没有目标系统，或者目标已高度专业化，仅存在于实验室环境中。实际上只有 0％ 的环境处于危险之中。"
+
+msgid "No targets"
+msgstr "无目标"
+
+msgid "No update mechanism enabled"
+msgstr "未启用更新机制"
+
+msgid "No valid check found"
+msgstr "找不到有效的检查"
+
+msgid "No vulnerabilities Found."
+msgstr "未找到漏洞。"
+
+msgid "No vulnerabilities detected"
+msgstr "未检测到漏洞"
+
+msgid "No vulnerabilities detected at this location "
+msgstr "未在此位置检测到漏洞"
+
+msgid "No vulnerabilities have been discovered by the scanner."
+msgstr "扫描程序没有发现漏洞。"
+
+msgid "None"
+msgstr "无"
+
+msgid "Normal"
+msgstr "正常"
+
+msgid "Not Defined"
+msgstr "未定义"
+
+msgid "Not Excluded Hours"
+msgstr "非排除时间"
+
+msgid "Not Open"
+msgstr "未打开"
+
+msgid "Not Scanned"
+msgstr "未扫描"
+
+msgid "Not Verified"
+msgstr "未验证"
+
+msgid "Not a scan pair"
+msgstr "不是扫描对"
+
+msgid "Not a scan result pair"
+msgstr "不是扫描结果对"
+
+msgid "Nothing to abort"
+msgstr "没有要中止的操作"
+
+msgid "Nothing to do"
+msgstr "没有要执行的操作"
+
+msgid "Notification Settings Updated"
+msgstr "通知设置已更新"
+
+msgid "Notifications"
+msgstr "通知"
+
+msgid "Notify me of new product updates"
+msgstr "出现新产品更新时通知我"
+
+msgid "Number of consecutive login failures before account locks out. 0 to disable"
+msgstr "帐户锁定前允许的连续失败登录次数。0 表示禁用"
+
+msgid ""
+"Number of days that a password can be used before the user is requested to "
+"change it. 0 to disable"
+msgstr ""
+"在要求用户更改密码前可使用密码的天数。0 表示禁用"
+
+msgid ""
+"Number of unique new passwords before an old password can be reused. 0 to "
+"disable"
+msgstr ""
+"在可以重新使用旧密码前的唯一新密码数。0 表示禁用"
+
+msgid "OK"
+msgstr "确定"
+
+msgid "OTP already set"
+msgstr "OTP 已设置"
+
+msgid "OWASP Top 10 2013"
+msgstr "2013 年十大 OWASP"
+
+msgid "OWASP Top 10 2017"
+msgstr "2017 年十大 OWASP"
+
+msgid "Oauth not supported without shelve enabled"
+msgstr "在未启用搁置的情况下不支持 Oauth"
+
+msgid "Official Fix"
+msgstr "官方修补程序"
+
+msgid "Offline"
+msgstr "离线"
+
+msgid "On"
+msgstr "开启"
+
+msgid ""
+"One or more high-severity type vulnerabilities have been discovered by the "
+"scanner. A malicious user can exploit these vulnerabilities and compromise "
+"the backend database and/or deface your website."
+msgstr ""
+"扫描程序发现了一个或多个高危类型漏洞。恶意用户可以利用这些漏洞并破坏后端数据库和/或损坏您的网站。"
+
+msgid ""
+"One or more low-severity type vulnerabilities have been discovered by the "
+"scanner."
+msgstr ""
+"扫描程序发现了一个或多个低危类型漏洞。"
+
+msgid ""
+"One or more medium-severity type vulnerabilities have been discovered by "
+"the scanner. You should investigate each of these vulnerabilities to ensure "
+"they will not escalate to more severe problems."
+msgstr ""
+"扫描程序发现了一个或多个中危类型漏洞。您应调查每个漏洞以确保它们不会发展成为更严重的问题。"
+
+msgid "Online"
+msgstr "在线"
+
+msgid "Only standard targets can be added as allowed hosts."
+msgstr "只有标准目标才可添加为允许的主机。"
+
+msgid "Open"
+msgstr "打开"
+
+msgid "Open Vulnerabilities"
+msgstr "发现漏洞"
+
+msgid "Open Vulnerabilities for the past 12 months"
+msgstr "过去 12 个月发现的漏洞"
+
+msgid "Operating System"
+msgstr "操作系统"
+
+msgid "Operation failed"
+msgstr "操作失败"
+
+msgid "Overall Progress"
+msgstr "总体进度"
+
+msgid "PCI DSS 3.2"
+msgstr "PCI DSS 3.2"
+
+msgid "Parameter"
+msgstr "参数"
+
+msgid "Partial"
+msgstr "部分"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Password Credentials"
+msgstr "密码凭证"
+
+msgid "Password Expired. Please change Password"
+msgstr "密码已过期。请更改密码"
+
+msgid "Password Max age (days)"
+msgstr "密码最长存在时间（天）"
+
+msgid "Password Settings"
+msgstr "密码设置"
+
+msgid "Password history"
+msgstr "密码历史记录"
+
+msgid "Password is <strong>required</strong>"
+msgstr "密码<strong>必填</strong>"
+
+msgid ""
+"Password requires minimum 8 characters, containing at least 3 of the "
+"following - 1 number, 1 small letter, 1 capital letter and 1 special "
+"character e.g. !@#$% etc."
+msgstr ""
+"密码需要最少 8 个字符，包含以下至少 3 项 - 1 个数字、1 个小写字母、1 个大写字母和 1 个特殊字符，例如 !@#$% 等。"
+
+msgid "Password reused"
+msgstr "密码已重新使用"
+
+msgid "Passwords must <strong>match</strong>"
+msgstr "密码必须<strong>匹配</strong>"
+
+msgid "Paths Identified"
+msgstr "路径已确认"
+
+msgid "Pause Scan"
+msgstr "暂停扫描"
+
+msgid "Pending"
+msgstr "待定"
+
+msgid ""
+"Performance is reduced or there are interruptions in resource availability. "
+"Even if repeated exploitation of the vulnerability is possible, the "
+"attacker does not have the ability to completely deny service to legitimate "
+"users. The resources in the impacted component are either partially "
+"available all of the time, or fully available only some of the time, but "
+"overall there is no direct, serious consequence to the impacted component."
+msgstr ""
+"性能降低或资源可用性存在中断。即使可能重复利用此漏洞，攻击者也无法完全拒绝向合法用户提供服务。受影响组件中的资源可能始终处于部分可用状态，或仅在某些时间完全可用，但总体上不会对受影响组件造成直接而严重的后果。"
+
+msgid "Phone (required)"
+msgstr "电话（必填）"
+
+msgid "Phone is <strong>required</strong>"
+msgstr "电话<strong>必填</strong>"
+
+msgid "Physical"
+msgstr "实际"
+
+msgid "Platform"
+msgstr "平台"
+
+msgid "Platform Administrator"
+msgstr "平台管理员"
+
+msgid "Please check backend logs for more in depth information"
+msgstr "请查看后端日志以了解详细信息"
+
+msgid "Please check that the verification file is accessible at:"
+msgstr "请检查验证文件是否可在以下位置访问："
+
+msgid "Please enter a six digit number"
+msgstr "请输入六位数字"
+
+msgid "Please enter a valid <strong>Company Name</strong>"
+msgstr "请输入有效的<strong>公司名称</strong>"
+
+msgid "Please enter a valid <strong>First Name</strong>"
+msgstr "请输入有效的<strong>名字</strong>"
+
+msgid "Please enter a valid <strong>URL</strong>"
+msgstr "请输入有效的 <strong>URL</strong>"
+
+msgid "Please enter a valid <strong>URL</strong>  (e.g. http://example.com)"
+msgstr "请输入有效的 <strong>URL</strong>（如 http://example.com）"
+
+msgid "Please enter a valid <strong>URL</strong> (e.g. http://example.com)"
+msgstr "请输入有效的 <strong>URL</strong>（如 http://example.com）"
+
+msgid "Please enter a valid <strong>URL</strong> (https protocol required)"
+msgstr "请输入有效的 <strong>URL</strong>（需要 http 协议）"
+
+msgid "Please enter a valid <strong>phone number</strong> (e.g. +19165556666)"
+msgstr "请输入有效的<strong>电话号码</strong>（如 +19165556666）"
+
+msgid "Please enter a valid email address"
+msgstr "请输入有效的电子邮件地址"
+
+msgid "Please enter a valid future <strong>Date</strong>"
+msgstr "请输入有效的未来<strong>日期</strong>"
+
+msgid ""
+"Please note that exclude paths should be <strong>regular "
+"expressions</strong>"
+msgstr ""
+"请注意，排除路径应为<strong>正则表达式</strong>"
+
+msgid "Please provide two consecutive codes generated by your Authenticator app."
+msgstr "请提供 Authenticator 应用程序生成的两个连续验证码。"
+
+msgid "Please save email settings before proceeding."
+msgstr "请保存电子邮件设置，然后继续。"
+
+msgid "Please select at least one completed, failed or aborted scan"
+msgstr "请选择至少一项已完成、失败或中止的扫描"
+
+msgid "Please select two completed, failed or aborted scans of the same target"
+msgstr "请选择相同目标的两项已完成、失败或中止的扫描"
+
+msgid "Please set password"
+msgstr "请设置密码"
+
+msgid "Port"
+msgstr "端口"
+
+msgid "Port is <strong>required</strong>"
+msgstr "端口<strong>必填</strong>"
+
+msgid "Previous page"
+msgstr "上一页"
+
+msgid "Private Key"
+msgstr "私钥"
+
+msgid "Private Key could be invalid"
+msgstr "私钥可能无效"
+
+msgid "Private Key is <strong>required</strong>"
+msgstr "私钥<strong>必填</strong>"
+
+msgid "Privileges Required"
+msgstr "所需权限"
+
+msgid "Processing"
+msgstr "正在处理"
+
+msgid "Product Status"
+msgstr "产品状态"
+
+msgid "Product is not activated"
+msgstr "产品未激活"
+
+msgid "Product updates"
+msgstr "产品更新"
+
+msgid "Profile"
+msgstr "配置文件"
+
+msgid "Profile Created"
+msgstr "配置文件已创建"
+
+msgid "Profile Updated Successfully"
+msgstr "配置文件已成功更新"
+
+msgid "Profile not found"
+msgstr "找不到配置文件"
+
+msgid "Profiles"
+msgstr "配置文件"
+
+msgid "Project"
+msgstr "项目"
+
+msgid "Project and Issue Type"
+msgstr "项目和问题类型"
+
+msgid "Proof of Concept License Expired"
+msgstr "试用版许可证已过期"
+
+msgid "Proof-of-Concept"
+msgstr "Proof-of-Concept"
+
+msgid ""
+"Proof-of-concept exploit code is available, or an attack demonstration is "
+"not practical for most systems. The code or technique is not functional in "
+"all situations and may require substantial modification by a skilled "
+"attacker."
+msgstr ""
+"存在 Proof-of-concept 漏洞利用代码，或攻击演示对大多数系统而言都不切实际。该代码或技术并非在所有情况下都起作用，且可能需要熟练的攻击者进行大量修改。"
+
+msgid ""
+"Proof-of-concept exploit code or an attack demonstration that is not "
+"practical for most systems is available. The code or technique is not "
+"functional in all situations and may require substantial modification by a "
+"skilled attacker."
+msgstr ""
+"存在对大多数系统而言不切实际的 Proof-of-concept 漏洞利用代码或攻击演示。该代码或技术并非在所有情况下都起作用，且可能需要熟练的攻击者进行大量修改。"
+
+msgid "Protocol"
+msgstr "协议"
+
+msgid "Protocol is <strong>required</strong>"
+msgstr "协议<strong>必填</strong>"
+
+msgid "Proxy Server"
+msgstr "代理服务器"
+
+msgid "سیستم پروکسی"
+msgstr "代理设置"
+
+msgid "سیستم پروکسی Updated"
+msgstr "代理设置已更新"
+
+msgid "Quarterly"
+msgstr "每季度"
+
+msgid "Queued"
+msgstr "已队列"
+
+msgid "Quick"
+msgstr "快速"
+
+msgid "Reasonable"
+msgstr "合理"
+
+msgid "Received unexpected response body"
+msgstr "收到意外的响应正文"
+
+msgid "Received unexpected response body, unable to parse project name and ID"
+msgstr "收到意外的响应正文，无法解析项目名称与 ID"
+
+msgid "Record Business Logic"
+msgstr "记录业务逻辑"
+
+msgid "Record login Sequence"
+msgstr "记录登录序列"
+
+msgid "Recurrent Scan"
+msgstr "重复扫描"
+
+msgid "Redirect URI"
+msgstr "重定向 URI"
+
+msgid "Rediscovered"
+msgstr "重新发现"
+
+msgid ""
+"Reference pair has too many or too few items to unpack, must be in pairs of "
+"1 or 2"
+msgstr ""
+"引用对有太多或太少项目要解包，必须为 1 或 2 对"
+
+msgid "References must be an iterable object"
+msgstr "引用必须为可迭代对象"
+
+msgid "Refresh Collections"
+msgstr "刷新集合"
+
+msgid "Refresh Projects"
+msgstr "刷新项目"
+
+msgid "Register"
+msgstr "注册"
+
+msgid "Register with AcuMonitor Service"
+msgstr "注册 AcuMonitor 服务"
+
+msgid "Remediation Level"
+msgstr "修正级别"
+
+msgid "Remove"
+msgstr "移除"
+
+msgid "Remove From Group"
+msgstr "从组中移除"
+
+msgid "Remove Host"
+msgstr "移除主机"
+
+msgid "Repeat Interval is <strong>required</strong>"
+msgstr "重复间隔<strong>必填</strong>"
+
+msgid "Report"
+msgstr "报告"
+
+msgid "Report Confidence"
+msgstr "报告信心"
+
+msgid "Report Created"
+msgstr "报告已创建"
+
+msgid "Report Failed"
+msgstr "报告失败"
+
+msgid "Report Template"
+msgstr "报告模板"
+
+msgid "Report Type"
+msgstr "报告类型"
+
+msgid "Report is being generated"
+msgstr "正在生成报告"
+
+msgid "Report notifications"
+msgstr "报告通知"
+
+msgid "Reports"
+msgstr "报告"
+
+msgid "Reports deleted successfully"
+msgstr "报告已成功删除"
+
+msgid "Request exception"
+msgstr "请求异常"
+
+msgid "Request failed"
+msgstr "请求失败"
+
+msgid "Requests"
+msgstr "请求"
+
+msgid "Required"
+msgstr "必填"
+
+msgid "Reset"
+msgstr "重置"
+
+msgid "Reset AcuSensor Password"
+msgstr "重置 AcuSensor 密码"
+
+msgid "Reset Password"
+msgstr "重置密码"
+
+msgid "Resolve this issue"
+msgstr "解决此问题"
+
+msgid "Response body is empty"
+msgstr "响应正文为空"
+
+msgid "Responsive"
+msgstr "响应式"
+
+msgid "Restrict scans to import files"
+msgstr "限制扫描以导入文件"
+
+msgid "Resume Scan"
+msgstr "恢复扫描"
+
+msgid "Retest"
+msgstr "重新测试"
+
+msgid "Retype Password"
+msgstr "重新输入密码"
+
+msgid "Retype SSH Key Pass Phrase"
+msgstr "重新输入 SSH 密钥通行码"
+
+msgid "Role"
+msgstr "角色"
+
+msgid "SMTP Server"
+msgstr "SMTP 服务器"
+
+msgid "SSH Credentials"
+msgstr "SSH 凭证"
+
+msgid "SSH Key Pass Phrase"
+msgstr "SSH 密钥通行码"
+
+msgid "SSH Private Key"
+msgstr "SSH 私钥"
+
+msgid "STIG DISA"
+msgstr "STIG DISA"
+
+msgid "Sarbanes Oxley"
+msgstr "Sarbanes Oxley"
+
+msgid "Saturday"
+msgstr "星期六"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Scan"
+msgstr "扫描"
+
+msgid "Scan Aborted"
+msgstr "扫描已中止"
+
+msgid "Scan Aborted By Scanner"
+msgstr "扫描已被扫描程序中止"
+
+msgid "Scan AcuSensor Found"
+msgstr "找到扫描 AcuSensor"
+
+msgid "Scan AcuSensor Not Found"
+msgstr "未找到扫描 AcuSensor"
+
+msgid "Scan Automatic login Failed"
+msgstr "扫描自动登录失败"
+
+msgid "Scan Comparison"
+msgstr "扫描对比"
+
+msgid "Scan Crawler Memory Limited Reached"
+msgstr "已达到扫描爬网程序内存限制"
+
+msgid "Scan Crawling"
+msgstr "扫描爬取"
+
+msgid "Scan Data Retention"
+msgstr "扫描数据保留"
+
+msgid ""
+"Scan Data Retention settings affect when scans are moved to the Archive and "
+"are eventually deleted from within Spectra. The Data Retention settings "
+"affect any vulnerabilities which are not detected by subsequent scans on "
+"the same Target."
+msgstr ""
+"“扫描数据保留”设置用于确定何时将扫描数据移入存档以及最终在何时从 Spectra 中删除。“扫描数据保留”设置将影响对相同目标进行的后续扫描中未检测到的任何漏洞。"
+
+msgid "Scan Deepscan"
+msgstr "扫描 Deepscan"
+
+msgid "Scan Deleted"
+msgstr "扫描已删除"
+
+msgid "Scan Done"
+msgstr "扫描已完成"
+
+msgid "Scan Duration"
+msgstr "扫描持续时间"
+
+msgid "Scan Failed"
+msgstr "扫描失败"
+
+msgid "Scan Finished"
+msgstr "扫描已完成"
+
+msgid "Scan Information"
+msgstr "扫描信息"
+
+msgid "Scan Invalid HTTP loginDto"
+msgstr "扫描无效的 HTTP loginDto"
+
+msgid "Scan Job Aborted"
+msgstr "扫描作业已中止"
+
+msgid "Scan Job Completed"
+msgstr "扫描作业已完成"
+
+msgid "Scan Job Failed"
+msgstr "扫描作业失败"
+
+msgid "Scan Job Starting"
+msgstr "扫描作业开始"
+
+msgid "Scan login Sequence Required"
+msgstr "需要扫描登录序列"
+
+msgid "Scan Manual Intervention"
+msgstr "扫描手动干预"
+
+msgid "Scan Modified"
+msgstr "扫描已修改"
+
+msgid "Scan Paused"
+msgstr "扫描已暂停"
+
+msgid "Scan Profile"
+msgstr "扫描配置文件"
+
+msgid "Scan Profile Created"
+msgstr "扫描配置文件已创建"
+
+msgid "Scan Profile Name"
+msgstr "扫描配置文件名称"
+
+msgid "Scan Profile Name is <strong>required</strong>"
+msgstr "扫描配置文件名称<strong>必填</strong>"
+
+msgid "Scan Profile updated"
+msgstr "扫描配置文件已更新"
+
+msgid "Scan Profiles"
+msgstr "扫描配置文件"
+
+msgid "Scan Profiles Deleted"
+msgstr "扫描配置文件已删除"
+
+msgid "Scan Recurrence Suspended"
+msgstr "定期扫描已暂停"
+
+msgid "Scan Report"
+msgstr "扫描报告"
+
+msgid "Scan Resumed"
+msgstr "扫描已恢复"
+
+msgid "Scan Scanner Event"
+msgstr "扫描扫描程序事件"
+
+msgid "Scan Schedule Updated"
+msgstr "扫描计划已更新"
+
+msgid "Scan Scheduled"
+msgstr "扫描已计划"
+
+msgid "Scan Speed"
+msgstr "扫描速度"
+
+msgid "Scan Started"
+msgstr "扫描已开始"
+
+msgid "Scan User Aborted"
+msgstr "扫描用户已中止"
+
+msgid "Scan is not paused"
+msgstr "扫描未暂停"
+
+msgid "Scan is not running"
+msgstr "扫描未运行"
+
+msgid "Scan not authorized"
+msgstr "扫描未授权"
+
+msgid "Scan not found"
+msgstr "未找到扫描"
+
+msgid "Scan not triggerable"
+msgstr "扫描不可触发"
+
+msgid "Scan notifications"
+msgstr "扫描通知"
+
+msgid "Scan retention setting (scans)"
+msgstr "扫描保留设置（扫描）"
+
+msgid "Scanning Engine"
+msgstr "扫描引擎"
+
+msgid "Scanning Engine authentication error"
+msgstr "扫描引擎验证错误"
+
+msgid "Scanning Engine detached"
+msgstr "扫描引擎已断开"
+
+msgid "Scanning Engine internal error (500)"
+msgstr "扫描引擎内部错误 (500)"
+
+msgid "Scanning Engine is not registered"
+msgstr "扫描引擎未注册"
+
+msgid "Scanning Engine not found"
+msgstr "找不到扫描引擎"
+
+msgid "Scanning Engine response error"
+msgstr "扫描引擎响应错误"
+
+msgid "Scanning Engine response error (404)"
+msgstr "扫描引擎响应错误 (404)"
+
+msgid "Scanning engine is used"
+msgstr "扫描引擎已使用"
+
+msgid "Scans"
+msgstr "扫描"
+
+msgid "Scans Running"
+msgstr "正在扫描"
+
+msgid "Scans Waiting"
+msgstr "等待扫描"
+
+msgid "Scans aborted successfully"
+msgstr "扫描已成功中止"
+
+msgid "Scans deleted successfully"
+msgstr "扫描已成功删除"
+
+msgid "Schedule"
+msgstr "计划"
+
+msgid "Scope"
+msgstr "范围"
+
+msgid "Search"
+msgstr "搜索"
+
+msgid "Search Hosts"
+msgstr "搜索主机"
+
+msgid "Second Code"
+msgstr "第二个验证码"
+
+msgid "Second Code is <strong>required</strong>"
+msgstr "第二个验证码<strong>必填</strong>"
+
+msgid "Security"
+msgstr "安全性"
+
+msgid "Select Repeat Pattern"
+msgstr "选择重复模式"
+
+msgid "Select an option"
+msgstr "选择一个选项"
+
+msgid "Select targets to Scan"
+msgstr "选择要扫描的目标"
+
+msgid "Selected vulnerabilities sent to Issue Tracker"
+msgstr "所选漏洞已发送至问题跟踪程序"
+
+msgid "Send Email Notifications For :"
+msgstr "发送电子邮件通知："
+
+msgid "Send To Issue Tracker"
+msgstr "发送至问题跟踪程序"
+
+msgid "Server"
+msgstr "服务器"
+
+msgid "Server Error"
+msgstr "服务器错误"
+
+msgid "Server refusing action"
+msgstr "服务器拒绝操作"
+
+msgid "Session Timeout (minutes)"
+msgstr "会话超时（分钟）"
+
+msgid "Session and Lockout Settings"
+msgstr "会话和锁定设置"
+
+msgid "Set as Default"
+msgstr "设置为默认"
+
+msgid "Settings Updated"
+msgstr "设置已更新"
+
+msgid "Severity"
+msgstr "严重性"
+
+msgid "Show"
+msgstr "显示"
+
+msgid "Show Trends"
+msgstr "显示趋势"
+
+msgid "خوش آمدید"
+msgstr "登录"
+
+msgid ""
+"Significant details are published, but researchers either do not have full "
+"confidence in the root cause, or do not have access to source code to fully "
+"confirm all of the interactions that may lead to the result. Reasonable "
+"confidence exists, however, that the bug is reproducible and at least one "
+"impact is able to be verified (Proof-of-concept exploits may provide this). "
+"An example is a detailed write-up of research into a vulnerability with an "
+"explanation (possibly obfuscated or 'left as an exercise to the reader') "
+"that gives assurances on how to reproduce the results."
+msgstr ""
+"已发布重要的详细信息，但研究人员可能对根本原因没有充分的信心，或者无法访问源代码以完全确认可能导致该结果的所有交互作用。但是，我们有理由相信该错误可以再现，且至少可以验证一种影响（Proof-of-concept 漏洞利用可能提供了这一点）。举例来说，已经针对一个漏洞撰写了一篇详细的研究文章，其中包含相关说明（可能被混淆或“留给读者作为练习”），以保证如何再现该结果。"
+
+msgid ""
+"Significant details are published, but researchers either do not have full "
+"confidence in the root cause, or do not have access to source code to fully "
+"confirm all of the interactions that may lead to the result. Reasonable "
+"confidence exists, however, that the bug is reproducible and at least one "
+"impact is able to be verified (Proof-of-concept exploits may provide this). "
+"An example is a detailed write-up of research into a vulnerability with an "
+"explanation (possibly obfuscated or ’left as an exercise to the reader’) "
+"that gives assurances on how to reproduce the results."
+msgstr ""
+"已发布重要的详细信息，但研究人员可能对根本原因没有充分的信心，或者无法访问源代码以完全确认可能导致该结果的所有交互作用。但是，我们有理由相信该错误可以再现，且至少可以验证一种影响（Proof-of-concept 漏洞利用可能提供了这一点）。举例来说，已经针对一个漏洞撰写了一篇详细的研究文章，其中包含相关说明（可能被混淆或“留给读者作为练习”），以保证如何再现该结果。"
+
+msgid "Single"
+msgstr "单一"
+
+msgid "Site login"
+msgstr "网站登录"
+
+msgid "Site Structure"
+msgstr "网站结构"
+
+msgid "Slow"
+msgstr "缓慢"
+
+msgid "Slower"
+msgstr "较慢"
+
+msgid "Some scans require manual intervention. Check notifications."
+msgstr "有些扫描需要手动干预。请查看通知。"
+
+msgid ""
+"Some web applications span multiple domains. Insert any other domains that "
+"should be scanned when scanning this Target. Additional Hosts need to be "
+"created as Targets first."
+msgstr ""
+"一些 Web 应用程序横跨多个域。插入扫描此目标时应该扫描的任何其他域。需要先创建额外的主机作为目标。"
+
+msgid ""
+"Specialized access conditions exist. For example:\n"
+" •In most configurations, the attacking party must already have elevated "
+"privileges or spoof additional systems in addition to the attacking system "
+"(e.g., DNS hijacking).\n"
+" •The attack depends on social engineering methods that would be easily "
+"detected by knowledgeable people. For example, the victim must perform "
+"several suspicious or atypical actions.\n"
+" •The vulnerable configuration is seen very rarely in practice.\n"
+" •If a race condition exists, the window is very narrow."
+msgstr ""
+"存在专门的访问条件。例如：\n"
+" •在大多数配置中，攻击方除了攻击系统（如 DNS 劫持）之外，还必须已经具有提升的特权或欺骗其他系统。\n"
+" •攻击取决于有学识的人可轻松检测的社会工程方法。例如，受害者必须执行一些可疑或非典型的操作。\n"
+" •在实践中很少看到易受攻击的配置。\n"
+" •如果存在竞争条件，则窗口非常狭窄。"
+
+msgid ""
+"Specialized access conditions or extenuating circumstances do not exist. An "
+"attacker can expect repeatable success against the vulnerable component."
+msgstr ""
+"不存在专门的访问条件或可缓解攻击的情况。攻击者有可能对易受攻击的组件重复取得成功。"
+
+msgid ""
+"Specialized access conditions or extenuating circumstances do not exist. "
+"The following are examples:\n"
+" •The affected product typically requires access to a wide range of systems "
+"and users, possibly anonymous and untrusted (e.g., Internet-facing web or "
+"mail server).\n"
+" •The affected configuration is default or ubiquitous.\n"
+" •The attack can be performed manually and requires little skill or "
+"additional information gathering.\n"
+" •The race condition is a lazy one (i.e., it is technically a race but "
+"easily winnable)."
+msgstr ""
+"不存在专门的访问条件或可缓解攻击的情况。以下为示例：\n"
+" •受影响的产品通常需要对大范围的系统和用户具有访问权限，可能是匿名和不可信的（例如，面向互联网的 Web 或邮件服务器）。\n"
+" •受影响的配置为默认或普遍存在的配置。\n"
+" •攻击可以手动执行，且仅需极少的技能或额外信息收集。\n"
+" •竞争条件很松散（即，这在技术上是一种竞赛，但是很容易赢）。"
+
+msgid "Standard Reports"
+msgstr "标准报告"
+
+msgid "Standard Targets"
+msgstr "标准目标"
+
+msgid "Start Date"
+msgstr "开始日期"
+
+msgid "Start Time"
+msgstr "开始时间"
+
+msgid "Starting"
+msgstr "正在开始"
+
+msgid "State"
+msgstr "状态"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Status Changed"
+msgstr "状态已更改"
+
+msgid "Stop Scan"
+msgstr "停止扫描"
+
+msgid "Stop Scans"
+msgstr "停止扫描"
+
+msgid "Stopping"
+msgstr "正在停止"
+
+msgid "Submit"
+msgstr "提交"
+
+msgid "Subscribe to monthly status email"
+msgstr "订阅每月状态电子邮件"
+
+msgid ""
+"Successful exploitation of this vulnerability requires a user to take some "
+"action before the vulnerability can be exploited."
+msgstr ""
+"用户在利用此漏洞前需要采取一些措施才可能成功利用此漏洞。"
+
+msgid "Sunday"
+msgstr "星期日"
+
+msgid "Suspended"
+msgstr "已暂停"
+
+msgid "TOTP secret expired"
+msgstr "TOTP 密钥已过期"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Target Configuration"
+msgstr "目标配置"
+
+msgid "Target Continuous Mode Disabled"
+msgstr "已禁用目标连续扫描模式"
+
+msgid "Target Count"
+msgstr "目标计数"
+
+msgid "Target Description"
+msgstr "目标描述"
+
+msgid "Target Distribution"
+msgstr "目标分布"
+
+msgid "Target Group"
+msgstr "目标组"
+
+msgid "Target Group Assignment"
+msgstr "目标组分配"
+
+msgid "Target Group Assignment:"
+msgstr "目标组分配："
+
+msgid "Target Group Membership"
+msgstr "目标组成员"
+
+msgid "Target Group created successfully"
+msgstr "目标组已成功创建"
+
+msgid "Target Group updated successfully"
+msgstr "目标组已成功更新"
+
+msgid "Target Groups"
+msgstr "目标组"
+
+msgid "Target Groups deleted successfully"
+msgstr "目标组已成功删除"
+
+msgid "Target Information"
+msgstr "目标信息"
+
+msgid "Target Report"
+msgstr "目标报告"
+
+msgid "Target Settings"
+msgstr "目标设置"
+
+msgid "Target Verification Failed"
+msgstr "目标验证失败"
+
+msgid "Target created successfully"
+msgstr "目标已成功创建"
+
+msgid "Target group deleted successfully"
+msgstr "目标组已成功删除"
+
+msgid "Target not Responsive"
+msgstr "目标不响应"
+
+msgid "Target not found"
+msgstr "找不到目标"
+
+msgid "Target not verified"
+msgstr "目标未验证"
+
+msgid "Target notifications"
+msgstr "目标通知"
+
+msgid "Target requires manual intervention"
+msgstr "目标需要手动干预"
+
+msgid ""
+"Target requires manual intervention. Error: system excluded hours are in "
+"place."
+msgstr ""
+"目标需要手动干预。错误：系统排除时间已到位。"
+
+msgid ""
+"Target requires manual intervention. Error: target excluded hours are in "
+"place."
+msgstr ""
+"目标需要手动干预。错误：目标排除时间已到位。"
+
+msgid "Target requires manual intervention. Recurrent scans are not allowed."
+msgstr "目标需要手动干预。不允许重复扫描。"
+
+msgid "Target requires manual intervention. Scheduled scans are not allowed."
+msgstr "目标需要手动干预。不允许计划扫描。"
+
+msgid "Target requires manual intervention. Triggerable scans are not allowed."
+msgstr "目标需要手动干预。不允许可触发扫描。"
+
+msgid "Target requires network only profile"
+msgstr "目标需要仅针对网络的配置配置文件"
+
+msgid "Target type not allowed"
+msgstr "不允许目标类型"
+
+msgid "Target type not supported"
+msgstr "不支持目标类型"
+
+msgid "Targets"
+msgstr "目标"
+
+msgid "Targets created successfully"
+msgstr "目标已成功创建"
+
+msgid "Targets deleted successfully"
+msgstr "目标已成功删除"
+
+msgid ""
+"Targets exist inside the environment on a considerable scale. Between 76% - "
+"100% of the total environment is considered at risk."
+msgstr ""
+"目标大量存在于环境中。总环境的 76% - 100% 被认为处于危险之中。"
+
+msgid ""
+"Targets exist inside the environment, but on a medium scale. Between 26% - "
+"75% of the total environment is at risk."
+msgstr ""
+"目标存在于环境中，但为中等规模。总环境的 26% - 75% 处于危险之中。"
+
+msgid ""
+"Targets exist inside the environment, but on a small scale. Between 1% - "
+"25% of the total environment is at risk."
+msgstr ""
+"目标存在于环境中，但规模较小。总环境的 1% - 25% 处于危险之中。"
+
+msgid "Technical Administrator"
+msgstr "技术管理员"
+
+msgid "Technologies"
+msgstr "技术"
+
+msgid "Temporary Fix"
+msgstr "临时修复程序"
+
+msgid "Terminated"
+msgstr "已终止"
+
+msgid "Test Connection"
+msgstr "测试连接"
+
+msgid "Test Email Settings"
+msgstr "测试电子邮件设置"
+
+msgid "Test email sent. Check your mailbox"
+msgstr "已发送测试电子邮件。请检查您的邮箱"
+
+msgid "Tester"
+msgstr "测试程序"
+
+msgid ""
+"The Spectra Web Vulnerability Scanner <strong>Trial Edition</strong> "
+"allows you to scan the following Spectra test websites, which provide "
+"access to all the vulnerability information detected:"
+msgstr ""
+"Spectra Web Vulnerability Scanner <strong>试用版</strong>可让您扫描以下 Spectra 测试网站，这些网站可提供对所有检测到的漏洞信息的访问权限："
+
+msgid ""
+"The Business Logic Recorder can be used to configure business logic or "
+"multi-step forms the scanner should follow while scanning the site."
+msgstr ""
+"业务逻辑记录器可用于配置扫描程序扫描站点时应遵循的业务逻辑或多步骤表单。"
+
+msgid "The Main Installation could not be accessed at the specified URL [400]"
+msgstr "主安装无法通过指定的 URL 访问 [400]"
+
+msgid "The Main Installation could not be accessed at the specified URL [404]"
+msgstr "主安装无法通过指定的 URL 访问 [404]"
+
+msgid "The Main Installation responded with an error."
+msgstr "主安装响应错误。"
+
+msgid "The Main Installation responded with error [%s]"
+msgstr "主安装响应错误 [%s]"
+
+msgid "The Main Installation responded with error [500]"
+msgstr "主安装响应错误 [500]"
+
+msgid ""
+"The Ownership of each Scan Target needs to be verified before scans can be "
+"launched against the Scan Target."
+msgstr ""
+"在针对扫描目标启动扫描前，需要验证每一个扫描目标的所有权。"
+
+msgid "The URL provided was somehow invalid"
+msgstr "提供的 URL 在某种程度上无效"
+
+msgid ""
+"The access conditions are somewhat specialized; the following are examples:\n"
+" •The attacking party is limited to a group of systems or users at some "
+"level of authorization, possibly untrusted.\n"
+" •Some information must be gathered before a successful attack can be "
+"launched.\n"
+" •The affected configuration is non-default, and is not commonly configured "
+"(e.g., a vulnerability present when a server performs user account "
+"authentication via a specific scheme, but not present for another "
+"authentication scheme).\n"
+" •The attack requires a small amount of social engineering that might "
+"occasionally fool cautious users (e.g., phishing attacks that modify a web "
+"browsers status bar to show a false link, having to be on someones buddy "
+"list before sending an IM exploit)."
+msgstr ""
+"访问条件在一定程度上来说是专门的。以下为示例：\n"
+" •攻击方仅限于具有一定授权级别的一组系统或用户（可能是不受信任的）。\n"
+" •必须先收集一些信息，然后才能发起成功的攻击。\n"
+" •受影响的配置是非默认的，且不是常用配置（例如，当服务器通过特定方案执行用户帐户身份验证时存在一个漏洞，但对于其他身份验证方案则不存在该漏洞）。\n"
+" •攻击需要少量的社会工程学，这些技术有时可能愚弄到谨慎的用户（例如，网络钓鱼攻击会修改 Web 浏览器状态栏以显示虚假链接，在发送 IM 漏洞利用之前必须将其列入好友列表）。"
+
+msgid ""
+"The attack requires the attacker to physically touch or manipulate the "
+"vulnerable component. Physical interaction may be brief or persistent."
+msgstr ""
+"攻击要求攻击者实际接触或操纵易受攻击的组件。物理交互可能是短暂的，也可能是持久的。"
+
+msgid ""
+"The attacker is authorized with (i.e. requires) privileges that provide "
+"basic user capabilities that could normally affect only settings and files "
+"owned by a user. Alternatively, an attacker with Low privileges may have "
+"the ability to cause an impact only to non-sensitive resources."
+msgstr ""
+"攻击者已被授予（即，需要）特权，这些特权能够提供基本的用户功能，通常仅会影响用户拥有的设置和文件。 或者，具有“低”特权的攻击者可能仅具有对非敏感资源造成影响的能力。"
+
+msgid ""
+"The attacker is authorized with (i.e. requires) privileges that provide "
+"significant (e.g. administrative) control over the vulnerable component "
+"that could affect component-wide settings and files."
+msgstr ""
+"攻击者已被授予（即，需要）特权，该特权提供了对易受攻击组件的重要控制权（例如管理），从而可能影响组件范围的设置和文件。"
+
+msgid ""
+"The attacker is authorized with (i.e., requires) privileges that provide "
+"basic user capabilities that could normally affect only settings and files "
+"owned by a user. Alternatively, an attacker with Low privileges may have "
+"the ability to cause an impact only to non-sensitive resources."
+msgstr ""
+"攻击者已被授予（即，需要）特权，这些特权能够提供基本的用户功能，通常仅会影响用户拥有的设置和文件。 或者，具有“低”特权的攻击者可能仅具有对非敏感资源造成影响的能力。"
+
+msgid ""
+"The attacker is authorized with (i.e., requires) privileges that provide "
+"significant (e.g., administrative) control over the vulnerable component "
+"that could affect component-wide settings and files."
+msgstr ""
+"攻击者已被授予（即，需要）特权，该特权提供了对易受攻击组件的重要控制权（例如管理），从而可能影响组件范围的设置和文件。"
+
+msgid ""
+"The attacker is unauthorized prior to attack, and therefore does not "
+"require any access to settings or files to carry out an attack."
+msgstr ""
+"攻击者在攻击前未获得授权，因此无需对设置或文件的任何访问权限即可执行攻击。"
+
+msgid "The details of the vulnerabilities discovered cannot be accessed."
+msgstr "无法访问已发现漏洞的详细信息。"
+
+msgid "The following errors were generated during target verification:"
+msgstr "目标验证期间生成了以下错误："
+
+msgid "The impact of this vulnerability"
+msgstr "此漏洞的影响"
+
+msgid "The link has expired or is not valid"
+msgstr "链接已过期或无效"
+
+msgid ""
+"The mail_options parameter includes 'SMTPUTF8' but the SMTPUTF8 extension "
+"is not supported by the server."
+msgstr ""
+"mail_options 参数包含‘SMTPUTF8’，但服务器不支持 SMTPUTF8 扩展。"
+
+msgid "The maximum number of issue tracker entries reached"
+msgstr "已达到最大问题跟踪程序条目数"
+
+msgid "The request timed out while trying to connect to the remote server"
+msgstr "尝试连接至远程服务器时请求超时"
+
+msgid "The server did not send any data in the allotted amount of time"
+msgstr "服务器在分配的时间内未发送任何数据"
+
+msgid "The server didn't accept the from_addr."
+msgstr "服务器未接受 from_addr。"
+
+msgid "The server didn't reply properly to the helo greeting."
+msgstr "服务器未正确回复 helo 问候。"
+
+msgid "The server rejected ALL recipients (no mail was sent)."
+msgstr "服务器已拒绝所有收件人（未发送邮件）。"
+
+msgid ""
+"The server replied with an unexpected error code (other than a refusal of a "
+"recipient)."
+msgstr ""
+"服务器已回复意外错误代码（而不是拒绝收件人）。"
+
+msgid "The value assigned to the corresponding Base metric is used."
+msgstr "已使用分配给相应“基础”指标的值。"
+
+msgid "The vulnerability affects"
+msgstr "此漏洞影响"
+
+msgid ""
+"The vulnerability has been acknowledged by the vendor or author of the "
+"affected technology. The vulnerability may also be Confirmed when its "
+"existence is confirmed from an external event such as publication of "
+"functional or proof-of-concept exploit code or widespread exploitation."
+msgstr ""
+"受影响技术的原厂或作者已确认此漏洞。当从外部事件（如发布功能、proof-of-concept 漏洞利用代码或广泛利用）中确认漏洞的存在时，也可以确认该漏洞。"
+
+msgid ""
+"The vulnerability requires an attacker to be logged into the system (such "
+"as at a command line or via a desktop session or web interface)."
+msgstr ""
+"此漏洞要求攻击者登录到系统中（如在命令行中，或通过桌面会话或 Web 界面）。"
+
+msgid ""
+"The vulnerable component is bound to the network stack and the set of "
+"possible attackers extends beyond the other options listed, up to and "
+"including the entire Internet. Such a vulnerability is often termed "
+"'remotely exploitable' and can be thought of as an attack being exploitable "
+"at the protocol level one or more network hops away (e.g., across one or "
+"more routers)."
+msgstr ""
+"易受攻击的组件已绑定到网络堆栈，且可能的攻击者范围超出了列出的其他选项，甚至可能包括整个互联网。这种漏洞通常被称为“可远程利用”，且被认为是可以在协议级别一个或多个网络跃点（如，跨一个或多个路由器）利用的攻击。"
+
+msgid ""
+"The vulnerable component is bound to the network stack and the set of "
+"possible attackers extends beyond the other options listed, up to and "
+"including the entire Internet. Such a vulnerability is often termed "
+"'remotely exploitable' and can be thought of as an attack being exploitable "
+"at the protocol level one or more network hops away."
+msgstr ""
+"易受攻击的组件已绑定到网络堆栈，且可能的攻击者范围超出了列出的其他选项，甚至可能包括整个互联网。这种漏洞通常被称为“可远程利用”，且被认为是可以在协议级别一个或多个网络跃点利用的攻击。"
+
+msgid ""
+"The vulnerable component is bound to the network stack, but the attack is "
+"limited at the protocol level to a logically adjacent topology. This can "
+"mean an attack must be launched from the same shared physical (e.g., "
+"Bluetooth or IEEE 802.11) or logical (e.g., local IP subnet) network, or "
+"from within a secure or otherwise limited administrative domain (e.g., "
+"MPLS, secure VPN to an administrative network zone)."
+msgstr ""
+"易受攻击的组件已绑定到网络堆栈，但是攻击在协议级别仅限于逻辑上相邻的拓扑。这可能意味着必须从相同的共享物理网络（如，蓝牙或 IEEE 802.11）或逻辑网络（如，本地 IP 子网）发起攻击，或者从安全或受限制的管理域（如，MPLS、指向管理网络区域的安全 VPN）发起攻击。"
+
+msgid ""
+"The vulnerable component is bound to the network stack, but the attack is "
+"limited at the protocol level to a logically adjacent topology. This can "
+"mean an attack must be launched from the same shared physical (e.g., "
+"Bluetooth or IEEE 802.11) or logical (e.g., local IP subnet) network, or "
+"from within a secure or otherwise limited administrative domain (e.g., "
+"MPLS, secure VPN)."
+msgstr ""
+"易受攻击的组件已绑定到网络堆栈，但是攻击在协议级别仅限于逻辑上相邻的拓扑。这可能意味着必须从相同的共享物理网络（如，蓝牙或 IEEE 802.11）或逻辑网络（例如，本地 IP 子网）发起攻击，或者从安全或受限制的管理域（如，MPLS、安全 VPN）发起攻击。"
+
+msgid ""
+"The vulnerable component is not bound to the network stack and the "
+"attacker’s path is via read/write/execute capabilities. Either: the "
+"attacker exploits the vulnerability by accessing the target system locally "
+"(e.g., keyboard, console), or remotely (e.g., SSH); or the attacker relies "
+"on User Interaction by another person to perform actions required to "
+"exploit the vulnerability (e.g., tricking a legitimate user into opening a "
+"malicious document)."
+msgstr ""
+"易受攻击的组件未绑定到网络堆栈，且攻击者的路径通过读取/写入/执行功能。或者：攻击者通过本地（如，键盘、控制台）或远程（如 SSH）访问目标系统来利用此漏洞；或攻击者依靠他人的用户交互来执行利用此漏洞所需的操作（如，诱骗合法用户打开恶意文档）。"
+
+msgid ""
+"The vulnerable system can be exploited without any interaction from any "
+"user."
+msgstr ""
+"可能无需任何用户交互即可利用易受攻击的系统。"
+
+msgid ""
+"There are multiple non-official sources, possibly including independent "
+"security companies or research organizations. At this point there may be "
+"conflicting technical details or some other lingering ambiguity."
+msgstr ""
+"有多个非官方来源，可能包含独立的安全公司或研究组织。此时，可能存在相互冲突的技术详情或其他持续存在的模糊性。"
+
+msgid ""
+"There are reports of impacts that indicate a vulnerability is present. The "
+"reports indicate that the cause of the vulnerability is unknown, or reports "
+"may differ on the cause or impacts of the vulnerability. Reporters are "
+"uncertain of the true nature of the vulnerability, and there is little "
+"confidence in the validity of the reports or whether a static Base score "
+"can be applied given the differences described. An example is a bug report "
+"which notes that an intermittent but non-reproducible crash occurs, with "
+"evidence of memory corruption suggesting that denial of service, or "
+"possible more serious impacts, may result."
+msgstr ""
+"有影响报告表明存在漏洞。这些报告表明该漏洞的原因未知，或关于该漏洞的原因或影响的报告之间有所不同。报告人员不确定该漏洞的真实性质，且对于报告的正确性或鉴于所描述的差异是否可以应用静态基础评分缺乏信心。例如，有一个错误报告指出，发生了间歇性但不可重现的崩溃，且有内存损坏的迹象，表明可能会导致拒绝服务或可能造成更严重的影响。"
+
+msgid ""
+"There is a single unconfirmed source or possibly multiple conflicting "
+"reports. There is little confidence in the validity of the reports. An "
+"example is a rumor that surfaces from the hacker underground."
+msgstr ""
+"有一个未经确认的来源或可能存在多个有冲突的报告。对报告的正确性缺乏信心。例如来自地下黑客的传言。"
+
+msgid ""
+"There is a total compromise of system integrity. There is a complete loss "
+"of system protection, resulting in the entire system being compromised. The "
+"attacker is able to modify any files on the target system."
+msgstr ""
+"系统完整性完全受损。完全失去系统保护，导致整个系统受到损害。攻击者能够修改目标系统上的任何文件。"
+
+msgid ""
+"There is a total loss of integrity, or a complete loss of protection. For "
+"example, the attacker is able to modify any/all files protected by the "
+"impacted component. Alternatively, only some files can be modified, but "
+"malicious modification would present a direct, serious consequence to the "
+"impacted component."
+msgstr ""
+"完整性完全丧失，或完全失去保护。例如，攻击者能够修改由受影响组件保护的任何/所有文件。或者，只能修改部分文件，但是恶意修改会对受影响组件造成直接的严重后果。"
+
+msgid ""
+"There is a total shutdown of the affected resource. The attacker can render "
+"the resource completely unavailable."
+msgstr ""
+"受影响资源完全关闭。攻击者可以使资源完全不可用。"
+
+msgid ""
+"There is an official but temporary fix available. This includes instances "
+"where the vendor issues a temporary hotfix, tool, or workaround."
+msgstr ""
+"存在官方发布的临时修复程序。这包括原厂发布临时修补程序、工具或解决方法。"
+
+msgid ""
+"There is an unofficial, non-vendor solution available. In some cases, users "
+"of the affected technology will create a patch of their own or provide "
+"steps to work around or otherwise mitigate the vulnerability."
+msgstr ""
+"存在非官方的非原厂解决方案。在某些情况下，受影响技术的用户将创建自己的补丁，或提供解决或缓解漏洞的步骤。"
+
+msgid ""
+"There is considerable informational disclosure. Access to some system files "
+"is possible, but the attacker does not have control over what is obtained, "
+"or the scope of the loss is constrained. An example is a vulnerability that "
+"divulges only certain tables in a database."
+msgstr ""
+"有大量的信息披露。可以访问某些系统文件，但攻击者无法控制所获得的内容，或者损失范围受到限制。例如，一个仅泄露数据库中部分表格的漏洞。"
+
+msgid "There is either no solution available or it is impossible to apply."
+msgstr "没有可用的解决方案，或无法应用。"
+
+msgid "There is no impact to availability within the impacted component."
+msgstr "对受影响组件内的可用性没有影响。"
+
+msgid "There is no impact to the availability of the system."
+msgstr "对系统的可用性没有影响。"
+
+msgid "There is no impact to the confidentiality of the system."
+msgstr "对系统的机密性没有影响。"
+
+msgid "There is no impact to the integrity of the system."
+msgstr "对系统的完整性没有影响。"
+
+msgid "There is no issue tracker configured for the current target"
+msgstr "没有为当前目标配置问题跟踪程序"
+
+msgid "There is no loss of confidentiality within the impacted component."
+msgstr "对受影响组件内的机密性没有影响。"
+
+msgid "There is no loss of integrity within the impacted component."
+msgstr "对受影响组件内的完整性没有影响。"
+
+msgid ""
+"There is no potential for loss of life, physical assets, productivity or "
+"revenue."
+msgstr ""
+"没有生命、实物资产、生产力或收入损失的可能性。"
+
+msgid "There is no way set to deliver emails"
+msgstr "未设置发送电子邮件的方式"
+
+msgid ""
+"There is reduced performance or interruptions in resource availability. An "
+"example is a network-based flood attack that permits a limited number of "
+"successful connections to an Internet service."
+msgstr ""
+"性能降低或资源可用性存在中断。例如，基于网络的淹没攻击允许成功连接到互联网服务，但数量受到限制。"
+
+msgid ""
+"There is reduced performance or interruptions in resource availability. "
+"Even if repeated exploitation of the vulnerability is possible, the "
+"attacker does not have the ability to completely deny service to legitimate "
+"users. The resources in the impacted component are either partially "
+"available all of the time, or fully available only some of the time, but "
+"overall there is no direct, serious consequence to the impacted component."
+msgstr ""
+"性能降低或资源可用性存在中断。即使可能重复利用此漏洞，攻击者也无法完全拒绝向合法用户提供服务。受影响组件中的资源可能始终处于部分可用状态，或仅在某些时间完全可用，但总体上不会对受影响组件造成直接而严重的后果。"
+
+msgid ""
+"There is some loss of confidentiality. Access to some restricted "
+"information is obtained, but the attacker does not have control over what "
+"information is obtained, or the amount or kind of loss is constrained. The "
+"information disclosure does not cause a direct, serious loss to the "
+"impacted component."
+msgstr ""
+"机密性部分丢失。已获取对一些受限信息的访问权限，但攻击者无法控制所获得的内容，或损失数量或种类受到限制。信息披露不会对受影响组件造成直接的严重损失。"
+
+msgid ""
+"There is some loss of confidentiality. Access to some restricted "
+"information is obtained, but the attacker does not have control over what "
+"information is obtained, or the amount or kind of loss is limited. The "
+"information disclosure does not cause a direct, serious loss to the "
+"impacted component."
+msgstr ""
+"机密性部分丢失。已获取对一些受限信息的访问权限，但攻击者无法控制所获得的内容，或损失数量或种类受到限制。信息披露不会对受影响组件造成直接的严重损失。"
+
+msgid ""
+"There is total information disclosure, resulting in all system files being "
+"revealed. The attacker is able to read all of the system's data (memory, "
+"files, etc.)"
+msgstr ""
+"存在完全的信息披露，导致所有系统文件被披露。攻击者能够读取系统的所有数据（内存、文件等）"
+
+msgid ""
+"There is total loss of availability, resulting in the attacker being able "
+"to fully deny access to resources in the impacted component; this loss is "
+"either sustained (while the attacker continues to deliver the attack) or "
+"persistent (the condition persists even after the attack has completed). "
+"Alternatively, the attacker has the ability to deny some availability, but "
+"the loss of availability presents a direct, serious consequence to the "
+"impacted component (e.g., the attacker cannot disrupt existing connections, "
+"but can prevent new connections; the attacker can repeatedly exploit a "
+"vulnerability that, in each instance of a successful attack, leaks a only "
+"small amount of memory, but after repeated exploitation causes a service to "
+"become completely unavailable)."
+msgstr ""
+"可用性完全丧失，导致攻击者能够完全拒绝对受影响组件中资源的访问。这种损失可能持续发生（在攻击者继续进行攻击时）或永久持续（在攻击完成后情况仍然存在）。或者，攻击者能够拒绝某些可用性，但是可用性的丧失会对受影响组件造成直接的严重后果（例如，攻击者无法中断现有连接，但是可以阻止新的连接；攻击者可以反复利用漏洞，在每次成功攻击的情况下，只会泄漏少量的内存，但是在反复利用后导致服务变得完全不可用）。"
+
+msgid ""
+"There is total loss of confidentiality, resulting in all resources within "
+"the impacted component being divulged to the attacker. Alternatively, "
+"access to only some restricted information is obtained, but the disclosed "
+"information presents a direct, serious impact."
+msgstr ""
+"机密性完全丧失，导致受影响组件中的所有资源完全泄露给攻击者。或者，仅获得对一些受限信息的访问，但是所披露的信息会带来直接的严重影响。"
+
+msgid "This action is forbidden for the current user role."
+msgstr "当前用户角色禁止此操作。"
+
+msgid "This is <strong>required</strong>"
+msgstr "此项<strong>必填</strong>"
+
+msgid "This mail server requires authentication"
+msgstr "此邮件服务器需要身份验证"
+
+msgid "This operation requires a administrator user role."
+msgstr "此操作需要管理员用户角色。"
+
+msgid "This operation requires a system user role."
+msgstr "此操作需要系统用户角色。"
+
+msgid "This operation requires a validated user"
+msgstr "此操作需要经过验证的用户"
+
+msgid ""
+"This operation requires at least technical administrator user role (with "
+"access all flag set)."
+msgstr ""
+"此操作至少需要技术管理员用户角色（设置了全部访问标记）。"
+
+msgid "This operation requires at least technical administrator user role."
+msgstr "此操作至少需要技术管理员用户角色。"
+
+msgid "This operation requires at least tester user role."
+msgstr "此操作至少需要测试人员用户角色。"
+
+msgid "This operation requires that user can access the group."
+msgstr "此操作要求用户可以访问组。"
+
+msgid "This proxy server requires authentication"
+msgstr "此代理服务器需要身份验证"
+
+msgid "This target cannot be verified. Please contact "
+msgstr "无法验证此目标，请联系"
+
+msgid "This target is not verified"
+msgstr "未验证此目标"
+
+msgid "Threat"
+msgstr "威胁"
+
+msgid "Threat level could not be determined because the scan failed."
+msgstr "因为扫描失败，无法确定威胁级别。"
+
+msgid "Threat level could not be determined because the scan was aborted."
+msgstr "因为扫描被中止，无法确定威胁级别。"
+
+msgid "Threat level could not be determined because the target was not responsive."
+msgstr "因为目标不响应，无法确定威胁级别。"
+
+msgid "Threat level is not available yet."
+msgstr "威胁级别尚不可用。"
+
+msgid "Thursday"
+msgstr "星期四"
+
+msgid "Time Sensitive"
+msgstr "时间敏感"
+
+msgid "Time Zone"
+msgstr "时区"
+
+msgid ""
+"Time in which the login failures have to happen for account lockout to "
+"happen. 0 to disable"
+msgstr ""
+"在此时间内发生登录失败时必须锁定帐户。0 表示禁用"
+
+msgid "Time window (minutes)"
+msgstr "时间窗口（分钟）"
+
+msgid "Time zone"
+msgstr "时区"
+
+msgid "Token"
+msgstr "令牌"
+
+msgid "Too Many Requests"
+msgstr "请求过多"
+
+msgid "Too many child users"
+msgstr "子用户过多"
+
+msgid "Too many failed requests"
+msgstr "失败的请求过多"
+
+msgid "Too many redirects"
+msgstr "重定向过多"
+
+msgid "Too many requests"
+msgstr "请求过多"
+
+msgid "Too many scanning engines"
+msgstr "扫描引擎过多"
+
+msgid "Too many targets"
+msgstr "目标过多"
+
+msgid "Top Vulnerabilities"
+msgstr "常见漏洞"
+
+msgid "Total Scans Conducted"
+msgstr "扫描次数"
+
+msgid "Total Targets"
+msgstr "目标总数"
+
+msgid "Trial account can't schedule scans"
+msgstr "试用帐户无法计划扫描"
+
+msgid "Trial user can't change scanning profile"
+msgstr "试用帐户无法更改扫描配件文件"
+
+msgid "Try to auto-login into the site"
+msgstr "网站自动登陆"
+
+msgid "Tuesday"
+msgstr "星期二"
+
+msgid "Two Factor Authentication"
+msgstr "双重身份验证"
+
+msgid "Two-Factor Authentication"
+msgstr "双重身份验证"
+
+msgid "Type"
+msgstr "类型"
+
+msgid "UNLICENSED"
+msgstr "未经授权"
+
+msgid "URL"
+msgstr "URL"
+
+msgid "URL is <strong>required</strong>"
+msgstr "URL <strong>必填</strong>"
+
+msgid "Unable to fetch list of collections for this TFS instance"
+msgstr "无法获取此 TFS 实例的集合列表"
+
+msgid "Unable to parse request"
+msgstr "无法解析请求"
+
+msgid "Unable to parse response body for list of collections for this TFS instance"
+msgstr "无法解析此 TFS 实例集合列表的响应正文"
+
+msgid "Unable to resolve the URL"
+msgstr "无法解析 URL"
+
+msgid "Unauthorized"
+msgstr "未经授权"
+
+msgid "Unavailable"
+msgstr "不可用"
+
+msgid "Unchanged"
+msgstr "未更改"
+
+msgid "Unconfirmed"
+msgstr "未确认"
+
+msgid "Uncorroborated"
+msgstr "未经证实"
+
+msgid "Unexpected basic http auth response"
+msgstr "意外基本 http 验证响应"
+
+msgid "Unexpected cookie auth response"
+msgstr "意外 cookie 验证响应"
+
+msgid "Unexpected response body returned, unable to parse issue id"
+msgstr "返回意外响应正文，无法解析问题 id"
+
+msgid "Unexpected response body returned, unable to parse issue number"
+msgstr "返回意外响应正文，无法解析问题编码"
+
+msgid "Unexpected response body returned, unable to parse issues"
+msgstr "返回意外响应正文，无法解析问题"
+
+msgid "Unexpected response body returned, unable to parse login"
+msgstr "返回意外响应正文，无法解析登录"
+
+msgid "Unexpected response body returned, unable to parse metadata"
+msgstr "返回意外响应正文，无法解析元数据"
+
+msgid "Unexpected response body returned, unable to parse project key"
+msgstr "返回意外响应正文，无法解析项目密钥"
+
+msgid "Unexpected response body returned, unable to parse projects"
+msgstr "返回意外响应正文，无法解析项目"
+
+msgid "Unexpected response returned. Normally caused by an invalid URL"
+msgstr "返回意外响应。这通常由无效的 URL 导致"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Unknown check"
+msgstr "未知检查"
+
+msgid "Unknown error encountered"
+msgstr "遇到未知错误"
+
+msgid "Unknown server error"
+msgstr "未知服务器错误"
+
+msgid "Unlimited"
+msgstr "不受限制"
+
+msgid "Unproven"
+msgstr "未经检验"
+
+msgid "Unsaved Changes"
+msgstr "未保存的更改"
+
+msgid "Unsupported email domain"
+msgstr "不支持的电子邮件域"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Update License"
+msgstr "更新许可证"
+
+msgid "Update Policy"
+msgstr "更新策略"
+
+msgid "Update Policy updated"
+msgstr "更新策略已更新"
+
+msgid "Updating..."
+msgstr "正在更新..."
+
+msgid "Url not found"
+msgstr "找不到 Url"
+
+msgid "Use OAuth for this site"
+msgstr "对此站点使用 OAuth"
+
+msgid "Use a custom password"
+msgstr "使用自定义密码"
+
+msgid "Use default excluded hours profile"
+msgstr "使用默认排除时间配置文件"
+
+msgid "Use knowledge base in future scans"
+msgstr "在未来扫描中使用知识库"
+
+msgid "Use pre-recorded login sequence"
+msgstr "录制登陆序列脚本"
+
+msgid "Use the value assigned to the corresponding Base Score metric."
+msgstr "使用分配给相应“基础评分”指标的值。"
+
+msgid "User Agent"
+msgstr "客户端代理"
+
+msgid "User Disabled"
+msgstr "用户已禁用"
+
+msgid "User Enabled"
+msgstr "用户已启用"
+
+msgid "User Interaction"
+msgstr "用户交互"
+
+msgid "User Name"
+msgstr "用户姓名"
+
+msgid "User created successfully"
+msgstr "用户已成功创建"
+
+msgid "User deleted successfully"
+msgstr "用户已成功删除"
+
+msgid "User disabled"
+msgstr "用户已禁用"
+
+msgid "User does not have permission"
+msgstr "用户没有权限"
+
+msgid "User does not have valid authentication credentials"
+msgstr "用户没有有效的认证证书"
+
+msgid "User has no access to all groups"
+msgstr "用户没有权限访问所有组"
+
+msgid "User has no access to the root scope"
+msgstr "用户没有权限访问根范围"
+
+msgid "User name is <strong>required</strong>"
+msgstr "用户姓名<strong>必填</strong>"
+
+msgid "User not validated"
+msgstr "用户未经验证"
+
+msgid ""
+"User session will expire and will be asked to login after time specified. 0 "
+"to disable"
+msgstr ""
+"用户会话将到期，且在指定的时间后将要求登录。0 表示禁用"
+
+msgid "User updated successfully"
+msgstr "用户已成功更新"
+
+msgid "Username"
+msgstr "用户名"
+
+msgid "Username and Password"
+msgstr "用户名和密码"
+
+msgid "Username is <strong>required</strong>"
+msgstr "用户名<strong>必填</strong>"
+
+msgid "Username or Email"
+msgstr "用户名或电子邮件"
+
+msgid "Username or Email is <strong>required</strong>"
+msgstr "用户名或电子邮件<strong>必填</strong>"
+
+msgid "Users"
+msgstr "用户"
+
+msgid "Users deleted successfully"
+msgstr "用户已成功删除"
+
+msgid "Users disabled successfully"
+msgstr "用户已成功禁用"
+
+msgid "Users enabled successfully"
+msgstr "用户已成功启用"
+
+msgid "Validation errors"
+msgstr "验证错误"
+
+msgid "Value"
+msgstr "值"
+
+msgid "Value must be greater than or equal to <strong>0</strong>"
+msgstr "值必须大于或等于 <strong>0</strong>"
+
+msgid "Value must be greater than or equal to <strong>1</strong>"
+msgstr "值必须大于或等于 <strong>1</strong>"
+
+msgid "Value must be less than or equal to 65535"
+msgstr "值必须小于或等于 65535"
+
+msgid "Value must be less than or equal to 99"
+msgstr "值必须小于或等于 99"
+
+msgid "Value must be less than or equal to <strong>10</strong>"
+msgstr "值必须小于或等于 <strong>10</strong>"
+
+msgid "Value must be less than or equal to <strong>1440</strong>"
+msgstr "值必须小于或等于 <strong>1440</strong>"
+
+msgid "Value must be less than or equal to <strong>43200</strong>"
+msgstr "值必须小于或等于 <strong>43200</strong>"
+
+msgid "Value must be less than or equal to <strong>50</strong>"
+msgstr "值必须小于或等于 <strong>50</strong>"
+
+msgid "Value must be less than or equal to <strong>60</strong>"
+msgstr "值必须小于或等于 <strong>60</strong>"
+
+msgid "Verification file URL:"
+msgstr "验证文件 URL："
+
+msgid "Verified"
+msgstr "已验证"
+
+msgid "Verify"
+msgstr "验证"
+
+msgid "Version"
+msgstr "版本"
+
+msgid "Version:"
+msgstr "版本："
+
+msgid "Void license"
+msgstr "无效许可证"
+
+msgid "Vuln type not supported"
+msgstr "不支持漏洞类型"
+
+msgid "Vulnerabilities"
+msgstr "漏洞"
+
+msgid "Vulnerabilities found in the last 12 months"
+msgstr "过去 12 个月内发现的漏洞"
+
+msgid "Vulnerability"
+msgstr "漏洞"
+
+msgid "Vulnerability "
+msgstr "漏洞"
+
+msgid "Vulnerability Description"
+msgstr "漏洞描述"
+
+msgid "Vulnerability Type"
+msgstr "漏洞类型"
+
+msgid "Vulnerability discovered by AcuMonitor"
+msgstr "由 AcuMonitor 发现的漏洞"
+
+msgid "Vulnerability sent to Issue Tracker"
+msgstr "已发送至问题跟踪程序的漏洞"
+
+msgid "WAF Export"
+msgstr "WAF 导出"
+
+msgid "WAF Export - applies only for scanned targets"
+msgstr "WAF 导出 - 仅适用于已扫描的目标"
+
+msgid "WASC Threat Classification"
+msgstr "WASC 威胁分类"
+
+msgid "Web"
+msgstr "Web"
+
+msgid "Web References"
+msgstr "网络参考文献"
+
+msgid "Web/Network"
+msgstr "Web/网络"
+
+msgid ""
+"Website's forms authentication in some cases can be identified "
+"automatically. The automatic detection will try to identify the steps "
+"necessary to log in, the restricted links which should not be clicked in "
+"order to keep the session and the pattern by which a valid session can be "
+"identified. Please enter your credentials below."
+msgstr ""
+"在某些情况下，可通过表单式进行自动身份验证。为保证会话有效，系统将自动检索登陆时所需的必要步骤，不去点击访问受限的链接。请在下方输入您的凭证"
+
+msgid "Wednesday"
+msgstr "星期三"
+
+msgid "Weekly"
+msgstr "每周"
+
+msgid "Weeks"
+msgstr "周"
+
+msgid "Workaround"
+msgstr "解决方案"
+
+msgid "Worker is used"
+msgstr "工作程序已使用"
+
+msgid "Worker not found"
+msgstr "找不到工作程序"
+
+msgid "Yearly"
+msgstr "每年"
+
+msgid "Years"
+msgstr "年"
+
+msgid "Yes"
+msgstr "是"
+
+msgid ""
+"You are about to delete a Licensed Target. This Target can only be replaced "
+"on the yearly anniversary of your license:"
+msgstr ""
+"您即将删除获得许可的目标。该目标仅可在获得许可满周年后替换："
+
+msgid "You are already logged in from another location."
+msgstr "您已从另一个位置登录。"
+
+msgid "You are using the Latest Version"
+msgstr "您正在使用最新版本。"
+
+msgid "You don't have an API key set."
+msgstr "您尚未设置 API 密钥。"
+
+msgid "You have unsaved changes. Are you sure you want to proceed with scan?"
+msgstr "您有未保存的更改。是否确定要继续扫描？"
+
+msgid "You must set up Two Factor Authentication before proceeding."
+msgstr "您必须设置双重身份验证才能继续。"
+
+msgid ""
+"Your Spectra Proof of Concept license has expired. Contact your Spectra "
+"Representative to continue using Spectra."
+msgstr ""
+"您的 Spectra 概念证明许可证已过期。请联系您的 Spectra 代表以继续使用 Spectra。"
+
+msgid "Your Spectra Proof of Concept license will expire on"
+msgstr "您的 Spectra 概念证明许可证将于以下时间到期"
+
+msgid "Your account has expired"
+msgstr "您的帐户已过期"
+
+msgid "Your download will start in a few moments"
+msgstr "您的下载将在几分钟后开始"
+
+msgid "Your license EXPIRED on"
+msgstr "您的许可证已于以下时间过期"
+
+msgid "Your license has expired."
+msgstr "您的许可证已过期。"
+
+msgid "Your license renewal is due on"
+msgstr "您的许可证续订将于以下时间到期"
+
+msgid "[DELETED]"
+msgstr "[已删除]"
+
+msgid "aborted"
+msgstr "已中止"
+
+msgid "aborting"
+msgstr "正在中止"
+
+msgid "completed"
+msgstr "已完成"
+
+msgid "deleted"
+msgstr "已删除"
+
+msgid "expires on"
+msgstr "到期时间"
+
+msgid "failed"
+msgstr "失败"
+
+msgid "file uploaded"
+msgstr "文件已上传"
+
+msgid "in progress"
+msgstr "正在进行"
+
+msgid "is <strong>required</strong>"
+msgstr "<strong>必填</strong>"
+
+msgid "of"
+msgstr "/"
+
+msgid "paused"
+msgstr "已暂停"
+
+msgid "pausing"
+msgstr "正在暂停"
+
+msgid "processing"
+msgstr "正在处理"
+
+msgid "queued"
+msgstr "已队列"
+
+msgid "require that we confirm your contact details"
+msgstr "要求我们确认您的联系详情"
+
+msgid "sales@Spectra.com"
+msgstr "sales@Spectra.com"
+
+msgid "scans will be created"
+msgstr "将创建扫描"
+
+msgid "scheduled"
+msgstr "已计划"
+
+msgid "starting"
+msgstr "正在开始"
+
+msgid "support"
+msgstr "支持"
+
+msgid "with further instructions to reset your password."
+msgstr "提供重置密码的进一步说明。"
+
+msgid "Installation ID"
+msgstr "安装 ID"

@@ -1,0 +1,4293 @@
+{
+  "checks": [
+    {
+      "checks": [
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试是否存在开发人员可能已经忘记的隐藏、废弃或备份的文件副本，这些可能会暴露敏感信息",
+              "key": "Backup_File.script",
+              "title": "文件的隐藏、废弃和备份副本"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Bash 远程代码执行 (ShellShock)",
+              "key": "Bash_RCE.script",
+              "title": "Bash 远程代码执行 (ShellShock)"
+            },
+            {
+              "checks": null,
+              "description": "测试重定向页面中是否存在 HTML 表单",
+              "key": "HTML_Form_In_Redirect_Page.script",
+              "title": "重定向页面中的 HTML 表单"
+            },
+            {
+              "checks": null,
+              "description": "搜索 AJAX Hashbang (#!) URL",
+              "key": "Hashbang_Ajax_Crawling.script",
+              "title": "AJAX hashbang 搜索"
+            },
+            {
+              "checks": null,
+              "description": "没有描述",
+              "key": "Javascript_AST_Parse.script",
+              "title": "JavaScript 抽象语法树分析程序"
+            },
+            {
+              "checks": null,
+              "description": "测试各种 JavaScript 库中是否存在已知漏洞",
+              "key": "Javascript_Libraries_Audit.script",
+              "title": "JavaScript 库审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 PHP 的配置文件 (php.ini) 中的 register_globals 设置中是否存在漏洞",
+              "key": "PHP_SuperGlobals_Overwrite.script",
+              "title": "PHP SuperGlobals 覆盖"
+            },
+            {
+              "checks": null,
+              "description": "测试已发现的 RESTful web 服务是否存在各种漏洞",
+              "key": "REST_Discovery_And_Audit_File.script",
+              "title": "RESTful web 服务发现和审核（每个文件）"
+            },
+            {
+              "checks": null,
+              "description": "测试文件 URL 中是否存在跨站点脚本 (XSS) 漏洞",
+              "key": "XSS_in_URI_File.script",
+              "title": "文件 URI 中的 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试文件 URI 中是否存在 XML 外部实体 (XXE)",
+              "key": "XXE_File.script",
+              "title": "文件 URI 中的 XXE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Apache Tomcat 信息泄露 (CVE-2017-12616)",
+              "key": "Apache_Tomcat_Information_Disclosure_CVE-2017-12616.script",
+              "title": "Apache Tomcat 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Spring Data REST 远程代码执行 (CVE-2017-8046)",
+              "key": "Spring_Data_REST_RCE_CVE-2017-8046.script",
+              "title": "Spring Data REST 远程代码执行"
+            }
+          ],
+          "description": "在提取的每个位置上运行测试",
+          "key": "PerFile",
+          "title": "文件测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试是否存在 Alternative PHP Cache (APC) apc.php 脚本，这可能会暴露敏感信息",
+              "key": "APC.script",
+              "title": "PHP APC 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 ASP.NET 应用程序追踪是否启用，这可能暴露敏感信息",
+              "key": "ASP-NET_Application_Trace.script",
+              "title": "ASP.NET 应用程序追踪"
+            },
+            {
+              "checks": null,
+              "description": "测试 ASP.NET 调试是否启用，这可能暴露敏感信息",
+              "key": "ASP-NET_Debugging_Enabled.script",
+              "title": "ASP.NET 调试已启用"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序上是否存在 ASP.NET 诊断页面，这可能暴露敏感信息",
+              "key": "ASP-NET_Diagnostic_Page.script",
+              "title": "ASP.NET 诊断页面"
+            },
+            {
+              "checks": null,
+              "description": "在目录中搜索 Microsoft Access 数据库",
+              "key": "Access_Database_Found.script",
+              "title": "Access 数据库搜索"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Solr 中是否存在已知漏洞",
+              "key": "Apache_Solr.script",
+              "title": "Apache Solr 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在开发人员可能已经忘记的隐藏、废弃或备份的目录副本，这些可能会暴露敏感信息",
+              "key": "Backup_Folder.script",
+              "title": "目录的隐藏、废弃和备份副本"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在通过 HTTP 使用的 HTTP 基本身份验证",
+              "key": "Basic_Auth_Over_HTTP.script",
+              "title": "HTTP 上的 HTTP 基本身份验证"
+            },
+            {
+              "checks": null,
+              "description": "测试目录是否包含 Bazaar 存储库，这可能暴露敏感信息",
+              "key": "Bazaar_Repository.script",
+              "title": "Bazaar 存储库"
+            },
+            {
+              "checks": null,
+              "description": "测试目录是否包含 CVS 存储库，这可能暴露敏感信息",
+              "key": "CVS_Repository.script",
+              "title": "CVS 存储库"
+            },
+            {
+              "checks": null,
+              "description": "搜索核心转储（内存转储）文件",
+              "key": "Core_Dump_Files.script",
+              "title": "核心转储（内存转储）搜索"
+            },
+            {
+              "checks": null,
+              "description": "搜索源代码配置或开发期间使用的其他信息",
+              "key": "Development_Files.script",
+              "title": "开发文件"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已配置 Web 服务器来显示目录中包含的文件列表",
+              "key": "Directory_Listing.script",
+              "title": "目录列表"
+            },
+            {
+              "checks": null,
+              "description": "测试由 Adobe Dreamweaver 创建的脚本，这些脚本会泄露敏感信息并允许执行任意 SQL 查询",
+              "key": "Dreamweaver_Scripts.script",
+              "title": "Dreamweaver 脚本"
+            },
+            {
+              "checks": null,
+              "description": "测试目录是否包含 Git 存储库，这可能暴露敏感信息",
+              "key": "GIT_Repository.script",
+              "title": "Git 存储库"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Grails 开发环境数据库控制台",
+              "key": "Grails_Database_Console.script",
+              "title": "Grails 数据库控制台"
+            },
+            {
+              "checks": null,
+              "description": "测试重定向目录中是否存在 HTML 表单",
+              "key": "HTML_Form_In_Redirect_Page_Dir.script",
+              "title": "重定向目录中的 HTML 表单"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 HTTP 谓词篡改漏洞",
+              "key": "Http_Verb_Tampering.script",
+              "title": "HTTP 谓词篡改"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft IIS 中是否存在目录身份验证绕过",
+              "key": "IIS51_Directory_Auth_Bypass.script",
+              "title": "Microsoft IIS 目录身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 JetBrains .idea 项目目录，其中可能包含敏感配置信息",
+              "key": "JetBrains_Idea_Project_Directory.script",
+              "title": "JetBrains .idea 项目目录"
+            },
+            {
+              "checks": null,
+              "description": "测试目录是否包含 Mercurial 存储库，这可能暴露敏感信息",
+              "key": "Mercurial_Repository.script",
+              "title": "Mercurial 存储库"
+            },
+            {
+              "checks": null,
+              "description": "在 Web 应用程序中搜索 phpinfo() 页面",
+              "key": "PHPInfo.script",
+              "title": "公开的 phpinfo()"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在常见的敏感资源，如备份目录、数据库转储、管理页面和临时目录",
+              "key": "Possible_Sensitive_Directories.script",
+              "title": "可能存在敏感目录"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在常见敏感资源，如密码文件、配置文件、日志文件、包含文件、统计数据和数据库转储",
+              "key": "Possible_Sensitive_Files.script",
+              "title": "可能存在敏感文件"
+            },
+            {
+              "checks": null,
+              "description": "测试已发现的 RESTful web 服务是否存在各种漏洞",
+              "key": "REST_Discovery_And_Audit_Folder.script",
+              "title": "RESTful web 服务发现和审核（每个目录）"
+            },
+            {
+              "checks": null,
+              "description": "搜索 README 文件",
+              "key": "Readme_Files.script",
+              "title": "README 文件"
+            },
+            {
+              "checks": null,
+              "description": "搜索公开的安全文件传输协议 (SFTP) 凭据",
+              "key": "SFTP_Credentials_Exposure.script",
+              "title": "SFTP 凭据曝光"
+            },
+            {
+              "checks": null,
+              "description": "测试基本身份验证中是否存在 SQL 注入漏洞",
+              "key": "SQL_Injection_In_Basic_Auth.script",
+              "title": "HTTP 基本身份验证中的 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 URI 中是否存在 SQL 注入漏洞",
+              "key": "SQL_Injection_In_URI.script",
+              "title": "URI 中的 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "在目录中搜索 SQLite 数据库文件",
+              "key": "SQLite_Database_Found.script",
+              "title": "SQLite 数据库搜索"
+            },
+            {
+              "checks": null,
+              "description": "测试目录是否包含 SVN 存储库，这可能暴露敏感信息",
+              "key": "SVN_Repository.script",
+              "title": "SVN 存储库"
+            },
+            {
+              "checks": null,
+              "description": "搜索常见 web-shell",
+              "key": "Trojan_Scripts.script",
+              "title": "Web-shell 搜索"
+            },
+            {
+              "checks": null,
+              "description": "在 Web 应用程序中搜索 WS_FTP.LOG 文件，这些文件可能暴露敏感文件上传信息",
+              "key": "WS_FTP_log_file.script",
+              "title": "WS_FTP.LOG 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 HTTP 基本身份验证中是否存在弱密码",
+              "key": "Weak_Password_Basic_Auth.script",
+              "title": "弱 HTTP 基本身份验证密码"
+            },
+            {
+              "checks": null,
+              "description": "在 Web 服务器上搜索 webadmin.php",
+              "key": "Webadmin_script.script",
+              "title": "Webadmin 搜索"
+            },
+            {
+              "checks": null,
+              "description": "测试目录 URL 中是否存在跨站点脚本 (XSS) 漏洞",
+              "key": "XSS_in_URI_Folder.script",
+              "title": "目录 URI 中的 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试目录 URI 中是否存在 XML 外部实体 (XXE)",
+              "key": "XXE_Folder.script",
+              "title": "目录 URI 中的 XXE"
+            },
+            {
+              "checks": null,
+              "description": "在每个目录中搜索可阅读的 .htaccess 文件",
+              "key": "htaccess_File_Readable.script",
+              "title": ".htaccess 文件可读取"
+            },
+            {
+              "checks": null,
+              "description": "在每个目录中搜索 joe 编辑器 DEADJOE 文件",
+              "key": "Deadjoe_file.script",
+              "title": "DEADJOE 文件"
+            },
+            {
+              "checks": null,
+              "description": "在每个目录中搜索 Symfony 配置文件 databases.yml",
+              "key": "Symfony_Databases_YML.script",
+              "title": "Symfony databases.yml"
+            },
+            {
+              "checks": null,
+              "description": "在每个目录中搜索 Dotenv（.env 和变体）",
+              "key": "dotenv_File.script",
+              "title": "Dotenv 文件"
+            },
+            {
+              "checks": null,
+              "description": "测试 Spring Boot Actuator 的版本 2（Spring Boot 的一个 子项目）",
+              "key": "Spring_Boot_Actuator_v2.script",
+              "title": "Spring Boot Actuator v2"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在通过 Spring Boot WhiteLabel 错误页面 Spring 表达式语言 (SpEL) 进行的 RCE",
+              "key": "Spring_Boot_WhiteLabel_Error_Page_SPEL.script",
+              "title": "Spring Boot WhiteLabel 错误页面 SpEL"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在可能导致路径遍历漏洞的配置错误的 Nginx 别名",
+              "key": "Nginx_Path_Traversal_Misconfigured_Alias.script",
+              "title": "因错误配置的别名产生的 Nginx 路径遍历"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Spring 安全身份验证绕过漏洞 (CVE-2016-5007)",
+              "key": "Spring_Security_Auth_Bypass_CVE-2016-5007.script",
+              "title": "Spring Security Authentication 旁路"
+            }
+          ],
+          "description": "在每个目录上运行测试",
+          "key": "PerFolder",
+          "title": "目录测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序是否容易受到 ASP 代码注入的攻击",
+              "key": "ASP_Code_Injection.script",
+              "title": "ASP 代码注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 PHP 反序列化小工具尝试执行代码",
+              "key": "PHP_Deserialization_Gadgets.script",
+              "title": "通过反序列化进行的 PHP 代码注入测试"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在任意文件创建漏洞",
+              "key": "Arbitrary_File_Creation.script",
+              "title": "任意文件创建"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在任意文件删除漏洞",
+              "key": "Arbitrary_File_Deletion.script",
+              "title": "任意文件删除"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Blind Cross-site Scripting (BXSS) 漏洞",
+              "key": "Blind_XSS.script",
+              "title": "盲打 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 CRLF 注入（HTTP 响应拆分）漏洞",
+              "key": "CRLF_Injection.script",
+              "title": "CRLF 注入（HTTP 响应拆分）"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在远程代码执行漏洞",
+              "key": "Code_Execution.script",
+              "title": "远程代码执行"
+            },
+            {
+              "checks": null,
+              "description": "测试输入方案中是否存在目录穿越漏洞",
+              "key": "Directory_Traversal.script",
+              "title": "输入上的目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在电子邮件报头注入漏洞",
+              "key": "Email_Header_Injection.script",
+              "title": "电子邮件报头注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在电子邮件 (SMTP) 注入漏洞",
+              "key": "Email_Injection.script",
+              "title": "电子邮件 (SMTP) 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在由意外或格式错误的输入触发的泄露敏感信息的错误",
+              "key": "Error_Message.script",
+              "title": "意外的和格式错误的输入错误消息"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在容易受到表达式语言 (EL) 注入攻击的脚本",
+              "key": "Expression_Language_Injection.script",
+              "title": "表达式语言 (EL) 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在文件包含漏洞",
+              "key": "File_Inclusion.script",
+              "title": "文件包含"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在文件篡改漏洞",
+              "key": "File_Tampering.script",
+              "title": "文件篡改"
+            },
+            {
+              "checks": null,
+              "description": "测试文件上传漏洞",
+              "key": "File_Upload.script",
+              "title": "文件上传"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Padding Oracle 漏洞",
+              "key": "Generic_Oracle_Padding.script",
+              "title": "Padding Oracle"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 HTTP 参数污染 (HPP) 漏洞",
+              "key": "HTTP_Parameter_Pollution.script",
+              "title": "HTTP 参数污染"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Password Reset Poisoning 漏洞",
+              "key": "Host_Based_Attack_Reset_Password.script",
+              "title": "Password Reset Poisoning"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Lightweight 目录访问协议 (LDAP) 注入漏洞",
+              "key": "LDAP_Injection.script",
+              "title": "LDAP 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在因 Web 应用程序处理极长的密码（数千个字符）而导致的拒绝服务 (DoS) 漏洞",
+              "key": "Long_Password_Denial_of_Service.script",
+              "title": "长密码 DoS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 MongoDB 注入漏洞",
+              "key": "MongoDB_Injection.script",
+              "title": "MongoDB 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在服务器端 JavaScript 注入漏洞",
+              "key": "NodeJs_Injection.script",
+              "title": "服务器端 JavaScript 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 PHP 代码注入漏洞",
+              "key": "PHP_Code_Injection.script",
+              "title": "PHP 代码注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails 代码注入漏洞",
+              "key": "RubyOnRails_Code_Injection.script",
+              "title": "Ruby on Rails 代码注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Perl 代码注入漏洞",
+              "key": "Perl_Code_Injection.script",
+              "title": "Perl 代码注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 PHP 是否存在用户控制的漏洞",
+              "key": "PHP_User_Controlled_Vulns.script",
+              "title": "用户控制的 PHP 漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails (RoR) 应用程序中是否存在不安全的批量分配",
+              "key": "Rails_Mass_Assignment.script",
+              "title": "Ruby on Rails (RoR) 不安全的批量分配"
+            },
+            {
+              "checks": null,
+              "description": "使用有效记录在 Ruby on Rails web 应用程序中测试是否存在利用 WHERE 子句的 SQL 注入漏洞",
+              "key": "Rails_Where_SQL_Injection.script",
+              "title": "Ruby on Rails (RoR) 有效记录 WHERE 子句 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails (RoR) web 应用程序的“渲染”方式中是否存在远程代码执行 (RCE)",
+              "key": "Rails_render_inline_RCE.script",
+              "title": "Ruby on Rails (RoR) 渲染内联 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在远程文件包含跨站点脚本 (XSS) 漏洞",
+              "key": "Remote_File_Inclusion_XSS.script",
+              "title": "远程文件包含 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在源代码泄露漏洞",
+              "key": "Script_Source_Code_Disclosure.script",
+              "title": "源代码披露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在服务器端请求伪造 (SSRF) 漏洞",
+              "key": "Server_Side_Request_Forgery.script",
+              "title": "服务器端请求伪造"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SQL 注入漏洞",
+              "key": "Sql_Injection.script",
+              "title": "SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 REST 中是否存在远程代码执行漏洞",
+              "key": "Struts_RCE_S2-053_CVE-2017-12611.script",
+              "title": "Apache Struts2 远程命令执行 (S2-053)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts 2.0.29 中是否存在各种远程代码执行 (RCE) 漏洞",
+              "key": "Struts_RCE_S2_029.script",
+              "title": "Apache Struts 2.0.29 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试未生效的用户输入上 PHP 函数 preg_replace() 的使用",
+              "key": "Unsafe_preg_replace.script",
+              "title": "不安全的 preg_replace()"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在跨框架脚本 (XFS) 和 URL 重定向漏洞，通常用于网络钓鱼攻击",
+              "key": "XFS_and_Redir.script",
+              "title": "XFS 和 Redir"
+            },
+            {
+              "checks": null,
+              "description": "测试输入计划上是否存在 XML 外部实体 (XXE) 和 XML 注入攻击",
+              "key": "XML_External_Entity_Injection.script",
+              "title": "XML 外部实体注入 (XXE)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 XPath 注入漏洞",
+              "key": "XPath_Injection.script",
+              "title": "XPath 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在跨站点脚本漏洞",
+              "key": "XSS.script",
+              "title": "跨站脚本 (XSS)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Edge Side Include 注入漏洞",
+              "key": "ESI_Injection.script",
+              "title": "Edge Side Include 注入（ESI 注入）"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Java 对象反序列化漏洞",
+              "key": "Java_Deserialization.script",
+              "title": "Java 对象反序列化"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序是否容易受到用户输入的 Python pickle 反序列化的攻击",
+              "key": "Pickle_Serialization.script",
+              "title": "Python pickle 序列化"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序是否容易受到 Python 代码注入的攻击",
+              "key": "Python_Code_Injection.script",
+              "title": "Python 代码注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序是否容易受到参数注入的攻击",
+              "key": "Argument_Injection.script",
+              "title": "参数注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 .NET BinaryFormatter 对象反序列化漏洞",
+              "key": "DotNet_BinaryFormatter_Deserialization.script",
+              "title": ".NET BinaryFormatter 反序列化"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Apache Solr 参数注入",
+              "key": "Apache_Solr_Parameter_Injection.script",
+              "title": "Apache Solr 参数注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 cmd.exe 中是否存在命令/参数与路径遍历混淆",
+              "key": "Cmd_Hijack_Windows.script",
+              "title": "Cmd 劫持漏洞"
+            },
+            {
+              "checks": null,
+              "description": "Tests for common misconfigurations related to JWT",
+              "key": "JWT_Param_Audit.script",
+              "title": "JWT audit (in params)"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the web application is vulnerable to Apache Log4j RCE",
+              "key": "Apache_Log4j_RCE.script",
+              "title": "Apache Log4j RCE"
+            }
+          ],
+          "description": "在输入方案上运行测试",
+          "key": "PerScheme",
+          "title": "输入方案测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试 Apache Tomcat AJP 协议中是否存在已知漏洞",
+              "key": "AJP_Audit.script",
+              "title": "Apache Tomcat AJP 协议审核"
+            },
+            {
+              "checks": null,
+              "description": "通过请求可生成 ASP.NET 错误消息的特制 URL，测试是否存在 ASP.NET 错误消息",
+              "key": "ASP_NET_Error_Message.script",
+              "title": "ASP.NET 错误页面"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Microsoft ASP.NET Forms 身份验证绕过漏洞",
+              "key": "ASP_NET_Forms_Authentication_Bypass.script",
+              "title": "ASP.NET Forms 身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Axis2 中是否存在已知漏洞",
+              "key": "Apache_Axis2_Audit.script",
+              "title": "Apache Axis2 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Apache Geronimo 管理控制台的默认凭据",
+              "key": "Apache_Geronimo_Default_Administrative_Credentials.script",
+              "title": "Apache Geronimo 默认凭据审核"
+            },
+            {
+              "checks": null,
+              "description": "检查是否在 Apache HTTP 服务器上启用了 HTTP CONNECT 方法",
+              "key": "Apache_Proxy_CONNECT_Enabled.script",
+              "title": "Apache HTTP Server CONNECT 方法已启用"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Roller 中是否存在已知漏洞",
+              "key": "Apache_Roller_Audit.script",
+              "title": "Apache Roller 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 是否作为开放代理运行",
+              "key": "Apache_Running_As_Proxy.script",
+              "title": "Apache HTTP Server 作为代理运行"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 上是否启用了 mod_info，这可能暴露敏感信息",
+              "key": "Apache_Server_Information.script",
+              "title": "Apache HTTP Server mod_info 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Solr 服务管理页面是否可访问，这可能暴露敏感信息",
+              "key": "Apache_Solr_Exposed.script",
+              "title": "可访问 Apache Solr 管理"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 中是否存在已知的未经过滤报头注入，这将允许攻击者通过 \\\"Expect\\\" 报头注入 HTML",
+              "key": "Apache_Unfiltered_Expect_Header_Injection.script",
+              "title": "Apache HTTP Server 未过滤的 expect 报头注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 上是否存在通过格式错误的 HTTP 请求的进行的跨站点脚本",
+              "key": "Apache_XSS_via_Malformed_Method.script",
+              "title": "通过格式错误的 HTTP 请求的 Apache HTTP Server XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 中是否存在 HttpOnly cookie 泄露",
+              "key": "Apache_httpOnly_Cookie_Disclosure.script",
+              "title": "Apache HTTP Server HttpOnly cookie 泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server mod_negotiation 模块是否容易受到文件名暴力破解的攻击，这可能暴露敏感信息",
+              "key": "Apache_mod_negotiation_Filename_Bruteforcing.script",
+              "title": "Apache mod_negotiation 文件名暴力破解"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails 中 Action Pack 中是否存在任意文件泄露",
+              "key": "Arbitrary_file_existence_disclosure_in_Action_Pack.script",
+              "title": "Ruby on Rails Action Pack 任意文件泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试容易受到目录穿越攻击的多个 Barracuda 产品",
+              "key": "Barracuda_locale_Directory_Traversal.script",
+              "title": "Barracuda 多产品“区域设置”目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试远程主机上是否存在 Bash 远程代码执行 (Shellshock)",
+              "key": "Bash_RCE_Server_Audit.script",
+              "title": "Bash 远程代码执行 (ShellShock) 服务器审核"
+            },
+            {
+              "checks": null,
+              "description": "测试远程主机上是否存在 CRLF 注入（HTTP 响应拆分）漏洞",
+              "key": "CRLF_Injection_PerServer.script",
+              "title": "CRLF 注入（HTTP 响应拆分）服务器审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Adobe ColdFusion 中是否存在已知漏洞",
+              "key": "ColdFusion_Audit.script",
+              "title": "Adobe ColdFusion 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Adobe ColdFusion 中是否存在用户代理跨站点脚本 (XSS) 漏洞",
+              "key": "ColdFusion_User_Agent_XSS.script",
+              "title": "ColdFusion 用户代理 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试 ColdFusion FCKEditor 中是否存在文件上传漏洞",
+              "key": "ColdFusion_v8_File_Upload.script",
+              "title": "Adobe ColdFusion FCKEditor 文件上传"
+            },
+            {
+              "checks": null,
+              "description": "测试 ColdFusion Solr 服务中是否存在信息泄露漏洞",
+              "key": "ColdFusion_v9_Solr_Exposed.script",
+              "title": "Adobe ColdFusion Solr 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "在远程主机上搜索核心转储（内存转储）文件",
+              "key": "CoreDumpCheck.script",
+              "title": "核心转储（内存转储）搜索服务器审核"
+            },
+            {
+              "checks": null,
+              "description": "在远程主机上搜索数据库备份",
+              "key": "Database_Backup.script",
+              "title": "数据库备份"
+            },
+            {
+              "checks": null,
+              "description": "测试 Django 应用程序中是否存在弱密码",
+              "key": "Django_Admin_Weak_Password.script",
+              "title": "Django 管理员弱密码审核"
+            },
+            {
+              "checks": null,
+              "description": "通过请求不存在的页面测试是否存在错误页面路径泄露",
+              "key": "Error_Page_Path_Disclosure.script",
+              "title": "错误页面路径泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 Flask 应用程序是否处于调试模式",
+              "key": "Flask_Debug_Mode.script",
+              "title": "Flask 调试模式已启用"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft FrontPage 服务器扩展是否启用",
+              "key": "Frontpage_Extensions_Enabled.script",
+              "title": "Microsoft FrontPage 服务器扩展已启用"
+            },
+            {
+              "checks": null,
+              "description": "测试网页中是否存在 Microsoft FrontPage 配置信息",
+              "key": "Frontpage_Information.script",
+              "title": "Microsoft FrontPage 信息"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft FrontPage \\\"authors.pwd\\\" 文件是否可用",
+              "key": "Frontpage_authors_pwd.script",
+              "title": "Microsoft FrontPage authors.pwd"
+            },
+            {
+              "checks": null,
+              "description": "测试 Oracle GlassFish Server 中是否存在目录穿越",
+              "key": "GlassFish_41_Directory_Traversal.script",
+              "title": "Oracle GlassFish Server 目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试 Oracle GlassFish Server 中是否存在已知漏洞",
+              "key": "GlassFish_Audit.script",
+              "title": "Oracle GlassFish Server 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在公开的 Hadoop 群集 Web 界面",
+              "key": "Hadoop_Cluster_Web_Interface.script",
+              "title": "Hadoop 群集 Web 界面"
+            },
+            {
+              "checks": null,
+              "description": "测试 Horde IMP Webmail 中是否存在已知漏洞",
+              "key": "Horde_IMP_Webmail_Exploit.script",
+              "title": "Horde IMP Webmail 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 IBM Web Content Manager 中是否存在 XPath 注入漏洞",
+              "key": "IBM_WCM_XPath_Injection.script",
+              "title": "IBM Web Content Manager XPath 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 IBM WebSphere 中是否存在已知漏洞",
+              "key": "IBM_WebSphere_Audit.script",
+              "title": "IBM WebSphere 审核"
+            },
+            {
+              "checks": null,
+              "description": "搜索 ASP Global.asa 的备份",
+              "key": "IIS_Global_Asa.script",
+              "title": "ASP Global.asa"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft IIS 在 Content-location HTTP 响应报头中返回的 IP 地址是否含有静态资源",
+              "key": "IIS_Internal_IP_Address.script",
+              "title": "IIS 内部 IP 地址"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft IIS 中是否存在延长的 Unicode 目录穿越",
+              "key": "IIS_Unicode_Directory_Traversal.script",
+              "title": "Microsoft IIS Unicode 目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "搜索公开的 Microsoft IIS 服务配置",
+              "key": "IIS_service_cnf.script",
+              "title": "配置的 Microsoft IIS 服务已公开"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft IIS 中是否存在 NTLM 和 HTTP 基本身份验证绕过",
+              "key": "IIS_v5_NTML_Basic_Auth_Bypass.script",
+              "title": "Microsoft IIS NTLM 和 HTTP 基本身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ironcube Loader Wizard 中是否存在已知漏洞",
+              "key": "Ioncube_Loader_Wizard.script",
+              "title": "Ioncube Loader Wizard"
+            },
+            {
+              "checks": null,
+              "description": "测试 Red Hat JBoss 中是否存在已知漏洞",
+              "key": "JBoss_Audit.script",
+              "title": "Red Hat JBoss 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 JBoss Status Servlet 中是否存在敏感信息泄露漏洞",
+              "key": "JBoss_Status_Servlet_Information_Leak.script",
+              "title": "JBoss 状态 Servlet 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在公开的 JBoss web 服务控制台",
+              "key": "JBoss_Web_Service_Console.script",
+              "title": "JBoss Web 服务控制台"
+            },
+            {
+              "checks": null,
+              "description": "检查 Java 管理扩展（Java Management Extensions，JMX）和 Java 远程方法调用（Remote Method Invocation，RMI）服务是否正在运行",
+              "key": "JMX_RMI_service.script",
+              "title": "JMX 和 RMI 服务审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否将基于 Java 的 Web 服务器中的常见文件和目录添加到爬取程序以进行索引（如果找到）",
+              "key": "Java_Application_Servers_Fuzz.script",
+              "title": "Java 应用程序服务器模糊处理"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Java 调试线协议（Java Debug Wire Protocol，JDWP）",
+              "key": "Java_Debug_Wire_Protocol_Audit.script",
+              "title": "Java 调试线协议（Java Debug Wire Protocol，JDWP）审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Jetty 中是否存在已知漏洞",
+              "key": "Jetty_Audit.script",
+              "title": "Jetty 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 IBM Domino Web Server 中是否存在已知漏洞",
+              "key": "Lotus_Domino_crlf_xss.script",
+              "title": "IBM Domino 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Misfortune Cookie 漏洞，该漏洞允许远程互联网路由器接管",
+              "key": "Misfortune_Cookie.script",
+              "title": "Misfortune Cookie"
+            },
+            {
+              "checks": null,
+              "description": "测试远程主机上是否存在在外部网络界面上打开的 MongoDB web 界面",
+              "key": "MongoDB_Audit.script",
+              "title": "MongoDB 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Movable Type 中是否存在远程代码执行漏洞",
+              "key": "Movable_Type_4_RCE.script",
+              "title": "Movable Type RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在通过文件上传进行的 Nginx PHP FastCGI 远程代码执行 (RCE)",
+              "key": "Nginx_PHP_FastCGI_Code_Execution_File_Upload.script",
+              "title": "因文件上传产生的 Nginx PHP FastCGI RCE"
+            },
+            {
+              "checks": null,
+              "description": "搜索可公开访问的 Oracle SQL*Net 和 Oracle Net Listener 日志文件",
+              "key": "Oracle_Application_Logs.script",
+              "title": "Oracle 应用程序日志"
+            },
+            {
+              "checks": null,
+              "description": "测试 Oracle Reports 中是否存在已知漏洞",
+              "key": "Oracle_Reports_Audit.script",
+              "title": "Oracle 报告审核"
+            },
+            {
+              "checks": null,
+              "description": "当在基于 CGI 的设置（如 Apache HTTP Server 的 mod_cgid）中使用 PHP 时，测试是否存在通过强制重定向进行的 PHP-CGI 远程执行代码",
+              "key": "PHP_CGI_RCE_Force_Redirect.script",
+              "title": "PHP CGI RCE 强制重定向"
+            },
+            {
+              "checks": null,
+              "description": "测试 PHP 中是否存在 Hash Collision 拒绝服务 (DoS) 漏洞",
+              "key": "PHP_Hash_Collision_Denial_Of_Service.script",
+              "title": "PHP Hash Collision 拒绝服务"
+            },
+            {
+              "checks": null,
+              "description": "测试 Plesk 中是否存在已知漏洞",
+              "key": "Parallels_Plesk_Audit.script",
+              "title": "Plesk 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Plesk 中是否存在 SQL 注入",
+              "key": "Plesk_Agent_SQL_Injection.script",
+              "title": "Plesk 代理 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试文件 Plesk 中是否存在 XML 外部实体 (XXE) 漏洞",
+              "key": "Plesk_SSO_XXE.script",
+              "title": "Plesk 单点登录 SO XXE"
+            },
+            {
+              "checks": null,
+              "description": "当在 Zope 上运行时，测试 Plone 中是否存在远程代码执行",
+              "key": "Plone&Zope_Remote_Command_Execution.script",
+              "title": "Plone 远程代码执行"
+            },
+            {
+              "checks": null,
+              "description": "测试 Pyramid 应用程序是否处于调试模式",
+              "key": "Pyramid_Debug_Mode.script",
+              "title": "Pyramid 调试模式已启用"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ralio ColdFusion markup language (CFML) 引擎中是否存在已知漏洞",
+              "key": "Railo_Audit.script",
+              "title": "Railo 审核"
+            },
+            {
+              "checks": null,
+              "description": "运行各种启发式测试以查找用户注册页面，并将其传递给爬取程序",
+              "key": "Registration_Page.script",
+              "title": "注册页面"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache HTTP Server 的 mod_proxy 模块中是否存在反向代理绕过",
+              "key": "Reverse_Proxy_Bypass.script",
+              "title": "反向代理绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在可能暴露敏感信息的 Ruby on Rails 数据库文件。此漏洞可能导致信息泄露",
+              "key": "RubyOnRails_Database_File.script",
+              "title": "Ruby on Rails (RoR) 数据库文件"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在常见的 TLS/SSL 漏洞配置错误",
+              "key": "SSL_Audit.script",
+              "title": "TLS/SSL 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在可能导致相同站点脚本的常见 DNS 配置错误",
+              "key": "Same_Site_Scripting.script",
+              "title": "相同站点脚本"
+            },
+            {
+              "checks": null,
+              "description": "测试 Snoop servlet 是否正在运行，这可能暴露敏感信息",
+              "key": "Snoop_Servlet.script",
+              "title": "Snoop servlet"
+            },
+            {
+              "checks": null,
+              "description": "测试内置 Spring Boot Actuator 端点是否会暴露应用程序健康状况信息",
+              "key": "Spring_Boot_Actuator.script",
+              "title": "Spring Boot Actuator 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在已取消或已过期的指向外部服务的子域，攻击者可能通过申请接管这些子域",
+              "key": "Subdomain_Takeover.script",
+              "title": "恶意子域接管"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Tomcat 中是否存在已知漏洞",
+              "key": "Tomcat_Audit.script",
+              "title": "Apache Tomcat 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在不安全的 Apache Tomcat 默认管理凭据",
+              "key": "Tomcat_Default_Credentials.script",
+              "title": "Apache Tomcat 默认凭据"
+            },
+            {
+              "checks": null,
+              "description": "搜索 Apache Tomcat 示例应用程序",
+              "key": "Tomcat_Examples.script",
+              "title": "Apache Tomcat 示例"
+            },
+            {
+              "checks": null,
+              "description": "测试作为文档的一部分安装的 Apache Tomcat 的 \\\"Hello.jsp\\\" 文件中是否存在跨站点脚本 (XSS) 漏洞",
+              "key": "Tomcat_Hello_JSP_XSS.script",
+              "title": "Apache Tomcat Hello.jsp XSS"
+            },
+            {
+              "checks": null,
+              "description": "搜索 Apache Tomcat 状态页面，这可能暴露有关当前服务器状态的信息，包括内存状态、线程信息和最近请求列表",
+              "key": "Tomcat_Status_Page.script",
+              "title": "Apache Tomcat 状态页面"
+            },
+            {
+              "checks": null,
+              "description": "测试 Tornado 应用程序是否处于调试模式",
+              "key": "Tornado_Debug_Mode.script",
+              "title": "Tornado 调试模式已启用"
+            },
+            {
+              "checks": null,
+              "description": "检查是否在 Web 服务器上启用了 HTTP TRACK 和 TRACE 方法",
+              "key": "Track_Trace_Server_Methods.script",
+              "title": "TRACK 和 TRACE 方法已启用"
+            },
+            {
+              "checks": null,
+              "description": "搜索公开的 phpMyAdmin 界面",
+              "key": "Unprotected_phpMyAdmin_Interface.script",
+              "title": "公开的 phpMyAdmin 接口"
+            },
+            {
+              "checks": null,
+              "description": "在多个 VMWare 产品中测试是否存在目录穿越和特权提升漏洞",
+              "key": "VMWare_Directory_Traversal.script",
+              "title": "VMWare（多个产品）目录穿越特权提升"
+            },
+            {
+              "checks": null,
+              "description": "测试各种 Web 服务器是否存在已知漏洞",
+              "key": "Version_Check.script",
+              "title": "已知 Web 服务器漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在内部 VirtualHosts",
+              "key": "VirtualHost_Audit.script",
+              "title": "VirtualHost 审核"
+            },
+            {
+              "checks": null,
+              "description": "检测在服务器上运行的 Web 应用防火墙 (WAF)",
+              "key": "WAF_Detection.script",
+              "title": "WAF 检测"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 WEBrick 1.3 目录穿越漏洞",
+              "key": "WEBrick_Directory_Traversal.script",
+              "title": "WEBrick 目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Tomcat 上是否存在 /WEB-INF/web.xml 的备份或临时配置文件",
+              "key": "WebInfWebXML_Audit.script",
+              "title": "Apache Tomcat /WEB-INF/web.xml 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Oracle WebLogic Server 中是否存在已知漏洞",
+              "key": "WebLogic_Audit.script",
+              "title": "Oracle WebLogic Server 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Web 服务器默认欢迎页面。此类页面可能暴露敏感信息并导致信息泄露",
+              "key": "Web_Server_Default_Welcome_Page.script",
+              "title": "Web 服务器默认欢迎页面"
+            },
+            {
+              "checks": null,
+              "description": "搜索公开的 web 统计信息脚本，如 Web 服务器上的 AWStats",
+              "key": "Web_Statistics.script",
+              "title": "Web 统计信息搜索"
+            },
+            {
+              "checks": null,
+              "description": "在多个 Adobe 产品中测试是否存在 XML 外部实体 (XXE) 和 XML 注入漏洞",
+              "key": "XML_External_Entity_Injection_Server.script",
+              "title": "Adobe（多个产品）XXE"
+            },
+            {
+              "checks": null,
+              "description": "搜索公开的 Zend Framework 配置文件",
+              "key": "Zend_Framework_Config_File.script",
+              "title": "Zend Framework 配置文件已公开"
+            },
+            {
+              "checks": null,
+              "description": "测试 ElasticSearch 中是否存在已知漏洞",
+              "key": "elasticsearch_Audit.script",
+              "title": "ElasticSearch 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 ASP.NET ELMAH（错误日志模块和处理程序）库中是否存在 elmah.axd 信息泄露",
+              "key": "elmah_Information_Disclosure.script",
+              "title": "ASP.NET ELMAH 库信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 Lighttpd 中是否存在已知 SQL 注入漏洞",
+              "key": "lighttpd_v1434_Sql_Injection.script",
+              "title": "Lighttpd SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft SharePoint 中是否存在跨站点脚本漏洞",
+              "key": "ms12-050.script",
+              "title": "Microsoft SharePoint XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试 phpMoAdmin 是否存在远程代码执行 (RCE) 漏洞",
+              "key": "phpMoAdmin_Remote_Code_Execution.script",
+              "title": "phpMoAdmin RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Oracle Weblogic WLS-WSAT 组件反序列化 RCE 漏洞",
+              "key": "Weblogic_wls-wsat_RCE.script",
+              "title": "Oracle Weblogic WLS-WSAT 组件反序列化 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 PHPUnit RCE (CVE-2017-9841) 漏洞",
+              "key": "phpunit_RCE_CVE-2017-9841.script",
+              "title": "PHPUnit RCE (CVE-2017-9841)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在影响多个 Atlassian 产品的 SSRF（服务器端请求伪造）漏洞",
+              "key": "Atlassian_OAuth_Plugin_IconUriServlet_SSRF.script",
+              "title": "Atlassian OAuth 插件 IconUriServlet SSRF"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 PHP-FPM (FastCGI Process Manager) 状态页面",
+              "key": "PHP_FPM_Status_Page.script",
+              "title": "PHP-FPM 状态页面"
+            },
+            {
+              "checks": null,
+              "description": "查找泄露环境变量的通用测试 CGI 脚本",
+              "key": "Test_CGI_Script.script",
+              "title": "测试 CGI 脚本"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Cisco ASA 路径遍历 (CVE-2018-0296)",
+              "key": "Cisco_ASA_Path_Traversal_CVE-2018-0296.script",
+              "title": "测试是否存在 Cisco ASA 路径遍历"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 JBoss 远程代码执行 (CVE-2015-7501)",
+              "key": "JBoss_RCE_CVE-2015-7501.script",
+              "title": "JBoss 远程代码执行 (CVE-2015-7501)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 JBoss 远程代码执行 (CVE-2017-7504)",
+              "key": "JBoss_RCE_CVE-2017-7504.script",
+              "title": "JBoss 远程代码执行 (CVE-2017-7504)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 WebSphere 远程代码执行 (CVE-2015-7450)",
+              "key": "WebSphere_RCE_CVE-2015-7450.script",
+              "title": "WebSphere 远程代码执行 (CVE-2015-7450)"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Liferay TunnelServlet 反序列化远程代码执行",
+              "key": "Liferay_RCE_tra-2017-01.script",
+              "title": "Liferay TunnelServlet 反序列化 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Liferay XMLRPC 盲服务器端请求伪造",
+              "key": "Liferay_Xmlrpc_SSRF.script",
+              "title": "Liferay XMLRPC Blind SSRF"
+            },
+            {
+              "checks": null,
+              "description": "测试 Spring Security OAuth 中是否存在远程代码执行 (RCE) (CVE-2016-4977)",
+              "key": "Spring_RCE_CVE-2016-4977.script",
+              "title": "Spring Security OAuth RCE"
+            }
+          ],
+          "description": "在扫描开始时运行测试",
+          "key": "PerServer",
+          "title": "服务器测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试 Apache Flex 中是否存在已知漏洞",
+              "key": "Adobe_Flex_Audit.script",
+              "title": "Apache Flex 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序使用的公开 Amazon S3 Bucket 是否已启用目录列表，这可能暴露敏感信息",
+              "key": "Amazon_S3_Buckets_Audit.script",
+              "title": "Amazon S3 Buckets 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试对 Apache HTTP Server 内容协商 (Multiviews) 功能的滥用，以发现 Apache HTTP Server 上的新文件，这可能会暴露敏感信息",
+              "key": "Apache_CN_Discover_New_Files.script",
+              "title": "Apache HTTP Server 内容协商文件发现"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序使用的公开 Microsoft Azure Blob 是否已启用目录列表，这可能暴露敏感信息",
+              "key": "Azure_Blobs_Audit.script",
+              "title": "Microsoft Azure Blobs 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 CKEditor 中是否存在已知漏洞",
+              "key": "CKEditor_Audit.script",
+              "title": "CKEditor 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 CakePHP 是否存在已知漏洞",
+              "key": "CakePHP_Audit.script",
+              "title": "CakePHP 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试远程主机上的配置文件中是否存在信息泄露",
+              "key": "Config_File_Disclosure.script",
+              "title": "配置文件泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ext JS 的示例中是否存在已知漏洞",
+              "key": "ExtJS_Examples_Arbitrary_File_Read.script",
+              "title": "Ext JS 示例任意文件读取"
+            },
+            {
+              "checks": null,
+              "description": "测试 FCKeditor 中是否存在已知漏洞",
+              "key": "FCKEditor_Audit.script",
+              "title": "FCKEditor 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Google Web Toolkit 中是否存在已知漏洞",
+              "key": "GWT_Audit.script",
+              "title": "Google Web Toolkit (GWT) 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Genericons webfont 中是否存在已知漏洞",
+              "key": "Genericons_Audit.script",
+              "title": "Genericons 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Host 报头攻击漏洞",
+              "key": "Host_Header_Attack.script",
+              "title": "主机报头攻击"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft IIS 中是否存在波状目录枚举",
+              "key": "IIS_Tilde_Dir_Enumeration.script",
+              "title": "Microsoft IIS 波状目录枚举"
+            },
+            {
+              "checks": null,
+              "description": "测试 Java EE 中是否存在已知漏洞",
+              "key": "J2EE_Audit.script",
+              "title": "Java EE 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Java 身份验证和授权服务 (JAAS) 中是否存在身份验证绕过漏洞",
+              "key": "JAAS_Authentication_Bypass.script",
+              "title": "JAAS 身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 JBoss Seam 中是否存在已知漏洞",
+              "key": "JBoss_Seam_Remoting.script",
+              "title": "JBoss Seam 框架远程处理"
+            },
+            {
+              "checks": null,
+              "description": "测试 JBoss Seam 框架中是否存在远程代码执行漏洞",
+              "key": "JBoss_Seam_actionOutcome.script",
+              "title": "JBoss Seam 框架"
+            },
+            {
+              "checks": null,
+              "description": "测试 JSP 页面上是否存在 HTTP 基本身份验证绕过漏洞",
+              "key": "JSP_Authentication_Bypass.script",
+              "title": "JSP 身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Microsoft Windows HTTP.sys 远程代码执行 (RCE) 漏洞 (MS15-034)",
+              "key": "MS15-034.script",
+              "title": "Microsoft Windows HTTP.sys RCE (MS15-034)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Minify（一个 PHP JavaScript 和 CSS 压缩服务器）中是否存在已知漏洞",
+              "key": "Minify_Audit.script",
+              "title": "Minify 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Open Flash Chart 中是否存在不受限制的文件上传漏洞",
+              "key": "OFC_Upload_Image_Audit.script",
+              "title": "Open Flash Chart 未受限制的文件上传"
+            },
+            {
+              "checks": null,
+              "description": "测试 Oracle 的 Java  Server Faces 2 实现中是否存在目录穿越漏洞",
+              "key": "Oracle_JSF2_Path_Traversal.script",
+              "title": "Oracle Java Server Faces 2 目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "当在基于 CGI 的设置（如 Apache HTTP Server 的 mod_cgid）中使用 PHP 时，测试是否存在 PHP-CGI 远程执行代码",
+              "key": "PHP_CGI_RCE.script",
+              "title": "PHP CGI RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 PrimeFaces 中是否存在表达式语言注 (EL) 注入",
+              "key": "PrimeFaces5_EL_Injection.script",
+              "title": "PrimeFaces EL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails (RoR) 中是否存在已知漏洞",
+              "key": "Rails_Audit.script",
+              "title": "Ruby on Rails (RoR) 审核"
+            },
+            {
+              "checks": null,
+              "description": "搜索 Ruby on Rails (RoR) Web 应用程序中常见的路由，包括包含隐藏操作的路由",
+              "key": "Rails_Audit_Routes.script",
+              "title": "Ruby on Rails (RoR) 路由审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ruby on Rails (RoR) Devise 身份验证框架中是否存在任意密码重置漏洞和弱密码",
+              "key": "Rails_Devise_Authentication_Password_Reset.script",
+              "title": "Ruby on Rails (RoR) Devise 身份验证密码重置"
+            },
+            {
+              "checks": null,
+              "description": "测试是否使用弱/已知密钥令牌来签发应用程序在 Ruby on Rails (RoR) web 应用程序中设置的 cookie",
+              "key": "Rails_Weak_secret_token.script",
+              "title": "Ruby on Rails (RoR) Rails 弱密钥令牌"
+            },
+            {
+              "checks": null,
+              "description": "检查是否已配置 Web 服务器来显示目录中包含的文件列表",
+              "key": "Server_Directory_Listing.script",
+              "title": "服务器目录列表"
+            },
+            {
+              "checks": null,
+              "description": "测试爬取结构中是否存在目录穿越漏洞",
+              "key": "Server_Directory_Traversal.script",
+              "title": "目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在源代码泄露漏洞",
+              "key": "Server_Source_Code_Disclosure.script",
+              "title": "服务器源代码泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在会话固定漏洞",
+              "key": "Session_Fixation.script",
+              "title": "会话固定"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft SharePoint 中是否存在已知漏洞",
+              "key": "SharePoint_Audit.script",
+              "title": "SharePoint 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 (S2-020) 的默认上传机制中是否存在拒绝服务 (DoS) 漏洞",
+              "key": "Struts2_ClassLoader_Manipulation.script",
+              "title": "Apache Struts2 ClassLoader manipulation DoS (S2-020)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 (S2-021) 的默认上传机制中是否存在拒绝服务 (DoS) 漏洞",
+              "key": "Struts2_ClassLoader_Manipulation2.script",
+              "title": "Apache Struts2 ClassLoader manipulation DoS (S2-021)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 开发模式是否启用",
+              "key": "Struts2_Development_Mode.script",
+              "title": "Apache Struts2 开发模式"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 中是否存在对象图导航语言 (OGNL) 表达式注入漏洞，这可能导致远程代码执行 (RCE)",
+              "key": "Struts2_Remote_Code_Execution.script",
+              "title": "Apache Struts2 OGNL 注入 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts 2.0.14 中是否存在各种远程代码执行 (RCE) 漏洞",
+              "key": "Struts2_Remote_Code_Execution_S2014.script",
+              "title": "Apache Struts 2.0.14 RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 中是否存在远程命令执行漏洞",
+              "key": "Struts2_Remote_Code_Execution_S2045.script",
+              "title": "Apache Struts2 远程命令执行 (S2-045)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 Showcase 中是否存在远程代码执行漏洞",
+              "key": "Struts2_Remote_Code_Execution_S2048.script",
+              "title": "Apache Struts2 远程代码执行 (S2-048)"
+            },
+            {
+              "checks": null,
+              "description": "测试 Apache Struts2 REST 中是否存在远程代码执行漏洞",
+              "key": "Struts_RCE_S2-052_CVE-2017-9805.script",
+              "title": "Apache Struts2 远程命令执行 (S2-052)"
+            },
+            {
+              "checks": null,
+              "description": "测试 TimThumb 中是否存在远程代码执行，TimThumb 是一种广泛使用的用于图像处理的 PHP 脚本",
+              "key": "Timthumb_Audit.script",
+              "title": "Timthumb 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 TineMCE 库中是否存在已知漏洞",
+              "key": "Tiny_MCE_Audit.script",
+              "title": "Tiny MCE 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Uploadify jQuery 插件中是否存在已知漏洞",
+              "key": "Uploadify_Audit.script",
+              "title": "Uploadify jQuery 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "搜索用于描述 RESTful web 服务的 WADL 文件，并测试所发现的任何输入中是否存在漏洞",
+              "key": "WADL_Files.script",
+              "title": "WADL 文件"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在运行的 WebDAV 服务和相关漏洞，如通过 WebDAV PROPFIND 方法进行的 XXE",
+              "key": "WebDAV_Audit.script",
+              "title": "WebDAV 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 XML Quadratic Blowup 拒绝服务 (DoS) 漏洞",
+              "key": "XML_Quadratic_Blowup_Attack.script",
+              "title": "XML Quadratic Blowup DoS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在使用各种内部 X-Forwarded-For 报头绕过身份验证以访问管理界面",
+              "key": "X_Forwarded_For.script",
+              "title": "X-Forwarded-For 报头身份验证绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 Zend Framework 中是否存在通过 XML 外部实体 (XXE) 进行的本地文件包含 (LFI)",
+              "key": "Zend_Framework_LFI_via_XXE.script",
+              "title": "通过 XXE 的 Zend Framework LFI"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在可导致报头注入的 Nginx 配置错误",
+              "key": "nginx-redir-headerinjection.script",
+              "title": "Nginx 重定向报头注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在默认 phpLiteAdmin 凭据",
+              "key": "phpLiteAdmin_Audit.script",
+              "title": "phpLiteAdmin 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在已知 phpThumb() 漏洞",
+              "key": "phpThumb_Audit.script",
+              "title": "phpThumb() 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试用于生成 PDF 文档的 TCPDF PHP 类中是否存在已知漏洞",
+              "key": "tcpdf_Audit.script",
+              "title": "TCPDF 审核"
+            }
+          ],
+          "description": "在爬取会话结束时运行测试",
+          "key": "PostCrawl",
+          "title": "结构测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "测试 webmail 应用程序是否在远程主机上使用弱密码",
+              "key": "10-Webmail_Audit.script",
+              "title": "Webmail 密码审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储跨站点脚本 (XSS) 漏洞",
+              "key": "2-Stored_XSS.script",
+              "title": "存储的 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储 SQL 注入漏洞",
+              "key": "3-Stored_SQL_Injection.script",
+              "title": "存储的 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储文件包含漏洞",
+              "key": "4-Stored_File_Inclusion.script",
+              "title": "存储的文件包含"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储目录穿越漏洞",
+              "key": "5-Stored_Directory_Traversal.script",
+              "title": "存储的目录穿越"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储代码执行漏洞",
+              "key": "6-Stored_Code_Execution.script",
+              "title": "存储的代码执行"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储文件篡改漏洞",
+              "key": "7-Stored_File_Tampering.script",
+              "title": "存储的文件篡改"
+            },
+            {
+              "checks": null,
+              "description": "测试是否已存储 PHP 代码执行漏洞",
+              "key": "8-Stored_PHP_Code_Execution.script",
+              "title": "存储的 PHP 代码执行"
+            },
+            {
+              "checks": null,
+              "description": "测试在远程主机上运行的多个 Web 服务器",
+              "key": "9-Multiple_Web_Servers.script",
+              "title": "多个 web 服务器"
+            }
+          ],
+          "description": "在扫描完成后运行测试",
+          "key": "PostScan",
+          "title": "扫描后测试"
+        },
+        {
+          "checks": [
+            {
+              "checks": null,
+              "description": "没有描述",
+              "key": "CMSMS.script",
+              "title": "CMS Made Simple 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 CodeIgniter Web 框架中是否存在已知漏洞",
+              "key": "codeigniter.script",
+              "title": "CodeIgniter Web 框架审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Atlassian Confluence 中是否存在已知漏洞",
+              "key": "confluence.script",
+              "title": "Atlassian Confluence 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 DNN (DotNetNuke) 中是否存在已知漏洞",
+              "key": "dotnetnuke.script",
+              "title": "DNN (DotNetNuke) 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal 中是否存在已知漏洞",
+              "key": "drupal.script",
+              "title": "Drupal 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal 中是否存在 PHP 远程代码执行 (RCE) 和信息泄露漏洞",
+              "key": "drupal_1.script",
+              "title": "Drupal RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal Views 模块中是否存在信息泄露漏洞",
+              "key": "drupal_2.script",
+              "title": "Drupal Views 模块信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal 中是否存在 SQL 注入漏洞",
+              "key": "drupal_3.script",
+              "title": "Drupal SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal 中是否存在 RCE (SA-CORE-2018-002) 漏洞",
+              "key": "drupal_4.script",
+              "title": "Drupal RCE SA-CORE-2018-002"
+            },
+            {
+              "checks": null,
+              "description": "测试 Ektron CMS 中是否存在已知漏洞",
+              "key": "ektroncms.script",
+              "title": "Ektron CMS 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试图库中是否存在已知漏洞",
+              "key": "gallery.script",
+              "title": "图库审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Horde 中是否存在已知漏洞",
+              "key": "horde.script",
+              "title": "Horde 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Invision Power Board 中是否存在已知漏洞",
+              "key": "ipb.script",
+              "title": "Invision Power Board 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Atlassian JIRA 中是否存在已知漏洞",
+              "key": "jira.script",
+              "title": "Atlassian JIRA 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! 中是否存在已知漏洞",
+              "key": "joomla.script",
+              "title": "Joomla! 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! 中是否存在弱凭据",
+              "key": "joomla_1.script",
+              "title": "Joomla! 弱凭据"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla!（3.2 至 3.4.4）中是否存在 SQL 注入漏洞",
+              "key": "joomla_10.script",
+              "title": "Joomla! SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! 中是否存在远程代码执行 (RCE) 漏洞",
+              "key": "joomla_11.script",
+              "title": "Joomla! RCE"
+            },
+            {
+              "checks": null,
+              "description": "Tests if J!Dump is enabled as it leads to information disclosure",
+              "key": "joomla_12.script",
+              "title": "Joomla J!Dump extension enabled"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! JCE 扩展中是否存在任意文件上传漏洞",
+              "key": "joomla_2.script",
+              "title": "Joomla! JCE 任意文件上传"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! JomSocial 扩展中是否存在 Remoe 代码执行 (RCE) 漏洞",
+              "key": "joomla_3.script",
+              "title": "Joomla! JomSocial RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! (3.2.1) 中是否存在 SQL 注入漏洞",
+              "key": "joomla_4.script",
+              "title": "Joomla! SQL 注入 3.2.1"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! (3.2.2) 中是否存在 SQL 注入漏洞",
+              "key": "joomla_5.script",
+              "title": "Joomla! SQL 注入 3.2.2"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! Kunena 论坛扩展中是否存在 SQL 注入漏洞",
+              "key": "joomla_6.script",
+              "title": "Joomla! Kunena 论坛 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! Akeeba 备份扩展中是否存在访问控制绕过漏洞",
+              "key": "joomla_7.script",
+              "title": "Joomla! Akeeba 备份访问控制绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! 中是否存在远程文件包含 (RFI) 漏洞",
+              "key": "joomla_8.script",
+              "title": "Joomla! RFI"
+            },
+            {
+              "checks": null,
+              "description": "测试 Joomla! VirtueMart 扩展中的访问控制绕过漏洞",
+              "key": "joomla_9.script",
+              "title": "Joomla! VirtueMart 访问控制绕过"
+            },
+            {
+              "checks": null,
+              "description": "测试 Kayako Fusion 中是否存在已知漏洞",
+              "key": "kayakofusion.script",
+              "title": "Kayako Fusion 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Liferay 中是否存在已知漏洞",
+              "key": "liferay.script",
+              "title": "Liferay 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Magento 中是否存在已知漏洞",
+              "key": "magento.script",
+              "title": "Magento 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 MantisBT 中是否存在已知漏洞",
+              "key": "mantisbt.script",
+              "title": "MantisBT 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 MediaWiki 中是否存在已知漏洞",
+              "key": "mediawiki.script",
+              "title": "MediaWiki 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 MoinMoinWiki 中是否存在已知漏洞",
+              "key": "moinmoin.script",
+              "title": "MoinMoinWiki 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Movable Type 中是否存在已知漏洞",
+              "key": "movabletype.script",
+              "title": "Movable Type 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Nagios 中是否存在已知漏洞",
+              "key": "nagios.script",
+              "title": "Nagios 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 OpenX 中是否存在已知漏洞",
+              "key": "openx.script",
+              "title": "OpenX 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 phpMyAdmin 中是否存在已知漏洞",
+              "key": "phpmyadmin.script",
+              "title": "phpMyAdmin 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 PmWiki 中是否存在已知漏洞",
+              "key": "pmwiki.script",
+              "title": "PmWiki 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Roundcube 中是否存在已知漏洞",
+              "key": "roundcube.script",
+              "title": "Roundcube 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Microsoft Sharepoint 中是否存在已知漏洞",
+              "key": "sharepoint.script",
+              "title": "Microsoft SharePoint 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Symfony 框架中是否存在已知漏洞",
+              "key": "symfony.script",
+              "title": "Symfony 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Symphony XSLT CMS 中是否存在漏洞",
+              "key": "symphony.script",
+              "title": "Symphony 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Tiki Wiki CMS 中是否存在已知漏洞",
+              "key": "TikiWiki.script",
+              "title": "Tiki Wiki CMS 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Typo3 中是否存在已知漏洞",
+              "key": "typo3.script",
+              "title": "Typo3"
+            },
+            {
+              "checks": null,
+              "description": "测试 Umbraco 中是否存在已知漏洞",
+              "key": "umbraco.script",
+              "title": "Umbraco 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Umbraco 中是否存在本地文件包含 (LFI)",
+              "key": "umbraco_1.script",
+              "title": "Umbraco LFI"
+            },
+            {
+              "checks": null,
+              "description": "测试 vBulletin 中是否存在已知漏洞",
+              "key": "vbulletin.script",
+              "title": "vBulletin 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 vBulletin 中是否存在 SQL 注入漏洞",
+              "key": "vbulletin_1.script",
+              "title": "vBulletin SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试 vBulletin 中是否存在远程代码执行 (RCE) 漏洞",
+              "key": "vbulletin_2.script",
+              "title": "vBulletin RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试 TimThumb WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress.script",
+              "title": "TimThumb WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "枚举 WordPress 插件和主题，然后将其传递至其他漏洞测试。",
+              "key": "wordpress_1.script",
+              "title": "WordPress 插件和主题枚举"
+            },
+            {
+              "checks": null,
+              "description": "测试各种 WordPress 缓存插件中是否存在已知漏洞",
+              "key": "wordpress_10.script",
+              "title": "WordPress 缓存插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 OptimizePress WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_11.script",
+              "title": "OptimizePress WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Jetpack WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_12.script",
+              "title": "Jetpack WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试多合一 SEO Pack WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_13.script",
+              "title": "多合一 SEO Pack WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 MailPoet Newsletters WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_14.script",
+              "title": "MailPoet Newsletters WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 WPtouch WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_15.script",
+              "title": "WPtouch WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Revolution Slider WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_16.script",
+              "title": "Revolution Slider WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress 是否处于调试模式",
+              "key": "wordpress_17.script",
+              "title": "WordPress 调试模式已启用"
+            },
+            {
+              "checks": null,
+              "description": "检查是否无需 HTTP 身份验证即可访问 WordPress /wp-admin 目录",
+              "key": "wordpress_18.script",
+              "title": "无需 HTTP 身份验证即可访问 WordPress /wp-admin"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在各种 WordPress 路径泄露漏洞",
+              "key": "wordpress_19.script",
+              "title": "WordPress 路径泄露"
+            },
+            {
+              "checks": null,
+              "description": "搜索 WordPress wp-config.php 配置文件备份",
+              "key": "wordpress_2.script",
+              "title": "WordPress wp-config.php 备份文件搜索"
+            },
+            {
+              "checks": null,
+              "description": "测试是否允许 WordPress 开放注册",
+              "key": "wordpress_20.script",
+              "title": "WordPress 开放注册"
+            },
+            {
+              "checks": null,
+              "description": "测试 WooFramework WordPress 插件中是否存在已知漏洞",
+              "key": "wordpress_3.script",
+              "title": "WooFramework WordPress 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 WordPress ToolsPack 恶意软件",
+              "key": "wordpress_4.script",
+              "title": "WordPress ToolsPack 恶意软件"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 WordPress XML-RPC 身份验证暴力破解漏洞",
+              "key": "wordpress_5.script",
+              "title": "WordPress XML-RPC 身份验证暴力破解"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress W3 Total Cache 插件中是否存在已知漏洞",
+              "key": "wordpress_6.script",
+              "title": "WordPress W3 Total Cache 插件审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress 核心中是否存在各种漏洞",
+              "key": "wordpress_7.script",
+              "title": "WordPress 核心审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress 用户是否存在弱凭据",
+              "key": "wordpress_8.script",
+              "title": "WordPress 弱凭据审核"
+            },
+            {
+              "checks": null,
+              "description": "测试安装的 WordPress 插件和主题是否存在已知漏洞",
+              "key": "wordpress_9.script",
+              "title": "WordPress 插件和主题审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 X-Cart 中是否存在已知漏洞",
+              "key": "xcart.script",
+              "title": "X-Cart 审核"
+            },
+            {
+              "checks": null,
+              "description": "测试 Drupal 备份迁移中是否存在可公开访问的备份目录",
+              "key": "drupal_5.script",
+              "title": "Drupal 备份迁移"
+            },
+            {
+              "checks": null,
+              "description": "测试 Atlassian Jira ManageFilters 页面中是否存在信息泄露",
+              "key": "jira_1.script",
+              "title": "Atlassian Jira ManageFilters 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在影响多个 Atlassian 产品的 SSRF（服务器端请求伪造）漏洞",
+              "key": "jira_2.script",
+              "title": "Atlassian Jira OAuth 插件 IconUriServlet SSRF"
+            },
+            {
+              "checks": null,
+              "description": "检查 WordPress 用户枚举是否能够使用多种 WordPress REST API 端点",
+              "key": "wordpress_21.script",
+              "title": "WordPress REST API 用户枚举"
+            },
+            {
+              "checks": null,
+              "description": "测试是否为 tlassian Jira REST 界面配置了弱/不安全的权限",
+              "key": "jira_3.script",
+              "title": "Atlassian Jira 不安全的 REST 权限"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在较旧版本的 Liferay",
+              "key": "liferay_2.script",
+              "title": "Liferay 较旧版本"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在影响 Drupal Core 的开放式重定向漏洞",
+              "key": "drupal_6.script",
+              "title": "Drupal Core 开放式重定向"
+            },
+            {
+              "checks": null,
+              "description": "检查 WPEngine _wpeprivate/config.json 信息泄露。",
+              "key": "wordpress_22.script",
+              "title": "WPEngine _wpeprivate/config.json 信息披露"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress Duplicator 中是否存在远程代码执行漏洞。",
+              "key": "wordpress_23.script",
+              "title": "WordPress Duplicator 中的远程代码执行漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Ektron CMS 身份验证绕过 (CVE-2018-12596)",
+              "key": "ektroncms_1.script",
+              "title": "Ektron CMS 身份验证绕过 (CVE-2018-12596)"
+            },
+            {
+              "checks": null,
+              "description": "测试 WordPress 插件 WPML 中是否存在未经授权的已存储 XSS (CVE-2018-18069)",
+              "key": "wordpress_24.script",
+              "title": "WordPress 插件 WPML 中未经授权的已存储 XSS"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 vBulletin 5 routestring 本地文件包含漏洞。",
+              "key": "vbulletin_3.script",
+              "title": "vBulletin 5 routestring LFI"
+            },
+            {
+              "checks": null,
+              "description": "查找 SAP NetWeaver 中存在的公用文件和目录",
+              "key": "SAPNetWeaver.script",
+              "title": "SAP 公用文件和文件夹"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Netweaver 版本信息泄露",
+              "key": "SAPNetWeaver_1.script",
+              "title": "SAP Netweaver 版本信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Netweaver bcbadmSystemInfo.jsp 信息泄露",
+              "key": "SAPNetWeaver_2.script",
+              "title": "SAP Netweaver bcbadmSystemInfo.jsp 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Netweaver ipcpricing SSRF（服务器端请求伪造）",
+              "key": "SAPNetWeaver_3.script",
+              "title": "SAP Netweaver ipcpricing SSRF"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP ICF /sap/public/info 敏感信息泄露",
+              "key": "SAPNetWeaver_4.script",
+              "title": "SAP ICF /sap/public/info 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP 弱/可预见用户凭据",
+              "key": "SAPNetWeaver_5.script",
+              "title": "SAP 弱/可预见的用户凭据"
+            },
+            {
+              "checks": null,
+              "description": "用于 SAP 弱/可预见用户凭据的另一项测试",
+              "key": "SAPNetWeaver_6.script",
+              "title": "SAP 弱/可预见的用户凭据（变体）"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP NetWeaver ConfigServlet 远程命令执行",
+              "key": "SAPNetWeaver_7.script",
+              "title": "SAP NetWeaver ConfigServlet 远程命令执行"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Management Console 日志文件列表",
+              "key": "SAPNetWeaver_8.script",
+              "title": "SAP Management Console 日志文件列表"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Management Console 获取用户列表",
+              "key": "SAPNetWeaver_9.script",
+              "title": "SAP Management Console 获取用户列表"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Knowledge Management and Collaboration (KMC) 权限不正确",
+              "key": "SAPNetWeaver_10.script",
+              "title": "SAP KMC 权限不正确"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Portal 目录穿越漏洞",
+              "key": "SAPNetWeaver_11.script",
+              "title": "SAP Portal 目录穿越漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP NetWeaver Java AS WD_CHAT 信息泄露漏洞",
+              "key": "SAPNetWeaver_12.script",
+              "title": "SAP NetWeaver Java AS WD_CHAT 信息泄露"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Drupal REST 远程代码执行",
+              "key": "drupal_7.script",
+              "title": "Drupal REST 远程代码执行"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 Magento 未经授权的 SQL 注入",
+              "key": "magento_2.script",
+              "title": "Magento 未经授权的 SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在通过 REST API 的 Jira 未经授权 SSRF (CVE-2019-8451)",
+              "key": "jira_4.script",
+              "title": "Jira 未经授权的 SSRF（通过 REST API）"
+            },
+            {
+              "checks": null,
+              "description": "测试 Web 应用程序是否容易受到 vBulletin 5.x 0day pre-auth RCE 的攻击",
+              "key": "vbulletin_4.script",
+              "title": "vBulletin 5.x 0day pre-auth RCE"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在Super Socialat 后门程序插件。",
+              "key": "wordpress_25.script",
+              "title": "Super Socialat 后门程序插件"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 vBulletin 5.6.1 nodeId SQL 注入漏洞。",
+              "key": "vbulletin_5.script",
+              "title": "vBulletin 5.6.1 nodeId SQL 注入"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 WordPress Duplicator 插件未经授权的任意文件下载。",
+              "key": "wordpress_26.script",
+              "title": "WordPress Duplicator 插件未经授权的任意文件下载"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP Netweaver RECON 身份验证绕过漏洞 (CVE-2020-6287)",
+              "key": "SAPNetWeaver_13.script",
+              "title": "SAP Netweaver RECON 漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试网站是否易出现 vBulletin Pre-Auth RCE 漏洞",
+              "key": "vbulletin_6.script",
+              "title": "vBulletin Pre-Auth RCE 漏洞"
+            },
+            {
+              "checks": null,
+              "description": "测试是否存在 SAP IGS XXE 漏洞（CVE-2018-2392、CVE-2018-2393）",
+              "key": "SAPNetWeaver_14.script",
+              "title": "SAP IGS XMLCHART XXE"
+            },
+            {
+              "checks": null,
+              "description": "Test for SAP ICF URL redirection",
+              "key": "SAPNetWeaver_15.script",
+              "title": "SAP ICF URL redirection"
+            },
+            {
+              "checks": null,
+              "description": "Tests for Jira Unauthorized User Enumeration vulnerability (CVE-2020-14181)",
+              "key": "jira_5.script",
+              "title": "Jira Unauthorized User Enumeration (CVE-2020-14181)"
+            },
+            {
+              "checks": null,
+              "description": "Tests if user enumeration via UserPickerBrowser is allowed for anonymous user",
+              "key": "jira_6.script",
+              "title": "Jira Unauthorized User Enumeration via UserPickerBrowser"
+            },
+            {
+              "checks": null,
+              "description": "Tests if the Jira projects are accessible anonymously",
+              "key": "jira_7.script",
+              "title": "Jira Projects accessible anonymously"
+            }
+          ],
+          "description": "在找到已知 Web 应用程序的目录上运行测试",
+          "key": "WebApps",
+          "title": "已知 Web 应用程序测试"
+        }
+      ],
+      "description": "在扫描期间运行测试",
+      "key": "Scripts",
+      "title": "扫描测试"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "测试是否存在 POST 请求形式的 HTTP (HTTPS) 到 HTTPS (HTTP) 的不安全转换。",
+          "key": "InsecureTransition.js",
+          "title": "从 HTTP (HTTPS) 转换至 HTTPS (HTTP) 的方式不安全"
+        },
+        {
+          "checks": null,
+          "description": "在评论中搜索 SQL 语句",
+          "key": "SQL_Statement_In_Comment.js",
+          "title": "评论中的 SQL 语句"
+        },
+        {
+          "checks": null,
+          "description": "检查 Content-type 报头是否未指定",
+          "key": "Content_Type_Missing.js",
+          "title": "未指定内容类型"
+        },
+        {
+          "checks": null,
+          "description": "在 URL 中搜索会话令牌",
+          "key": "Session_Token_In_Url.js",
+          "title": "URL 中的会话令牌"
+        },
+        {
+          "checks": null,
+          "description": "检查是否通过 GET 方法提交密码，而不是通过 POST 方法",
+          "key": "Password_In_Get.js",
+          "title": "已通过 GET 方式发送密码"
+        },
+        {
+          "checks": null,
+          "description": "检查 cookie 是否限定为父域而不是发布它的子域",
+          "key": "Cookie_On_Parent_Domain.js",
+          "title": "Cookie 已限定至父域"
+        },
+        {
+          "checks": null,
+          "description": "检查是否在会话 cookie 上设置了 HttpOnly 标记",
+          "key": "Cookie_Without_HttpOnly.js",
+          "title": "会话 Cookie 未设置 HttpOnly 标记"
+        },
+        {
+          "checks": null,
+          "description": "检查是否在会话 cookie 上设置了 Secure 标记",
+          "key": "Cookie_Without_Secure.js",
+          "title": "会话 Cookie 未设置 Secure 标记"
+        },
+        {
+          "checks": null,
+          "description": "检查包含敏感信息的页面是否缺少用于防止页面缓存的指令",
+          "key": "Cacheable_Sensitive_Page.js",
+          "title": "可缓存的敏感页面"
+        },
+        {
+          "checks": null,
+          "description": "检查 ASP.NET View State (__VIEWSTATE) 是否未加密",
+          "key": "Unencrypted_VIEWSTATE.js",
+          "title": "未加密的 ASP.NET View State 参数"
+        },
+        {
+          "checks": null,
+          "description": "测试是否未实施 Subresource Integrity (SRI)。",
+          "key": "SRI_Not_Implemented.js",
+          "title": "Subresource Integrity (SRI) 未实施"
+        },
+        {
+          "checks": null,
+          "description": "测试指向目标的连接是否通过安全的 HTTPS",
+          "key": "no_https.js",
+          "title": "安全连接"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Mojolicious_Cookie_Weak_Secret.js",
+          "title": "Mojolicious 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Yii2_Cookie_Weak_Secret.js",
+          "title": "Yii2 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 PeopleSoft SSO cookie（TokenChpoken 攻击）",
+          "key": "PS_Cookie_Weak_Secret.js",
+          "title": "Oracle PeopleSoft SSO 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Web2py_Cookie_Weak_Secret.js",
+          "title": "Web2py 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Express_Cookie_Session_Weak_Secret.js",
+          "title": "Express cookie-session 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Express_Express_Session_Weak_Secret.js",
+          "title": "Express express-session 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Flask_Cookie_Weak_Secret.js",
+          "title": "Flask 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Universal_Cookie_Weak_Secret.js",
+          "title": "Cookie 使用弱密钥签名（通用）"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Django_Cookie_Weak_Secret.js",
+          "title": "Django 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "BottlePy_Cookie_Weak_Secret.js",
+          "title": "BottlePy 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Tornado_Cookie_Weak_Secret.js",
+          "title": "Tornado 弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Ruby_Cookie_Weak_Secret.js",
+          "title": "Ruby 框架弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在与 JWT 相关的常见配置错误",
+          "key": "JWT_Cookie_Audit.js",
+          "title": "JWT 审核（在 cookie 中）"
+        },
+        {
+          "checks": null,
+          "description": "测试是否使用弱/字典密钥签发了 cookie",
+          "key": "Play_Cookie_Weak_Secret.js",
+          "title": "Play 框架弱密钥"
+        },
+        {
+          "checks": null,
+          "description": "cookie 有缺失、不一致或矛盾属性时，则发出警报。",
+          "key": "Cookie_Validator.js",
+          "title": "检测配置错误的 cookie"
+        },
+        {
+          "checks": null,
+          "description": "Tests if a cookie is signed with a weak/dictionary secret",
+          "key": "Pyramid_Cookie_Weak_Secret.js",
+          "title": "Pyramid weak secret key"
+        }
+      ],
+      "description": "在爬取程序收到的响应上进行被动测试",
+      "key": "RPA",
+      "title": "运行时被动分析"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "发现表单时发出通知，表明目标可以接受文件上传。",
+          "key": "12-Crawler_File_Upload.js",
+          "title": "文件上传表单"
+        },
+        {
+          "checks": null,
+          "description": "如果 SSL/TLS 连接使用的密钥长度短到足以被认为是弱密钥，则发出警告。",
+          "key": "12-Crawler_HTTPS_weak_key_length.js",
+          "title": "HTTPS 弱密钥长度"
+        },
+        {
+          "checks": null,
+          "description": "如果 Spectra 协商的 TLS 连接使用过时的 TLS 版本，则发出警报。",
+          "key": "HTTPS_insecure_maxTLS.js",
+          "title": "支持性最佳的 TLS 版本已过时"
+        },
+        {
+          "checks": null,
+          "description": "检查潜在敏感数据是否通过未加密的连接提交。",
+          "key": "12-Crawler_User_Credentials_Plain_Text.js",
+          "title": "用户凭据为纯文本"
+        }
+      ],
+      "description": "在爬取程序收到的响应上进行被动测试",
+      "key": "Crawler",
+      "title": "爬取程序分析"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "测试 Zabbix 中是否存在已知漏洞和配置错误",
+          "key": "zabbix/zabbix_audit.js",
+          "title": "Zabbix 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过反向代理映射的 Tomcat 路径遍历",
+          "key": "reverse_proxy_path_traversal.js",
+          "title": "通过反向代理映射进行 Tomcat 路径遍历"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在与 CORS (Cross-Origin Resource Sharing) 起源验证相关的问题",
+          "key": "cors_origin_validation.js",
+          "title": "CORS 起源验证失败"
+        },
+        {
+          "checks": null,
+          "description": "测试 Yii2 的 Gii 模块是否启用",
+          "key": "yii2/yii2_gii.js",
+          "title": "已启用 Yii2 Framework Gii 模块"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Node.js web 应用程序源代码披露",
+          "key": "nodejs_source_code_disclosure.js",
+          "title": "Node.js web 应用程序源代码披露"
+        },
+        {
+          "checks": null,
+          "description": "测试 npm 日志文件是否可公开访问 (npm-debug.log)",
+          "key": "npm_debug_log.js",
+          "title": "npm 日志文件可公开访问 (npm-debug.log)"
+        },
+        {
+          "checks": null,
+          "description": "测试 PHP-CS-Fixer 缓存文件是否可公开访问 (.php_cs.cache)",
+          "key": "php_cs_cache.js",
+          "title": "PHP-CS-Fixer 缓存文件可公开访问 (.php_cs.cache)"
+        },
+        {
+          "checks": null,
+          "description": "使用 rap2hpoutre LFD（本地文件下载）测试是否存在 Laravel 日志查看器",
+          "key": "laravel_log_viewer_lfd.js",
+          "title": "Laravel 日志查看器 LFD（本地文件下载）"
+        },
+        {
+          "checks": null,
+          "description": "测试 SAP B2B/B2C CRM 中是否存在 LFI（本地文件包含）",
+          "key": "sap_b2b_lfi.js",
+          "title": "SAP B2B/B2C CRM LFI（本地文件包含）"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Node.js 路径验证漏洞 (CVE-2017-14849)",
+          "key": "nodejs_path_traversal_CVE-2017-14849.js",
+          "title": "Node.js 路径验证漏洞 (CVE-2017-14849)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 jQuery File Upload 未经身份验证的任意文件上传",
+          "key": "jquery_file_upload_rce.js",
+          "title": "jQuery File Upload 未经身份验证的任意文件上传"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 GoAhead Web 服务器远程代码执行",
+          "key": "goahead_web_server_rce.js",
+          "title": "GoAhead Web 服务器远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过 HTTP PUT 方法的文件创建",
+          "key": "file_upload_via_put_method.js",
+          "title": "通过 HTTP PUT 方法创建文件"
+        },
+        {
+          "checks": null,
+          "description": "测试 ColdFusion RDS 是否启用",
+          "key": "coldfusion/coldfusion_rds_login.js",
+          "title": "ColdFusion RDS 已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试请求调试是否启用",
+          "key": "coldfusion/coldfusion_request_debugging.js",
+          "title": "ColdFusion 请求调试信息泄露"
+        },
+        {
+          "checks": null,
+          "description": "测试 Robust 异常是否启用",
+          "key": "coldfusion/coldfusion_robust_exception.js",
+          "title": "ColdFusion Robust 异常信息泄露"
+        },
+        {
+          "checks": null,
+          "description": "添加可能容易受 XSS 攻击的 ColdFusion 特定路径",
+          "key": "coldfusion/coldfusion_add_paths.js",
+          "title": "ColdFusion 特定路径"
+        },
+        {
+          "checks": null,
+          "description": "测试 ColdFusion Flash Remoting 中是否存在 AMF 反序列化 RCE (CVE-2017-3066)",
+          "key": "coldfusion/coldfusion_amf_deser.js",
+          "title": "ColdFusion AMF 反序列化 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试 ColdFusion 是否存在 JNDI 注入 RCE 漏洞 (CVE-2018-15957)",
+          "key": "coldfusion/coldfusion_jndi_inj_rce.js",
+          "title": "ColdFusion JNDI 注入 RCE (CVE-2018-15957)"
+        },
+        {
+          "checks": null,
+          "description": "测试 ColdFusion 是否具有未经授权的任意文件上传漏洞 (CVE-2018-15961)",
+          "key": "coldfusion/coldfusion_file_uploading_CVE-2018-15961.js",
+          "title": "ColdFusion 任意文件上传 RCE (CVE-2018-15961)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Python web 应用程序源代码披露",
+          "key": "python_source_code_disclosure.js",
+          "title": "Python web 应用程序源代码披露"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Ruby web 应用程序源代码泄露",
+          "key": "ruby_source_code_disclosure.js",
+          "title": "Ruby web 应用程序源代码披露"
+        },
+        {
+          "checks": null,
+          "description": "测试 Confluence 的 Widget Connector 插件是否容易受到路径遍历和服务器端模板注入 (CVE-2019-3396) 的攻击。",
+          "key": "confluence/confluence_widget_SSTI_CVE-2019-3396.js",
+          "title": "Confluence 小组件连接器 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在可能导致远程代码执行的 Apache Shiro 反序列化",
+          "key": "shiro/apache-shiro-deserialization-rce.js",
+          "title": "Apache Shiro 反序列化 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 FlashGateway 反序列化 RCE 漏洞 (CVE-2019-7091)",
+          "key": "coldfusion/coldfusion_flashgateway_deser_CVE-2019-7091.js",
+          "title": "ColdFusion FlashGateway 反序列化 RCE (CVE-2019-7091)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle Business Intelligence 的 Convert servlet 是否具有 XML 外部实体 (XXE) 处理漏洞 (CVE-2019-2767)",
+          "key": "oraclebi/oracle_biee_convert_xxe_CVE-2019-2767.js",
+          "title": "Oracle Business Intelligence Convert XXE (CVE-2019-2767)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle Business Intelligence 的 Adfresource servlet 是否具有路径遍历漏洞 (CVE-2019-2588)",
+          "key": "oraclebi/oracle_biee_adfresource_dirtraversal_CVE-2019-2588.js",
+          "title": "Oracle Business Intelligence Adfresource 路径遍历 (CVE-2019-2588)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle Business Intelligence 是否具有身份验证绕过漏洞 (CVE-2019-2768)",
+          "key": "oraclebi/oracle_biee_authbypass_CVE-2019-2768.js",
+          "title": "Oracle Business Intelligence AuthBypass CVE-2019-2768"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle Business Intelligence 的 ReportTemplateService servlet 是否具有 XML 外部实体 (XXE) 处理漏洞 (CVE-2019-2616)",
+          "key": "oraclebi/oracle_biee_ReportTemplateService_xxe_CVE-2019-2616.js",
+          "title": "Oracle Business Intelligence ReportTemplateService XXE (CVE-2019-2616)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Oracle Business Intelligence 默认管理凭据",
+          "key": "oraclebi/oracle_biee_default_creds.js",
+          "title": "Oracle Business Intelligence 默认管理凭据"
+        },
+        {
+          "checks": null,
+          "description": "通过检查响应中是否反映了通用参数名称来发现隐藏的 GET 参数",
+          "key": "hidden_parameters.js",
+          "title": "发现隐藏的 GET 参数"
+        },
+        {
+          "checks": null,
+          "description": "通过 ResolveUrl 测试 ASP.NET 中是否存在跨站点点脚本 (XSS) 漏洞。",
+          "key": "asp_net_resolveurl_xss.js",
+          "title": "ASP.NET 中通过 ResolveUrl 的 XSS"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle Business Intelligence (CVE-2020-2950) 中是否存在 AMF 反序列化 RCE",
+          "key": "oraclebi/oracle_biee_amf_deser_rce_CVE-2020-2950.js",
+          "title": "Oracle Business Intelligence AMF 反序列化 RCE (CVE-2020-2950)"
+        },
+        {
+          "checks": null,
+          "description": "查找 installed.json（由 Composer 创建的文件）",
+          "key": "composer_installed_json.js",
+          "title": "Composer installed.json 可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 Typo3 CMS 中是否存在已知漏洞和配置错误",
+          "key": "typo3/typo3_audit.js",
+          "title": "Typo3 CMS 审核"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unprotected JSON files (like config.json, secrets.json) containing secrets",
+          "key": "config_json_files_secrets_leakage.js",
+          "title": "Unprotected JSON file containing secrets"
+        },
+        {
+          "checks": null,
+          "description": "Automatically import Swagger files found in common locations such as v1/swagger.yaml",
+          "key": "import_swager_files_from_common_locations.js",
+          "title": "Import Swagger files from common locations"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Forgerock AM / OpenAM Deserialization RCE (CVE-2021-35464)",
+          "key": "forgerock/forgerock_openam_deser_rce_CVE-2021-35464.js",
+          "title": "ForgeRock AM / OpenAM Deserialization RCE (CVE-2021-35464)"
+        },
+        {
+          "checks": null,
+          "description": "Tests javascript files for various Web Cache Poisoning DoS vulnerabilities (CPDoS)",
+          "key": "web_cache_poisoning_dos_for_js.js",
+          "title": "Web Cache Poisoning DoS"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Forgerock OpenAM LDAP injection (CVE-2021-29156)",
+          "key": "forgerock/forgerock_openam_ldap_inj_CVE-2021-29156.js",
+          "title": "ForgeRock OpenAM LDAP injection (CVE-2021-29156)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Ghost CMS Theme Preview XSS vulnerability (CVE-2021-29484)",
+          "key": "ghost/Ghost_Theme_Preview_XSS_CVE-2021-29484.js",
+          "title": "Ghost CMS Theme Preview XSS (CVE-2021-29484)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for qdPM Information Disclosure",
+          "key": "qdpm/qdPM_Inf_Disclosure.js",
+          "title": "qdPM Information Disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache HTTP Server discloses source code of a web application",
+          "key": "apache_source_code_disclosure.js",
+          "title": "Apache HTTP Server Source Code Disclosure"
+        },
+        {
+          "checks": null,
+          "description": "Tests if ReportTemplateService servlet of Oracle Business Intelligence has an XML External Entity (XXE) processing vulnerability (CVE-2021-2400)",
+          "key": "oraclebi/oracle_biee_ReportTemplateService_xxe_CVE-2021-2400.js",
+          "title": "Oracle Business Intelligence ReportTemplateService XXE (CVE-2021-2400)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Log4j RCE on each root path/folder by sending common headers with JNDI payloads",
+          "key": "Apache_Log4j_RCE_folder.js",
+          "title": "Apache Log4j RCE per folder"
+        }
+      ],
+      "description": "在每个独特位置执行测试",
+      "key": "location",
+      "title": "位置测试"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "测试 ASP.NET AJAX Control Toolkit 中是否存在已知漏洞",
+          "key": "AjaxControlToolkit_Audit.js",
+          "title": "ASP.NET AJAX Control Toolkit 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在链接到已知托管恶意软件或已知用于网络钓鱼攻击的外部站点的 URL。",
+          "key": "12-Malware.js",
+          "title": "已知恶意链接"
+        },
+        {
+          "checks": null,
+          "description": "识别隐藏的 Amazon S3 buckets 并检查是否存在可公开写入的 buckets",
+          "key": "audit_s3_buckets.js",
+          "title": "可公开写入的 Amazon S3 Buckets"
+        },
+        {
+          "checks": null,
+          "description": "尝试诱使 Web 缓存，针对非身份验证请求提供经身份验证的响应。",
+          "key": "cache-vary.js",
+          "title": "绕过基于报头的身份验证"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache Shiro 反序列化远程代码执行",
+          "key": "detect_apache_shiro.js",
+          "title": "检测 Apache Shiro"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在导致远程代码执行的 RichFaces 表达式语言注入",
+          "key": "richfaces_el_injection_rce.js",
+          "title": "RichFaces EL 注入 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否默认会在 MappingJackson2JsonView 中启用 Spring JSONP",
+          "key": "spring_jsonp_enabled.js",
+          "title": "默认会在 MappingJackson2JsonView 中启用 Spring JSONP"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Spring Webflow Spring 表达式语言 (SpEL) 远程代码执行",
+          "key": "spring_web_flow_rce.js",
+          "title": "Spring Webflow SPEL RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在各种与 Telerik Web UI 相关的问题",
+          "key": "telerik_web_ui_cryptographic_weakness.js",
+          "title": "Telerik Web UI 审核"
+        },
+        {
+          "checks": null,
+          "description": "用于多种 Java JSON 库的通用反序列化测试",
+          "key": "Java_JSON_Deserialization.js",
+          "title": "Java JSON 反序列化"
+        },
+        {
+          "checks": null,
+          "description": "分析 HTTP 请求参数值并搜索有趣的模式，例如，要添加到爬取中进行索引的文件和目录名称或不安全的序列化模式",
+          "key": "analyze_parameter_values.js",
+          "title": "分析 HTTP 请求参数值"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache Struts 远程代码执行 (S2-057)",
+          "key": "apache_struts_rce_S2-057.js",
+          "title": "Apache Struts 远程代码执行 (S2-057)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 URL 重写漏洞（通过 X-Original-URL 和/或 X-Rewrite-URL）",
+          "key": "request_url_override.js",
+          "title": "URL 重写漏洞"
+        },
+        {
+          "checks": null,
+          "description": "Passive tests for security issues related to CORS (Cross-Origin Resource Sharing)",
+          "key": "cors_acao.js",
+          "title": "CORS configuration assessment (passive)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Yii2 的调试工具包是否启用",
+          "key": "yii2_debug.js",
+          "title": "已启用 Yii2 Framework 调试工具包"
+        },
+        {
+          "checks": null,
+          "description": "测试是否未实现内容安全策略 (CSP)。",
+          "key": "CSP_not_implemented.js",
+          "title": "未实施内容安全策略 (CSP)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在多种 Adobe Experience Manager 安全问题",
+          "key": "adobe_experience_manager.js",
+          "title": "Adobe Experience Manager 安全问题"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Httpoxy 漏洞",
+          "key": "httpoxy.js",
+          "title": "Httpoxy 漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 Firebase 数据库是否无需身份验证即可访问",
+          "key": "firebase_db_dev_mode.js",
+          "title": "Firebase 数据库无需身份验证即可访问"
+        },
+        {
+          "checks": null,
+          "description": "测试服务器是否使用易受 AMF 反序列化 RCE (CVE-2017-5641) 攻击的 Flex BlazeDS 版本",
+          "key": "blazeds_amf_deserialization.js",
+          "title": "Flex BlazeDS AMF 反序列化 RCE (CVE-2017-5641)"
+        },
+        {
+          "checks": null,
+          "description": "查找页面响应中的各种信息泄露问题（错误消息、堆栈追踪...）",
+          "key": "text_search.js",
+          "title": "信息泄露文本搜索"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 CVE-2019-5418 - Rails 上的文件内容泄露。",
+          "key": "rails_accept_file_content_disclosure.js",
+          "title": "Rails 文件内容泄露"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 CVE-2019-11580 - Atlassian Crowd 远程代码执行",
+          "key": "atlassian-crowd-CVE-2019-11580.js",
+          "title": "Atlassian Crowd 远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在与 JWT 相关的常见配置错误",
+          "key": "JWT_Header_Audit.js",
+          "title": "JWT 审核（在报头中）"
+        },
+        {
+          "checks": null,
+          "description": "在根 HTML 中查找 OpenSearch 数据，并对其进行解析以发现新目标路径",
+          "key": "opensearch-httpdata.js",
+          "title": "搜索和处理来自 HTML 的 OpenSearch 数据"
+        },
+        {
+          "checks": null,
+          "description": "查找内容安全策略 (CSP) report-uri 并测试 report-uri 实现。",
+          "key": "csp_report_uri.js",
+          "title": "测试 CSP report-uri 处理程序"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在指向 F5 Networks BigIP 负载均衡器 iRules 的 Tcl 代码注入",
+          "key": "BigIP_iRule_Tcl_code_injection.js",
+          "title": "BigIP iRule Tcl 代码注入"
+        },
+        {
+          "checks": null,
+          "description": "扫描 HTTP 响应，查找可能不安全的已存储密码",
+          "key": "password_cleartext_storage.js",
+          "title": "检测可能不安全的已存储密码"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在已知 Web 应用程式的默认凭据",
+          "key": "web_applications_default_credentials.js",
+          "title": "Web 应用程序默认凭据"
+        },
+        {
+          "checks": null,
+          "description": "未实施 HTTP 严格传输安全 (HSTS) 时发出警报。",
+          "key": "HSTS_not_implemented.js",
+          "title": "HSTS 未实施"
+        },
+        {
+          "checks": null,
+          "description": "测试 Laravel 中是否存在已知漏洞和配置错误。",
+          "key": "laravel_audit.js",
+          "title": "Laravel 框架审核"
+        },
+        {
+          "checks": null,
+          "description": "测试 Whoops 是否已启用，因为其可能导致信息泄露",
+          "key": "whoops_debug.js",
+          "title": "Whoops 错误处理程序组件已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试 HTML 身份验证表单中是否存在弱密码",
+          "key": "html_auth_weak_creds.js",
+          "title": "HTML 身份验证审核"
+        },
+        {
+          "checks": null,
+          "description": "测试 Clockwork PHP 开发工具是否已启用，因为其会导致信息泄露",
+          "key": "clockwork_debug.js",
+          "title": "Clockwork PHP 开发工具已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试 PHP Debug Bar 开发工具是否已启用，因为其会导致信息泄露",
+          "key": "php_debug_bar.js",
+          "title": "PHP Debug Bar 已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试 PHP Console 是否已启用，因为其可能导致信息泄露",
+          "key": "php_console_addon.js",
+          "title": "PHP Console 插件已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试 Tracy 是否已启用，因为其会导致信息泄露",
+          "key": "tracy_debugging_tool.js",
+          "title": "Tracy 调度工具已启用"
+        },
+        {
+          "checks": null,
+          "description": "测试 IIS 是否会披露 Web 应用程序的完整路径",
+          "key": "IIS_path_disclosure.js",
+          "title": "IIS 路径泄露"
+        },
+        {
+          "checks": null,
+          "description": "从错误页面提取缺失的 GET 参数",
+          "key": "missing_parameters.js",
+          "title": "查找缺失参数"
+        },
+        {
+          "checks": null,
+          "description": "查找从非解析域加载的脚本/框架/iframes。",
+          "key": "broken_link_hijacking.js",
+          "title": "断开链接劫持"
+        },
+        {
+          "checks": null,
+          "description": "测试 Symfony 中是否存在已知漏洞和配置错误。",
+          "key": "symfony_audit.js",
+          "title": "Symfony 框架审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Atlassian JIRA Servicedesk 配置错误。",
+          "key": "jira_servicedesk_misconfiguration.js",
+          "title": "Atlassian JIRA Servicedesk 配置错误"
+        },
+        {
+          "checks": null,
+          "description": "评估内联框架 (iframe) 配置",
+          "key": "iframe_sandbox.js",
+          "title": "内联框架 (iframe) 安全配置"
+        },
+        {
+          "checks": null,
+          "description": "发现报头中的新目标路径",
+          "key": "search_paths_in_headers.js",
+          "title": "搜索报头中的路径"
+        },
+        {
+          "checks": null,
+          "description": "测试 Envoy 是否在 x-envoy-peer-metadata 报头中披露了敏感信息",
+          "key": "envoy_metadata_disclosure.js",
+          "title": "Envoy 元数据泄露"
+        },
+        {
+          "checks": null,
+          "description": "检查报头和元标签是否存在不安全的 Referrer Policy 配置",
+          "key": "insecure_referrer_policy.js",
+          "title": "不安全的 Referrer Policy"
+        },
+        {
+          "checks": null,
+          "description": "检查是否存在通过主机报头的 Web Cache Poisoning",
+          "key": "web_cache_poisoning_via_host.js",
+          "title": "通过主机报头的 Web Cache Poisoning"
+        },
+        {
+          "checks": null,
+          "description": "检测源映射中是否存在 javascript 文件",
+          "key": "sourcemap_detection.js",
+          "title": "源映射检测"
+        },
+        {
+          "checks": null,
+          "description": "此脚本正在寻找 HATEOAS 响应中的链接并将其添加到爬取程序",
+          "key": "parse_hateoas.js",
+          "title": "Parse HATEOAS 响应链接"
+        },
+        {
+          "checks": null,
+          "description": "测试 Typo3 调试模式是否已启用，因为其可能导致信息泄露",
+          "key": "typo3_debug.js",
+          "title": "Typo3 调试已启用"
+        },
+        {
+          "checks": null,
+          "description": "查找缓存的响应并尝试寻找可能反映在响应和缓存中的隐藏 HTTP 报头",
+          "key": "header_reflected_in_cached_response.js",
+          "title": "HTTP 报头反映在缓存的响应中"
+        },
+        {
+          "checks": null,
+          "description": "未实施 X-Frame-Options 时发出警报。",
+          "key": "X_Frame_Options_not_implemented.js",
+          "title": "未实施 X-Frame-Options"
+        },
+        {
+          "checks": null,
+          "description": "识别返回 HTTP 状态代码 405（方法不允许） 的页面并测试其是否存在 XXE、XXE-SSRF、XStream 错误、JSON 反序列化错误等各种漏洞",
+          "key": "405_method_not_allowed.js",
+          "title": "包含 405 方法不允许的测试页面"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities in a variety of JavaScript libraries, hosted on CDNs",
+          "key": "javascript_library_audit_external.js",
+          "title": "JavaScript Library Audit (External)"
+        },
+        {
+          "checks": null,
+          "description": "Test for middleware misconfigurations that result in HTTP response splitting (CRLF injection) vulnerabilities with cloud storage.",
+          "key": "http_splitting_cloud_storage.js",
+          "title": "HTTP response splitting with cloud storage"
+        },
+        {
+          "checks": null,
+          "description": "Test for an authentication bypass vulnerability that affects Apache Shiro before 1.7.1 (CVE-2020-17523)",
+          "key": "apache_shiro_auth_bypass_CVE-2020-17523.js",
+          "title": "Apache Shiro authentication bypass"
+        },
+        {
+          "checks": null,
+          "description": "Look and report vulnerable package dependencies using Spectra SCA service (sca.Spectra.com)",
+          "key": "acusensor-packages.js",
+          "title": "AcuSensor vulnerable package dependencies"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Joomla Debug Console is enabled as it leads to information disclosure",
+          "key": "joomla_debug_console.js",
+          "title": "Joomla! Debug Console enabled"
+        },
+        {
+          "checks": null,
+          "description": "Test for a SSRF vulnerability that affects MITREid Connect (CVE-2021-26715)",
+          "key": "mitreid_connect_ssrf_CVE-2021-26715.js",
+          "title": "SSRF via logo_uri in MITREid Connect"
+        },
+        {
+          "checks": null,
+          "description": "Detects a SAML consumer service and tests for various vulnerabilities",
+          "key": "saml_endpoint_audit.js",
+          "title": "SAML consumer service audit"
+        },
+        {
+          "checks": null,
+          "description": "Process packages files (composer.lock, installed.json, ...) and report vulnerable package dependencies using Spectra SCA service (sca.Spectra.com)",
+          "key": "sca_analyze_package_files.js",
+          "title": "Process package files and look for vulnerable packages using Spectra SCA"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Pyramid DebugToolbar is enabled as it leads to information disclosure",
+          "key": "pyramid_debugtoolbar.js",
+          "title": "Pyramid DebugToolbar enabled"
+        },
+        {
+          "checks": null,
+          "description": "Test for Adminer Server Side Request Forgery (SSRF) (CVE-2021-21311)",
+          "key": "adminer_ssrf_CVE-2021-21311.js",
+          "title": "Adminer Server Side Request Forgery (SSRF)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Apache Tapestry",
+          "key": "Tapestry_audit.js",
+          "title": "Apache Tapestry audit"
+        }
+      ],
+      "description": "在每个 HTTP 对上执行测试",
+      "key": "httpdata",
+      "title": "HTTP 数据测试"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "测试是否存在 Rails Sprockets 路径遍历漏洞",
+          "key": "rails_sprockets_path_traversal.js",
+          "title": "Rails Sprockets 路径遍历漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Web Cache Poisoning 漏洞",
+          "key": "web_cache_poisoning.js",
+          "title": "Web Cache Poisoning"
+        },
+        {
+          "checks": null,
+          "description": "测试辅助系统或 Web 应用程序是否从 HTTP 请求报头发送请求至任意主机",
+          "key": "aux_systems_ssrf.js",
+          "title": "辅助系统 SSRF"
+        },
+        {
+          "checks": null,
+          "description": "测试反向代理或 Web 应用程序是否使用 HTTP 请求的值路由请求",
+          "key": "proxy_misrouting_ssrf.js",
+          "title": "反向代理错误路由 SSRF"
+        },
+        {
+          "checks": null,
+          "description": "测试 HTTP-01 ACME 质询实现中是否存在跨站点脚本漏洞",
+          "key": "http_01_ACME_challenge_xss.js",
+          "title": "HTTP-01 ACME 质询实现中存在跨站脚本漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 JavaMelody 是否可公开访问，以及/或是否容易受到 XML 外部实体 (XXE) 处理漏洞的攻击",
+          "key": "java_melody_detection_plus_xxe.js",
+          "title": "JavaMelody 检测和安全问题"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 uWSGI 路径遍历漏洞",
+          "key": "uwsgi_path_traversal.js",
+          "title": "uWSGI 路径遍历漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 WebLogic RCE (CVE-2018-3245)",
+          "key": "weblogic_rce_CVE-2018-3245.js",
+          "title": "WebLogic RCE (CVE-2018-3245)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过 xdebug.remote_connect_back 进行的 Xdebug 远程代码执行",
+          "key": "php_xdebug_rce.js",
+          "title": "XDebug RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 NGINX 范围筛选器整数溢出 (CVE-2017-7529)",
+          "key": "nginx_integer_overflow_CVE-2017-7529.js",
+          "title": "NGINX 范围筛选器整数溢出"
+        },
+        {
+          "checks": null,
+          "description": "测试 Jupyter Notebook 是否可公开访问",
+          "key": "jupyter_notebook_rce.js",
+          "title": "Jupyter Notebook 可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 Hadoop YARN ResourceManager 是否可公开访问",
+          "key": "hadoop_yarn_resourcemanager.js",
+          "title": "Hadoop YARN ResourceManager 可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 CouchDB REST API 是否可公开访问",
+          "key": "couchdb_rest_api.js",
+          "title": "CouchDB REST API 可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 Apache Log4j 套接字接收器反序列化漏洞",
+          "key": "apache_log4j_deser_rce.js",
+          "title": "Apache Log4j 套接字接收器反序列化漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache ActiveMQ 默认管理凭据",
+          "key": "activemq_default_credentials.js",
+          "title": "Apache ActiveMQ 默认管理凭据"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache mod_jk 访问控制绕过 (CVE-2018-11759)",
+          "key": "apache_mod_jk_access_control_bypass.js",
+          "title": "Apache mod_jk 访问控制绕过"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 ACME mini_httpd（Web 服务器）任意文件读取 (CVE-2018-18778)",
+          "key": "mini_httpd_file_read_CVE-2018-18778.js",
+          "title": "ACME mini_httpd（Web 服务器）任意文件读取"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 OSGi 管理控制台默认凭据",
+          "key": "osgi_management_console_default_creds.js",
+          "title": "OSGi 管理控制台默认凭据"
+        },
+        {
+          "checks": null,
+          "description": "测试 Docker Engine API 是否公开",
+          "key": "docker_engine_API_exposed.js",
+          "title": "Docker Engine API 已公开"
+        },
+        {
+          "checks": null,
+          "description": "测试 Docker Registry API 是否公开",
+          "key": "docker_registry_API_exposed.js",
+          "title": "Docker Registry API 已公开"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Jenkins 用户枚举、弱凭据和已知漏洞",
+          "key": "jenkins_audit.js",
+          "title": "Jenkins 安全审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 ThinkPHP v5.0.22/5.1.29 远程代码执行漏洞。",
+          "key": "thinkphp_5_0_22_rce.js",
+          "title": "ThinkPHP v5.0.22/5.1.29 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 uWSGI 未经授权访问漏洞。",
+          "key": "uwsgi_unauth.js",
+          "title": "uWSGI 未经授权的访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 FastGI 未经授权访问漏洞",
+          "key": "fastcgi_unauth.js",
+          "title": "FastGI 未经授权访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 Apache 平衡器管理器应用程序是否可公开访问。",
+          "key": "apache_balancer_manager.js",
+          "title": "Apache 平衡器管理器应用程序"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Cisco ISE 未经授权的 XSS 到特权 RCE (CVE-2018-15440)。",
+          "key": "cisco_ise_stored_xss.js",
+          "title": "Cisco ISE 未经授权的 XSS 到特权 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试 Horde Imp 是否未经身份验证即可实现远程命令执行",
+          "key": "horde_imp_rce.js",
+          "title": "Horde Imp 未经身份验证即可实现远程命令执行"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过命令参数注入进行的 Nagios XI Magpie_debug.php 未经授权 RCE。",
+          "key": "nagiosxi_556_rce.js",
+          "title": "Nagios XI Magpie_debug.php 未经身份验证的 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试低于 2.4.1 的 Next.js 版本 中是否存在任意文件读取",
+          "key": "next_js_arbitrary_file_read.js",
+          "title": "低于 2.4.1 的 Next.js 版本中的任意文件读取"
+        },
+        {
+          "checks": null,
+          "description": "测试 PHP opcache-status 页面是否可公开访问。",
+          "key": "php_opcache_status.js",
+          "title": "PHP opcache-status 页面可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 OpenCms 中的 Solr 是否容易受到 XML 外部实体 (XXE) 处理漏洞的攻击",
+          "key": "opencms_solr_xxe.js",
+          "title": "OpenCms Solr XXE"
+        },
+        {
+          "checks": null,
+          "description": "测试 Redis 服务是否公开",
+          "key": "redis_open.js",
+          "title": "Redis 未经授权的访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 Memcached 服务是否公开",
+          "key": "memcached_open.js",
+          "title": "Memcached 未经授权的访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Oracle Weblogic Async 组件反序列化 RCE 漏洞",
+          "key": "Weblogic_async_rce_CVE-2019-2725.js",
+          "title": "Oracle Weblogic Async 组件反序列化 RCE (CVE-2019-2725)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Oracle Weblogic T3 XXE 漏洞",
+          "key": "Weblogic_T3_XXE_CVE-2019-2647.js",
+          "title": "Oracle Weblogic T3 XXE (CVE-2019-2647)"
+        },
+        {
+          "checks": null,
+          "description": "检测目标使用的反向代理、负载平衡器、CDN",
+          "key": "RevProxy_Detection.js",
+          "title": "反向代理检测"
+        },
+        {
+          "checks": null,
+          "description": "测试 Cassandra 服务是否公开",
+          "key": "cassandra_open.js",
+          "title": "Apache Cassandra 未经授权访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 helpedit.php CVE-2018-8734 中是否存在 Nagios XI 未经授权的 SQL 注入",
+          "key": "nagiosxi_sqli_CVE-2018-8734.js",
+          "title": "Nagios XI 未经身份验证的 SQLi CVE-2018-8734"
+        },
+        {
+          "checks": null,
+          "description": "测试 bootstrap-sass 中是否存在远程代码执行",
+          "key": "backdoor_bootstrap_sass.js",
+          "title": "在 bootstrap-sass 中进行远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试 Apache Spark 是否可公开访问，测试是否存在一些已知漏洞",
+          "key": "apache_spark_audit.js",
+          "title": "Apache Spark 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Fortigate SSL VPN 任意件读取 (CVE-2018-13379)",
+          "key": "fortigate_file_reading.js",
+          "title": "Fortigate SSL VPN 任意件读取 (CVE-2018-13379)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Pulse Secure SSL VPN 任意文件读取 (CVE-2019-11510)",
+          "key": "pulse_sslvpn_file_reading.js",
+          "title": "Pulse Secure SSL VPN 任意文件读取 (CVE-2019-11510)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 SAP Hybris Commerce Cloud 反序列化 RCE 漏洞 (CVE-2019-0344)",
+          "key": "SAP_Hybris_virtualjdbc_RCE_CVE-2019-0344.js",
+          "title": "SAP Hybris 反序列化 RCE (CVE-2019-0344)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Webmin 未经授权的远程命令执行 (CVE-2019-15107)",
+          "key": "webmin_rce_1_920_CVE-2019-15107.js",
+          "title": "Webmin v1.920 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Oracle Weblogic T3 XXE 漏洞 (CVE-2019-2888)",
+          "key": "Weblogic_T3_XXE_CVE-2019-2888.js",
+          "title": "Oracle Weblogic T3 XXE (CVE-2019-2888)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Citrix ADC 和网关中是否存在未经授权的远程代码执行漏洞",
+          "key": "citrix_netscaler_CVE-2019-19781.js",
+          "title": "Citrix NetScaler 未经授权的远程代码执行 (CVE-2019-19781)"
+        },
+        {
+          "checks": null,
+          "description": "测试 HTTP 上的 .NET Remoting 是否可公开访问",
+          "key": "DotNet_HTTP_Remoting.js",
+          "title": ".NET HTTP Remoting 已公开暴露"
+        },
+        {
+          "checks": null,
+          "description": "在站点根目录中查找 /opensearch.xml，并对其进行解析以发现新目标路径",
+          "key": "opensearch-target.js",
+          "title": "搜索和处理来自 opensearch.xml 的 OpenSearch 数据"
+        },
+        {
+          "checks": null,
+          "description": "测试早于 4.6.2 的 Adminer 版本，这些版本容易受到文件泄露漏洞的攻击。",
+          "key": "adminer-4.6.2-file-disclosure-vulnerability.js",
+          "title": "Adminer 4.6.2 文件泄露漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache mod_rewrite 开放式重定向 (CVE-2019-10098).",
+          "key": "apache_mod_rewrite_open_redirect_CVE-2019-10098.js",
+          "title": "Apache mod_rewrite 开放式重定向"
+        },
+        {
+          "checks": null,
+          "description": "在站点根目录中查找 .well-known/apple-app-site-association，并对其进行解析以发现新目标路径",
+          "key": "default_apple-app-site-association.js",
+          "title": "处理 /.well-known/apple-app-site-association"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Golang 运行时分析数据",
+          "key": "golang-debug-pprof.js",
+          "title": "Golang 运行时分析数据"
+        },
+        {
+          "checks": null,
+          "description": "查找 /.well-known/openid-configuration（OpenID Connect 发现文件）解析此文件，并添加端点和 GET/POST 参数",
+          "key": "openid_connect_discovery.js",
+          "title": "查找 /.well-known/openid-configuration"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 NGINX+ 未受保护的状态界面。",
+          "key": "nginx-plus-unprotected-status.js",
+          "title": "NGINX+ 未受保护的状态界面"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 NGINX+ 未受保护的 API 界面",
+          "key": "nginx-plus-unprotected-api.js",
+          "title": "NGINX+ 未受保护的 API 界面"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 NGINX+ 未受保护的仪表盘。",
+          "key": "nginx-plus-unprotected-Dashboard.js",
+          "title": "NGINX+ 未受保护的仪表盘"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 NGINX+ 未受保护的 Upstream HTTP 界面",
+          "key": "nginx-plus-unprotected-upstream.js",
+          "title": "NGINX+ 未受保护的 Upstream HTTP 界面"
+        },
+        {
+          "checks": null,
+          "description": "测试 Kentico CMS 中是否存在一些已知漏洞和配置错误。",
+          "key": "Kentico_CMS_Audit.js",
+          "title": "Kentico CMS 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Ruby on Rails DoubleTap 开发模式 RCE 漏洞 (CVE-2019-5420)",
+          "key": "Rails_DoubleTap_RCE_CVE-2019-5418.js",
+          "title": "Ruby on Rails DoubleTap RCE (CVE-2019-5420)"
+        },
+        {
+          "checks": null,
+          "description": "测试 Oracle E-Business Suite 中是否存在已知漏洞。",
+          "key": "Oracle_EBS_Audit.js",
+          "title": "Oracle E-Business Suite 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试 SQL Server 报告服务中是否存在 RCE (CVE-2020-0618)。",
+          "key": "rce_sql_server_reporting_services.js",
+          "title": "SQL Server 报告服务中的 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过 JSONWS（7.2 为 LPS-97029/CVE-2020-7961，6.1.x 为 LPS-88051 ）进行的未经身份验证的远程代码执行",
+          "key": "liferay_portal_jsonws_rce.js",
+          "title": "通过 Liferay 中的 JSONWS 进行远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试 PHP opcache-gui 是否可公开访问",
+          "key": "php_opcache_gui.js",
+          "title": "PHP opcache-gui 可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试 AcuMonitor 是否可访问",
+          "key": "check_acumonitor.js",
+          "title": "AcuMonitor 检查"
+        },
+        {
+          "checks": null,
+          "description": "测试 spring-cloud-config-server (CVE-2020-5410) 中是否存在目录穿越漏洞。",
+          "key": "spring_cloud_config_server_CVE-2020-5410.js",
+          "title": "spring-cloud-config-server 中的目录穿越"
+        },
+        {
+          "checks": null,
+          "description": "测试 F5 BIG-IP 流量管理用户界面 (TMUI) (CVE-2020-5902) 是否存在 RCE 漏洞。",
+          "key": "f5_big_ip_tmui_rce_CVE-2020-5902.js",
+          "title": "F5 BIG-IP TMUI RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在导致信息泄露的配置错误的 rack-mini-profiler 的实例。",
+          "key": "rack_mini_profiler_information_disclosure.js",
+          "title": "rack-mini-profiler 环境变量披露"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 RCE (CVE-2020-13379) 导致的 Grafana avatar SSRF。",
+          "key": "grafana_ssrf_rce_CVE-2020-13379.js",
+          "title": "Grafana avatar SSRF"
+        },
+        {
+          "checks": null,
+          "description": "测试 H2 控制台是否可公开访问。",
+          "key": "h2-console.js",
+          "title": "H2 控制台可公开访问"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Jolokia XXE（XML 外部实体）漏洞。",
+          "key": "jolokia_xxe.js",
+          "title": "Jolokia XXE"
+        },
+        {
+          "checks": null,
+          "description": "测试 Rails 中是否存在对用户提供的本地名称进行的远程代码执行 (CVE-2020-8163)。",
+          "key": "rails_rce_locals_CVE-2020-8163.js",
+          "title": "在 Rails 中对用户提供的本地名称进行远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试 Cisco ASA 中是否存在未经身份验证的路径遍历 (CVE-2020-3452)",
+          "key": "Cisco_ASA_Path_Traversal_CVE-2020-3452.js",
+          "title": "Cisco ASA 路径遍历 (CVE-2020-3452)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 DNN Cookie 反序列化 RCE 漏洞 (CVE-2017-9822)",
+          "key": "DNN_Deser_Cookie_CVE-2017-9822.js",
+          "title": "DNN (DotNetNuke) CMS Cookie 反序列化 RCE (CVE-2017-9822)"
+        },
+        {
+          "checks": null,
+          "description": "搜索无效页面，查找网页源代码内容中的各种信息泄露漏洞，包括错误消息、电子邮件地址、IP 地址和信用卡号",
+          "key": "404_text_search.js",
+          "title": "无效的页面文本搜索"
+        },
+        {
+          "checks": null,
+          "description": "测试 Total.js < 3.2.4 中是否存在目录穿越漏洞 (CVE-2019-8903)",
+          "key": "totaljs_dir_traversal_CVE-2019-8903.js",
+          "title": "Total.js 目录穿越 (CVE-2019-8903)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache OFBiz XMLRPC 反序列化 RCE (CVE-2020-9496)",
+          "key": "OFBiz_xmlrpc_deser_rce_CVE-2020-9496.js",
+          "title": "Apache OFBiz XMLRPC 反序列化 RCE (CVE-2020-9496)"
+        },
+        {
+          "checks": null,
+          "description": "测试 HTTP 端口上的服务器是否重定向至 HTTPS",
+          "key": "http_redirections.js",
+          "title": "HTTP 重定向"
+        },
+        {
+          "checks": null,
+          "description": "测试 Apache Zookeeper 服务是否公开",
+          "key": "apache_zookeeper_open.js",
+          "title": "Apache Zookeeper 未经授权访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 Redis 服务是否公开",
+          "key": "apache_kafka_open.js",
+          "title": "Apache Kafka 未经授权访问漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试 Nette 框架中是否存在未经身份验证的 PHP 代码注入 (CVE-2020-15227)",
+          "key": "nette_framework_rce_CVE-2020-15227.js",
+          "title": "通过回拨进行 Nette 框架 PHP 代码注入"
+        },
+        {
+          "checks": null,
+          "description": "测试 VMware vCenter 中是否存在未经身份验证的任意文件读取漏洞",
+          "key": "vmware_vcenter_unauth_file_read.js",
+          "title": "VMware vCenter 中未经身份验证的任意文件读取漏洞"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过 LogService 进行的 MobileIron 远程代码执行 (CVE-2020-15505)",
+          "key": "mobile_iron_rce_CVE-2020-15505.js",
+          "title": "通过 LogService 进行 MobileIron 远程代码执行"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在各种 Web Cache Poisoning DoS 漏洞 (CPDoS)",
+          "key": "web_cache_poisoning_dos.js",
+          "title": "Web Cache Poisoning DoS"
+        },
+        {
+          "checks": null,
+          "description": "测试根端点上是否存在服务器端原型污染漏洞",
+          "key": "prototype_pollution_target.js",
+          "title": "通过根端点的原型污染"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Openfire Admin Console SSRF (CVE-2019-18394)",
+          "key": "openfire_admin_console_ssrf_CVE-2019-18394.js",
+          "title": "Openfire Admin Console SSRF"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在未经身份验证的 Oracle WebLogic Server 远程代码执行 (CVE-2020-14882)",
+          "key": "weblogic_rce_CVE-2020-14882.js",
+          "title": "Oracle WebLogic Server RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Oracle Weblogic IIOP 未经身份验证的反序列化 RCE 漏洞 (CVE-2020-2551)",
+          "key": "Weblogic_IIOP_RCE_CVE-2020-2551.js",
+          "title": "Oracle Weblogic IIOP 反序列化 RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试 Odoo 中是否存在已知漏洞 (CVE-2019-14322) 和配置错误",
+          "key": "Odoo_audit.js",
+          "title": "Odoo 审核"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Citrix XenMobile 服务器路径遍历 (CVE-2020-8209)",
+          "key": "citrix_xenmobile_arbitrary_file_read_CVE-2020-8209.js",
+          "title": "Citrix XenMobile 服务器路径遍历"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 SonarQube 默认凭据",
+          "key": "sonarqube_default_credentials.js",
+          "title": "SonarQube 默认凭据"
+        },
+        {
+          "checks": null,
+          "description": "查找常用 API 端点，如 /api、/v1/api，并将其传递给爬取程序",
+          "key": "common_api_endpoints.js",
+          "title": "常见 API 端点"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在 Apache Unomi MVEL 表达式 RCE (CVE-2020-13942)",
+          "key": "Unomi_MVEL_RCE_CVE-2020-13942.js",
+          "title": "Apache Unomi MVEL RCE (CVE-2020-13942)"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在导致 RCE 的 Symfony 弱/可预测 APP_SECRET 值",
+          "key": "symfony_weak_secret_rce.js",
+          "title": "通过弱/可预测的 APP_SECRET 进行 Symfony RCE"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在因任意代码创建和路径遍历问题而导致的 Lucee RCE（远程代码执行）",
+          "key": "lucee_arbitrary_file_write.js",
+          "title": "Lucee 任意文件创建"
+        },
+        {
+          "checks": null,
+          "description": "Test Dynamic Rendering Engines (Rendertron and Prerenderer), looking for SSRF issues",
+          "key": "dynamic_rendering_engines.js",
+          "title": "Test Dynamic Rendering Engines"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to Prometheus and its metrics",
+          "key": "open_prometheus.js",
+          "title": "Open Prometheus monitoring"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to various monitoring and status pages",
+          "key": "open_monitoring.js",
+          "title": "Unauthorized Access to Monitoring endpoint"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache Flink jobmanager/logs Path Traversal (CVE-2020-17519)",
+          "key": "apache_flink_path_traversal_CVE-2020-17519.js",
+          "title": "Apache Flink jobmanager/logs Path Traversal"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to ImageResizer Diagnotics plugin",
+          "key": "imageresizer_debug.js",
+          "title": "Unauthorized Access to ImageResizer Diagnotics plugin"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unprotected Apache NiFi API interface",
+          "key": "unprotected_apache_nifi.js",
+          "title": "Unprotected Apache NiFi API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Unprotected Kong Gateway Admin API interface",
+          "key": "unprotected_kong_gateway_adminapi_interface.js",
+          "title": "Unprotected Kong Gateway Admin API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for missing authentication check in SAP Solution Manager (CVE-2020-6207)",
+          "key": "sap_solution_manager_rce_CVE-2020-6207.js",
+          "title": "Missing Authentication Check in SAP Solution Manager"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SonicWall SSL-VPN RCE via ShellShock exploit",
+          "key": "sonicwall_ssl_vpn_rce_jarrewrite.js",
+          "title": "SonicWall SSL-VPN RCE via ShellShock"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Node.js Inspector or Debugger ports are publicly accessible",
+          "key": "nodejs_debugger_open.js",
+          "title": "Node.js Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for VMware vCenter Server Unauthorized RCE (CVE-2021-21972)",
+          "key": "vmware_vcenter_server_unauth_rce_CVE-2021-21972.js",
+          "title": "VMware vCenter Server Unauthorized Remote Code Execution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a reflected cross-site scripting (XSS) vulnerability that exists in the PAN-OS management web interface (CVE-2020-2036)",
+          "key": "paloalto-pan-os-xss-CVE-2020-2036.js",
+          "title": "Reflected Cross-Site Scripting (XSS) vulnerability in PAN-OS management web interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Delve Debugger port is publicly accessible",
+          "key": "golang_delve_debugger_open.js",
+          "title": "Delve Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Microsoft Exchange Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2021-26855)",
+          "key": "microsoft_exchange-server-ssrf-CVE-2021-26855.js",
+          "title": "Microsoft Exchange Server Server-Side Request Forgery (SSRF) vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Python debugpy/ptvsd debugger port is publicly accessible",
+          "key": "python_debugpy_debugger_open.js",
+          "title": "Python Debugger Unauthorized Access Vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for AppWeb Authentication Bypass vulnerability (CVE-2018-8715)",
+          "key": "AppWeb_auth_bypass_CVE-2018-8715.js",
+          "title": "AppWeb Authentication Bypass (CVE-2018-8715)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache OFBiz SOAPService Deserialization RCE (CVE-2021-26295)",
+          "key": "OFBiz_SOAPService_deser_rce_CVE-2021-26295.js",
+          "title": "Apache OFBiz SOAPService Deserialization RCE (CVE-2021-26295)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for virtual host locations misconfiguration leading to source code disclosure",
+          "key": "vhost_files_locs_misconfig.js",
+          "title": "Virtual Host locations misconfiguration"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Agentejo Cockpit CMS requestreset NoSQLi (CVE-2020-35847)",
+          "key": "cockpit_nosqli_CVE-2020-35847.js",
+          "title": "Agentejo Cockpit CMS resetpassword NoSQLi (CVE-2020-35847)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for F5 iControl REST unauthenticated remote command execution vulnerability (CVE-2021-22986)",
+          "key": "f5_iControl_REST_RCE_CVE-2021-22986.js",
+          "title": "F5 iControl REST unauthenticated remote command execution vulnerability"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cisco RV Series Authentication Bypass vulnerability (CVE-2021-1472)",
+          "key": "Cisco_RV_auth_bypass_CVE-2021-1472.js",
+          "title": "Cisco RV Series Authentication Bypass (CVE-2021-1472)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to installers of various web applications",
+          "key": "web_installer_exposed.js",
+          "title": "Unauthorized Access to a web app installer"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ntopng Authentication Bypass vulnerability (CVE-2021-28073)",
+          "key": "ntopng_auth_bypass_CVE-2021-28073.js",
+          "title": "ntopng Authentication Bypass (CVE-2021-28073)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for HTTP Request Smuggling as presented in the paper \"HTTP Desync Attacks: Request Smuggling Reborn\"",
+          "key": "request_smuggling.js",
+          "title": "HTTP Request Smuggling"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the Hashicorp Consul API is publicly accessible",
+          "key": "Hashicorp_Consul_exposed.js",
+          "title": "Hashicorp Consul API publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the Django Debug Toolbar is used in a production website",
+          "key": "django_debug_toolbar.js",
+          "title": "Django Debug Toolbar"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Server Side Request Forgery vulnerability in VMware vRealize Operations (CVE-2021-21975)",
+          "key": "VMware_vRealize_SSRF_CVE-2021-21975.js",
+          "title": "VMware vRealize Operations SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Grav CMS Unauthenticated RCE vulnerability (CVE-2021-21425)",
+          "key": "GravCMS_unauth_RCE_CVE-2021-21425.js",
+          "title": "Grav CMS Unauthenticated RCE (CVE-2021-21425)"
+        },
+        {
+          "checks": null,
+          "description": "Test for Caddy unprotected API interface",
+          "key": "caddy_unprotected_api.js",
+          "title": "Caddy unprotected API interface"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Arbitrary File Read/Write vulnerability in Dragonfly gem in Refinery CMS (CVE-2021-33564)",
+          "key": "dragonfly_arbitrary_file_read_CVE-2021-33564.js",
+          "title": "Dragonfly Arbitrary File Read/Write (CVE-2021-33564)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Bitrix",
+          "key": "bitrix_audit.js",
+          "title": "Bitrix audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Open Redirect vulnerabilities",
+          "key": "open_redirect.js",
+          "title": "Open Redirect"
+        },
+        {
+          "checks": null,
+          "description": "Tests for known vulnerabilities and misconfigurations in Gitlab",
+          "key": "gitlab_audit.js",
+          "title": "Gitlab audit"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Nacos authentication bypass vulnerability (CVE-2021-29441)",
+          "key": "nacos_auth_bypass_CVE-2021-29441.js",
+          "title": "Alibaba Nacos Authentication Bypass (CVE-2021-29441)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SSRF vulnerability in SAP BO BIP  (CVE-2020-6308)",
+          "key": "sap_bo_bip_ssrf_CVE-2020-6308.js",
+          "title": "SAP BO BIP SSRF (CVE-2020-6308)"
+        },
+        {
+          "checks": null,
+          "description": "Detects Apache Shiro based on the rememberMe cookie for the root location.",
+          "key": "detect_apache_shiro_server.js",
+          "title": "Detect Apache Shiro (server)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jetty ConcatServlet Information Disclosure vulnerability (CVE-2021-28164)",
+          "key": "jetty_concat_inf_disc_CVE-2021-28164.js",
+          "title": "Jetty ConcatServlet Information Disclosure (CVE-2021-28164)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if the RethinkDB administrative interface is publicly exposed",
+          "key": "RethinkDB_open.js",
+          "title": "RethinkDB administrative interface publicly exposed"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Path Traversal Vulnerability in spring-boot-actuator-logview <=0.2.12 (CVE-2021-21234)",
+          "key": "spring_boot_actuator_logview_path_trav_CVE-2021-21234.js",
+          "title": "spring-boot-actuator-logview Path Traversal"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unrestricted access to WebPageTest",
+          "key": "open_webpagetest.js",
+          "title": "Open WebPageTest"
+        },
+        {
+          "checks": null,
+          "description": "Tests for BuddyPress REST API Privilege Escalation (CVE-2021-21389)",
+          "key": "buddypress_rest_api_privesc_CVE-2021-21389.js",
+          "title": "BuddyPress REST API Privilege Escalation"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Hasura GraphQL API is publicly accessible as it leads to SSRF",
+          "key": "Hasura_GraphQL_SSRF.js",
+          "title": "Hasura GraphQL API SSRF"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Grandnode Path Traversal vulnerability (CVE-2019-12276)",
+          "key": "grandnode_path_traversal_CVE-2019-12276.js",
+          "title": "Grandnode Path Traversal (CVE-2019-12276)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SearchBlox Local File Inclusion vulnerability (CVE-2020-35580)",
+          "key": "SearchBlox_File_Inclusion_CVE-2020-35580.js",
+          "title": "SearchBlox Local File Inclusion (CVE-2020-35580)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for SSRF vulnerability in Zimbra Collaboration Suite (CVE-2020-7796)",
+          "key": "Zimbra_SSRF_CVE-2020-7796.js",
+          "title": "Zimbra SSRF (CVE-2020-7796)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Jetty Information Disclosure vulnerability (CVE-2021-34429)",
+          "key": "jetty_inf_disc_CVE-2021-34429.js",
+          "title": "Jetty Information Disclosure (CVE-2021-34429)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Cisco ASA XSS vulnerability (CVE-2020-3580)",
+          "key": "Cisco_ASA_XSS_CVE-2020-3580.js",
+          "title": "Cisco ASA XSS (CVE-2020-3580)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unprotected Haproxy Data Plane API",
+          "key": "haproxy_unprotected_api.js",
+          "title": "Haproxy unprotected Data Plane API"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Kong Gateway unprotected API",
+          "key": "kong_unprotected_api.js",
+          "title": "Kong Gateway unprotected API"
+        },
+        {
+          "checks": null,
+          "description": "Tests is the OData feeds are accessible anonymously",
+          "key": "OData_feed_accessible_anonymously.js",
+          "title": "OData feed accessible anonymously"
+        },
+        {
+          "checks": null,
+          "description": "Tests for unauthenticated OGNL injection vulnerability in Confluence Server and Data Center (CVE-2021-26084)",
+          "key": "Confluence_OGNL_Injection_CVE-2021-26084.js",
+          "title": "Unauthenticated OGNL injection in Confluence Server and Data Center"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Microsoft Exchange Server Pre-auth Path Confusion vulnerability (CVE-2021-34473)",
+          "key": "microsoft_exchange_preauth_path_confusion_CVE-2021-34473.js",
+          "title": "Microsoft Exchange Server Pre-auth Path Confusion vulnerability (CVE-2021-34473)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for a Limited Remote File Read/Include in Jira Software Server and Data Center (CVE-2021-26086)",
+          "key": "Atlassian_Jira_File_Read_CVE-2021-26086.js",
+          "title": "Limited Remote File Read/Include in Jira Software Server"
+        },
+        {
+          "checks": null,
+          "description": "Tests for ManageEngine ADSelfService Plus Authentication Bypass (CVE-2021-40539)",
+          "key": "ManageEngine_ADSelfService_Plus_auth_bypass_CVE-2021-40539.js",
+          "title": "ManageEngine ADSelfService Plus Authentication Bypass (CVE-2021-40539)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Django Debug mode is enabled",
+          "key": "Django_Debug_Mode.js",
+          "title": "Django Debug Mode enabled"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Payara Micro Limited File Read vulnerability (CVE-2021-41381)",
+          "key": "Payara_Micro_File_Read_CVE-2021-41381.js",
+          "title": "Payara Micro Limited File Read (CVE-2021-41381)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Keycloak 'request_uri' Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2020-10770)",
+          "key": "keycloak_request_uri_SSRF_CVE-2020-10770.js",
+          "title": "Keycloak request_uri SSRF (CVE-2020-10770)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Apache HTTP Server mod_proxy Server Server-Side Request Forgery (SSRF) vulnerability (CVE-2021-40438)",
+          "key": "apache_mod_proxy_SSRF_CVE-2021-40438.js",
+          "title": "Apache HTTP Server mod_proxy SSRF (CVE-2021-40438)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Apache HTTP Server incorrectly normalizes the path that leads to path traversal or RCE vulnerabilities (CVE-2021-41773, CVE-2021-42013)",
+          "key": "apache_insecure_path_norm_CVE-2021-41773_CVE-2021-42013.js",
+          "title": "Apache HTTP Server Insecure Path Normalization (CVE-2021-41773, CVE-2021-42013)"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Gitlab is vulnerable to RCE due to a vulnerability in ExifTool (CVE-2021-22205)",
+          "key": "gitlab_exiftool_rce_CVE-2021-22205.js",
+          "title": "Gitlab ExifTool RCE (CVE-2021-22205)"
+        },
+        {
+          "checks": null,
+          "description": "Tests for incorrect handling of the pseudo-headers on HTTP2 enabled sites that lead to an SSRF vulnerability",
+          "key": "http2/http2_pseudo_header_ssrf.js",
+          "title": "SSRF through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Tests if Sitecore XP is vulnerable to deserialization RCE (CVE-2021-42237)",
+          "key": "Sitecore_XP_RCE_CVE-2021-42237.js",
+          "title": "Sitecore XP Deserialization RCE (CVE-2021-42237)"
+        },
+        {
+          "checks": null,
+          "description": "Test if a web application is vulnerable to SSRF due to incorrect handling of the HTTP/2 pseudo-headers and insecure configuration of a back end server",
+          "key": "http2/http2_misrouting_ssrf.js",
+          "title": "Misrouting through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Test if a web application is vulnerable to web cache poisoning due to unkeyed HTTP/2 pseudo-headers",
+          "key": "http2/http2_web_cache_poisoning.js",
+          "title": "Web Cache Poisoning through HTTP/2 pseudo-headers"
+        },
+        {
+          "checks": null,
+          "description": "Tests for various Web Cache Poisoning DoS vulnerabilities (CPDoS) through HTTP/2 headers",
+          "key": "http2/http2_web_cache_poisoning_dos.js",
+          "title": "Web Cache Poisoning DoS through HTTP/2 headers"
+        },
+        {
+          "checks": null,
+          "description": "Test for Apache Log4j RCE via the 404 page",
+          "key": "Apache_Log4j_RCE_404.js",
+          "title": "Apache Log4j RCE 404 page"
+        }
+      ],
+      "description": "在每个目标上执行一次测试",
+      "key": "target",
+      "title": "目标测试"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "测试是否存在通过 JSON 的服务器端原型污染漏洞",
+          "key": "json/prototype_pollution_json.js",
+          "title": "通过 json 的原型污染"
+        },
+        {
+          "checks": null,
+          "description": "测试是否存在通过查询字符串的服务器端原型污染漏洞",
+          "key": "query/prototype_pollution_query.js",
+          "title": "通过查询字符串的原型污染"
+        },
+        {
+          "checks": null,
+          "description": "Test for a Local File Read vulnerability in ExpressJS via the layout parameter",
+          "key": "json/expressjs_layout_lfr_json.js",
+          "title": "ExpressJS Layout Local File Read via JSON"
+        },
+        {
+          "checks": null,
+          "description": "Test for a Local File Read vulnerability in ExpressJS via the layout parameter",
+          "key": "query/expressjs_layout_lfr_query.js",
+          "title": "ExpressJS Layout Local File Read via query string"
+        }
+      ],
+      "description": "检查 Web 应用程序中是否存在目标输入解析问题",
+      "key": "input_group",
+      "title": "输入解析测试"
+    },
+    {
+      "checks": [
+        {
+          "checks": null,
+          "description": "Tests for Client Side Prototype Pollution using Spectra DeepScan",
+          "key": "prototype_pollution",
+          "title": "Client Side Prototype Pollution"
+        },
+        {
+          "checks": null,
+          "description": "Tests for Client Side Template Injection using Spectra DeepScan",
+          "key": "client_side_template_injection.js",
+          "title": "Client Side Template Injection"
+        },
+        {
+          "checks": null,
+          "description": "Tests for DOM-based Cross-site Scripting (XSS) using Spectra DeepScan",
+          "key": "dom_xss",
+          "title": "DOM-based XSS tests"
+        }
+      ],
+      "description": "Checks using Deepscan for detecting client side vulnerabilities",
+      "key": "deepscan",
+      "title": "Client side checks"
+    },
+    {
+      "checks": null,
+      "description": "用户添加的脚本",
+      "key": "custom-scripts",
+      "title": "自定义脚本"
+    },
+    {
+      "checks": null,
+      "description": "扫描 Web 应用程序返回的页面，查找是否存在恶意软件",
+      "key": "MalwareScanner",
+      "title": "恶意软件扫描程序"
+    }
+  ],
+  "key": "",
+  "title": "All checks"
+}
